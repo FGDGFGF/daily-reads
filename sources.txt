@@ -28,7 +28,6 @@ fraud_investigation | no  | https://www.occrp.org/en/feed/
 # ── Long-form (any subject)
 wildcard            | yes | https://longreads.com/feed/
 wildcard            | yes | https://www.theguardian.com/news/series/the-long-read/rss
-wildcard            | yes | https://www.bbc.com/news/in_depth/rss.xml
 wildcard            | no  | https://www.theconversation.com/global/articles.atom
 fraud_investigation | no  | https://www.theguardian.com/money/scams/rss
 
