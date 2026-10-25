@@ -1,23 +1,27 @@
-Run at 2026-10-25 14:36 (Mauritius)
+Run at 2026-10-25 15:08 (Mauritius)
 Reading 51 publications…
-  43 publications read, 240 fresh candidates
-  couldn't read: amusingplanet.com (HTTPError), bbc.com (HTTPError), restofworld.org (HTTPError), bbc.com (HTTPError), theguardian.com (HTTPError), 1001inventions.com (ParseError), lostislamichistory.com (ParseError), arabnews.com (HTTPError)
+  43 publications read, 234 fresh candidates
+  couldn't read: amusingplanet.com (HTTPError), bbc.com (HTTPError), texasmonthly.com (HTTPError), restofworld.org (HTTPError), bbc.com (HTTPError), theguardian.com (HTTPError), lostislamichistory.com (ParseError), arabnews.com (HTTPError)
 Gemini gemini-flash-latest, attempt 1…
+  failed: HTTP 503: This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later. []
+Gemini gemini-flash-latest, attempt 2…
+  failed: HTTP 503: This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later. []
+Gemini gemini-flash-latest, attempt 3…
+  failed: HTTP 503: This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later. []
+Gemini gemini-flash-lite-latest, attempt 1…
   Gemini picked 16 articles
-   ✓ A Saudi on the Silent Fear of the Houthi Strikes — newlinesmag.com
-   ✓ From Sisi’s Satirist to Sisi’s Guest: Bassem Youssef’s Surprise Appear — newlinesmag.com
-   ✓ Canada's ghost island where guests still check in — bbc.com
-   ✓ Inside the world's last divided capital — bbc.com
-   ✓ Nuclear Weapons Waste Made Workers Sick. Despite a Law Meant to Help,  — propublica.org
-   ✓ U.S. Soldier Gets 70 Months in Prison for AT&T, Verizon Extortions — krebsonsecurity.com
-   ✓ US Court Orders Lebanese Ex-Minister to Pay $35M in Torture and Fraud  — occrp.org
-   ✓ Data brokers have detailed files on you. Here’s what’s in them — and h — themarkup.org
-   ✓ Were Two Ancient Chinese Astronomers Beheaded for Failing to Predict a — smithsonianmag.com
-   ✓ The Marquis de Lafayette's Brother-in-Law Participated in Three Revolu — smithsonianmag.com
-   ✓ The Vikings had a terrifying myth about the end of the world. Was it i — historyextra.com
-   ✓ “Earth Not a Globe”: Parallax’s Zetetic Astronomy (1865) — publicdomainreview.org
+   ✓ He was a pirate, slaver and killer. So why is he England's national he — historyextra.com
+   ✓ The duchess charged with treason and witchcraft — bbc.com
+   ✓ 'Pretty Boy' Floyd, One of the Most Notorious Outlaws of the Great Dep — smithsonianmag.com
+   ✓ During the American Revolution, the City of Lancaster, Pennsylvania, S — smithsonianmag.com
+   ✓ Smugglers Collected Up to $509M on Europe Routes in 2025 — occrp.org
+   ✓ Sri Lanka Records Zero Prosecutions Amid Online Scam Surge — occrp.org
+   ✓ New US law requires dating apps to include warnings on romance scams — icij.org
+   ✓ A nanoparticle revealed the tiny impact of a single gas atom — sciencenews.org
    ✓ Malaria Parasite Caught in the Act of Breaking and Entering — quantamagazine.org
-   ✓ The endurance of Earth’s hidden alpine glaciers — knowablemagazine.org
-   ✓ The Crucible: Arthur Miller’s morality tale was as much a reaction to  — theconversation.com
-   ✓ Ghosts of the Grove — longreads.com
+   ✓ Ask Ethan: Can we solve the mysteries of the largest black holes? — bigthink.com
+   ✓ ‘You’re Not Supposed To Be Here’ — newlinesmag.com
+   ✓ Syria’s Winemakers Press on Under New Alcohol Rules — newlinesmag.com
+   ✓ What We Can Save In A Time Of Endings — noemamag.com
+   ✓ Where to See the World’s Creepiest Dolls and Toys — atlasobscura.com
 Published 12 articles (2 long reads).
