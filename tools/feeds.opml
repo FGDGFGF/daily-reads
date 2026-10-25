@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?><opml version="1.0"><head><title>t</title></head><body><outline text="t" title="test">
-<outline title="BBC Science" type="rss" xmlUrl="https://feeds.bbci.co.uk/news/science_and_environment/rss.xml"/>
-<outline title="TNW" type="rss" xmlUrl="https://thenextweb.com/feed"/>
-<outline title="Rest of World" type="rss" xmlUrl="https://restofworld.org/feed/"/>
-<outline title="Al Jazeera features" type="rss" xmlUrl="https://www.aljazeera.com/xml/rss/features.xml"/>
-<outline title="Substack Islamic history" type="rss" xmlUrl="https://elizabethurbanwrites.substack.com/feed"/>
-</outline></body></opml>
