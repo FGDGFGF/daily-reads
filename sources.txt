@@ -15,7 +15,7 @@ culture_ideas       | yes | https://aeon.co/feed.rss
 culture_ideas       | no  | https://psyche.co/feed.rss
 islamic             | no  | https://muslimheritage.com/feed/
 islamic             | no  | https://www.aramcoworld.com/rss
-islamic             | no  | https://www.middleeasteye.net/rss
+islamic             | no  | https://www.1001inventions.com/feed/
 rotating            | no  | https://www.bbc.com/future/feed.rss
 rotating            | no  | https://www.smithsonianmag.com/rss/latest_articles/
 wildcard            | no  | https://www.theatlantic.com/feed/channel/ideas/

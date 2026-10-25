@@ -47,8 +47,20 @@ session = requests.Session()
 session.headers.update({"User-Agent": UA, "Accept-Language": "en;q=0.9"})
 
 
+LOG = []
+
+
 def log(*a):
-    print(*a, flush=True)
+    line = " ".join(str(x) for x in a)
+    LOG.append(line)
+    print(line, flush=True)
+
+
+def save_log():
+    """Keep the latest run's log in the repo (state/last-run.log) so it's easy to check."""
+    (ROOT / "state").mkdir(exist_ok=True)
+    stamp = dt.datetime.now(TZ).strftime("%Y-%m-%d %H:%M")
+    (ROOT / "state" / "last-run.log").write_text(f"Run at {stamp} (Mauritius)\n" + "\n".join(LOG) + "\n")
 
 
 # ── helpers ───────────────────────────────────────────────────────────────────
@@ -299,10 +311,17 @@ def from_backup(history):
                 "title": e["title"], "url": n, "norm": dedup_key(n), "publisher": pub, "date": "",
                 "category": cat, "theme": "", "long": long_ == "yes",
                 "hook": e["hook"], "trusted": True, "alts": [], "source": "backup"})
-    items = []
-    for cat, lst in by_cat.items():
+    # Interleave categories (round-robin) so the backup batch keeps a balanced mix.
+    for lst in by_cat.values():
         random.shuffle(lst)
-        items.extend(lst)
+    pref = ["islamic", "rotating", "weird_history", "fraud_investigation", "science_tech",
+            "weird_history", "fraud_investigation", "culture_ideas", "wildcard", "science_tech",
+            "weird_history", "fraud_investigation"]
+    items = []
+    while any(by_cat.values()):
+        for cat in pref + sorted(by_cat):
+            if by_cat.get(cat):
+                items.append(by_cat[cat].pop())
     return items
 
 
@@ -310,9 +329,7 @@ def from_backup(history):
 def select(cands, history):
     """Verify links and pick 10 short + 2 long, with ≥1 islamic and ≥1 rotating if possible."""
     good, per_pub = [], {}
-    order = (sorted(cands, key=lambda c: c["category"] not in ("islamic", "rotating"))
-             if cands and cands[0]["source"] == "backup" else cands)
-    for c in order:
+    for c in cands:
         if len(good) >= 16:
             break
         if is_repeat(c, history, good) or per_pub.get(c["publisher"], 0) >= 2:
@@ -398,6 +415,7 @@ def main():
 
     if not picks:
         log("No articles could be published today — keeping the existing feed.")
+        save_log()
         sys.exit(1)
 
     now = dt.datetime.now(TZ)
@@ -410,6 +428,7 @@ def main():
     HISTORY.write_text(json.dumps(history[-3000:], indent=1, ensure_ascii=False))
     write_feed(history)
     log(f"Published {len(picks)} articles ({sum(p['long'] for p in picks)} long reads).")
+    save_log()
 
 
 if __name__ == "__main__":
