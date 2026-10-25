@@ -1,0 +1,60 @@
+Run at 2026-10-25 12:48 (Mauritius)
+Gemini gemini-flash-latest, attempt 1…
+  failed: HTTP 429: {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. ",
+    "stat
+Gemini gemini-flash-latest, attempt 2…
+  failed: HTTP 429: {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. ",
+    "stat
+Gemini gemini-flash-latest, attempt 3…
+  failed: HTTP 429: {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. ",
+    "stat
+Gemini gemini-flash-lite-latest, attempt 1…
+  failed: HTTP 429: {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. ",
+    "stat
+Gemini gemini-flash-lite-latest, attempt 2…
+  failed: HTTP 429: {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. ",
+    "stat
+Gemini gemini-flash-lite-latest, attempt 3…
+  failed: HTTP 429: {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. ",
+    "stat
+Gemini gave 0 usable articles — topping up from the backup list.
+Using the backup reading list…
+  feed failed: https://muslimheritage.com/feed/ (ParseError)
+  feed failed: https://www.aramcoworld.com/rss (ReadTimeout)
+   ✓ Ben Kingsley joins ‘Whispers of Wisdom’ with 1001 Inventions, Uzbekist — 1001inventions.com
+   ✓ These Big, Fierce Birds Found Love in Australia—and Laid the First Sou — smithsonianmag.com
+   ✓ Omiword, a Word Game — damninteresting.com
+   ✓ AI Is Changing Everything About Hacking. No One Knows What Happens Nex — 404media.co
+   ✓ Malaria Parasite Caught in the Act of Breaking and Entering — quantamagazine.org
+   ✓ First Death Marker on the Trail of Death in Rochester, Indiana — atlasobscura.com
+   ✓ Ghosts of the Grove — longreads.com
+   ✗ page title doesn't match ('There’s nothing inherently good in the ‘natural’, argues Bru') https://aeon.co/videos/theres-nothing-inherently-good-in-the-natural-argues-bruno-latour
+   ✓ Why Is Strategy So Difficult? — theatlantic.com
+   ✓ AI Proved the Quasi-Riemann Hypothesis. What Happens Now? — quantamagazine.org
+   ✓ Paul Carus’ The History of the Devil and the Idea of Evil (1899) — publicdomainreview.org
+   ✓ Charnel Heart — longreads.com
+   ✗ page title doesn't match ('What happened when the only country to ban TV lifted the ban') https://aeon.co/videos/what-happened-when-the-only-country-to-ban-tv-lifted-the-ban
+   ✓ New documents show how a retail chain’s sales practices helped put gun — icij.org
+   ✓ Royal launch for Ibn al-Haytham in Sharjah UAE — 1001inventions.com
+   ✓ This Mysterious Medieval Manuscript Has Stumped Scholars for Well Over — smithsonianmag.com
+   ✓ OpenAI, Google pushing new AI models easily tricked into making nudes, — feeds.arstechnica.com
+   ✓ Breaking a Bit — damninteresting.com
+Published 12 articles (2 long reads).
