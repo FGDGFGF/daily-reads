@@ -32,7 +32,7 @@ PROMPT = ROOT / "prompt.txt"
 SOURCES = ROOT / "sources.txt"
 
 FEED_TITLE = os.environ.get("FEED_TITLE", "Daily Reads")
-FEED_LINK = os.environ.get("FEED_LINK", "https://github.com")  # set by the workflow to the Pages URL
+FEED_LINK = os.environ.get("FEED_LINK", "https://fgdgfgf.github.io/daily-reads/").lower()  # set by the workflow
 TZ = dt.timezone(dt.timedelta(hours=4))  # Mauritius
 KEEP_DAYS = int(os.environ.get("KEEP_DAYS", "60"))
 SHORT_N, LONG_N = 10, 2
@@ -420,10 +420,15 @@ CAT_LABEL = {"weird_history": "Weird history", "fraud_investigation": "Frauds & 
 def write_feed(history):
     cutoff = (dt.datetime.now(TZ) - dt.timedelta(days=KEEP_DAYS)).isoformat()
     items = [h for h in history if h["sent"] >= cutoff]
+    ATOM = "http://www.w3.org/2005/Atom"
+    ET.register_namespace("atom", ATOM)
     rss = ET.Element("rss", version="2.0")
     ch = ET.SubElement(rss, "channel")
     ET.SubElement(ch, "title").text = FEED_TITLE
     ET.SubElement(ch, "link").text = FEED_LINK
+    # WebSub: lets Inoreader & co. get new batches pushed instantly instead of polling.
+    ET.SubElement(ch, f"{{{ATOM}}}link", rel="self", type="application/rss+xml", href=FEED_LINK.rstrip("/") + "/feed.xml")
+    ET.SubElement(ch, f"{{{ATOM}}}link", rel="hub", href="https://pubsubhubbub.appspot.com/")
     ET.SubElement(ch, "description").text = "12 hand-picked reads every morning."
     ET.SubElement(ch, "language").text = "en"
     ET.SubElement(ch, "lastBuildDate").text = format_datetime(dt.datetime.now(TZ))

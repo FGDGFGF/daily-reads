@@ -47,3 +47,12 @@ jobs:
             sleep 5
           done
           exit 1
+
+      - name: Tell feed readers there's a new batch
+        run: |
+          FEED="https://${{ github.repository_owner }}.github.io/${{ github.event.repository.name }}/feed.xml"
+          FEED=$(echo "$FEED" | tr '[:upper:]' '[:lower:]')
+          for wait in 90 120; do   # give GitHub Pages time to publish, then ping (twice to be safe)
+            sleep $wait
+            curl -s -o /dev/null -w "hub ping: %{http_code}\n" -d hub.mode=publish --data-urlencode "hub.url=$FEED" https://pubsubhubbub.appspot.com/ || true
+          done
