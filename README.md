@@ -1,6 +1,6 @@
 # Daily Reads
 
-Every morning (06:17 Mauritius time) GitHub runs `curate.py`, which:
+Every morning (ready by 06:00 Mauritius time) GitHub runs `curate.py`, which:
 
 1. asks **Gemini** (with Google Search) for 16 candidate articles using `prompt.txt`,
 2. opens every link and keeps only real, direct article pages,

@@ -2,7 +2,7 @@ name: Daily Reads
 
 on:
   schedule:
-    - cron: "17 2 * * *"      # every day at 06:17 Mauritius time (02:17 UTC)
+    - cron: "40 1 * * *"      # 05:40 Mauritius (01:40 UTC) so the batch is ready by 06:00 — GitHub can start runs a few minutes late
   workflow_dispatch:           # "Run workflow" button for a manual run
 
 permissions:
