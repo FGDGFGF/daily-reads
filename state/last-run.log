@@ -1,27 +1,23 @@
-Run at 2026-10-25 15:08 (Mauritius)
+Run at 2026-10-25 16:25 (Mauritius)
 Reading 51 publications…
-  43 publications read, 234 fresh candidates
-  couldn't read: amusingplanet.com (HTTPError), bbc.com (HTTPError), texasmonthly.com (HTTPError), restofworld.org (HTTPError), bbc.com (HTTPError), theguardian.com (HTTPError), lostislamichistory.com (ParseError), arabnews.com (HTTPError)
+  42 publications read, 233 fresh candidates
+  couldn't read: amusingplanet.com (HTTPError), bbc.com (HTTPError), texasmonthly.com (HTTPError), restofworld.org (HTTPError), bbc.com (HTTPError), theguardian.com (HTTPError), 1001inventions.com (ParseError), lostislamichistory.com (ParseError), arabnews.com (HTTPError)
 Gemini gemini-flash-latest, attempt 1…
-  failed: HTTP 503: This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later. []
-Gemini gemini-flash-latest, attempt 2…
-  failed: HTTP 503: This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later. []
-Gemini gemini-flash-latest, attempt 3…
-  failed: HTTP 503: This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later. []
-Gemini gemini-flash-lite-latest, attempt 1…
   Gemini picked 16 articles
-   ✓ He was a pirate, slaver and killer. So why is he England's national he — historyextra.com
-   ✓ The duchess charged with treason and witchcraft — bbc.com
-   ✓ 'Pretty Boy' Floyd, One of the Most Notorious Outlaws of the Great Dep — smithsonianmag.com
-   ✓ During the American Revolution, the City of Lancaster, Pennsylvania, S — smithsonianmag.com
-   ✓ Smugglers Collected Up to $509M on Europe Routes in 2025 — occrp.org
-   ✓ Sri Lanka Records Zero Prosecutions Amid Online Scam Surge — occrp.org
-   ✓ New US law requires dating apps to include warnings on romance scams — icij.org
-   ✓ A nanoparticle revealed the tiny impact of a single gas atom — sciencenews.org
-   ✓ Malaria Parasite Caught in the Act of Breaking and Entering — quantamagazine.org
-   ✓ Ask Ethan: Can we solve the mysteries of the largest black holes? — bigthink.com
-   ✓ ‘You’re Not Supposed To Be Here’ — newlinesmag.com
-   ✓ Syria’s Winemakers Press on Under New Alcohol Rules — newlinesmag.com
-   ✓ What We Can Save In A Time Of Endings — noemamag.com
-   ✓ Where to See the World’s Creepiest Dolls and Toys — atlasobscura.com
+   ✓ From Flights to ‘Incentives,’ Indonesian Nickel Giant Harita Approved  — occrp.org
+   ✓ How Hungary’s richest man funneled millions into Orbán’s propaganda ma — icij.org
+   ✓ After Millions in Stolen SNAP Benefits, Trump Administration Moves to  — propublica.org
+   ✓ Why Washing Machines Took Decades to Catch On — daily.jstor.org
+   ✓ Mystery of Roman sarcophagus unearthed at Westminster Abbey solved at  — theguardian.com
+   ✓ Anatomy Unzipped: John of Arderne’s Sweden Scroll (ca. 1425–35) — publicdomainreview.org
+   ✓ How to be a (Roman) man — aeon.co
+   ✓ The endurance of Earth’s hidden alpine glaciers — knowablemagazine.org
+   ✓ See Inside Cells Like Never Before in These Vivid Microscopic Images — quantamagazine.org
+   ✓ Astronomers Detect the Oldest Known Fast Radio Burst, Spewed From an A — smithsonianmag.com
+   ✓ Dostoyevsky, Just After His Death Sentence Was Repealed, on the Meanin — themarginalian.org
+   ✓ Yemen’s Salafist Commanders Are Shaping Its Battlefield — newlinesmag.com
+   ✓ French Students Sniff Out Police Infiltration on Snapchat and Launch a — newlinesmag.com
+   ✓ Arthur Conan Doyle Based Sherlock Holmes on a Real-Life Scottish Surge — smithsonianmag.com
+   ✓ The trailblazing erotic art of Lavinia Fontana — bbc.com
+   ✓ Ghosts of the Grove — longreads.com
 Published 12 articles (2 long reads).
