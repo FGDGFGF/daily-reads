@@ -32,6 +32,8 @@ CATEGORY MIX (editorial targets, not strict quotas — scale to 16 picks)
 RULES
 - At most ONE pharma or healthcare article; zero is welcome. Only if genuinely
   exceptional and consequential — never routine trials, approvals or corporate deals.
+- Only articles that are FREE to read in full. Skip anything marked or likely to be
+  paywalled, subscriber-only, members-only or premium.
 - No more than 2 picks from the same publication.
 - Skip clickbait, listicles, live blogs, routine breaking news, product launches,
   generic AI product news, press releases, podcasts/videos-only pages, newsletters
