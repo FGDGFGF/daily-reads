@@ -1,0 +1,83 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<opml version="1.0">
+  <head>
+    <title>W's feeds — final</title>
+  </head>
+  <body>
+    <outline text="⭐ Daily Reads" title="⭐ Daily Reads">
+      <outline text="Daily Reads" title="Daily Reads" type="rss" xmlUrl="https://fgdgfgf.github.io/daily-reads/feed.xml" htmlUrl="https://fgdgfgf.github.io/daily-reads/" />
+    </outline>
+    <outline text="History &amp; Curiosities" title="History &amp; Curiosities">
+      <outline text="Damn Interesting" title="Damn Interesting" type="rss" xmlUrl="https://www.damninteresting.com/feed/" htmlUrl="https://www.damninteresting.com/" />
+      <outline text="The Public Domain Review" title="The Public Domain Review" type="rss" xmlUrl="https://publicdomainreview.org/rss.xml" htmlUrl="https://publicdomainreview.org/" />
+      <outline text="JSTOR Daily" title="JSTOR Daily" type="rss" xmlUrl="https://daily.jstor.org/feed/" htmlUrl="https://daily.jstor.org/" />
+      <outline text="Atlas Obscura" title="Atlas Obscura" type="rss" xmlUrl="https://www.atlasobscura.com/feeds/latest" htmlUrl="https://www.atlasobscura.com/" />
+    </outline>
+    <outline text="Investigations" title="Investigations">
+      <outline text="ICIJ" title="ICIJ" type="rss" xmlUrl="https://www.icij.org/feed/" htmlUrl="https://www.icij.org/" />
+      <outline text="OCCRP" title="OCCRP" type="rss" xmlUrl="https://www.occrp.org/en/feed/" htmlUrl="https://www.occrp.org/" />
+      <outline text="Bellingcat" title="Bellingcat" type="rss" xmlUrl="https://www.bellingcat.com/feed/" htmlUrl="https://www.bellingcat.com/" />
+      <outline text="ProPublica" title="ProPublica" type="rss" xmlUrl="https://www.propublica.org/feeds/propublica/main" htmlUrl="https://www.propublica.org/" />
+    </outline>
+    <outline text="Long Reads &amp; Ideas" title="Long Reads &amp; Ideas">
+      <outline text="The Guardian — The Long Read" title="The Guardian — The Long Read" type="rss" xmlUrl="https://www.theguardian.com/news/series/the-long-read/rss" htmlUrl="https://www.theguardian.com/news/series/the-long-read" />
+      <outline text="Aeon" title="Aeon" type="rss" xmlUrl="https://aeon.co/feed.rss" htmlUrl="https://aeon.co/" />
+      <outline text="Noema" title="Noema" type="rss" xmlUrl="https://www.noemamag.com/feed/" htmlUrl="https://www.noemamag.com/" />
+      <outline text="The Conversation – Articles (GLOBAL)" title="The Conversation – Articles (GLOBAL)" type="rss" xmlUrl="https://theconversation.com/global/articles.atom" htmlUrl="https://theconversation.com/" />
+    </outline>
+    <outline text="Science" title="Science">
+      <outline text="Quanta Magazine" title="Quanta Magazine" type="rss" xmlUrl="https://www.quantamagazine.org/feed/" htmlUrl="https://www.quantamagazine.org/" />
+      <outline text="Knowable Magazine" title="Knowable Magazine" type="rss" xmlUrl="https://knowablemagazine.org/rss" htmlUrl="http://www.knowablemagazine.org/" />
+      <outline text="BBC News - Science &amp; Environment" title="BBC News - Science &amp; Environment" type="rss" xmlUrl="https://feeds.bbci.co.uk/news/science_and_environment/rss.xml" htmlUrl="https://www.bbc.com/news/science_and_environment" />
+      <outline text="ScienceDaily — Top Science" title="ScienceDaily — Top Science" type="rss" xmlUrl="https://www.sciencedaily.com/rss/top/science.xml" htmlUrl="https://www.sciencedaily.com/news/top/science/" />
+      <outline text="Ars Technica — Science" title="Ars Technica — Science" type="rss" xmlUrl="https://feeds.arstechnica.com/arstechnica/science" htmlUrl="https://arstechnica.com/science/" />
+      <outline text="Hakai Magazine" title="Hakai Magazine" type="rss" xmlUrl="https://hakaimagazine.com/feed/" htmlUrl="https://hakaimagazine.com/" />
+      <outline text="Undark" title="Undark" type="rss" xmlUrl="https://undark.org/feed/" htmlUrl="https://undark.org/" />
+      <outline text="TEDTalks (video)" title="TEDTalks (video)" type="rss" xmlUrl="https://feeds.acast.com/public/shows/67587e77c705e441797aff96" htmlUrl="http://www.ted.com/talks/list" />
+    </outline>
+    <outline text="Islamic" title="Islamic">
+      <outline text="Newlines Magazine" title="Newlines Magazine" type="rss" xmlUrl="https://newlinesmag.com/feed/" htmlUrl="https://newlinesmag.com/" />
+      <outline text="Islamic History for the Curious" title="Islamic History for the Curious" type="rss" xmlUrl="https://elizabethurbanwrites.substack.com/feed" htmlUrl="https://elizabethurbanwrites.substack.com/" />
+      <outline text="SeekersGuidance" title="SeekersGuidance" type="rss" xmlUrl="https://seekersguidance.org/feed/" htmlUrl="https://seekersguidance.org/" />
+      <outline text="Islam21c" title="Islam21c" type="rss" xmlUrl="https://www.islam21c.com/feed/" htmlUrl="https://www.islam21c.com/" />
+      <outline text="MuslimMatters.org" title="MuslimMatters.org" type="rss" xmlUrl="https://muslimmatters.org/feed/" htmlUrl="https://muslimmatters.org/" />
+      <outline text="Traversing Tradition" title="Traversing Tradition" type="rss" xmlUrl="https://traversingtradition.com/feed/" htmlUrl="https://traversingtradition.com/" />
+      <outline text="Kasurian" title="Kasurian" type="rss" xmlUrl="https://www.kasurian.com/p/rss/" htmlUrl="https://www.kasurian.com/" />
+      <outline text="Yaqeen Institute for Islamic Research" title="Yaqeen Institute for Islamic Research" type="rss" xmlUrl="https://yaqeeninstitute.org/feed.xml" htmlUrl="https://yaqeeninstitute.org/" />
+      <outline text="5Pillars" title="5Pillars" type="rss" xmlUrl="https://5pillarsuk.com/feed/" htmlUrl="https://5pillarsuk.com/" />
+    </outline>
+    <outline text="Apple &amp; Tech" title="Apple &amp; Tech">
+      <outline text="Daring Fireball" title="Daring Fireball" type="rss" xmlUrl="https://daringfireball.net/feeds/main" htmlUrl="https://daringfireball.net/" />
+      <outline text="MacStories" title="MacStories" type="rss" xmlUrl="https://www.macstories.net/feed/" htmlUrl="http://www.macstories.net/" />
+      <outline text="9to5Mac" title="9to5Mac" type="rss" xmlUrl="https://9to5mac.com/feed/" htmlUrl="https://9to5mac.com/" />
+      <outline text="The Eclectic Light Company" title="The Eclectic Light Company" type="rss" xmlUrl="https://eclecticlight.co/feed/" htmlUrl="https://eclecticlight.co/" />
+      <outline text="Pluralistic: Daily links from Cory Doctorow" title="Pluralistic: Daily links from Cory Doctorow" type="rss" xmlUrl="https://pluralistic.net/feed/" htmlUrl="https://pluralistic.net/" />
+      <outline text="Ars Technica — Features" title="Ars Technica — Features" type="rss" xmlUrl="https://feeds.arstechnica.com/arstechnica/features" htmlUrl="https://arstechnica.com/" />
+      <outline text="The Next Web" title="The Next Web" type="rss" xmlUrl="https://thenextweb.com/feed" htmlUrl="https://thenextweb.com/" />
+      <outline text="The Verge -  All Posts" title="The Verge -  All Posts" type="rss" xmlUrl="https://www.theverge.com/rss/index.xml" htmlUrl="http://www.theverge.com/" />
+      <outline text="Slate Magazine" title="Slate Magazine" type="rss" xmlUrl="https://slate.com/feeds/technology.rss" htmlUrl="https://slate.com/technology" />
+      <outline text="Vox -  Technology" title="Vox -  Technology" type="rss" xmlUrl="https://www.vox.com/rss/technology/index.xml" htmlUrl="https://www.vox.com/" />
+      <outline text="Windows Central" title="Windows Central" type="rss" xmlUrl="https://feeds.feedburner.com/wmexperts" htmlUrl="https://www.windowscentral.com/" />
+      <outline text="Android Central" title="Android Central" type="rss" xmlUrl="https://www.androidcentral.com/feeds.xml" htmlUrl="https://www.androidcentral.com/" />
+    </outline>
+    <outline text="Health &amp; Pharma" title="Health &amp; Pharma">
+      <outline text="PsyPost" title="PsyPost" type="rss" xmlUrl="https://www.psypost.org/feed/" htmlUrl="https://www.psypost.org/" />
+      <outline text="WHO News" title="WHO News" type="rss" xmlUrl="https://www.who.int/rss-feeds/news-english.xml" htmlUrl="https://www.who.int/" />
+      <outline text="EMA (European Medicines Agency)" title="EMA (European Medicines Agency)" type="rss" xmlUrl="https://www.ema.europa.eu/en/news.xml" htmlUrl="https://www.ema.europa.eu/en" />
+      <outline text="Fierce Pharma" title="Fierce Pharma" type="rss" xmlUrl="https://www.fiercepharma.com/rss/xml" htmlUrl="https://www.fiercepharma.com/rss/xml" />
+    </outline>
+    <outline text="News – World" title="News – World">
+      <outline text="BBC News - World" title="BBC News - World" type="rss" xmlUrl="https://feeds.bbci.co.uk/news/world/rss.xml" htmlUrl="https://www.bbc.co.uk/news/world/#sa-ns_mchannel=rss&amp;ns_source=PublicRSS20-sa" />
+      <outline text="Rest of World - Latest Stories" title="Rest of World - Latest Stories" type="rss" xmlUrl="https://restofworld.org/feed/latest" htmlUrl="https://restofworld.org/" />
+      <outline text="The New Arab" title="The New Arab" type="rss" xmlUrl="https://www.newarab.com/rss" htmlUrl="https://www.alaraby.co.uk/english" />
+    </outline>
+    <outline text="News – Mauritius" title="News – Mauritius">
+      <outline text="Gouvernement (GIS &amp; PMO)" title="Gouvernement (GIS &amp; PMO)" type="rss" xmlUrl="https://news.google.com/rss/search?q=(site:gis.govmu.org+OR+site:pmo.govmu.org)+when:7d&amp;hl=en&amp;gl=MU&amp;ceid=MU:en" htmlUrl="https://news.google.com/search?q=(site:gis.govmu.org+OR+site:pmo.govmu.org)+when:7d&amp;hl=en-US&amp;gl=US&amp;ceid=US:en" />
+      <outline text="L'express (Maurice) - unofficial feed" title="L'express (Maurice) - unofficial feed" type="rss" xmlUrl="https://fgdgfgf.github.io/express/lexpress.xml" htmlUrl="https://lexpress.mu/" />
+      <outline text="Defimedia - Toute l'actualité de l'île Maurice en temps réel" title="Defimedia - Toute l'actualité de l'île Maurice en temps réel" type="rss" xmlUrl="https://defimedia.info/rss.xml" htmlUrl="http://defimedia.info/rss.xml" />
+      <outline text="IONNEWS" title="IONNEWS" type="rss" xmlUrl="https://ionnews.mu/feed/" htmlUrl="https://ionnews.mu/" />
+      <outline text="Sunday Times" title="Sunday Times" type="rss" xmlUrl="https://sundaytimesmauritius.com/feed/atom/" htmlUrl="https://sundaytimesmauritius.com/" />
+      <outline text="Maurice - Autres médias" title="Maurice - Autres médias" type="rss" xmlUrl="https://news.google.com/rss/search?q=(site:lemauricien.com+OR+site:mbcradio.tv+OR+site:radio1.mu+OR+site:business-magazine.mu)+when:1d&amp;hl=fr&amp;gl=MU&amp;ceid=MU:fr" htmlUrl="https://news.google.com/search?q=(site:lemauricien.com+OR+site:mbcradio.tv+OR+site:radio1.mu+OR+site:business-magazine.mu)+when:1d&amp;hl=fr&amp;gl=MU&amp;ceid=MU:fr" />
+    </outline>
+  </body>
+</opml>
