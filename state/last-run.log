@@ -1,60 +1,25 @@
-Run at 2026-10-25 12:48 (Mauritius)
+Run at 2026-10-25 12:58 (Mauritius)
+Reading 68 publications…
+  53 publications read, 392 fresh candidates
+  couldn't read: historytoday.com (HTTPError), amusingplanet.com (HTTPError), bbc.com (HTTPError), texasmonthly.com (HTTPError), restofworld.org (ParseError), atavist.com (ConnectionError), discovermagazine.com (ParseError), thereader.mitpress.mit.edu (HTTPError), muslimheritage.com (ParseError), aramcoworld.com (ReadTimeout), muslimmatters.org (HTTPError), islamicity.org (ParseError), yaqeeninstitute.org (HTTPError), seriouseats.com (HTTPError), nationalgeographic.com (HTTPError)
 Gemini gemini-flash-latest, attempt 1…
-  failed: HTTP 429: {
-  "error": {
-    "code": 429,
-    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. ",
-    "stat
+  failed: HTTPSConnectionPool(host='generativelanguage.googleapis.com', port=443): Read timed out. (read timeout=240)
 Gemini gemini-flash-latest, attempt 2…
-  failed: HTTP 429: {
-  "error": {
-    "code": 429,
-    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. ",
-    "stat
-Gemini gemini-flash-latest, attempt 3…
-  failed: HTTP 429: {
-  "error": {
-    "code": 429,
-    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. ",
-    "stat
-Gemini gemini-flash-lite-latest, attempt 1…
-  failed: HTTP 429: {
-  "error": {
-    "code": 429,
-    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. ",
-    "stat
-Gemini gemini-flash-lite-latest, attempt 2…
-  failed: HTTP 429: {
-  "error": {
-    "code": 429,
-    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. ",
-    "stat
-Gemini gemini-flash-lite-latest, attempt 3…
-  failed: HTTP 429: {
-  "error": {
-    "code": 429,
-    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. ",
-    "stat
-Gemini gave 0 usable articles — topping up from the backup list.
-Using the backup reading list…
-  feed failed: https://muslimheritage.com/feed/ (ParseError)
-  feed failed: https://www.aramcoworld.com/rss (ReadTimeout)
-   ✓ Ben Kingsley joins ‘Whispers of Wisdom’ with 1001 Inventions, Uzbekist — 1001inventions.com
-   ✓ These Big, Fierce Birds Found Love in Australia—and Laid the First Sou — smithsonianmag.com
-   ✓ Omiword, a Word Game — damninteresting.com
-   ✓ AI Is Changing Everything About Hacking. No One Knows What Happens Nex — 404media.co
-   ✓ Malaria Parasite Caught in the Act of Breaking and Entering — quantamagazine.org
-   ✓ First Death Marker on the Trail of Death in Rochester, Indiana — atlasobscura.com
-   ✓ Ghosts of the Grove — longreads.com
-   ✗ page title doesn't match ('There’s nothing inherently good in the ‘natural’, argues Bru') https://aeon.co/videos/theres-nothing-inherently-good-in-the-natural-argues-bruno-latour
-   ✓ Why Is Strategy So Difficult? — theatlantic.com
+  Gemini picked 16 articles
+   ✓ The assassination of the world’s only openly gay imam — economist.com
+   ✓ A Change at a Damascus School Has Syrians Reading the Runes — newlinesmag.com
+   ✓ Dogs, devils, clams and catfish: When cancer is contagious — knowablemagazine.org
+   ✓ The orca brothers preying on great white sharks — bbc.com
+   ✗ page title doesn't match ('The Renaissance gun, from diabolical device to popular milit') https://aeon.co/essays/the-renaissance-gun-from-diabolical-device-to-popular-militias
+   ✓ “Men with Queer Nerves”: The Jumping Frenchmen of Maine — publicdomainreview.org
+   ✓ Why did Stalin commit a robbery? The bloody heist that made the dictat — historyextra.com
+   ✓ She Was the DEA’s Premier Crypto Detective. The Clues Led Straight to  — wired.com
+   ✓ Feds Suspect Ransom Negotiator Ran ShinyHunters Extortion Site — krebsonsecurity.com
+   ✓ Kremlin payment firm A7 has been pumping billions in ‘untraceable’ cas — icij.org
+   ✓ Chinese Scam Boss Murdered in Sri Lanka Had Multiple Identities — occrp.org
+   ✓ ‘If Anything Happens to This Guy … Everyone Is Screwed’ — theatlantic.com
+   ✓ For the First Time, Scientists Trapped an Elusive Antimatter Particle— — smithsonianmag.com
    ✓ AI Proved the Quasi-Riemann Hypothesis. What Happens Now? — quantamagazine.org
-   ✓ Paul Carus’ The History of the Devil and the Idea of Evil (1899) — publicdomainreview.org
-   ✓ Charnel Heart — longreads.com
-   ✗ page title doesn't match ('What happened when the only country to ban TV lifted the ban') https://aeon.co/videos/what-happened-when-the-only-country-to-ban-tv-lifted-the-ban
-   ✓ New documents show how a retail chain’s sales practices helped put gun — icij.org
-   ✓ Royal launch for Ibn al-Haytham in Sharjah UAE — 1001inventions.com
-   ✓ This Mysterious Medieval Manuscript Has Stumped Scholars for Well Over — smithsonianmag.com
-   ✓ OpenAI, Google pushing new AI models easily tricked into making nudes, — feeds.arstechnica.com
-   ✓ Breaking a Bit — damninteresting.com
+   ✓ Philip Sidney and the Extreme (Dis)graces of the Parenthesis — publicdomainreview.org
+   ✓ Why Washing Machines Took Decades to Catch On — daily.jstor.org
 Published 12 articles (2 long reads).
