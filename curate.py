@@ -504,56 +504,78 @@ def write_feed(history):
 
 
 def import_chatgpt(history):
-    """Import externally curated ChatGPT picks; never invent or label Gemini picks as ChatGPT.
-
-    Inbox format: JSON array of objects with title, url, publisher, date, hook,
-    category, long, and optional theme. Entries must be actual ChatGPT selections.
-    """
+    """Validate up to three complete dated ChatGPT batches; never relabel Gemini picks."""
     if not CHATGPT_INBOX.exists():
-        log("No ChatGPT inbox yet; publishing Gemini picks only.")
         return []
     try:
         raw = json.loads(CHATGPT_INBOX.read_text())
         if not isinstance(raw, list):
-            raise ValueError("ChatGPT inbox must be a JSON array")
+            raise ValueError("Expected a JSON array")
     except (ValueError, OSError) as e:
         log(f"ChatGPT inbox invalid: {e}")
         return []
-    today = dt.datetime.now(TZ).date().isoformat()
-    incoming = [x for x in raw if isinstance(x, dict) and x.get("batch_date") == today]
-    if not incoming:
-        log("No ChatGPT picks dated today; skipping ChatGPT import.")
-        return []
-    if len(incoming) != 12 or sum(bool(x.get("long")) for x in incoming) != 2:
-        log("ChatGPT batch must have exactly 12 entries with exactly 2 long reads.")
-        return []
-    if sum(x.get("category") == "islamic" for x in incoming) != 1 or sum(x.get("category") == "rotating" for x in incoming) != 1:
-        log("ChatGPT batch requires exactly one Islamic and one rotating article.")
-        return []
+
+    today = dt.datetime.now(TZ).date()
+    groups = {}
+    for x in raw:
+        if not isinstance(x, dict) or not isinstance(x.get("batch_date"), str):
+            log("Invalid ChatGPT entry; skipping")
+            continue
+        groups.setdefault(x["batch_date"], []).append(x)
     accepted = []
-    for x in incoming:
-        url = normalize_url(str(x.get("url", "")))
-        if not url or domain(url) in BLOCKED_DOMAINS or not x.get("title") or not x.get("hook"):
-            log("Invalid ChatGPT pick; rejecting entire batch.")
-            return []
-        p = {"title": clean_text(x["title"], 300), "url": url, "norm": dedup_key(url),
-             "publisher": clean_text(x.get("publisher") or domain(url), 100),
-             "date": clean_text(x.get("date"), 20), "category": x.get("category", "wildcard"),
-             "theme": clean_text(x.get("theme"), 100), "long": bool(x.get("long")),
-             "hook": clean_text(x["hook"], 500), "source": "chatgpt"}
-        if p["category"] not in CATEGORIES or is_repeat(p, history, accepted):
-            log("Duplicate or invalid-category ChatGPT pick; rejecting entire batch.")
-            return []
-        final = verify(url, p["title"], trusted=False)
-        if not final:
-            log("Unverified ChatGPT pick; rejecting entire batch.")
-            return []
-        p["url"], p["norm"] = final, dedup_key(final)
-        if is_repeat(p, history, accepted):
-            log("Duplicate redirected ChatGPT pick; rejecting entire batch.")
-            return []
-        accepted.append(p)
+    for date, entries in sorted(groups.items()):
+        try:
+            day = dt.date.fromisoformat(date)
+        except ValueError:
+            log(f"Invalid batch date: {date}")
+            continue
+        if day > today:
+            log(f"Future batch ignored: {date}")
+            continue
+        if len(entries) != 12 or sum(x.get("long") is True for x in entries) != 2:
+            log(f"Skipping {date}: expected 12 articles and exactly 2 long reads")
+            continue
+        if sum(x.get("category") == "islamic" for x in entries) != 1 or sum(x.get("category") == "rotating" for x in entries) != 1:
+            log(f"Skipping {date}: Islamic/rotating allocation invalid")
+            continue
+        if any(x.get("category") == "rotating" and x.get("theme") not in (
+            "Hidden Worlds & Forgotten Places", "How the World Really Works",
+            "Unsolved Mysteries & Historical Puzzles", "Extraordinary People & Unusual Lives",
+            "Nature's Strangest Stories", "Food Mysteries & Culinary History") for x in entries):
+            log(f"Skipping {date}: invalid rotating theme")
+            continue
+        batch = []
+        valid = True
+        for x in entries:
+            url = normalize_url(str(x.get("url", "")))
+            if not url or domain(url) in BLOCKED_DOMAINS or not x.get("title") or not x.get("hook") or x.get("category") not in CATEGORIES:
+                valid = False
+                break
+            p = {"title": clean_text(x["title"], 300), "url": url, "norm": dedup_key(url),
+                 "publisher": clean_text(x.get("publisher") or domain(url), 100),
+                 "date": clean_text(x.get("date"), 20), "category": x["category"],
+                 "theme": clean_text(x.get("theme"), 100), "long": x["long"] is True,
+                 "hook": clean_text(x["hook"], 500), "source": "chatgpt",
+                 "batch_date": date}
+            if is_repeat(p, history + accepted, batch):
+                valid = False
+                break
+            final = verify(url, p["title"], trusted=False)
+            if not final:
+                valid = False
+                break
+            p["url"], p["norm"] = final, dedup_key(final)
+            if is_repeat(p, history + accepted, batch):
+                valid = False
+                break
+            batch.append(p)
+        if not valid:
+            log(f"Skipping incomplete, duplicate or unverified ChatGPT batch {date}")
+            continue
+        accepted.extend(batch)
+        log(f"Validated ChatGPT batch {date}: {len(batch)} articles")
     return accepted
+
 
 # ── main ──────────────────────────────────────────────────────────────────────
 def main():
@@ -568,12 +590,11 @@ def main():
         rest = [b for b in backup if b not in longs]
         picks += longs + rest[:SHORT_N + LONG_N - len(picks) - len(longs)]
 
-    if not picks:
+    chatgpt = import_chatgpt(history + picks)
+    if not picks and not chatgpt:
         log("No articles could be published today — keeping the existing feed.")
         save_log()
         sys.exit(1)
-
-    chatgpt = import_chatgpt(history + picks)
     picks += chatgpt
     now = dt.datetime.now(TZ)
     for i, p in enumerate(picks):
