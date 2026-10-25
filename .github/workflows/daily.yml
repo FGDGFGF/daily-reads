@@ -1,0 +1,42 @@
+name: Daily Reads
+
+on:
+  schedule:
+    - cron: "17 2 * * *"      # every day at 06:17 Mauritius time (02:17 UTC)
+  workflow_dispatch:           # "Run workflow" button for a manual run
+
+permissions:
+  contents: write
+
+concurrency:
+  group: daily-reads
+  cancel-in-progress: false
+
+jobs:
+  curate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install
+        run: pip install requests==2.32.3
+
+      - name: Curate and build the feed
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          FEED_TITLE: Daily Reads
+          FEED_LINK: https://${{ github.repository_owner }}.github.io/${{ github.event.repository.name }}/
+        run: python curate.py
+
+      - name: Save
+        run: |
+          git config user.name "daily-reads-bot"
+          git config user.email "daily-reads-bot@users.noreply.github.com"
+          git add docs state
+          git diff --cached --quiet || git commit -m "Daily reads $(date -u +%F)"
+          git push

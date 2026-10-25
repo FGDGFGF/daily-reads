@@ -1,0 +1,21 @@
+# Backup reading list — used only when Gemini fails.
+# Format: category | long (yes/no) | feed URL      (lines starting with # are ignored)
+weird_history       | no  | https://www.atlasobscura.com/feeds/latest
+weird_history       | yes | https://www.damninteresting.com/feed/
+weird_history       | no  | https://daily.jstor.org/feed/
+weird_history       | no  | https://publicdomainreview.org/rss.xml
+fraud_investigation | yes | https://www.propublica.org/feeds/propublica/main
+fraud_investigation | no  | https://www.icij.org/feed/
+fraud_investigation | no  | https://www.404media.co/rss/
+fraud_investigation | yes | https://longreads.com/feed/
+science_tech        | no  | https://www.quantamagazine.org/feed/
+science_tech        | no  | https://nautil.us/feed/
+science_tech        | no  | https://feeds.arstechnica.com/arstechnica/features
+culture_ideas       | yes | https://aeon.co/feed.rss
+culture_ideas       | no  | https://psyche.co/feed.rss
+islamic             | no  | https://muslimheritage.com/feed/
+islamic             | no  | https://www.aramcoworld.com/rss
+islamic             | no  | https://www.middleeasteye.net/rss
+rotating            | no  | https://www.bbc.com/future/feed.rss
+rotating            | no  | https://www.smithsonianmag.com/rss/latest_articles/
+wildcard            | no  | https://www.theatlantic.com/feed/channel/ideas/

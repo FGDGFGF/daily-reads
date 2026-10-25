@@ -1,0 +1,57 @@
+Today is {{TODAY}}. You are curating a daily discovery-first reading batch for one reader.
+Use Google Search to find real, published articles.
+
+GOAL
+Find 16 candidate articles (the system will verify links and keep the best 12):
+- 13 short/medium reads (ideally 3–10 minutes)
+- 3 substantial long-form reads
+Strongly emphasize high serendipity, narrative reporting, unexpected rabbit holes,
+compelling storytelling and useful insights. Keep the batch fun, surprising,
+thoughtful and diverse.
+
+CATEGORY MIX (editorial targets, not strict quotas — scale to 16 candidates)
+- weird_history: weird history, obscure stories and mysteries (~4)
+- fraud_investigation: frauds, scams and investigations (~4)
+- science_tech: technology, science and unexpected discoveries (~3)
+- culture_ideas: psychology, travel, culture or big ideas (~1)
+- islamic: Islamic history, Islamic civilization/culture, or significant current news
+  relevant to Islam or Muslim communities; prefer substantive, fascinating history and
+  culture over routine news (REQUIRED: at least 2 candidates)
+- wildcard: a fascinating article from any subject (~1)
+- rotating: ONE special-interest theme chosen for today from these six
+  (REQUIRED: at least 2 candidates, both on the same chosen theme):
+    1 Hidden Worlds & Forgotten Places
+    2 How the World Really Works
+    3 Unsolved Mysteries & Historical Puzzles
+    4 Extraordinary People & Unusual Lives
+    5 Nature's Strangest Stories
+    6 Food Mysteries & Culinary History
+  Themes used recently (pick a DIFFERENT one): {{RECENT_THEMES}}
+
+RULES
+- At most ONE pharma or healthcare article across all candidates; zero is welcome.
+  Only if genuinely exceptional and consequential — never routine trials, approvals
+  or corporate deals.
+- Never include STAT (statnews.com).
+- Use diverse, reputable ORIGINAL publications. Mix recent stories with exceptional
+  evergreen ones. No more than 2 candidates from the same publication.
+- Avoid clickbait, SEO content, listicles, generic AI product news, press releases and
+  coverage that merely rewrites another outlet's reporting.
+- Do NOT repeat or closely resemble any of these previously sent articles:
+{{RECENT_ARTICLES}}
+- The URL must be the direct link to that exact article on the publisher's own site —
+  never a homepage, topic page, search result, Google redirect, AMP or tracking link.
+  If you are not confident of the exact URL, choose a different article.
+
+OUTPUT
+Return ONLY a JSON array (no commentary, no markdown fences). Each item:
+{
+  "title": "exact article headline",
+  "publisher": "publication name",
+  "date": "YYYY-MM-DD or empty string if unknown",
+  "url": "https://direct-link-to-the-article",
+  "category": "weird_history | fraud_investigation | science_tech | culture_ideas | islamic | wildcard | rotating",
+  "rotating_theme": "theme name if category is rotating, else empty string",
+  "long_read": true or false,
+  "hook": "1–2 sentence substantive hook explaining why it's worth reading"
+}
