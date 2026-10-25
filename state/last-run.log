@@ -1,25 +1,23 @@
-Run at 2026-10-25 13:09 (Mauritius)
+Run at 2026-10-25 13:46 (Mauritius)
 Reading 51 publications…
-  44 publications read, 242 fresh candidates
-  couldn't read: amusingplanet.com (HTTPError), bbc.com (HTTPError), restofworld.org (HTTPError), bbc.com (HTTPError), theguardian.com (HTTPError), lostislamichistory.com (ParseError), arabnews.com (HTTPError)
+  44 publications read, 241 fresh candidates
+  couldn't read: amusingplanet.com (HTTPError), bbc.com (HTTPError), restofworld.org (HTTPError), bbc.com (HTTPError), theguardian.com (HTTPError), lostislamichistory.com (SSLError), arabnews.com (HTTPError)
 Gemini gemini-flash-latest, attempt 1…
-  failed: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
-Gemini gemini-flash-latest, attempt 2…
   Gemini picked 16 articles
-   ✓ “Men with Queer Nerves”: The Jumping Frenchmen of Maine — publicdomainreview.org
-   ✓ Ivan the Terrible Wanted to Marry Elizabeth I. How Did England's 'Virg — smithsonianmag.com
-   ✓ Why did Stalin commit a robbery? The bloody heist that made the dictat — historyextra.com
-   ✓ Chinese Scam Boss Murdered in Sri Lanka Had Multiple Identities — occrp.org
-   ✓ Leaked files reveal how Deloitte Cyprus helped Roman Abramovich hide $ — icij.org
-   ✓ Feds Suspect Ransom Negotiator Ran ShinyHunters Extortion Site — krebsonsecurity.com
-   ✓ Ken Paxton Says He’s Tough on Crime. His Trust Invested $600,000 in a  — propublica.org
-   ✓ An Ancient Virus Explains Why the Human Brain Is Special — 404media.co
-   ✓ AI Proved the Quasi-Riemann Hypothesis. What Happens Now? — quantamagazine.org
-   ✓ Traction! — aeon.co
+   ✓ Horrible, unmanly, indispensable — aeon.co
+   ✓ Pompeii wasn’t destroyed when you think it was — historyextra.com
+   ✓ The Alchemical Transformations of the Mutus Liber (1677) — publicdomainreview.org
+   ✓ Kremlin payment firm A7 has been pumping billions in ‘untraceable’ cas — icij.org
+   ✓ U.K. Sanctions Cryptomus for RU Money Laundering — krebsonsecurity.com
+   ✓ The Dominican Baseball Factory — longreads.com
+   ✓ Sanctioned Investor in Cambodian Scam Compound Owns California Mansion — occrp.org
+   ✓ How Do Fungi Keep the Planet Healthy? — quantamagazine.org
+   ✓ ‘It’s magic’: scientists rediscover how to make ancient Roman colour-c — theguardian.com
+   ✓ For the First Time, Scientists Trapped an Elusive Antimatter Particle— — smithsonianmag.com
    ✓ Can you ever really think what someone else is thinking? — psyche.co
-   ✓ A Change at a Damascus School Has Syrians Reading the Runes — newlinesmag.com
-   ✓ Why is Egypt so wary of getting involved in Yemen’s conflict? — aljazeera.com
-   ✓ Ghosts of the Grove — longreads.com
-   ✓ How Italy's guiltiest food ritual went public — bbc.com
-   ✓ Why the Broiler Chicken Is the True Symbol of the Anthropocene — lithub.com
+   ✓ Mohammed Massoud Morsi on Writing About Palestinian Lives Beyond the H — lithub.com
+   ✓ A Saudi on the Silent Fear of the Houthi Strikes — newlinesmag.com
+   ✓ The Art of the Thousand Bloom Chrysanthemum — daily.jstor.org
+   ✓ The rejuvenating secrets of the immortal jellyfish — bbc.com
+   ✓ The bloody palette of the animal kingdom — knowablemagazine.org
 Published 12 articles (2 long reads).
