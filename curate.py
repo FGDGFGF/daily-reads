@@ -164,7 +164,7 @@ def verify(url, claimed_title, trusted=False):
         log(f"   ✗ HTTP {r.status_code} {url}")
         return None
     t = page_title(body)
-    if t and claimed_title:
+    if t and claimed_title and not trusted:  # links straight from a publisher's feed are already exact
         overlap = words(t) & words(claimed_title)
         if similar(t, claimed_title) < 0.35 and len(overlap) < 2:
             log(f"   ✗ page title doesn't match ({t[:60]!r}) {url}")
@@ -195,7 +195,7 @@ def gemini(model, prompt, key):
     url = f"https://generativelanguage.googleapis.com/v1beta/models/{model}:generateContent"
     body = {"contents": [{"role": "user", "parts": [{"text": prompt}]}],
             "generationConfig": {"temperature": 0.9, "responseMimeType": "application/json"}}
-    r = requests.post(url, params={"key": key}, json=body, timeout=240)
+    r = requests.post(url, params={"key": key}, json=body, timeout=300)
     if r.status_code != 200:
         try:
             err = r.json().get("error", {})
@@ -273,7 +273,7 @@ def fetch_one(row):
         return row, [], type(e).__name__
 
 
-def collect_pool(history, per_feed=8, max_age_days=60):
+def collect_pool(history, per_feed=6, max_age_days=60):
     from concurrent.futures import ThreadPoolExecutor
     rows = read_sources()
     log(f"Reading {len(rows)} publications…")

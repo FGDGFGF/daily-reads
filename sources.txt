@@ -8,10 +8,9 @@ weird_history       | yes | https://www.damninteresting.com/feed/
 weird_history       | no  | https://daily.jstor.org/feed/
 weird_history       | no  | https://publicdomainreview.org/rss.xml
 weird_history       | no  | https://www.smithsonianmag.com/rss/history/
-weird_history       | no  | https://www.historytoday.com/feeds/rss.xml
 weird_history       | no  | https://www.historyextra.com/feed/
 weird_history       | no  | https://www.messynessychic.com/feed/
-weird_history       | no  | https://www.amusingplanet.com/feeds/posts/default
+weird_history       | no  | https://www.amusingplanet.com/feeds/posts/default?alt=rss
 weird_history       | no  | https://www.thecollector.com/feed/
 weird_history       | no  | https://www.laphamsquarterly.org/rss.xml
 weird_history       | no  | https://www.bbc.com/history/feed.rss
@@ -26,7 +25,7 @@ fraud_investigation | no  | https://krebsonsecurity.com/feed/
 fraud_investigation | no  | https://www.wired.com/feed/category/security/latest/rss
 fraud_investigation | yes | https://www.wired.com/feed/category/backchannel/latest/rss
 fraud_investigation | yes | https://www.texasmonthly.com/feed/
-fraud_investigation | no  | https://restofworld.org/feed/latest/
+fraud_investigation | no  | https://restofworld.org/feed/
 fraud_investigation | no  | https://www.occrp.org/en/feed/
 
 # ── Long-form (any subject)
@@ -34,7 +33,6 @@ wildcard            | yes | https://longreads.com/feed/
 wildcard            | yes | https://www.theguardian.com/news/series/the-long-read/rss
 wildcard            | yes | https://www.newyorker.com/feed/everything
 wildcard            | yes | https://www.outsideonline.com/feed/
-wildcard            | yes | https://www.atavist.com/feed
 wildcard            | yes | https://www.economist.com/1843/rss.xml
 wildcard            | yes | https://www.theatlantic.com/feed/all/
 
@@ -47,7 +45,6 @@ science_tech        | no  | https://www.sciencenews.org/feed
 science_tech        | no  | https://www.technologyreview.com/feed/
 science_tech        | no  | https://hakaimagazine.com/feed/
 science_tech        | no  | https://undark.org/feed/
-science_tech        | no  | https://www.discovermagazine.com/rss
 science_tech        | no  | https://www.theguardian.com/science/rss
 science_tech        | no  | https://www.theatlantic.com/feed/channel/technology/
 
@@ -55,7 +52,6 @@ science_tech        | no  | https://www.theatlantic.com/feed/channel/technology/
 culture_ideas       | yes | https://aeon.co/feed.rss
 culture_ideas       | no  | https://psyche.co/feed.rss
 culture_ideas       | yes | https://www.noemamag.com/feed/
-culture_ideas       | no  | https://thereader.mitpress.mit.edu/feed/
 culture_ideas       | no  | https://www.themarginalian.org/feed/
 culture_ideas       | no  | https://lithub.com/feed/
 culture_ideas       | no  | https://www.bbc.com/culture/feed.rss
@@ -65,21 +61,16 @@ culture_ideas       | no  | https://bigthink.com/feed/
 # ── Islamic history, civilization, culture & news
 islamic             | yes | https://newlinesmag.com/feed/
 islamic             | no  | https://www.1001inventions.com/feed/
-islamic             | no  | https://muslimheritage.com/feed
-islamic             | no  | https://www.aramcoworld.com/rss
-islamic             | no  | https://muslimmatters.org/feed/
-islamic             | no  | https://www.islamicity.org/feed/
+islamic             | no  | https://lostislamichistory.com/feed/
+islamic             | no  | https://www.arabnews.com/cat/3/rss.xml
 islamic             | no  | https://www.aljazeera.com/xml/rss/all.xml
 islamic             | no  | https://www.middleeasteye.net/rss
-islamic             | no  | https://yaqeeninstitute.org/feed
 
 # ── Rotating themes: hidden places, how things work, nature, people, food
 rotating            | no  | https://www.bbc.com/future/feed.rss
 rotating            | no  | https://www.smithsonianmag.com/rss/latest_articles/
 rotating            | no  | https://www.eater.com/rss/index.xml
-rotating            | no  | https://www.seriouseats.com/feeds/all
 rotating            | no  | https://www.atlasobscura.com/feeds/latest?category=food
-rotating            | no  | https://www.nationalgeographic.com/feed
 rotating            | no  | https://www.popsci.com/feed/
 rotating            | no  | https://www.mentalfloss.com/rss.xml
 rotating            | no  | https://www.theatlantic.com/feed/channel/ideas/
