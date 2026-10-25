@@ -119,5 +119,126 @@
     "hook": "A homeschooled teenager found a counterexample that overturned a mathematical conjecture decades old.",
     "category": "weird_history",
     "long": false
+  },
+  {
+    "batch_date": "2026-10-25",
+    "title": "Animal, Vegetable, Lamb: The Zoophyte from Tartary",
+    "url": "https://publicdomainreview.org/essay/animal-vegetable-lamb/",
+    "publisher": "The Public Domain Review",
+    "date": "",
+    "hook": "A fascinating history of the mythical plant that supposedly grew living lambs.",
+    "category": "rotating",
+    "long": true,
+    "theme": "Nature's Strangest Stories"
+  },
+  {
+    "batch_date": "2026-10-25",
+    "title": "Dancing Naked on the Head of a Pin: The Early History of Microphotography",
+    "url": "https://publicdomainreview.org/essay/dancing-naked-on-the-head-of-a-pin/",
+    "publisher": "The Public Domain Review",
+    "date": "",
+    "hook": "How nineteenth-century photographers made images so tiny they could be concealed in jewelry.",
+    "category": "weird_history",
+    "long": true
+  },
+  {
+    "batch_date": "2026-10-25",
+    "title": "Venetian Bridge Brawls in 17th and 18th Century Art",
+    "url": "https://publicdomainreview.org/collection/venice-bridge-fights",
+    "publisher": "The Public Domain Review",
+    "date": "",
+    "hook": "An illustrated history of Venice's extraordinary bridge-fighting traditions.",
+    "category": "weird_history",
+    "long": false
+  },
+  {
+    "batch_date": "2026-10-25",
+    "title": "What Lies Beneath the Gravestone of a Fictional It Girl?",
+    "url": "https://www.atlasobscura.com/articles/trinity-churchyard-charlotte-temple-grave",
+    "publisher": "Atlas Obscura",
+    "date": "",
+    "hook": "The mystery of a grave bearing the name of a fictional character.",
+    "category": "weird_history",
+    "long": false
+  },
+  {
+    "batch_date": "2026-10-25",
+    "title": "Telegram, the FSB, and the Man in the Middle",
+    "url": "https://www.occrp.org/en/investigation/telegram-the-fsb-and-the-man-in-the-middle",
+    "publisher": "OCCRP",
+    "date": "",
+    "hook": "Reporters trace surprising relationships behind the messaging platform's technical infrastructure.",
+    "category": "fraud_investigation",
+    "long": false
+  },
+  {
+    "batch_date": "2026-10-25",
+    "title": "Data Dealers and Bomb Plots: Inside the Netherlands's Shadowy Market for Stolen Data",
+    "url": "https://www.occrp.org/en/feature/data-dealers-and-bomb-plots-inside-the-netherlandss-shadow-market-for-stolen-data",
+    "publisher": "OCCRP",
+    "date": "",
+    "hook": "An investigation of how illicit data brokers obtained sensitive government records.",
+    "category": "fraud_investigation",
+    "long": false
+  },
+  {
+    "batch_date": "2026-10-25",
+    "title": "Cocaine and Bananas: How Balkan Traffickers Used Fruit Shipments From the Ecuadorian President's Family Firm to Smuggle Drugs",
+    "url": "https://www.occrp.org/en/project/the-crime-messenger/cocaine-and-bananas-how-balkan-traffickers-used-fruit-shipments-from-the-ecuadorian-presidents-family-firm-to-smuggle-drugs",
+    "publisher": "OCCRP",
+    "date": "",
+    "hook": "A striking investigation into vulnerabilities in global fruit shipping.",
+    "category": "fraud_investigation",
+    "long": false
+  },
+  {
+    "batch_date": "2026-10-25",
+    "title": "New Physics-Inspired Proof Probes the Borders of Disorder",
+    "url": "https://www.quantamagazine.org/new-physics-inspired-proof-probes-the-borders-of-disorder-20250815/",
+    "publisher": "Quanta Magazine",
+    "date": "",
+    "hook": "Why increasing disorder can suddenly prevent electrons from moving.",
+    "category": "science_tech",
+    "long": false
+  },
+  {
+    "batch_date": "2026-10-25",
+    "title": "Diagrams for Travel from the Qanoon-e-Islam (1832)",
+    "url": "https://publicdomainreview.org/collection/diagrams-for-travel",
+    "publisher": "The Public Domain Review",
+    "date": "",
+    "hook": "Nineteenth-century diagrams of travel customs and astrology among Indian Muslims.",
+    "category": "islamic",
+    "long": false
+  },
+  {
+    "batch_date": "2026-10-25",
+    "title": "This Island in Nova Scotia Seems More Like Scotland Than Canada",
+    "url": "https://www.atlasobscura.com/articles/cape-breton-celtic-traditions",
+    "publisher": "Atlas Obscura",
+    "date": "",
+    "hook": "The survival and evolution of Gaelic musical traditions on Cape Breton.",
+    "category": "culture_ideas",
+    "long": false
+  },
+  {
+    "batch_date": "2026-10-25",
+    "title": "How Paradise Was Carved Up And Sold",
+    "url": "https://www.occrp.org/en/project/paradise-leased-the-theft-of-the-maldives/how-paradise-was-carved-up-and-sold",
+    "publisher": "OCCRP",
+    "date": "",
+    "hook": "How coveted islands in the Maldives became the focus of a corruption scandal.",
+    "category": "wildcard",
+    "long": false
+  },
+  {
+    "batch_date": "2026-10-25",
+    "title": "The Year in Biology",
+    "url": "https://www.quantamagazine.org/the-year-in-biology-20251215/",
+    "publisher": "Quanta Magazine",
+    "date": "",
+    "hook": "A tour of the year's most surprising discoveries about living systems.",
+    "category": "science_tech",
+    "long": false
   }
 ]
