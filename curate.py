@@ -1,7 +1,9 @@
 #!/usr/bin/env python3
 """Daily Reads — curates 12 articles a day and publishes them as an RSS feed.
 
-Curator chain: Gemini (main model) -> Gemini (lite model) -> backup reading list (sources.txt).
+Reads the latest articles from the publications in sources.txt, then Gemini (free tier,
+no web search) acts as editor and picks the best 12 using prompt.txt.
+Curator chain: Gemini (main model) -> Gemini (lite model) -> balanced picker without AI.
 Every link is opened and checked before it is published. Repeats are blocked against
 everything ever sent. The feed keeps the last KEEP_DAYS days.
 
@@ -35,7 +37,7 @@ TZ = dt.timezone(dt.timedelta(hours=4))  # Mauritius
 KEEP_DAYS = int(os.environ.get("KEEP_DAYS", "60"))
 SHORT_N, LONG_N = 10, 2
 MODELS = [m.strip() for m in os.environ.get(
-    "GEMINI_MODELS", "gemini-flash-latest,gemini-flash-lite-latest").split(",") if m.strip()]
+    "GEMINI_MODELS", "gemini-flash-latest,gemini-flash-lite-latest,gemini-3.1-flash-lite").split(",") if m.strip()]
 BLOCKED_DOMAINS = {"statnews.com"}
 UA = ("Mozilla/5.0 (Macintosh; Intel Mac OS X 14_0) AppleWebKit/537.36 "
       "(KHTML, like Gecko) Chrome/124.0 Safari/537.36")
@@ -114,9 +116,14 @@ def load_history():
 
 
 def is_repeat(item, history, extra=()):
+    """Same link as anything sent before, or a near-identical headline in the recent past."""
     u = item["norm"]
-    for h in list(history) + list(extra):
-        if h.get("norm") == u or similar(h["title"], item["title"]) > 0.85:
+    if any(h.get("norm") == u for h in history) or any(h.get("norm") == u for h in extra):
+        return True
+    t = norm_title(item["title"])
+    for h in list(history[-600:]) + list(extra):
+        m = difflib.SequenceMatcher(None, norm_title(h["title"]), t)
+        if m.real_quick_ratio() > 0.85 and m.quick_ratio() > 0.85 and m.ratio() > 0.85:
             return True
     return False
 
@@ -165,7 +172,7 @@ def verify(url, claimed_title, trusted=False):
     return final
 
 
-# ── curator 1: Gemini ─────────────────────────────────────────────────────────
+# ── prompt ─────────────────────────────────────────────────────────
 def build_prompt(history):
     today = dt.datetime.now(TZ).strftime("%A %d %B %Y")
     recent = [h for h in history][-90:]
@@ -184,87 +191,43 @@ def build_prompt(history):
 
 
 def gemini(model, prompt, key):
+    """Plain Gemini call (no web search — that isn't available on the free tier)."""
     url = f"https://generativelanguage.googleapis.com/v1beta/models/{model}:generateContent"
     body = {"contents": [{"role": "user", "parts": [{"text": prompt}]}],
-            "tools": [{"google_search": {}}],
-            "generationConfig": {"temperature": 1.0}}
+            "generationConfig": {"temperature": 0.9, "responseMimeType": "application/json"}}
     r = requests.post(url, params={"key": key}, json=body, timeout=240)
     if r.status_code != 200:
-        raise RuntimeError(f"HTTP {r.status_code}: {r.text[:300]}")
-    data = r.json()
-    cand = (data.get("candidates") or [{}])[0]
+        try:
+            err = r.json().get("error", {})
+            msg = err.get("message", "")[:200]
+            details = [d.get("quotaId") or d.get("reason") for d in err.get("details", []) if isinstance(d, dict)]
+            raise RuntimeError(f"HTTP {r.status_code}: {msg} {[x for x in details if x]}")
+        except ValueError:
+            raise RuntimeError(f"HTTP {r.status_code}: {r.text[:200]}")
+    cand = (r.json().get("candidates") or [{}])[0]
     text = "".join(p.get("text", "") for p in cand.get("content", {}).get("parts", []))
     m = re.search(r"\[.*\]", text, re.S)
     if not m:
         raise RuntimeError("no JSON array in reply")
-    items = json.loads(m.group(0))
-    # Pages Google actually found (redirect links) — used to confirm/repair URLs.
-    grounded = [c.get("web", {}) for c in cand.get("groundingMetadata", {}).get("groundingChunks", [])]
-    return items, grounded
+    return json.loads(m.group(0))
 
 
-def resolve_grounded(grounded):
-    out = []
-    for g in grounded:
-        uri = g.get("uri")
-        if not uri:
-            continue
+# ── the candidate pool: latest articles from the publications in sources.txt ──
+def parse_date(s):
+    from email.utils import parsedate_to_datetime
+    s = (s or "").strip()
+    if not s:
+        return None
+    try:
+        d = parsedate_to_datetime(s)
+    except Exception:
         try:
-            r = session.head(uri, timeout=15, allow_redirects=True)
-            n = normalize_url(r.url)
-            if n:
-                out.append(n)
+            d = dt.datetime.fromisoformat(s.replace("Z", "+00:00"))
         except Exception:
-            pass
-    return out
+            return None
+    return d if d.tzinfo else d.replace(tzinfo=dt.timezone.utc)
 
 
-def from_gemini(history):
-    key = os.environ.get("GEMINI_API_KEY")
-    if not key:
-        log("No GEMINI_API_KEY set — skipping Gemini.")
-        return []
-    prompt = build_prompt(history)
-    for model in MODELS:
-        for attempt in range(1, 4):
-            try:
-                log(f"Gemini {model}, attempt {attempt}…")
-                raw, grounded = gemini(model, prompt, key)
-                found = resolve_grounded(grounded)
-                found_domains = {}
-                for u in found:
-                    found_domains.setdefault(domain(u), []).append(u)
-                log(f"  got {len(raw)} candidates, {len(found)} search-confirmed pages")
-                items = []
-                for x in raw:
-                    if not isinstance(x, dict):
-                        continue
-                    title = clean_text(x.get("title"), 300)
-                    url = normalize_url(str(x.get("url", "")))
-                    if not title or not url or domain(url) in BLOCKED_DOMAINS:
-                        continue
-                    cat = str(x.get("category", "wildcard")).strip()
-                    items.append({
-                        "title": title, "url": url, "norm": dedup_key(url),
-                        "publisher": clean_text(x.get("publisher"), 120) or domain(url),
-                        "date": clean_text(x.get("date"), 10),
-                        "category": cat if cat in CATEGORIES else "wildcard",
-                        "theme": clean_text(x.get("rotating_theme"), 80) if cat == "rotating" else "",
-                        "long": bool(x.get("long_read")),
-                        "hook": clean_text(x.get("hook"), 500),
-                        "trusted": dedup_key(url) in {dedup_key(f) for f in found},
-                        "alts": [u for u in found_domains.get(domain(url), []) if u != url],
-                        "source": f"gemini:{model}",
-                    })
-                if items:
-                    return items
-            except Exception as e:
-                log(f"  failed: {e}")
-            time.sleep(10 * attempt)
-    return []
-
-
-# ── curator 2: backup reading list ────────────────────────────────────────────
 def parse_feed(xml_text):
     out = []
     root = ET.fromstring(xml_text)
@@ -272,21 +235,22 @@ def parse_feed(xml_text):
         tag = el.tag.split("}")[-1]
         if tag not in ("item", "entry"):
             continue
-        get = lambda name: next((c for c in el if c.tag.split("}")[-1] == name), None)
+        get = lambda *names: next((c for c in el if c.tag.split("}")[-1] in names), None)
         t, l = get("title"), get("link")
         d = get("description")
         if d is None:
             d = get("summary")
+        when = get("pubDate", "published", "updated", "date")
         link = (l.get("href") if l is not None and l.get("href") else (l.text if l is not None else "")) or ""
         out.append({"title": clean_text(t.text if t is not None else ""),
                     "url": link.strip(),
-                    "hook": clean_text(d.text if d is not None else "", 280)})
+                    "summary": clean_text(d.text if d is not None else "", 220),
+                    "when": parse_date(when.text if when is not None else "")})
     return out
 
 
-def from_backup(history):
-    log("Using the backup reading list…")
-    by_cat = {}
+def read_sources():
+    rows = []
     for line in SOURCES.read_text().splitlines():
         line = line.strip()
         if not line or line.startswith("#"):
@@ -295,25 +259,107 @@ def from_backup(history):
             cat, long_, url = [p.strip() for p in line.split("|", 2)]
         except ValueError:
             continue
-        try:
-            r = session.get(url, timeout=20)
-            r.raise_for_status()
-            entries = parse_feed(r.content)
-        except Exception as e:
-            log(f"  feed failed: {url} ({type(e).__name__})")
-            continue
-        pub = domain(url)
-        for e in entries[:15]:
-            n = normalize_url(e["url"]) if e["url"] else None
-            if not n or not e["title"]:
+        rows.append((cat, long_ == "yes", url))
+    return rows
+
+
+def fetch_one(row):
+    cat, is_long, url = row
+    try:
+        r = session.get(url, timeout=20)
+        r.raise_for_status()
+        return row, parse_feed(r.content), None
+    except Exception as e:
+        return row, [], type(e).__name__
+
+
+def collect_pool(history, per_feed=8, max_age_days=60):
+    from concurrent.futures import ThreadPoolExecutor
+    rows = read_sources()
+    log(f"Reading {len(rows)} publications…")
+    cutoff = dt.datetime.now(dt.timezone.utc) - dt.timedelta(days=max_age_days)
+    pool, ok, failed = [], 0, []
+    with ThreadPoolExecutor(max_workers=12) as ex:
+        for (cat, is_long, url), entries, err in ex.map(fetch_one, rows):
+            if err:
+                failed.append(f"{domain(url)} ({err})")
                 continue
-            by_cat.setdefault(cat, []).append({
-                "title": e["title"], "url": n, "norm": dedup_key(n), "publisher": pub, "date": "",
-                "category": cat, "theme": "", "long": long_ == "yes",
-                "hook": e["hook"], "trusted": True, "alts": [], "source": "backup"})
-    # Interleave categories (round-robin) so the backup batch keeps a balanced mix.
-    for lst in by_cat.values():
-        random.shuffle(lst)
+            ok += 1
+            n_added = 0
+            for e in entries:
+                if n_added >= per_feed:
+                    break
+                n = normalize_url(e["url"]) if e["url"] else None
+                if not n or not e["title"] or domain(n) in BLOCKED_DOMAINS:
+                    continue
+                if e["when"] and e["when"] < cutoff:
+                    continue
+                item = {"title": e["title"], "url": n, "norm": dedup_key(n), "publisher": domain(n),
+                        "date": e["when"].strftime("%Y-%m-%d") if e["when"] else "",
+                        "category": cat, "theme": "", "long": is_long, "hook": e["summary"],
+                        "trusted": True, "alts": [], "source": "backup"}
+                if is_repeat(item, history):
+                    continue
+                pool.append(item)
+                n_added += 1
+    log(f"  {ok} publications read, {len(pool)} fresh candidates")
+    if failed:
+        log("  couldn't read: " + ", ".join(failed))
+    random.shuffle(pool)
+    for i, p in enumerate(pool):
+        p["id"] = i + 1
+    return pool
+
+
+# ── curator 1: Gemini picks the best from the pool ────────────────────────────
+def from_gemini(pool, history):
+    key = os.environ.get("GEMINI_API_KEY")
+    if not key:
+        log("No GEMINI_API_KEY set — skipping Gemini.")
+        return []
+    if not pool:
+        return []
+    lines = "\n".join(
+        f"{p['id']} | {p['publisher']} | {p['date'] or 'undated'} | "
+        f"{'long-form outlet' if p['long'] else 'regular'} | {p['title']} | {p['hook'][:200]}"
+        for p in pool)
+    prompt = build_prompt(history).replace("{{CANDIDATES}}", lines)
+    by_id = {p["id"]: p for p in pool}
+    for model in MODELS:
+        for attempt in range(1, 4):
+            try:
+                log(f"Gemini {model}, attempt {attempt}…")
+                raw = gemini(model, prompt, key)
+                picks = []
+                for x in raw:
+                    if not isinstance(x, dict):
+                        continue
+                    try:
+                        p = dict(by_id[int(x.get("id"))])
+                    except (KeyError, TypeError, ValueError):
+                        continue
+                    cat = str(x.get("category", p["category"])).strip()
+                    p["category"] = cat if cat in CATEGORIES else "wildcard"
+                    p["theme"] = clean_text(x.get("rotating_theme"), 80) if p["category"] == "rotating" else ""
+                    p["long"] = bool(x.get("long_read", p["long"]))
+                    p["hook"] = clean_text(x.get("hook"), 500) or p["hook"]
+                    p["source"] = f"gemini:{model}"
+                    picks.append(p)
+                log(f"  Gemini picked {len(picks)} articles")
+                if picks:
+                    return picks
+            except Exception as e:
+                log(f"  failed: {e}")
+            time.sleep(10 * attempt)
+    return []
+
+
+# ── curator 2 (backup): balanced picks from the pool without AI ───────────────
+def from_backup(pool):
+    log("Using the backup picker…")
+    by_cat = {}
+    for p in pool:
+        by_cat.setdefault(p["category"], []).append(dict(p, source="backup"))
     pref = ["islamic", "rotating", "weird_history", "fraud_investigation", "science_tech",
             "weird_history", "fraud_investigation", "culture_ideas", "wildcard", "science_tech",
             "weird_history", "fraud_investigation"]
@@ -404,10 +450,11 @@ def write_feed(history):
 # ── main ──────────────────────────────────────────────────────────────────────
 def main():
     history = load_history()
-    picks = select(from_gemini(history), history)
+    pool = collect_pool(history)
+    picks = select(from_gemini(pool, history), history)
     if len(picks) < SHORT_N + LONG_N:
         log(f"Gemini gave {len(picks)} usable articles — topping up from the backup list.")
-        backup = select(from_backup(history), history + picks)
+        backup = select(from_backup(pool), history + picks)
         need_long = LONG_N - sum(p["long"] for p in picks)
         longs = [b for b in backup if b["long"]][:max(need_long, 0)]
         rest = [b for b in backup if b not in longs]

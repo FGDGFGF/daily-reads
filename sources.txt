@@ -1,21 +1,85 @@
-# Backup reading list — used only when Gemini fails.
-# Format: category | long (yes/no) | feed URL      (lines starting with # are ignored)
+# Publications the curator reads every morning. Gemini picks the best 12 from their latest articles.
+# Format: category hint | long-form outlet (yes/no) | feed URL      (lines starting with # are ignored)
+# Add or remove lines freely. Feeds that fail are listed in state/last-run.log.
+
+# ── Weird history, obscure stories & mysteries
 weird_history       | no  | https://www.atlasobscura.com/feeds/latest
 weird_history       | yes | https://www.damninteresting.com/feed/
 weird_history       | no  | https://daily.jstor.org/feed/
 weird_history       | no  | https://publicdomainreview.org/rss.xml
+weird_history       | no  | https://www.smithsonianmag.com/rss/history/
+weird_history       | no  | https://www.historytoday.com/feeds/rss.xml
+weird_history       | no  | https://www.historyextra.com/feed/
+weird_history       | no  | https://www.messynessychic.com/feed/
+weird_history       | no  | https://www.amusingplanet.com/feeds/posts/default
+weird_history       | no  | https://www.thecollector.com/feed/
+weird_history       | no  | https://www.laphamsquarterly.org/rss.xml
+weird_history       | no  | https://www.bbc.com/history/feed.rss
+
+# ── Frauds, scams & investigations
 fraud_investigation | yes | https://www.propublica.org/feeds/propublica/main
 fraud_investigation | no  | https://www.icij.org/feed/
 fraud_investigation | no  | https://www.404media.co/rss/
-fraud_investigation | yes | https://longreads.com/feed/
+fraud_investigation | no  | https://www.bellingcat.com/feed/
+fraud_investigation | no  | https://themarkup.org/feeds/rss.xml
+fraud_investigation | no  | https://krebsonsecurity.com/feed/
+fraud_investigation | no  | https://www.wired.com/feed/category/security/latest/rss
+fraud_investigation | yes | https://www.wired.com/feed/category/backchannel/latest/rss
+fraud_investigation | yes | https://www.texasmonthly.com/feed/
+fraud_investigation | no  | https://restofworld.org/feed/latest/
+fraud_investigation | no  | https://www.occrp.org/en/feed/
+
+# ── Long-form (any subject)
+wildcard            | yes | https://longreads.com/feed/
+wildcard            | yes | https://www.theguardian.com/news/series/the-long-read/rss
+wildcard            | yes | https://www.newyorker.com/feed/everything
+wildcard            | yes | https://www.outsideonline.com/feed/
+wildcard            | yes | https://www.atavist.com/feed
+wildcard            | yes | https://www.economist.com/1843/rss.xml
+wildcard            | yes | https://www.theatlantic.com/feed/all/
+
+# ── Science, technology & discoveries
 science_tech        | no  | https://www.quantamagazine.org/feed/
 science_tech        | no  | https://nautil.us/feed/
 science_tech        | no  | https://feeds.arstechnica.com/arstechnica/features
+science_tech        | no  | https://knowablemagazine.org/rss
+science_tech        | no  | https://www.sciencenews.org/feed
+science_tech        | no  | https://www.technologyreview.com/feed/
+science_tech        | no  | https://hakaimagazine.com/feed/
+science_tech        | no  | https://undark.org/feed/
+science_tech        | no  | https://www.discovermagazine.com/rss
+science_tech        | no  | https://www.theguardian.com/science/rss
+science_tech        | no  | https://www.theatlantic.com/feed/channel/technology/
+
+# ── Psychology, travel, culture & big ideas
 culture_ideas       | yes | https://aeon.co/feed.rss
 culture_ideas       | no  | https://psyche.co/feed.rss
-islamic             | no  | https://muslimheritage.com/feed/
-islamic             | no  | https://www.aramcoworld.com/rss
+culture_ideas       | yes | https://www.noemamag.com/feed/
+culture_ideas       | no  | https://thereader.mitpress.mit.edu/feed/
+culture_ideas       | no  | https://www.themarginalian.org/feed/
+culture_ideas       | no  | https://lithub.com/feed/
+culture_ideas       | no  | https://www.bbc.com/culture/feed.rss
+culture_ideas       | no  | https://www.bbc.com/travel/feed.rss
+culture_ideas       | no  | https://bigthink.com/feed/
+
+# ── Islamic history, civilization, culture & news
+islamic             | yes | https://newlinesmag.com/feed/
 islamic             | no  | https://www.1001inventions.com/feed/
+islamic             | no  | https://muslimheritage.com/feed
+islamic             | no  | https://www.aramcoworld.com/rss
+islamic             | no  | https://muslimmatters.org/feed/
+islamic             | no  | https://www.islamicity.org/feed/
+islamic             | no  | https://www.aljazeera.com/xml/rss/all.xml
+islamic             | no  | https://www.middleeasteye.net/rss
+islamic             | no  | https://yaqeeninstitute.org/feed
+
+# ── Rotating themes: hidden places, how things work, nature, people, food
 rotating            | no  | https://www.bbc.com/future/feed.rss
 rotating            | no  | https://www.smithsonianmag.com/rss/latest_articles/
-wildcard            | no  | https://www.theatlantic.com/feed/channel/ideas/
+rotating            | no  | https://www.eater.com/rss/index.xml
+rotating            | no  | https://www.seriouseats.com/feeds/all
+rotating            | no  | https://www.atlasobscura.com/feeds/latest?category=food
+rotating            | no  | https://www.nationalgeographic.com/feed
+rotating            | no  | https://www.popsci.com/feed/
+rotating            | no  | https://www.mentalfloss.com/rss.xml
+rotating            | no  | https://www.theatlantic.com/feed/channel/ideas/
