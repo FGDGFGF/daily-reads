@@ -41,7 +41,7 @@ MODELS = [m.strip() for m in os.environ.get(
 BLOCKED_DOMAINS = {"statnews.com"}
 UA = ("Mozilla/5.0 (Macintosh; Intel Mac OS X 14_0) AppleWebKit/537.36 "
       "(KHTML, like Gecko) Chrome/124.0 Safari/537.36")
-TRACKING = re.compile(r"^(utm_|fbclid|gclid|mc_|ref$|ref_src|cmpid|smid|ito$|soc_)", re.I)
+TRACKING = re.compile(r"^(utm_|fbclid|gclid|mc_|ref$|ref_src|cmpid|smid|ito$|soc_|ocid|at_medium|at_campaign|cmp$)", re.I)
 CATEGORIES = {"weird_history", "fraud_investigation", "science_tech", "culture_ideas",
               "islamic", "wildcard", "rotating"}
 
