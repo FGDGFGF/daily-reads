@@ -482,7 +482,7 @@ def write_feed(history):
         meta = " · ".join(x for x in (h["publisher"], h.get("date"),
                                        "backup pick" if h["source"] == "backup" else "") if x)
         # ElementTree escapes everything, so untrusted text can't inject markup into the feed.
-        description = f"{h['hook']}\\n\\n— {meta}".strip()
+        description = f"{h['hook']}\n\n— {meta}".strip()
         image = h.get("image", "")
         if image:
             # Media RSS thumbnails are recognised by many readers.
