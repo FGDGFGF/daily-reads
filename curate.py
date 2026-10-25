@@ -28,6 +28,7 @@ import requests
 
 ROOT = Path(__file__).resolve().parent
 HISTORY = ROOT / "state" / "history.json"
+CHATGPT_INBOX = ROOT / "state" / "chatgpt_picks.json"
 FEED = ROOT / "docs" / "feed.xml"
 PROMPT = ROOT / "prompt.txt"
 SOURCES = ROOT / "sources.txt"
@@ -467,22 +468,24 @@ def write_feed(history):
     # WebSub: lets Inoreader & co. get new batches pushed instantly instead of polling.
     ET.SubElement(ch, f"{{{ATOM}}}link", rel="self", type="application/rss+xml", href=FEED_LINK.rstrip("/") + "/feed.xml")
     ET.SubElement(ch, f"{{{ATOM}}}link", rel="hub", href="https://pubsubhubbub.appspot.com/")
-    ET.SubElement(ch, "description").text = "12 hand-picked reads every morning."
+    ET.SubElement(ch, "description").text = "Daily Reads: Gemini Picks and ChatGPT Picks."
     ET.SubElement(ch, "language").text = "en"
     ET.SubElement(ch, "lastBuildDate").text = format_datetime(dt.datetime.now(TZ))
     ET.SubElement(ch, "ttl").text = "30"
     for h in sorted(items, key=lambda h: h["sent"], reverse=True):
         it = ET.SubElement(ch, "item")
+        curator = "ChatGPT" if h.get("source") == "chatgpt" else "Gemini"
         label = "[Long read] " if h["long"] else ""
-        ET.SubElement(it, "title").text = label + h["title"]
+        ET.SubElement(it, "title").text = f"[{curator}] {label}{h['title']}"
         ET.SubElement(it, "link").text = h["url"]
         ET.SubElement(it, "guid", isPermaLink="false").text = h["id"]
         ET.SubElement(it, "pubDate").text = format_datetime(dt.datetime.fromisoformat(h["sent"]))
+        ET.SubElement(it, "category").text = f"{curator} Picks"
         ET.SubElement(it, "category").text = (h.get("theme") or CAT_LABEL.get(h["category"], "Wildcard"))
         meta = " · ".join(x for x in (h["publisher"], h.get("date"),
                                        "backup pick" if h["source"] == "backup" else "") if x)
         # ElementTree escapes everything, so untrusted text can't inject markup into the feed.
-        description = f"{h['hook']}\n\n— {meta}".strip()
+        description = f"{h['hook']}\n\n— {curator} Picks · {meta}".strip()
         image = h.get("image", "")
         if image:
             # Media RSS thumbnails are recognised by many readers.
@@ -498,6 +501,59 @@ def write_feed(history):
         f'<!doctype html><meta charset="utf-8"><title>{html.escape(FEED_TITLE)}</title>'
         f'<p>Subscribe in your reader: <a href="feed.xml">feed.xml</a></p>')
 
+
+
+def import_chatgpt(history):
+    """Import externally curated ChatGPT picks; never invent or label Gemini picks as ChatGPT.
+
+    Inbox format: JSON array of objects with title, url, publisher, date, hook,
+    category, long, and optional theme. Entries must be actual ChatGPT selections.
+    """
+    if not CHATGPT_INBOX.exists():
+        log("No ChatGPT inbox yet; publishing Gemini picks only.")
+        return []
+    try:
+        raw = json.loads(CHATGPT_INBOX.read_text())
+        if not isinstance(raw, list):
+            raise ValueError("ChatGPT inbox must be a JSON array")
+    except (ValueError, OSError) as e:
+        log(f"ChatGPT inbox invalid: {e}")
+        return []
+    today = dt.datetime.now(TZ).date().isoformat()
+    incoming = [x for x in raw if isinstance(x, dict) and x.get("batch_date") == today]
+    if not incoming:
+        log("No ChatGPT picks dated today; skipping ChatGPT import.")
+        return []
+    if len(incoming) != 12 or sum(bool(x.get("long")) for x in incoming) != 2:
+        log("ChatGPT batch must have exactly 12 entries with exactly 2 long reads.")
+        return []
+    if sum(x.get("category") == "islamic" for x in incoming) != 1 or sum(x.get("category") == "rotating" for x in incoming) != 1:
+        log("ChatGPT batch requires exactly one Islamic and one rotating article.")
+        return []
+    accepted = []
+    for x in incoming:
+        url = normalize_url(str(x.get("url", "")))
+        if not url or domain(url) in BLOCKED_DOMAINS or not x.get("title") or not x.get("hook"):
+            log("Invalid ChatGPT pick; rejecting entire batch.")
+            return []
+        p = {"title": clean_text(x["title"], 300), "url": url, "norm": dedup_key(url),
+             "publisher": clean_text(x.get("publisher") or domain(url), 100),
+             "date": clean_text(x.get("date"), 20), "category": x.get("category", "wildcard"),
+             "theme": clean_text(x.get("theme"), 100), "long": bool(x.get("long")),
+             "hook": clean_text(x["hook"], 500), "source": "chatgpt"}
+        if p["category"] not in CATEGORIES or is_repeat(p, history, accepted):
+            log("Duplicate or invalid-category ChatGPT pick; rejecting entire batch.")
+            return []
+        final = verify(url, p["title"], trusted=False)
+        if not final:
+            log("Unverified ChatGPT pick; rejecting entire batch.")
+            return []
+        p["url"], p["norm"] = final, dedup_key(final)
+        if is_repeat(p, history, accepted):
+            log("Duplicate redirected ChatGPT pick; rejecting entire batch.")
+            return []
+        accepted.append(p)
+    return accepted
 
 # ── main ──────────────────────────────────────────────────────────────────────
 def main():
@@ -517,6 +573,8 @@ def main():
         save_log()
         sys.exit(1)
 
+    chatgpt = import_chatgpt(history + picks)
+    picks += chatgpt
     now = dt.datetime.now(TZ)
     for i, p in enumerate(picks):
         sent = (now - dt.timedelta(seconds=i)).isoformat(timespec="seconds")
