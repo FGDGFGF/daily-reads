@@ -21,7 +21,8 @@ import time
 import xml.etree.ElementTree as ET
 from email.utils import format_datetime
 from pathlib import Path
-from urllib.parse import parse_qsl, urlencode, urlsplit, urlunsplit
+from urllib.parse import parse_qsl, urlencode, urlsplit, urlunsplit, urljoin
+from html.parser import HTMLParser
 
 import requests
 
@@ -411,6 +412,41 @@ def select(cands, history):
     return picked[:SHORT_N] + longs
 
 
+# ── article images ───────────────────────────────────────────────────────────
+class ImageMetaParser(HTMLParser):
+    def __init__(self):
+        super().__init__()
+        self.image = ""
+
+    def handle_starttag(self, tag, attrs):
+        if tag.lower() != "meta" or self.image:
+            return
+        a = {k.lower(): (v or "") for k, v in attrs if k}
+        if a.get("property", "").lower() in ("og:image", "og:image:url") or a.get("name", "").lower() == "twitter:image":
+            self.image = html.unescape(a.get("content", "").strip())
+
+
+def article_image(url):
+    """Best-effort featured image. Failures never prevent publishing."""
+    try:
+        r = session.get(url, timeout=15, stream=True, allow_redirects=True)
+        try:
+            if r.status_code >= 400 or "html" not in r.headers.get("Content-Type", "").lower():
+                return ""
+            body = r.raw.read(300_000, decode_content=True).decode(r.encoding or "utf-8", "ignore")
+            parser = ImageMetaParser()
+            parser.feed(body)
+            candidate = urljoin(r.url, parser.image) if parser.image else ""
+            parsed = urlsplit(candidate)
+            if parsed.scheme in ("https", "http") and parsed.hostname:
+                return candidate
+        finally:
+            r.close()
+    except Exception as e:
+        log(f"   image unavailable for {domain(url)} ({type(e).__name__})")
+    return ""
+
+
 # ── feed ──────────────────────────────────────────────────────────────────────
 CAT_LABEL = {"weird_history": "Weird history", "fraud_investigation": "Frauds & investigations",
              "science_tech": "Science & tech", "culture_ideas": "Culture & ideas",
@@ -422,6 +458,8 @@ def write_feed(history):
     items = [h for h in history if h["sent"] >= cutoff]
     ATOM = "http://www.w3.org/2005/Atom"
     ET.register_namespace("atom", ATOM)
+    MEDIA = "http://search.yahoo.com/mrss/"
+    ET.register_namespace("media", MEDIA)
     rss = ET.Element("rss", version="2.0")
     ch = ET.SubElement(rss, "channel")
     ET.SubElement(ch, "title").text = FEED_TITLE
@@ -444,7 +482,16 @@ def write_feed(history):
         meta = " · ".join(x for x in (h["publisher"], h.get("date"),
                                        "backup pick" if h["source"] == "backup" else "") if x)
         # ElementTree escapes everything, so untrusted text can't inject markup into the feed.
-        ET.SubElement(it, "description").text = f"{h['hook']}\n\n— {meta}".strip()
+        description = f"{h['hook']}\n\n— {meta}".strip()
+        image = h.get("image", "")
+        if image:
+            # Media RSS thumbnails are recognised by many readers.
+            ET.SubElement(it, f"{{{MEDIA}}}thumbnail", url=image)
+            ET.SubElement(it, f"{{{MEDIA}}}content", url=image, medium="image")
+            # HTML fallback for readers that derive list thumbnails from descriptions.
+            safe_image = html.escape(image, quote=True)
+            description = f'<p><img src="{safe_image}" alt="" /></p><p>{html.escape(description)}</p>'
+        ET.SubElement(it, "description").text = description
     FEED.parent.mkdir(parents=True, exist_ok=True)
     ET.ElementTree(rss).write(FEED, encoding="utf-8", xml_declaration=True)
     (FEED.parent / "index.html").write_text(
@@ -473,8 +520,9 @@ def main():
     now = dt.datetime.now(TZ)
     for i, p in enumerate(picks):
         sent = (now - dt.timedelta(seconds=i)).isoformat(timespec="seconds")
+        p["image"] = article_image(p["url"])
         history.append({k: p[k] for k in ("title", "url", "norm", "publisher", "date",
-                                           "category", "theme", "long", "hook", "source")}
+                                           "category", "theme", "long", "hook", "source", "image")}
                        | {"id": f"{now:%Y%m%d}-{i:02d}-{abs(hash(p['norm'])) % 10**8}", "sent": sent})
     HISTORY.parent.mkdir(parents=True, exist_ok=True)
     HISTORY.write_text(json.dumps(history[-3000:], indent=1, ensure_ascii=False))
