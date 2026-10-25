@@ -1,48 +1,24 @@
-Run at 2026-10-25 21:02 (Mauritius)
+Run at 2026-10-25 21:26 (Mauritius)
 Mode: full
 Reading 50 publications…
-  42 publications read, 229 fresh candidates
-  couldn't read: amusingplanet.com (HTTPError), bbc.com (HTTPError), texasmonthly.com (HTTPError), restofworld.org (HTTPError), theguardian.com (HTTPError), 1001inventions.com (ParseError), lostislamichistory.com (SSLError), arabnews.com (HTTPError)
+  43 publications read, 224 fresh candidates
+  couldn't read: amusingplanet.com (HTTPError), bbc.com (HTTPError), texasmonthly.com (HTTPError), restofworld.org (ParseError), theguardian.com (HTTPError), lostislamichistory.com (ParseError), arabnews.com (HTTPError)
 Gemini gemini-flash-latest, attempt 1…
-  failed: HTTP 503: This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later. []
-Gemini gemini-flash-latest, attempt 2…
-  failed: HTTP 503: This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later. []
-Gemini gemini-flash-latest, attempt 3…
-  failed: HTTP 503: This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later. []
-Gemini gemini-flash-lite-latest, attempt 1…
   Gemini picked 16 articles
-   ✓ This Mysterious Medieval Manuscript Has Stumped Scholars for Well Over — smithsonianmag.com
-   ✓ A Team of Astronomers Thinks They Have Identified the Exact Night Sky  — smithsonianmag.com
-   ✓ Veronese's Dogs — publicdomainreview.org
-   ✓ Rudolf Kalvach’s Wiener Werkstätte Postcards (1907) — publicdomainreview.org
-   ✓ Data Broker Radaris Loses Domains in Privacy Fight — krebsonsecurity.com
-   ✓ Cyprus Parliament Reviews Reports on Abramovich-Linked Asset Transfers — occrp.org
-   ✓ How TikTok and Google ended up with information about doctors’ appoint — themarkup.org
-   ✓ Interpol Cybercrime Crackdown Nets 1,400 Arrests and $105M — occrp.org
+   ✓ Metamorphosis: Transformations in the Early Modern Flap Book (early 19 — publicdomainreview.org
+   ✓ Who Wrote Elizabeth I's Most Scathing Letters? New Research Suggests t — smithsonianmag.com
+   ✓ To Defeat the Royal Navy During the American Revolution, a Rebel Inven — smithsonianmag.com
+   ✓ South Pacific Ponzi Scam “King” Noah Musingku Dies — occrp.org
+   ✓ Five years after the Pandora Papers, transparency laws lose their teet — icij.org
+   ✓ Who’s buying your personal data: Disney, GM, your insurer and bank. He — themarkup.org
+   ✓ He Was a Suspect in the Yogurt Shop Murders for Thirty Years. He Can’t — longreads.com
+   ✓ Elastic fantastic: The deadly fluid of pitcher plants — knowablemagazine.org
    ✓ Why did humans’ brains surpass chimps’? A tiny foe might help explain  — sciencenews.org
-   ✓ Listen: Stellar streams and the dark Universe — bigthink.com
-   ✓ Why volunteers are gluing seeds to clam shells in Connecticut — popsci.com
-   ✓ How to Be Transformed When Things Fall Apart — themarginalian.org
-   ✓ How Darius the Great Built the Ancient Suez Canal — thecollector.com
+   ✓ Can LLMs Supercharge Geolocations? Our Tests Show Big Improvements But — bellingcat.com
+   ✓ Other people — aeon.co
+   ✓ The Ties that Bind: Central Asian Ikat (ca. 19th century) — publicdomainreview.org
    ✓ French Students Sniff Out Police Infiltration on Snapchat and Launch a — newlinesmag.com
-   ✓ Bhutan: the last place — aeon.co
-   ✓ The man hiking the world in search of rare cheeses — bbc.com
-Gemini gave 11 usable articles — topping up from the backup list.
-Using the backup picker…
-   ✓ Jordanians mourn victims of deadly church attack — aljazeera.com
-   ✓ 'Wildwood' Is the Longest Stop-Motion Animated Film Ever. Each Frame o — smithsonianmag.com
-   ✓ Why Did the Greeks Not Defend Athens Against the Persians — thecollector.com
-   ✓ Investigating a Murder: Public Records Uncover New Clues in Chinatown  — bellingcat.com
-   ✓ Losing the fat in the chilly north Atlantic — knowablemagazine.org
-   ✓ 10 Must-Visit Remnants of New Amsterdam That Still Capture New York’s  — thecollector.com
-   ✓ EU Sanctions Envoy Pushes for Action Against Rusal’s Irish Alumina Ref — occrp.org
    ✓ Why the Broiler Chicken Is the True Symbol of the Anthropocene — lithub.com
-   ✓ The Netanyahu doctrine: how Israel’s longest-serving leader reshaped t — theguardian.com
-   ✓ Why we’re still so obsessed with Elizabeth Holmes - video — theguardian.com
-   ✓ Sexual Assaults on Campus No Longer Scrutinized as Closely Under Trump — propublica.org
-   ✓ Dostoyevsky, Just After His Death Sentence Was Repealed, on the Meanin — themarginalian.org
-   ✓ World’s largest health appointment platform dumps its web trackers aft — themarkup.org
-   ✓ Pope calls for end to conflict in Yemen — middleeasteye.net
-   ✓ 12 striking images from European Wildlife Photographer of the Year 202 — popsci.com
-   ✓ Immortal Beloved: Krishna and Rādhā Exchanging Clothes (ca. 1700–1900) — publicdomainreview.org
+   ✓ The trailblazing erotic art of Lavinia Fontana — bbc.com
+   ✓ Ghosts of the Grove — longreads.com
 Published 12 articles: 12 Gemini/backup + 0 ChatGPT (2 long reads).
