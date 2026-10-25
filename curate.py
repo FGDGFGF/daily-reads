@@ -427,7 +427,7 @@ def write_feed(history):
     ET.SubElement(ch, "description").text = "12 hand-picked reads every morning."
     ET.SubElement(ch, "language").text = "en"
     ET.SubElement(ch, "lastBuildDate").text = format_datetime(dt.datetime.now(TZ))
-    ET.SubElement(ch, "ttl").text = "180"
+    ET.SubElement(ch, "ttl").text = "30"
     for h in sorted(items, key=lambda h: h["sent"], reverse=True):
         it = ET.SubElement(ch, "item")
         label = "[Long read] " if h["long"] else ""
