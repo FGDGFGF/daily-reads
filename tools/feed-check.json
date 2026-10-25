@@ -1,0 +1,505 @@
+[
+ {
+  "title": "Daily Reads",
+  "folder": "Curated",
+  "url": "https://fgdgfgf.github.io/daily-reads/feed.xml",
+  "status": 200,
+  "items": 48,
+  "newest_days_ago": 0.0,
+  "per_day": 578.7,
+  "final_url": "https://fgdgfgf.github.io/daily-reads/feed.xml"
+ },
+ {
+  "title": "ScienceDaily",
+  "folder": "Health",
+  "url": "https://www.sciencedaily.com/newsfeed.xml",
+  "status": 200,
+  "items": 60,
+  "newest_days_ago": 0.9,
+  "per_day": 11.8,
+  "final_url": "https://www.sciencedaily.com/newsfeed.xml"
+ },
+ {
+  "title": "PsyPost",
+  "folder": "Health",
+  "url": "https://www.psypost.org/feed/",
+  "status": 200,
+  "items": 20,
+  "newest_days_ago": 0.0,
+  "per_day": 7.5,
+  "final_url": "https://www.psypost.org/feed/"
+ },
+ {
+  "title": "WHO News",
+  "folder": "Health",
+  "url": "https://www.who.int/rss-feeds/news-english.xml",
+  "status": 200,
+  "items": 109,
+  "newest_days_ago": 15.2,
+  "per_day": 0.0,
+  "final_url": "https://www.who.int/rss-feeds/news-english.xml"
+ },
+ {
+  "title": "EMA (European Medicines Agency)",
+  "folder": "Health",
+  "url": "https://www.ema.europa.eu/en/news.xml",
+  "status": 200,
+  "items": 11,
+  "newest_days_ago": 2.1,
+  "per_day": 0.5,
+  "final_url": "https://www.ema.europa.eu/en/news.xml"
+ },
+ {
+  "title": "Fierce Pharma",
+  "folder": "Health",
+  "url": "https://www.fiercepharma.com/rss/xml",
+  "status": 200,
+  "items": 25,
+  "final_url": "https://www.fiercepharma.com/rss/xml"
+ },
+ {
+  "title": "SeekersGuidance",
+  "folder": "Islamic",
+  "url": "https://seekersguidance.org/feed/",
+  "status": 200,
+  "items": 300,
+  "newest_days_ago": 0.0,
+  "per_day": 3.6,
+  "final_url": "https://seekersguidance.org/feed/"
+ },
+ {
+  "title": "Newlines Magazine",
+  "folder": "Islamic",
+  "url": "https://newlinesmag.com/feed/",
+  "status": 200,
+  "items": 20,
+  "newest_days_ago": 1.9,
+  "per_day": 1.8,
+  "final_url": "https://newlinesmag.com/feed/"
+ },
+ {
+  "title": "Islamic History for the Curious",
+  "folder": "Islamic",
+  "url": "https://elizabethurbanwrites.substack.com/feed",
+  "status": 403,
+  "error": "ParseError: not well-formed (invalid token): line 1, column 1341"
+ },
+ {
+  "title": "Islam21c",
+  "folder": "Islamic",
+  "url": "https://www.islam21c.com/feed/",
+  "status": 200,
+  "items": 10,
+  "newest_days_ago": 16.1,
+  "per_day": 0.1,
+  "final_url": "https://www.islam21c.com/feed/"
+ },
+ {
+  "title": "MuslimMatters.org",
+  "folder": "Islamic",
+  "url": "https://muslimmatters.org/feed/",
+  "status": 521,
+  "error": "ParseError: not well-formed (invalid token): line 25, column 113"
+ },
+ {
+  "title": "Traversing Tradition",
+  "folder": "Islamic",
+  "url": "https://traversingtradition.com/feed/",
+  "status": 429,
+  "error": "ParseError: mismatched tag: line 46, column 3"
+ },
+ {
+  "title": "Kasurian",
+  "folder": "Islamic",
+  "url": "https://www.kasurian.com/p/rss/",
+  "status": 200,
+  "items": 20,
+  "newest_days_ago": 14.1,
+  "per_day": 0.1,
+  "final_url": "https://www.kasurian.com/p/rss/"
+ },
+ {
+  "title": "Yaqeen Institute for Islamic Research",
+  "folder": "Islamic",
+  "url": "https://yaqeeninstitute.org/feed.xml",
+  "status": 200,
+  "items": 50,
+  "newest_days_ago": 58.8,
+  "per_day": 0.1,
+  "final_url": "https://yaqeeninstitute.org/feed.xml"
+ },
+ {
+  "title": "Knowable Magazine",
+  "folder": "Science",
+  "url": "https://knowablemagazine.org/rss",
+  "status": 200,
+  "items": 20,
+  "newest_days_ago": 2.5,
+  "per_day": 0.3,
+  "final_url": "https://knowablemagazine.org/rss"
+ },
+ {
+  "title": "New Scientist - Online news",
+  "folder": "Science",
+  "url": "https://www.newscientist.com/feed/",
+  "status": 406,
+  "error": "ParseError: no element found: line 1, column 0"
+ },
+ {
+  "title": "BBC News - Science & Environment",
+  "folder": "Science",
+  "url": "https://newsrss.bbc.co.uk/rss/newsonline_world_edition/science/nature/rss.xml",
+  "error": "SSLError: HTTPSConnectionPool(host='newsrss.bbc.co.uk', port=443): Max retries exceeded with url: /rss/newsonline_world_edition/sc"
+ },
+ {
+  "title": "TEDTalks (video)",
+  "folder": "Science",
+  "url": "https://feeds.acast.com/public/shows/67587e77c705e441797aff96",
+  "status": 200,
+  "items": 2846,
+  "newest_days_ago": 0.2,
+  "per_day": 0.8,
+  "final_url": "https://feeds.acast.com/public/shows/67587e77c705e441797aff96"
+ },
+ {
+  "title": "Scientific American",
+  "folder": "Science",
+  "url": "https://www.scientificamerican.com/platform/syndication/rss/",
+  "status": 200,
+  "items": 50,
+  "newest_days_ago": 0.1,
+  "per_day": 8.8,
+  "final_url": "https://www.scientificamerican.com/platform/syndication/rss/"
+ },
+ {
+  "title": "Quanta Magazine",
+  "folder": "Science",
+  "url": "https://www.quantamagazine.org/feed/",
+  "status": 200,
+  "items": 5,
+  "newest_days_ago": 1.9,
+  "per_day": 0.6,
+  "final_url": "https://www.quantamagazine.org/feed/"
+ },
+ {
+  "title": "Science Latest",
+  "folder": "Science",
+  "url": "https://www.wired.com/feed/category/science/latest/rss",
+  "status": 200,
+  "items": 20,
+  "newest_days_ago": 0.1,
+  "per_day": 2.5,
+  "final_url": "https://www.wired.com/feed/category/science/latest/rss"
+ },
+ {
+  "title": "The Eclectic Light Company",
+  "folder": "Tech",
+  "url": "https://eclecticlight.co/feed/",
+  "status": 200,
+  "items": 10,
+  "newest_days_ago": 0.2,
+  "per_day": 2.6,
+  "final_url": "https://eclecticlight.co/feed/"
+ },
+ {
+  "title": "Pluralistic: Daily links from Cory Doctorow",
+  "folder": "Tech",
+  "url": "https://pluralistic.net/feed/",
+  "status": 200,
+  "items": 30,
+  "newest_days_ago": 1.6,
+  "per_day": 0.6,
+  "final_url": "https://pluralistic.net/feed/"
+ },
+ {
+  "title": "TechCrunch",
+  "folder": "Tech",
+  "url": "https://techcrunch.com/feed/",
+  "status": 200,
+  "items": 20,
+  "newest_days_ago": 0.6,
+  "per_day": 16.7,
+  "final_url": "https://techcrunch.com/feed/"
+ },
+ {
+  "title": "The Next Web",
+  "folder": "Tech",
+  "url": "https://feeds2.feedburner.com/thenextweb",
+  "status": 404,
+  "error": "ParseError: not well-formed (invalid token): line 1, column 20"
+ },
+ {
+  "title": "Ars Technica",
+  "folder": "Tech",
+  "url": "https://feeds.arstechnica.com/arstechnica/index",
+  "status": 200,
+  "items": 20,
+  "newest_days_ago": 1.0,
+  "per_day": 12.4,
+  "final_url": "https://feeds.arstechnica.com/arstechnica/index"
+ },
+ {
+  "title": "Daring Fireball",
+  "folder": "Tech",
+  "url": "https://daringfireball.net/feeds/main",
+  "status": 200,
+  "items": 48,
+  "newest_days_ago": 0.6,
+  "per_day": 3.7,
+  "final_url": "https://daringfireball.net/feeds/main"
+ },
+ {
+  "title": "How-To Geek",
+  "folder": "Tech",
+  "url": "https://www.howtogeek.com/feed/",
+  "status": 200,
+  "items": 10,
+  "newest_days_ago": 0.0,
+  "per_day": 16.6,
+  "final_url": "https://www.howtogeek.com/feed/"
+ },
+ {
+  "title": "Engadget",
+  "folder": "Tech",
+  "url": "https://www.engadget.com/rss.xml",
+  "status": 200,
+  "items": 20,
+  "newest_days_ago": 0.5,
+  "per_day": 45.7,
+  "final_url": "https://www.engadget.com/rss.xml"
+ },
+ {
+  "title": "9to5Mac",
+  "folder": "Tech",
+  "url": "https://9to5mac.com/feed/",
+  "status": 200,
+  "items": 100,
+  "newest_days_ago": 0.0,
+  "per_day": 18.1,
+  "final_url": "https://9to5mac.com/feed/"
+ },
+ {
+  "title": "The Verge -  All Posts",
+  "folder": "Tech",
+  "url": "https://www.theverge.com/rss/index.xml",
+  "status": 200,
+  "items": 10,
+  "newest_days_ago": 0.6,
+  "per_day": 7.9,
+  "final_url": "https://www.theverge.com/rss/index.xml"
+ },
+ {
+  "title": "CNET",
+  "folder": "Tech",
+  "url": "https://www.cnet.com/rss/news/",
+  "status": 200,
+  "items": 25,
+  "newest_days_ago": 0.1,
+  "per_day": 9.8,
+  "final_url": "https://www.cnet.com/rss/news/"
+ },
+ {
+  "title": "Slate Magazine",
+  "folder": "Tech",
+  "url": "https://slate.com/feeds/technology.rss",
+  "status": 200,
+  "items": 25,
+  "newest_days_ago": 0.1,
+  "per_day": 0.8,
+  "final_url": "https://slate.com/feeds/technology.rss"
+ },
+ {
+  "title": "Vox -  Technology",
+  "folder": "Tech",
+  "url": "https://www.vox.com/rss/technology/index.xml",
+  "status": 200,
+  "items": 10,
+  "newest_days_ago": 1.6,
+  "per_day": 0.5,
+  "final_url": "https://www.vox.com/rss/technology/index.xml"
+ },
+ {
+  "title": "WIRED",
+  "folder": "Tech",
+  "url": "https://www.wired.com/feed/rss",
+  "status": 200,
+  "items": 50,
+  "newest_days_ago": 0.0,
+  "per_day": 14.8,
+  "final_url": "https://www.wired.com/feed/rss"
+ },
+ {
+  "title": "Windows Central",
+  "folder": "Tech",
+  "url": "https://feeds.feedburner.com/wmexperts",
+  "status": 200,
+  "items": 50,
+  "newest_days_ago": 0.0,
+  "per_day": 10.4,
+  "final_url": "https://feeds.feedburner.com/wmexperts"
+ },
+ {
+  "title": "Android Central",
+  "folder": "Tech",
+  "url": "https://www.androidcentral.com/feeds.xml",
+  "status": 200,
+  "items": 50,
+  "newest_days_ago": 0.9,
+  "per_day": 4.1,
+  "final_url": "https://www.androidcentral.com/feeds.xml"
+ },
+ {
+  "title": "MacStories",
+  "folder": "Tech",
+  "url": "https://www.macstories.net/feed/",
+  "status": 200,
+  "items": 30,
+  "newest_days_ago": 0.8,
+  "per_day": 1.4,
+  "final_url": "https://www.macstories.net/feed/"
+ },
+ {
+  "title": "MacRumors",
+  "folder": "Tech",
+  "url": "https://feeds.macrumors.com/MacRumors-All",
+  "status": 200,
+  "items": 20,
+  "newest_days_ago": 0.3,
+  "per_day": 14.3,
+  "final_url": "https://feeds.macrumors.com/MacRumors-All"
+ },
+ {
+  "title": "Fast Company",
+  "folder": "Tech",
+  "url": "https://feeds.feedburner.com/fastcompany/headlines",
+  "status": 200,
+  "items": 20,
+  "newest_days_ago": 0.1,
+  "per_day": 12.2,
+  "final_url": "https://feeds.feedburner.com/fastcompany/headlines"
+ },
+ {
+  "title": "The Conversation – Articles (GLOBAL)",
+  "folder": "News - International",
+  "url": "https://theconversation.com/global/articles.atom",
+  "status": 200,
+  "items": 49,
+  "newest_days_ago": 2.1,
+  "per_day": 0.6,
+  "final_url": "https://theconversation.com/global/articles.atom"
+ },
+ {
+  "title": "Rest of World - Latest Stories",
+  "folder": "News - International",
+  "url": "https://restofworld.org/feed/latest",
+  "status": 200,
+  "error": "ParseError: not well-formed (invalid token): line 26, column 130"
+ },
+ {
+  "title": "The New Arab",
+  "folder": "News - International",
+  "url": "https://www.newarab.com/rss",
+  "status": 403,
+  "error": "ParseError: mismatched tag: line 9, column 2"
+ },
+ {
+  "title": "Al Jazeera English",
+  "folder": "News - International",
+  "url": "https://www.aljazeera.com/xml/rss/all.xml",
+  "status": 200,
+  "items": 25,
+  "newest_days_ago": 0.0,
+  "per_day": 98.0,
+  "final_url": "https://www.aljazeera.com/xml/rss/all.xml"
+ },
+ {
+  "title": "BBC News - World",
+  "folder": "News - International",
+  "url": "https://feeds.bbci.co.uk/news/world/rss.xml",
+  "status": 200,
+  "items": 32,
+  "newest_days_ago": 0.0,
+  "per_day": 16.2,
+  "final_url": "https://feeds.bbci.co.uk/news/world/rss.xml"
+ },
+ {
+  "title": "5Pillars",
+  "folder": "News - Islamic",
+  "url": "https://5pillarsuk.com/feed/",
+  "status": 200,
+  "items": 50,
+  "newest_days_ago": 1.8,
+  "per_day": 1.4,
+  "final_url": "https://5pillarsuk.com/feed/"
+ },
+ {
+  "title": "Gouvernement (GIS & PMO)",
+  "folder": "News - Mauritius",
+  "url": "https://news.google.com/rss/search?q=(site:gis.govmu.org+OR+site:pmo.govmu.org)+when:7d&hl=en&gl=MU&ceid=MU:en",
+  "status": 200,
+  "items": 3,
+  "newest_days_ago": 1.8,
+  "per_day": 0.0,
+  "final_url": "https://news.google.com/rss/search?q=(site:gis.govmu.org+OR+site:pmo.govmu.org)+when:7d&hl=en-US&gl=US&ceid=US:en"
+ },
+ {
+  "title": "Maurice - Autres médias",
+  "folder": "News - Mauritius",
+  "url": "https://news.google.com/rss/search?q=(site:lemauricien.com+OR+site:defimedia.info+OR+site:ionnews.mu+OR+site:mbcradio.tv+OR+site:sundaytimesmauritius.com+OR+site:radio1.mu+OR+site:business-magazine.mu)+when:1d&hl=fr&gl=MU&ceid=MU:fr",
+  "status": 200,
+  "items": 85,
+  "newest_days_ago": 0.0,
+  "per_day": 0.0,
+  "final_url": "https://news.google.com/rss/search?q=(site:lemauricien.com+OR+site:defimedia.info+OR+site:ionnews.mu+OR+site:mbcradio.tv+OR+site:sundaytimesmauritius.com+OR+site:radio1.mu+OR+site:business-magazine.mu)+when:1d&hl=fr&gl=FR&ceid=FR:fr"
+ },
+ {
+  "title": "L'express (Google News)",
+  "folder": "News - Mauritius",
+  "url": "https://news.google.com/rss/search?q=site:lexpress.mu+when:1d&hl=fr&gl=MU&ceid=MU:fr",
+  "status": 200,
+  "items": 33,
+  "newest_days_ago": 0.0,
+  "per_day": 0.0,
+  "final_url": "https://news.google.com/rss/search?q=site:lexpress.mu+when:1d&hl=fr&gl=FR&ceid=FR:fr"
+ },
+ {
+  "title": "Sunday Times",
+  "folder": "News - Mauritius",
+  "url": "https://sundaytimesmauritius.com/feed/atom/",
+  "status": 200,
+  "items": 10,
+  "newest_days_ago": 0.2,
+  "per_day": 1.7,
+  "final_url": "https://sundaytimesmauritius.com/feed/atom/"
+ },
+ {
+  "title": "IONNEWS",
+  "folder": "News - Mauritius",
+  "url": "https://ionnews.mu/feed/",
+  "status": 200,
+  "items": 12,
+  "newest_days_ago": 0.4,
+  "per_day": 16.6,
+  "final_url": "https://ionnews.mu/feed/"
+ },
+ {
+  "title": "L'express (Maurice) - unofficial feed",
+  "folder": "News - Mauritius",
+  "url": "https://fgdgfgf.github.io/express/lexpress.xml",
+  "status": 200,
+  "items": 100,
+  "newest_days_ago": 0.1,
+  "per_day": 27.1,
+  "final_url": "https://fgdgfgf.github.io/express/lexpress.xml"
+ },
+ {
+  "title": "Defimedia - Toute l'actualité de l'île Maurice en temps réel",
+  "folder": "News - Mauritius",
+  "url": "https://defimedia.info/rss.xml",
+  "status": 200,
+  "items": 92,
+  "newest_days_ago": 0.1,
+  "per_day": 33.0,
+  "final_url": "https://defimedia.info/rss.xml"
+ }
+]
