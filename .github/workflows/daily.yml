@@ -17,9 +17,9 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 20
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v5
 
-      - uses: actions/setup-python@v5
+      - uses: actions/setup-python@v6
         with:
           python-version: "3.12"
 
@@ -38,5 +38,12 @@ jobs:
           git config user.name "daily-reads-bot"
           git config user.email "daily-reads-bot@users.noreply.github.com"
           git add docs state
-          git diff --cached --quiet || git commit -m "Daily reads $(date -u +%F)"
-          git push
+          git diff --cached --quiet && exit 0
+          git commit -m "Daily reads $(date -u +%F)"
+          # If something else was pushed meanwhile (e.g. a settings change), catch up and retry.
+          for i in 1 2 3; do
+            git push && exit 0
+            git pull --rebase -X theirs origin main
+            sleep 5
+          done
+          exit 1
