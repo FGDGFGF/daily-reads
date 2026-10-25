@@ -1,1 +1,123 @@
-[]
+[
+  {
+    "batch_date": "2026-10-24",
+    "title": "“Men with Queer Nerves”: The Jumping Frenchmen of Maine",
+    "url": "https://publicdomainreview.org/essay/the-jumping-frenchmen-of-maine/",
+    "publisher": "The Public Domain Review",
+    "date": "2026-10-14",
+    "hook": "An astonishing history of nineteenth-century Maine lumberjacks whose involuntary reactions baffled doctors and newspapers.",
+    "category": "weird_history",
+    "long": true
+  },
+  {
+    "batch_date": "2026-10-24",
+    "title": "Scam Empire: Inside A Merciless International Investment Scam",
+    "url": "https://www.occrp.org/en/project/scam-empire/scam-empire-inside-a-merciless-international-investment-scam",
+    "publisher": "OCCRP",
+    "date": "2025-03-05",
+    "hook": "Leaked calls and records reveal the scripts, incentives and human toll inside international investment-scam factories.",
+    "category": "fraud_investigation",
+    "long": true
+  },
+  {
+    "batch_date": "2026-10-24",
+    "title": "Persian Demons from a Book of Magic and Astrology (1921)",
+    "url": "https://publicdomainreview.org/collection/persian-demons-from-a-book-of-magic-and-astrology-1921",
+    "publisher": "The Public Domain Review",
+    "date": "2019-10-24",
+    "hook": "A remarkable illustrated manuscript from Isfahan preserves Persian traditions of astrology, spirits and protective ritual.",
+    "category": "islamic",
+    "long": false
+  },
+  {
+    "batch_date": "2026-10-24",
+    "title": "Raising a Ghost Town From the Dead",
+    "url": "https://www.atlasobscura.com/articles/brownsville-pennsylvania-abandoned",
+    "publisher": "Atlas Obscura",
+    "date": "2025-04-08",
+    "hook": "How a Pennsylvania town's abandoned buildings became both a symbol of decline and the focus of an unlikely revival.",
+    "category": "rotating",
+    "long": false,
+    "theme": "Hidden Worlds & Forgotten Places"
+  },
+  {
+    "batch_date": "2026-10-24",
+    "title": "Origami Patterns Solve a Major Physics Riddle",
+    "url": "https://www.quantamagazine.org/origami-patterns-solve-a-major-physics-riddle-20251006/",
+    "publisher": "Quanta Magazine",
+    "date": "2025-10-06",
+    "hook": "A mathematical object used to calculate particle interactions turns out to have a startling connection to paper folding.",
+    "category": "science_tech",
+    "long": false
+  },
+  {
+    "batch_date": "2026-10-24",
+    "title": "A Cell So Minimal That It Challenges Definitions of Life",
+    "url": "https://www.quantamagazine.org/a-cell-so-minimal-that-it-challenges-definitions-of-life-20251124/",
+    "publisher": "Quanta Magazine",
+    "date": "2025-11-24",
+    "hook": "A tiny organism living within another cell stretches the boundary between independence and biological dependence.",
+    "category": "science_tech",
+    "long": false
+  },
+  {
+    "batch_date": "2026-10-24",
+    "title": "What Kinds of Pasta Are There in India?",
+    "url": "https://www.atlasobscura.com/articles/indian-pasta",
+    "publisher": "Atlas Obscura",
+    "date": "2025-04-07",
+    "hook": "From Ladakhi barley dough to Indian vermicelli, a culinary detective story questions what counts as pasta.",
+    "category": "culture_ideas",
+    "long": false
+  },
+  {
+    "batch_date": "2026-10-24",
+    "title": "Ley Lines and the Allure of Imposing Order on History’s Chaos",
+    "url": "https://www.atlasobscura.com/articles/what-are-ley-lines",
+    "publisher": "Atlas Obscura",
+    "date": "2025-02-12",
+    "hook": "Why people keep finding hidden alignments between landmarks, and what these patterns say about the human mind.",
+    "category": "weird_history",
+    "long": false
+  },
+  {
+    "batch_date": "2026-10-24",
+    "title": "“Incalculable” Damage: How a “We Buy Ugly Houses” Franchise Left a Trail of Financial Wreckage Across Texas",
+    "url": "https://www.propublica.org/article/homevestors-fraud-charles-carrier-texas",
+    "publisher": "ProPublica",
+    "date": "2025-05-13",
+    "hook": "A real-estate franchise became the backdrop to a devastating alleged Ponzi scheme and ignored warning signs.",
+    "category": "fraud_investigation",
+    "long": false
+  },
+  {
+    "batch_date": "2026-10-24",
+    "title": "The Uzbek President’s Son-In-Law Secretly Acquired a UAE Passport While Serving as a Top Security Chief",
+    "url": "https://www.occrp.org/en/investigation/the-uzbek-presidents-deputy-security-chief-secretly-acquired-a-uae-passport",
+    "publisher": "OCCRP",
+    "date": "2026-10-10",
+    "hook": "Leaked documents connect a powerful security official to secret foreign citizenship and luxury Dubai properties.",
+    "category": "fraud_investigation",
+    "long": false
+  },
+  {
+    "batch_date": "2026-10-24",
+    "title": "American Food Traditions That Started as Marketing Ploys",
+    "url": "https://www.atlasobscura.com/articles/american-food-traditions-that-started-as-marketing-ploys",
+    "publisher": "Atlas Obscura",
+    "date": "2024-09-30",
+    "hook": "How corporate test kitchens and advertising invented some of America's supposedly timeless family dishes.",
+    "category": "wildcard",
+    "long": false
+  },
+  {
+    "batch_date": "2026-10-24",
+    "title": "At 17, Hannah Cairo Solved a Major Math Mystery",
+    "url": "https://www.quantamagazine.org/at-17-hannah-cairo-solved-a-major-math-mystery-20250801/",
+    "publisher": "Quanta Magazine",
+    "date": "2025-08-01",
+    "hook": "A homeschooled teenager found a counterexample that overturned a mathematical conjecture decades old.",
+    "category": "weird_history",
+    "long": false
+  }
+]
