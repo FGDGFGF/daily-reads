@@ -1,3 +1,46 @@
-Run at 2026-10-25 18:17 (Mauritius)
-Mode: chatgpt
-Nothing new from ChatGPT — feed unchanged.
+Run at 2026-10-25 19:00 (Mauritius)
+Mode: full
+Reading 50 publications…
+  43 publications read, 231 fresh candidates
+  couldn't read: amusingplanet.com (HTTPError), bbc.com (HTTPError), texasmonthly.com (HTTPError), restofworld.org (ParseError), theguardian.com (HTTPError), lostislamichistory.com (ParseError), arabnews.com (HTTPError)
+Gemini gemini-flash-latest, attempt 1…
+  failed: HTTP 503: This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later. []
+Gemini gemini-flash-latest, attempt 2…
+  failed: HTTP 503: This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later. []
+Gemini gemini-flash-latest, attempt 3…
+  failed: HTTP 503: This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later. []
+Gemini gemini-flash-lite-latest, attempt 1…
+  Gemini picked 16 articles
+   ✓ In a Hoard of 5,500 Viking Age Coins, Archaeologists in Norway Found O — smithsonianmag.com
+   ✓ A medieval assault survivor's quest for justice — bbc.com
+   ✓ The haunting landscapes of England's witch country — bbc.com
+   ✓ Sylvia Plath’s Fascination With the Occult Included a Homemade Ouija B — mentalfloss.com
+   ✓ FBI Arrests Executive at Ransomware Negotiation Firm — krebsonsecurity.com
+   ✓ In a Vienna Bakery, Fresh Pastries and a Backdoor for Serbian Votes — occrp.org
+   ✓ Dutch Police Arrest ‘Reformed’ Hacker in Shiny Hunters Investigation — krebsonsecurity.com
+   ✓ Cambodia Cracked Down on Banks Allegedly Linked to Cyber-Scams. The IM — occrp.org
+   ✓ AI Is Already 'Amplifying the Destruction' of War — 404media.co
+   ✓ The bloody palette of the animal kingdom — knowablemagazine.org
+   ✓ Why did humans’ brains surpass chimps’? A tiny foe might help explain  — sciencenews.org
+   ✓ Are you getting enough sun? — psyche.co
+   ✓ If Taiz Falls, Yemen May Never Be the Same — newlinesmag.com
+   ✓ Saudi air defences intercept Houthi barrage near Mecca — aljazeera.com
+Gemini gave 11 usable articles — topping up from the backup list.
+Using the backup picker…
+   ✓ 'Diplomatic and financial isolation': Netanyahu’s crypto plan to bypas — middleeasteye.net
+   ✓ The Top 10 Baby Names of 2026, From Olivia to Dean — mentalfloss.com
+   ✓ Anchorage: A City Within the Wild — atlasobscura.com
+   ✓ Behind the Blog: Brute Forces — 404media.co
+   ✓ Loud, colorful and on edge: The lives of Argentina’s burrowing parrots — knowablemagazine.org
+   ✓ History crossword: 16 October — historyextra.com
+   ✓ Viral Google Maps Images Shared Widely This Week Show Gaza Ruins. We O — bellingcat.com
+   ✓ Listen: Stellar streams and the dark Universe — bigthink.com
+   ✓ Have You Been to the Sixth-Worst McDonald’s in America? — longreads.com
+   ✓ The human voice — sciencenews.org
+   ✓ Rudolf Kalvach’s Wiener Werkstätte Postcards (1907) — publicdomainreview.org
+   ✓ Town Leaders Said They Were Prepared for Floods. First Responders Disa — propublica.org
+   ✓ Why the Broiler Chicken Is the True Symbol of the Anthropocene — lithub.com
+   ✓ What it takes for voters to be resilient against AI misinformation — themarkup.org
+   ✓ Serbia votes as student-led bloc challenges longtime leader Vucic — aljazeera.com
+   ✓ These 15 Photos Perfectly Capture the Beautiful Red Rocks of Sedona, A — smithsonianmag.com
+Published 12 articles: 12 Gemini/backup + 0 ChatGPT (2 long reads).
