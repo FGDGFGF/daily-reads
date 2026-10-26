@@ -70,5 +70,16 @@
   "checked": "2026-10-25T17:33:00+04:00",
   "published": 12,
   "rejected": []
+ },
+ "2026-10-26": {
+  "checked": "2026-10-26T04:49:29+04:00",
+  "published": 11,
+  "rejected": [
+   {
+    "title": "Hello, bristle worm",
+    "url": "https://knowablemagazine.org/content/article/living-world/2026/bristle-worms-are-super-weird",
+    "reason": "publisher blocks automated checks (HTTP 403)"
+   }
+  ]
  }
 }

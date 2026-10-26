@@ -1,24 +1,18 @@
-Run at 2026-10-25 21:26 (Mauritius)
-Mode: full
-Reading 50 publications…
-  43 publications read, 224 fresh candidates
-  couldn't read: amusingplanet.com (HTTPError), bbc.com (HTTPError), texasmonthly.com (HTTPError), restofworld.org (ParseError), theguardian.com (HTTPError), lostislamichistory.com (ParseError), arabnews.com (HTTPError)
-Gemini gemini-flash-latest, attempt 1…
-  Gemini picked 16 articles
-   ✓ Metamorphosis: Transformations in the Early Modern Flap Book (early 19 — publicdomainreview.org
-   ✓ Who Wrote Elizabeth I's Most Scathing Letters? New Research Suggests t — smithsonianmag.com
-   ✓ To Defeat the Royal Navy During the American Revolution, a Rebel Inven — smithsonianmag.com
-   ✓ South Pacific Ponzi Scam “King” Noah Musingku Dies — occrp.org
-   ✓ Five years after the Pandora Papers, transparency laws lose their teet — icij.org
-   ✓ Who’s buying your personal data: Disney, GM, your insurer and bank. He — themarkup.org
-   ✓ He Was a Suspect in the Yogurt Shop Murders for Thirty Years. He Can’t — longreads.com
-   ✓ Elastic fantastic: The deadly fluid of pitcher plants — knowablemagazine.org
-   ✓ Why did humans’ brains surpass chimps’? A tiny foe might help explain  — sciencenews.org
-   ✓ Can LLMs Supercharge Geolocations? Our Tests Show Big Improvements But — bellingcat.com
-   ✓ Other people — aeon.co
-   ✓ The Ties that Bind: Central Asian Ikat (ca. 19th century) — publicdomainreview.org
-   ✓ French Students Sniff Out Police Infiltration on Snapchat and Launch a — newlinesmag.com
-   ✓ Why the Broiler Chicken Is the True Symbol of the Anthropocene — lithub.com
-   ✓ The trailblazing erotic art of Lavinia Fontana — bbc.com
-   ✓ Ghosts of the Grove — longreads.com
-Published 12 articles: 12 Gemini/backup + 0 ChatGPT (2 long reads).
+Run at 2026-10-26 04:49 (Mauritius)
+Mode: chatgpt
+ChatGPT batch 2026-10-26: checking 12 articles…
+   ✓ ChatGPT: A death, a plagiarism scandal and a quest for revenge: the bizarre tal — The Guardian
+   ✓ ChatGPT: Where the Forest Went — Longreads
+   ✓ ChatGPT: How the Railways Killed a Medieval Law — JSTOR Daily
+   ✓ ChatGPT: Disgust, Desire, and Durian — JSTOR Daily
+   ✓ ChatGPT: Where Exactly Were the First Humans to Be Captured in a Photograph Sta — Smithsonian Magazine
+   ✓ ChatGPT: For the First Time, a Selection of Islamic Masterpieces From the Louvr — Smithsonian Magazine
+   ✓ ChatGPT: Sea Monkeys Show Scientists How To Rewrite a Rule of Turbulence — Quanta Magazine
+   ✓ ChatGPT: An ancient Maya astronomer finally has a name — Science News
+   ✓ ChatGPT: Instead of Helping Ukraine’s Poor, Ferrexpo’s Charitable Donations Flo — OCCRP
+   ✓ ChatGPT: Colorado Marijuana Regulators Failed to Protect Consumers From Potenti — ProPublica
+   ✗ blocked (403) and unconfirmed https://knowablemagazine.org/content/article/living-world/2026/bristle-worms-are-super-weird
+   ✗ ChatGPT: 'Hello, bristle worm' — publisher blocks automated checks (HTTP 403)
+   ✓ ChatGPT: Where to See the World’s Most Famous Preserved Body Parts — Atlas Obscura
+ChatGPT batch 2026-10-26: 11 published, 1 rejected
+Published 11 articles: 0 Gemini/backup + 11 ChatGPT (2 long reads).
