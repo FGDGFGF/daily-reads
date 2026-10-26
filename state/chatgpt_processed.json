@@ -1,135 +1,80 @@
 {
- "2026-10-24": {
-  "checked": "2026-10-25T17:33:00+04:00",
-  "published": 0,
-  "note": "Rejected as a whole by the old all-or-nothing importer: its first article was already in the feed (Gemini published it at 13:09). The other 11 were never published or link-checked. Remove this entry to have them checked and published.",
-  "rejected": [
-   {
-    "title": "“Men with Queer Nerves”: The Jumping Frenchmen of Maine",
-    "url": "https://publicdomainreview.org/essay/the-jumping-frenchmen-of-maine/",
-    "reason": "already in the feed (Gemini, 13:09)"
-   },
-   {
-    "title": "Scam Empire: Inside A Merciless International Investment Scam",
-    "url": "https://www.occrp.org/en/project/scam-empire/scam-empire-inside-a-merciless-international-investment-scam",
-    "reason": "not checked — batch rejected under the old rule"
-   },
-   {
-    "title": "Persian Demons from a Book of Magic and Astrology (1921)",
-    "url": "https://publicdomainreview.org/collection/persian-demons-from-a-book-of-magic-and-astrology-1921",
-    "reason": "not checked — batch rejected under the old rule"
-   },
-   {
-    "title": "Raising a Ghost Town From the Dead",
-    "url": "https://www.atlasobscura.com/articles/brownsville-pennsylvania-abandoned",
-    "reason": "not checked — batch rejected under the old rule"
-   },
-   {
-    "title": "Origami Patterns Solve a Major Physics Riddle",
-    "url": "https://www.quantamagazine.org/origami-patterns-solve-a-major-physics-riddle-20251006/",
-    "reason": "not checked — batch rejected under the old rule"
-   },
-   {
-    "title": "A Cell So Minimal That It Challenges Definitions of Life",
-    "url": "https://www.quantamagazine.org/a-cell-so-minimal-that-it-challenges-definitions-of-life-20251124/",
-    "reason": "not checked — batch rejected under the old rule"
-   },
-   {
-    "title": "What Kinds of Pasta Are There in India?",
-    "url": "https://www.atlasobscura.com/articles/indian-pasta",
-    "reason": "not checked — batch rejected under the old rule"
-   },
-   {
-    "title": "Ley Lines and the Allure of Imposing Order on History’s Chaos",
-    "url": "https://www.atlasobscura.com/articles/what-are-ley-lines",
-    "reason": "not checked — batch rejected under the old rule"
-   },
-   {
-    "title": "“Incalculable” Damage: How a “We Buy Ugly Houses” Franchise Left a Trail of Financial Wreckage Across Texas",
-    "url": "https://www.propublica.org/article/homevestors-fraud-charles-carrier-texas",
-    "reason": "not checked — batch rejected under the old rule"
-   },
-   {
-    "title": "The Uzbek President’s Son-In-Law Secretly Acquired a UAE Passport While Serving as a Top Security Chief",
-    "url": "https://www.occrp.org/en/investigation/the-uzbek-presidents-deputy-security-chief-secretly-acquired-a-uae-passport",
-    "reason": "not checked — batch rejected under the old rule"
-   },
-   {
-    "title": "American Food Traditions That Started as Marketing Ploys",
-    "url": "https://www.atlasobscura.com/articles/american-food-traditions-that-started-as-marketing-ploys",
-    "reason": "not checked — batch rejected under the old rule"
-   },
-   {
-    "title": "At 17, Hannah Cairo Solved a Major Math Mystery",
-    "url": "https://www.quantamagazine.org/at-17-hannah-cairo-solved-a-major-math-mystery-20250801/",
-    "reason": "not checked — batch rejected under the old rule"
-   }
-  ]
- },
- "2026-10-25": {
-  "checked": "2026-10-25T17:33:00+04:00",
-  "published": 12,
-  "rejected": []
- },
- "2026-10-26": {
-  "checked": "2026-10-26T04:51:45+04:00",
-  "published": 1,
-  "rejected": [
-   {
-    "title": "A death, a plagiarism scandal and a quest for revenge: the bizarre tale of Otto Z",
-    "url": "https://www.theguardian.com/news/ng-interactive/2026/oct/08/a-death-a-plagiarism-scandal-and-a-quest-for-revenge-the-bizarre-tale-of-otto-z",
-    "reason": "already in the feed (same link)"
-   },
-   {
-    "title": "Where the Forest Went",
-    "url": "https://longreads.com/2026/10/13/american-forest-development-property-hugh-maxwell/",
-    "reason": "already in the feed (same link)"
-   },
-   {
-    "title": "How the Railways Killed a Medieval Law",
-    "url": "https://daily.jstor.org/how-the-railways-killed-a-medieval-law/",
-    "reason": "already in the feed (same link)"
-   },
-   {
-    "title": "Disgust, Desire, and Durian",
-    "url": "https://daily.jstor.org/disgust-desire-and-durian/",
-    "reason": "already in the feed (same link)"
-   },
-   {
-    "title": "Where Exactly Were the First Humans to Be Captured in a Photograph Standing? Three Obsessed Filmmakers Solved the Nearly 200-Year-Old Mystery",
-    "url": "https://www.smithsonianmag.com/smart-news/where-exactly-were-the-first-humans-to-be-captured-in-a-photograph-standing-three-obsessed-filmmakers-solved-the-nearly-200-year-old-mystery-180989727/",
-    "reason": "already in the feed (same link)"
-   },
-   {
-    "title": "For the First Time, a Selection of Islamic Masterpieces From the Louvre Is Coming to the United States. See the Treasures Soon to Be Displayed at the Smithsonian’s National Museum of Asian Art",
-    "url": "https://www.smithsonianmag.com/smart-news/for-the-first-time-a-selection-of-islamic-masterpieces-from-the-louvre-is-coming-to-the-united-states-see-the-treasures-soon-to-be-displayed-at-the-smithsonians-national-museum-of-asian-art-180989402/",
-    "reason": "already in the feed (same link)"
-   },
-   {
-    "title": "Sea Monkeys Show Scientists How To Rewrite a Rule of Turbulence",
-    "url": "https://www.quantamagazine.org/sea-monkeys-show-scientists-how-to-rewrite-a-rule-of-turbulence-20261002/",
-    "reason": "already in the feed (same link)"
-   },
-   {
-    "title": "An ancient Maya astronomer finally has a name",
-    "url": "https://www.sciencenews.org/article/ancient-maya-astronomer-name-sak-tahn-waax",
-    "reason": "already in the feed (same link)"
-   },
-   {
-    "title": "Instead of Helping Ukraine’s Poor, Ferrexpo’s Charitable Donations Flowed to Companies Associated With Its Then-CEO",
-    "url": "https://www.occrp.org/en/investigation/instead-of-helping-ukraines-poor-ferrexpos-charitable-donations-flowed-to-companies-associated-with-its-then-ceo",
-    "reason": "already in the feed (same link)"
-   },
-   {
-    "title": "Colorado Marijuana Regulators Failed to Protect Consumers From Potential Contamination, Audit Finds",
-    "url": "https://www.propublica.org/article/colorado-marijuana-enforcement-division-audit-findings",
-    "reason": "already in the feed (same link)"
-   },
-   {
-    "title": "Where to See the World’s Most Famous Preserved Body Parts",
-    "url": "https://www.atlasobscura.com/articles/preserved-body-parts-around-the-world",
-    "reason": "already in the feed (same link)"
-   }
-  ]
- }
+  "2026-10-24": {
+    "checked": "2026-10-25T17:33:00+04:00",
+    "published": 0,
+    "note": "Rejected as a whole by the old all-or-nothing importer: its first article was already in the feed (Gemini published it at 13:09). The other 11 were never published or link-checked. Remove this entry to have them checked and published.",
+    "rejected": [
+      {
+        "title": "“Men with Queer Nerves”: The Jumping Frenchmen of Maine",
+        "url": "https://publicdomainreview.org/essay/the-jumping-frenchmen-of-maine/",
+        "reason": "already in the feed (Gemini, 13:09)"
+      },
+      {
+        "title": "Scam Empire: Inside A Merciless International Investment Scam",
+        "url": "https://www.occrp.org/en/project/scam-empire/scam-empire-inside-a-merciless-international-investment-scam",
+        "reason": "not checked — batch rejected under the old rule"
+      },
+      {
+        "title": "Persian Demons from a Book of Magic and Astrology (1921)",
+        "url": "https://publicdomainreview.org/collection/persian-demons-from-a-book-of-magic-and-astrology-1921",
+        "reason": "not checked — batch rejected under the old rule"
+      },
+      {
+        "title": "Raising a Ghost Town From the Dead",
+        "url": "https://www.atlasobscura.com/articles/brownsville-pennsylvania-abandoned",
+        "reason": "not checked — batch rejected under the old rule"
+      },
+      {
+        "title": "Origami Patterns Solve a Major Physics Riddle",
+        "url": "https://www.quantamagazine.org/origami-patterns-solve-a-major-physics-riddle-20251006/",
+        "reason": "not checked — batch rejected under the old rule"
+      },
+      {
+        "title": "A Cell So Minimal That It Challenges Definitions of Life",
+        "url": "https://www.quantamagazine.org/a-cell-so-minimal-that-it-challenges-definitions-of-life-20251124/",
+        "reason": "not checked — batch rejected under the old rule"
+      },
+      {
+        "title": "What Kinds of Pasta Are There in India?",
+        "url": "https://www.atlasobscura.com/articles/indian-pasta",
+        "reason": "not checked — batch rejected under the old rule"
+      },
+      {
+        "title": "Ley Lines and the Allure of Imposing Order on History’s Chaos",
+        "url": "https://www.atlasobscura.com/articles/what-are-ley-lines",
+        "reason": "not checked — batch rejected under the old rule"
+      },
+      {
+        "title": "“Incalculable” Damage: How a “We Buy Ugly Houses” Franchise Left a Trail of Financial Wreckage Across Texas",
+        "url": "https://www.propublica.org/article/homevestors-fraud-charles-carrier-texas",
+        "reason": "not checked — batch rejected under the old rule"
+      },
+      {
+        "title": "The Uzbek President’s Son-In-Law Secretly Acquired a UAE Passport While Serving as a Top Security Chief",
+        "url": "https://www.occrp.org/en/investigation/the-uzbek-presidents-deputy-security-chief-secretly-acquired-a-uae-passport",
+        "reason": "not checked — batch rejected under the old rule"
+      },
+      {
+        "title": "American Food Traditions That Started as Marketing Ploys",
+        "url": "https://www.atlasobscura.com/articles/american-food-traditions-that-started-as-marketing-ploys",
+        "reason": "not checked — batch rejected under the old rule"
+      },
+      {
+        "title": "At 17, Hannah Cairo Solved a Major Math Mystery",
+        "url": "https://www.quantamagazine.org/at-17-hannah-cairo-solved-a-major-math-mystery-20250801/",
+        "reason": "not checked — batch rejected under the old rule"
+      }
+    ]
+  },
+  "2026-10-25": {
+    "checked": "2026-10-25T17:33:00+04:00",
+    "published": 12,
+    "rejected": []
+  },
+  "2026-10-26": {
+    "checked": "2026-10-26T04:51:45+04:00",
+    "published": 12,
+    "rejected": [],
+    "note": "Cumulative final total: 11 articles published on first import, then one replacement published after Knowable Magazine blocked automated validation (HTTP 403). The 11 duplicate notices on the retry refer to articles already successfully published, not final rejections. All 12 dated selections are present in history."
+  }
 }
