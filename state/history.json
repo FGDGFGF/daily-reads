@@ -2095,5 +2095,20 @@
   "image": "https://img.atlasobscura.com/Lhd9rBSYakTvrv3JMDWLOGC_wP2tyv35SBsR60DMy4Q/rt:fit/w:1200/q:81/sm:1/scp:1/ar:1/aHR0cHM6Ly9hdGxh/cy1kZXYuczMuYW1h/em9uYXdzLmNvbS91/cGxvYWRzL2Fzc2V0/cy9hMzUzYWE0Yi1m/YTU0LTQ2NzItOWIx/YS05Yzc0ZWQyNTI2/ZmNjMTcyYjgyMTky/ZTJkMGNlZWFfU2Ny/ZWVuc2hvdCAyMDI2/LTEwLTE2IGF0IDku/MjguNTUgQU0ucG5n.png",
   "id": "20261026-10-31233398",
   "sent": "2026-10-26T04:49:19+04:00"
+ },
+ {
+  "title": "Ballot Rejections Soared in Rural Counties After USPS Reduced Mail Service",
+  "url": "https://www.propublica.org/article/mail-ballot-delays-postal-service-midterms",
+  "norm": "https://propublica.org/article/mail-ballot-delays-postal-service-midterms",
+  "publisher": "ProPublica",
+  "date": "",
+  "category": "wildcard",
+  "theme": "",
+  "long": false,
+  "hook": "A data analysis traces how slower mail delivery helped invalidate ballots in rural counties, with consequences for voters across party lines.",
+  "source": "chatgpt",
+  "image": "https://www.propublica.org/wp-content/uploads/2026/10/RuralVotingBallots-Bose7021_preview_maxWidth_3000_maxHeight_3000_ppi_72_embedColorProfile_true_quality_95.jpg?resize=2000,1334",
+  "id": "20261026-00-87195787",
+  "sent": "2026-10-26T04:51:45+04:00"
  }
 ]
