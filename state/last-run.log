@@ -1,17 +1,24 @@
-Run at 2026-10-27 04:56 (Mauritius)
-Mode: chatgpt
-ChatGPT batch 2026-10-27: checking 12 articles…
-   ✓ ChatGPT: The Muslims finding belonging in southern Spain — Al Jazeera
-   ✓ ChatGPT: A Rupture in the History of Consciousness — New Lines Magazine
-   ✓ ChatGPT: How Big Oil Shaped America’s Parks — JSTOR Daily
-   ✓ ChatGPT: In Leaked Audio, Flock CEO Tells Cops Backlash to the Company Isn’t Re — 404 Media
-   ✓ ChatGPT: Five Arrested in 1 Million Euro Fraud Against NATO — OCCRP
-   ✓ ChatGPT: Volcanoes lurk behind the scenes of human history — Science News
-   ✓ ChatGPT: Orangutans prefer food associated with sounds of laughter, study sugge — The Guardian
-   ✓ ChatGPT: Signet ring depicting the Lighthouse of Alexandria—a lost wonder of th — The Art Newspaper
-   ✓ ChatGPT: Do people become less creative as they get older? Research makes surpr — The Guardian
-   ✓ ChatGPT: The humble one-celled alga that helped scientists win the Nobel prize — The Guardian
-   ✓ ChatGPT: Frankenstein, The Vampyre, and the Spirit of the Humanities — JSTOR Daily
-   ✓ ChatGPT: 'Black October': cybersecurity experts sound the alarm over new era of — The Guardian
-ChatGPT batch 2026-10-27: 12 published, 0 rejected
-Published 12 articles: 0 Gemini/backup + 12 ChatGPT (2 long reads).
+Run at 2026-10-27 10:52 (Mauritius)
+Mode: full
+Reading 50 publications…
+  41 publications read, 217 fresh candidates
+  couldn't read: amusingplanet.com (HTTPError), bbc.com (HTTPError), texasmonthly.com (HTTPError), restofworld.org (HTTPError), theguardian.com (HTTPError), hakaimagazine.com (ParseError), 1001inventions.com (ParseError), lostislamichistory.com (ParseError), arabnews.com (HTTPError)
+Gemini gemini-flash-latest, attempt 1…
+  Gemini picked 16 articles
+   ✓ How Did the Nation Get Its Name? Other Suggestions Included the United — smithsonianmag.com
+   ✓ How Did a Pinkerton Spy Infiltrate – and Take Down – the Molly Maguire — thecollector.com
+   ✓ Some of the Earliest Automobile Enthusiasts Signed Up to Help the Alli — smithsonianmag.com
+   ✓ The Lucrative World of Literary Scams — longreads.com
+   ✓ How Beijing’s Africa ambitions, financed by China’s mega banks, trigge — icij.org
+   ✓ Investigating a Murder: Public Records Uncover New Clues in Chinatown  — bellingcat.com
+   ✓ How Trump’s FBI Purge Saved Lindsey Graham and James Clyburn From a Br — propublica.org
+   ✓ How long does it take to travel through the Universe at 1g? — bigthink.com
+   ✓ He Wants AI Benchmarking To Be a Science, Not a Dark Art — quantamagazine.org
+   ✓ Would you pay to have the ‘best baby’? Liberal eugenics and the troubl — theguardian.com
+   ✓ A stay in Pakistan's unspoiled Ishkoman valley — bbc.com
+   ✓ Sudan As A Mirror For Today’s World — noemamag.com
+   ✓ Loud, colorful and on edge: The lives of Argentina’s burrowing parrots — knowablemagazine.org
+   ✓ Losing the fat in the chilly north Atlantic — knowablemagazine.org
+   ✓ The Women Breaking the Rules of Balinese Dance — daily.jstor.org
+   ✓ You Finally Got a Wikipedia Page. Then It Vanished. — longreads.com
+Published 12 articles: 12 Gemini/backup + 0 ChatGPT (2 long reads).
