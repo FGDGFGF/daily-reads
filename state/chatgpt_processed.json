@@ -76,5 +76,10 @@
   "published": 12,
   "rejected": [],
   "note": "Cumulative final total: 11 articles published on first import, then one replacement published after Knowable Magazine blocked automated validation (HTTP 403). The 11 duplicate notices on the retry refer to articles already successfully published, not final rejections. All 12 dated selections are present in history."
+ },
+ "2026-10-27": {
+  "checked": "2026-10-27T04:56:48+04:00",
+  "published": 12,
+  "rejected": []
  }
 }

@@ -1,29 +1,17 @@
-Run at 2026-10-26 22:47 (Mauritius)
-Mode: full
-Reading 50 publications…
-  42 publications read, 220 fresh candidates
-  couldn't read: amusingplanet.com (HTTPError), bbc.com (HTTPError), texasmonthly.com (HTTPError), restofworld.org (HTTPError), theguardian.com (HTTPError), 1001inventions.com (ParseError), lostislamichistory.com (SSLError), arabnews.com (HTTPError)
-Gemini gemini-flash-latest, attempt 1…
-  failed: HTTP 503: This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later. []
-Gemini gemini-flash-latest, attempt 2…
-  failed: HTTP 503: This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later. []
-Gemini gemini-flash-latest, attempt 3…
-  failed: HTTP 503: This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later. []
-Gemini gemini-flash-lite-latest, attempt 1…
-  Gemini picked 16 articles
-   ✓ Richard III: The contested legacy — historyextra.com
-   ✓ What really sparked the Tudor Reformation? — historyextra.com
-   ✓ How Locusta of Gaul Poisoned Roman Emperors for a Living — thecollector.com
-   ✓ Cybersecurity CEO Indicted for Allegedly Scamming Millions From Ransom — propublica.org
-   ✓ How Voting Is Like a Klein Bottle — quantamagazine.org
-   ✓ Earth’s first fully-marine amphibian stalked the seafloor with a chunk — popsci.com
-   ✓ Dear Al Pacino — psyche.co
-   ✓ Iraq’s Fuel Crisis Exposes Its Oil Dependence — newlinesmag.com
-   ✓ UN human rights chief warns of 'ethnic cleansing' in Hebron — middleeasteye.net
-   ✓ Read censored texts from around the world at this Minecraft library — popsci.com
-   ✓ Maria Edgeworth: Early 19th-Century Celebrity Novelist and… Key Contri — lithub.com
-   ✓ Panama removed from EU’s tax haven ‘blacklist’ a decade after the Pana — icij.org
-   ✓ Hidden In Plain Sight: What It Meant to Unearth My Father’s Decades-Ol — lithub.com
-   ✓ 5 Forgotten Medieval Queens Who Shaped English History — thecollector.com
-   ✓ Archaeologists at This Ancient Maya Metropolis in the Forest of Belize — smithsonianmag.com
-Published 12 articles: 12 Gemini/backup + 0 ChatGPT (2 long reads).
+Run at 2026-10-27 04:56 (Mauritius)
+Mode: chatgpt
+ChatGPT batch 2026-10-27: checking 12 articles…
+   ✓ ChatGPT: The Muslims finding belonging in southern Spain — Al Jazeera
+   ✓ ChatGPT: A Rupture in the History of Consciousness — New Lines Magazine
+   ✓ ChatGPT: How Big Oil Shaped America’s Parks — JSTOR Daily
+   ✓ ChatGPT: In Leaked Audio, Flock CEO Tells Cops Backlash to the Company Isn’t Re — 404 Media
+   ✓ ChatGPT: Five Arrested in 1 Million Euro Fraud Against NATO — OCCRP
+   ✓ ChatGPT: Volcanoes lurk behind the scenes of human history — Science News
+   ✓ ChatGPT: Orangutans prefer food associated with sounds of laughter, study sugge — The Guardian
+   ✓ ChatGPT: Signet ring depicting the Lighthouse of Alexandria—a lost wonder of th — The Art Newspaper
+   ✓ ChatGPT: Do people become less creative as they get older? Research makes surpr — The Guardian
+   ✓ ChatGPT: The humble one-celled alga that helped scientists win the Nobel prize — The Guardian
+   ✓ ChatGPT: Frankenstein, The Vampyre, and the Spirit of the Humanities — JSTOR Daily
+   ✓ ChatGPT: 'Black October': cybersecurity experts sound the alarm over new era of — The Guardian
+ChatGPT batch 2026-10-27: 12 published, 0 rejected
+Published 12 articles: 0 Gemini/backup + 12 ChatGPT (2 long reads).
