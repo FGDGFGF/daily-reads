@@ -361,5 +361,126 @@
     "hook": "A gloriously macabre tour from Galileo's middle finger to Chopin's heart and a cocktail garnished with a human toe.",
     "category": "weird_history",
     "long": false
+  },
+  {
+    "batch_date": "2026-10-27",
+    "title": "The Muslims finding belonging in southern Spain",
+    "url": "https://www.aljazeera.com/features/longform/2026/10/24/the-muslims-finding-belonging-in-southern-spain",
+    "publisher": "Al Jazeera",
+    "date": "2026-10-24",
+    "hook": "In Andalusia, a new generation of Muslims is finding belonging among the architecture, gardens and even soup recipes left by centuries of Islamic history.",
+    "category": "islamic",
+    "long": true
+  },
+  {
+    "batch_date": "2026-10-27",
+    "title": "A Rupture in the History of Consciousness",
+    "url": "https://newlinesmag.com/essays/a-rupture-in-the-history-of-consciousness/",
+    "publisher": "New Lines Magazine",
+    "date": "2026-10-09",
+    "hook": "Beginning with a pre-Islamic Arab poet and his weary camel, this 19-minute essay asks how philosophy and literature changed the way people experience the world.",
+    "category": "culture_ideas",
+    "long": true
+  },
+  {
+    "batch_date": "2026-10-27",
+    "title": "How Big Oil Shaped America’s Parks",
+    "url": "https://daily.jstor.org/how-big-oil-shaped-americas-parks/",
+    "publisher": "JSTOR Daily",
+    "date": "2026-10-26",
+    "hook": "Why are so many scenic parks designed around driving? Rockefeller's petroleum wealth and faith in the automobile helped make it that way.",
+    "category": "rotating",
+    "theme": "How the World Really Works",
+    "long": false
+  },
+  {
+    "batch_date": "2026-10-27",
+    "title": "In Leaked Audio, Flock CEO Tells Cops Backlash to the Company Isn’t Real",
+    "url": "https://www.404media.co/in-leaked-audio-flock-ceo-tells-cops-backlash-to-the-company-isnt-real/",
+    "publisher": "404 Media",
+    "date": "2026-10-26",
+    "hook": "Leaked remarks from a private police conference reveal how the head of a license-plate surveillance company talks about public opposition behind closed doors.",
+    "category": "fraud_investigation",
+    "long": false
+  },
+  {
+    "batch_date": "2026-10-27",
+    "title": "Five Arrested in 1 Million Euro Fraud Against NATO",
+    "url": "https://www.occrp.org/en/news/five-arrested-in-1-million-euro-fraud-against-nato",
+    "publisher": "OCCRP",
+    "date": "2026-10-14",
+    "hook": "A cross-border inquiry into support services for NATO warships uncovered allegedly inflated invoices and bribes linked to port contracts.",
+    "category": "fraud_investigation",
+    "long": false
+  },
+  {
+    "batch_date": "2026-10-27",
+    "title": "Volcanoes lurk behind the scenes of human history",
+    "url": "https://www.sciencenews.org/article/volcanoes-impact-human-history-climate",
+    "publisher": "Science News",
+    "date": "2026-10-26",
+    "hook": "Researchers are tracing volcanic ash through ice cores, tree rings and old records to see how eruptions may have shaped famines, revolts and cultural change.",
+    "category": "science_tech",
+    "long": false
+  },
+  {
+    "batch_date": "2026-10-27",
+    "title": "Orangutans prefer food associated with sounds of laughter, study suggests",
+    "url": "https://www.theguardian.com/science/2026/oct/21/orangutans-prefer-food-laughter-sounds-study",
+    "publisher": "The Guardian",
+    "date": "2026-10-21",
+    "hook": "Six orangutans learned food associations while hearing playful calls or ambient noise; their choices offer a surprising clue about emotion and learning.",
+    "category": "science_tech",
+    "long": false
+  },
+  {
+    "batch_date": "2026-10-27",
+    "title": "Signet ring depicting the Lighthouse of Alexandria—a lost wonder of the ancient world—discovered during underwater excavation",
+    "url": "https://www.theartnewspaper.com/2026/10/09/signet-ring-depicting-lighthouse-of-alexandria-discovered-underwater-excavation",
+    "publisher": "The Art Newspaper",
+    "date": "2026-10-09",
+    "hook": "Divers excavating a sunken royal island in Alexandria found an extraordinary bronze ring engraved with the ancient lighthouse.",
+    "category": "weird_history",
+    "long": false
+  },
+  {
+    "batch_date": "2026-10-27",
+    "title": "Do people become less creative as they get older? Research makes surprising discovery",
+    "url": "https://www.theguardian.com/science/2026/oct/21/do-people-become-less-creative-as-they-get-older-research",
+    "publisher": "The Guardian",
+    "date": "2026-10-21",
+    "hook": "A study comparing children and young adults found that grown-ups can be more original in creative tasks even as their confidence falters.",
+    "category": "wildcard",
+    "long": false
+  },
+  {
+    "batch_date": "2026-10-27",
+    "title": "The humble one-celled alga that helped scientists win the Nobel prize",
+    "url": "https://www.theguardian.com/science/2026/oct/21/chlamydomonas-one-celled-alga-nobel-prize",
+    "publisher": "The Guardian",
+    "date": "2026-10-21",
+    "hook": "A light-sensitive protein in a tiny swimming alga helped inspire optogenetics, a technique that lets scientists control nerve cells with light.",
+    "category": "science_tech",
+    "long": false
+  },
+  {
+    "batch_date": "2026-10-27",
+    "title": "Frankenstein, The Vampyre, and the Spirit of the Humanities",
+    "url": "https://daily.jstor.org/frankenstein-the-vampyre-and-the-spirit-of-the-humanities/",
+    "publisher": "JSTOR Daily",
+    "date": "2026-10-20",
+    "hook": "Trapped indoors during the famously cold summer of 1816, a circle of writers held a ghost-story challenge that gave the world two enduring monsters.",
+    "category": "weird_history",
+    "long": false
+  },
+  {
+    "batch_date": "2026-10-27",
+    "title": "'Black October': cybersecurity experts sound the alarm over new era of AI-enabled hacking",
+    "url": "https://www.theguardian.com/technology/2026/oct/23/cybersecurity-ai-hacking-php-vulnerability",
+    "publisher": "The Guardian",
+    "date": "2026-10-23",
+    "hook": "AI-assisted vulnerability hunting is accelerating faster than security teams can patch systems, prompting fears of a new wave of exploitable software flaws.",
+    "category": "wildcard",
+    "long": false
   }
 ]
