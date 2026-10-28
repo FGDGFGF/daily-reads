@@ -1,17 +1,27 @@
-Run at 2026-10-28 04:55 (Mauritius)
-Mode: chatgpt
-ChatGPT batch 2026-10-28: checking 12 articles…
-   ✓ ChatGPT: This Oil Company Is Linked to 1,000 Pollution Incidents and Other Viol — ProPublica
-   ✓ ChatGPT: Bats Thrive in a Messy, Noisy World. These Four Discoveries Reveal How — Smithsonian Magazine
-   ✓ ChatGPT: Muslims have been spicing up their coffee for centuries — Hyphen
-   ✓ ChatGPT: The Photographer Who Preserved Everyday Architecture — JSTOR Daily
-   ✓ ChatGPT: 2,500-year-old solar observatory identified in Mexico — The Art Newspaper
-   ✓ ChatGPT: After the dinosaurs died, the massive D. rex fungus ruled the woods — Science News
-   ✓ ChatGPT: ChatGPT Keeps Telling People 404 Media Can Solve Their Tech Support Pr — 404 Media
-   ✓ ChatGPT: Mental Hospitals at the Movies — JSTOR Daily
-   ✓ ChatGPT: Triplet of ‘Ghostly’ Galaxies Hints at What Dark Matter Is — and Isn’t — Quanta Magazine
-   ✓ ChatGPT: Divers Recover a Mysterious Cauldron That Had Been Hiding at the Botto — Smithsonian Magazine
-   ✓ ChatGPT: Roller coaster safety is a matter of science — Science News
-   ✓ ChatGPT: FBI Cybercrime Operation Nets Nine Arrests in Nigeria — OCCRP
-ChatGPT batch 2026-10-28: 12 published, 0 rejected
-Published 12 articles: 0 Gemini/backup + 12 ChatGPT (2 long reads).
+Run at 2026-10-28 11:22 (Mauritius)
+Mode: full
+Reading 50 publications…
+  43 publications read, 218 fresh candidates
+  couldn't read: amusingplanet.com (HTTPError), bbc.com (HTTPError), restofworld.org (HTTPError), theguardian.com (HTTPError), 1001inventions.com (ParseError), lostislamichistory.com (ParseError), arabnews.com (HTTPError)
+Gemini gemini-flash-latest, attempt 1…
+  failed: HTTP 503: This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later. []
+Gemini gemini-flash-latest, attempt 2…
+  failed: HTTP 503: This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later. []
+Gemini gemini-flash-latest, attempt 3…
+  failed: HTTP 503: This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later. []
+Gemini gemini-flash-lite-latest, attempt 1…
+  Gemini picked 16 articles
+   ✓ Is Elizabeth Báthory the most prolific serial killer in history? — historyextra.com
+   ✓ An Italian Farmer Found Some Unknown Seeds in His Attic and, With Noth — smithsonianmag.com
+   ✓ This 11-Foot-Wide, Bowl-Shaped Object Was Found in a Minnesota Cornfie — smithsonianmag.com
+   ✓ U.S. Court Sentences Lender to 15 Years over $76M Ponzi Scheme — occrp.org
+   ✓ EU Sanctions Envoy Pushes for Action Against Rusal’s Irish Alumina Ref — occrp.org
+   ✓ How brain implants turn thoughts into speech — sciencenews.org
+   ✓ Eating too much sugar on antibiotics could squash helpful gut bacteria — sciencenews.org
+   ✓ The world hasn’t become less smelly — we’ve just lost our nasal knowle — bigthink.com
+   ✓ Why the Majority of Israel’s Youngest Voters Identify as Right-Wing — newlinesmag.com
+   ✓ Can Amal Help Lebanon Find a Way Out of War? — newlinesmag.com
+   ✓ The Personal Tragedy That Sent Theodore Roosevelt Into the Dakota Badl — mentalfloss.com
+   ✓ Hazelnut Inn in Chilliwack, British Columbia — atlasobscura.com
+   ✓ The Kuji Amber Museum in Kuji, Japan — atlasobscura.com
+Published 12 articles: 12 Gemini/backup + 0 ChatGPT (2 long reads).
