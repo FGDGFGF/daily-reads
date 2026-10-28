@@ -1,24 +1,17 @@
-Run at 2026-10-27 10:52 (Mauritius)
-Mode: full
-Reading 50 publications…
-  41 publications read, 217 fresh candidates
-  couldn't read: amusingplanet.com (HTTPError), bbc.com (HTTPError), texasmonthly.com (HTTPError), restofworld.org (HTTPError), theguardian.com (HTTPError), hakaimagazine.com (ParseError), 1001inventions.com (ParseError), lostislamichistory.com (ParseError), arabnews.com (HTTPError)
-Gemini gemini-flash-latest, attempt 1…
-  Gemini picked 16 articles
-   ✓ How Did the Nation Get Its Name? Other Suggestions Included the United — smithsonianmag.com
-   ✓ How Did a Pinkerton Spy Infiltrate – and Take Down – the Molly Maguire — thecollector.com
-   ✓ Some of the Earliest Automobile Enthusiasts Signed Up to Help the Alli — smithsonianmag.com
-   ✓ The Lucrative World of Literary Scams — longreads.com
-   ✓ How Beijing’s Africa ambitions, financed by China’s mega banks, trigge — icij.org
-   ✓ Investigating a Murder: Public Records Uncover New Clues in Chinatown  — bellingcat.com
-   ✓ How Trump’s FBI Purge Saved Lindsey Graham and James Clyburn From a Br — propublica.org
-   ✓ How long does it take to travel through the Universe at 1g? — bigthink.com
-   ✓ He Wants AI Benchmarking To Be a Science, Not a Dark Art — quantamagazine.org
-   ✓ Would you pay to have the ‘best baby’? Liberal eugenics and the troubl — theguardian.com
-   ✓ A stay in Pakistan's unspoiled Ishkoman valley — bbc.com
-   ✓ Sudan As A Mirror For Today’s World — noemamag.com
-   ✓ Loud, colorful and on edge: The lives of Argentina’s burrowing parrots — knowablemagazine.org
-   ✓ Losing the fat in the chilly north Atlantic — knowablemagazine.org
-   ✓ The Women Breaking the Rules of Balinese Dance — daily.jstor.org
-   ✓ You Finally Got a Wikipedia Page. Then It Vanished. — longreads.com
-Published 12 articles: 12 Gemini/backup + 0 ChatGPT (2 long reads).
+Run at 2026-10-28 04:55 (Mauritius)
+Mode: chatgpt
+ChatGPT batch 2026-10-28: checking 12 articles…
+   ✓ ChatGPT: This Oil Company Is Linked to 1,000 Pollution Incidents and Other Viol — ProPublica
+   ✓ ChatGPT: Bats Thrive in a Messy, Noisy World. These Four Discoveries Reveal How — Smithsonian Magazine
+   ✓ ChatGPT: Muslims have been spicing up their coffee for centuries — Hyphen
+   ✓ ChatGPT: The Photographer Who Preserved Everyday Architecture — JSTOR Daily
+   ✓ ChatGPT: 2,500-year-old solar observatory identified in Mexico — The Art Newspaper
+   ✓ ChatGPT: After the dinosaurs died, the massive D. rex fungus ruled the woods — Science News
+   ✓ ChatGPT: ChatGPT Keeps Telling People 404 Media Can Solve Their Tech Support Pr — 404 Media
+   ✓ ChatGPT: Mental Hospitals at the Movies — JSTOR Daily
+   ✓ ChatGPT: Triplet of ‘Ghostly’ Galaxies Hints at What Dark Matter Is — and Isn’t — Quanta Magazine
+   ✓ ChatGPT: Divers Recover a Mysterious Cauldron That Had Been Hiding at the Botto — Smithsonian Magazine
+   ✓ ChatGPT: Roller coaster safety is a matter of science — Science News
+   ✓ ChatGPT: FBI Cybercrime Operation Nets Nine Arrests in Nigeria — OCCRP
+ChatGPT batch 2026-10-28: 12 published, 0 rejected
+Published 12 articles: 0 Gemini/backup + 12 ChatGPT (2 long reads).
