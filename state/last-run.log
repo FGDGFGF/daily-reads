@@ -1,27 +1,17 @@
-Run at 2026-10-28 11:22 (Mauritius)
-Mode: full
-Reading 50 publications…
-  43 publications read, 218 fresh candidates
-  couldn't read: amusingplanet.com (HTTPError), bbc.com (HTTPError), restofworld.org (HTTPError), theguardian.com (HTTPError), 1001inventions.com (ParseError), lostislamichistory.com (ParseError), arabnews.com (HTTPError)
-Gemini gemini-flash-latest, attempt 1…
-  failed: HTTP 503: This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later. []
-Gemini gemini-flash-latest, attempt 2…
-  failed: HTTP 503: This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later. []
-Gemini gemini-flash-latest, attempt 3…
-  failed: HTTP 503: This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later. []
-Gemini gemini-flash-lite-latest, attempt 1…
-  Gemini picked 16 articles
-   ✓ Is Elizabeth Báthory the most prolific serial killer in history? — historyextra.com
-   ✓ An Italian Farmer Found Some Unknown Seeds in His Attic and, With Noth — smithsonianmag.com
-   ✓ This 11-Foot-Wide, Bowl-Shaped Object Was Found in a Minnesota Cornfie — smithsonianmag.com
-   ✓ U.S. Court Sentences Lender to 15 Years over $76M Ponzi Scheme — occrp.org
-   ✓ EU Sanctions Envoy Pushes for Action Against Rusal’s Irish Alumina Ref — occrp.org
-   ✓ How brain implants turn thoughts into speech — sciencenews.org
-   ✓ Eating too much sugar on antibiotics could squash helpful gut bacteria — sciencenews.org
-   ✓ The world hasn’t become less smelly — we’ve just lost our nasal knowle — bigthink.com
-   ✓ Why the Majority of Israel’s Youngest Voters Identify as Right-Wing — newlinesmag.com
-   ✓ Can Amal Help Lebanon Find a Way Out of War? — newlinesmag.com
-   ✓ The Personal Tragedy That Sent Theodore Roosevelt Into the Dakota Badl — mentalfloss.com
-   ✓ Hazelnut Inn in Chilliwack, British Columbia — atlasobscura.com
-   ✓ The Kuji Amber Museum in Kuji, Japan — atlasobscura.com
-Published 12 articles: 12 Gemini/backup + 0 ChatGPT (2 long reads).
+Run at 2026-10-29 04:54 (Mauritius)
+Mode: chatgpt
+ChatGPT batch 2026-10-29: checking 12 articles…
+   ✓ ChatGPT: How Telepathy Helped Build the Russian Internet — JSTOR Daily
+   ✓ ChatGPT: Did Women and Children Collaborate With Male Artisans to Create China’ — Smithsonian Magazine
+   ✓ ChatGPT: Specialists Removed Three Thrilling, Century-Old Murals From the Walls — Smithsonian Magazine
+   ✓ ChatGPT: China Sentences Ex Anti-Graft Official to Suspended Death for Bribery — OCCRP
+   ✓ ChatGPT: Russian Billionaire Takes Tiny Norwegian News Outlet to Court in Londo — OCCRP
+   ✓ ChatGPT: Lawyers for ‘King of the South’ Try to Chip Away at U.S. Drug Traffick — OCCRP
+   ✓ ChatGPT: How Spiders Spin ‘Silk Dope’ Into Nature’s Toughest Material — Quanta Magazine
+   ✓ ChatGPT: How rising seas transformed dry land into Venice lagoon — The Guardian
+   ✓ ChatGPT: ‘Lie Down and Look Up’ at England’s Most Ornate Ceilings, From Sparkli — Smithsonian Magazine
+   ✓ ChatGPT: Daniel Malikyar shows an Afghanistan you’ve never seen before — Hyphen
+   ✓ ChatGPT: The Surprising Roots of Italy’s Food Festivals — New Lines Magazine
+   ✓ ChatGPT: If You're In the UK or EU, Here's How to Object to Meta's AI Training — 404 Media
+ChatGPT batch 2026-10-29: 12 published, 0 rejected
+Published 12 articles: 0 Gemini/backup + 12 ChatGPT (2 long reads).
