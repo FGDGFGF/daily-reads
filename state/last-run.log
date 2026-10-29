@@ -1,17 +1,28 @@
-Run at 2026-10-29 04:54 (Mauritius)
-Mode: chatgpt
-ChatGPT batch 2026-10-29: checking 12 articles…
-   ✓ ChatGPT: How Telepathy Helped Build the Russian Internet — JSTOR Daily
-   ✓ ChatGPT: Did Women and Children Collaborate With Male Artisans to Create China’ — Smithsonian Magazine
-   ✓ ChatGPT: Specialists Removed Three Thrilling, Century-Old Murals From the Walls — Smithsonian Magazine
-   ✓ ChatGPT: China Sentences Ex Anti-Graft Official to Suspended Death for Bribery — OCCRP
-   ✓ ChatGPT: Russian Billionaire Takes Tiny Norwegian News Outlet to Court in Londo — OCCRP
-   ✓ ChatGPT: Lawyers for ‘King of the South’ Try to Chip Away at U.S. Drug Traffick — OCCRP
-   ✓ ChatGPT: How Spiders Spin ‘Silk Dope’ Into Nature’s Toughest Material — Quanta Magazine
-   ✓ ChatGPT: How rising seas transformed dry land into Venice lagoon — The Guardian
-   ✓ ChatGPT: ‘Lie Down and Look Up’ at England’s Most Ornate Ceilings, From Sparkli — Smithsonian Magazine
-   ✓ ChatGPT: Daniel Malikyar shows an Afghanistan you’ve never seen before — Hyphen
-   ✓ ChatGPT: The Surprising Roots of Italy’s Food Festivals — New Lines Magazine
-   ✓ ChatGPT: If You're In the UK or EU, Here's How to Object to Meta's AI Training — 404 Media
-ChatGPT batch 2026-10-29: 12 published, 0 rejected
-Published 12 articles: 0 Gemini/backup + 12 ChatGPT (2 long reads).
+Run at 2026-10-29 11:45 (Mauritius)
+Mode: full
+Reading 50 publications…
+  44 publications read, 219 fresh candidates
+  couldn't read: amusingplanet.com (HTTPError), bbc.com (HTTPError), restofworld.org (ParseError), theguardian.com (HTTPError), lostislamichistory.com (ParseError), arabnews.com (HTTPError)
+Gemini gemini-flash-latest, attempt 1…
+  failed: HTTP 503: This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later. []
+Gemini gemini-flash-latest, attempt 2…
+  failed: HTTP 503: This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later. []
+Gemini gemini-flash-latest, attempt 3…
+  failed: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+Gemini gemini-flash-lite-latest, attempt 1…
+  Gemini picked 16 articles
+   ✓ The Unbroken 1,400-Year-Long History of Kongo Gumi — thecollector.com
+   ✓ Ancient Italian "Miracle Wheat" Found in Attic Could Help Farmers With — mentalfloss.com
+   ✓ Romans Made Color-Changing Glass With Ancient Nanotechnology. Scientis — smithsonianmag.com
+   ✓ Everyone hates Oxford Street. Will pedestrianisation save it? — theguardian.com
+   ✓ ‘Is This Real?’: A Serbian Investigative Journalist Reflects on the Co — occrp.org
+   ✓ Flávio Bolsonaro Flees Brazil After Election Defeat and Amid Fraud Pro — occrp.org
+   ✓ Fake film deals and emails from top agents: who is behind the explosio — theguardian.com
+   ✓ Why do flamingos dance while they eat? This scientist found out — sciencenews.org
+   ✓ Some Monkeys Seem to Become Germophobic After Living Through a Disease — smithsonianmag.com
+   ✓ These 5 divisions define how far we can go in space — bigthink.com
+   ✓ How Rome’s Urban Shepherds Adapt and Survive — newlinesmag.com
+   ✓ The Syrians Languishing in Israel’s Prisons — newlinesmag.com
+   ✓ Free will: The real casualty of the algorithm — bigthink.com
+   ✓ Robert Louis Stevenson’s Uniquely Uncanny “Dr. Jekyll and Mr. Hyde” — thecollector.com
+Published 12 articles: 12 Gemini/backup + 0 ChatGPT (2 long reads).
