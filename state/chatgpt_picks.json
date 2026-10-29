@@ -603,5 +603,126 @@
     "hook": "Operation Blackout led to nine arrests, dozens of seized devices and an international search for assets tied to online fraud networks.",
     "category": "fraud_investigation",
     "long": false
+  },
+  {
+    "batch_date": "2026-10-29",
+    "title": "How Telepathy Helped Build the Russian Internet",
+    "url": "https://daily.jstor.org/how-telepathy-helped-build-the-russian-internet/",
+    "publisher": "JSTOR Daily",
+    "date": "2026-10-28",
+    "hook": "Soviet parapsychology, utopian fantasies of mind-to-mind communication and the surprising intellectual prehistory of Russia's internet.",
+    "category": "weird_history",
+    "long": true
+  },
+  {
+    "batch_date": "2026-10-29",
+    "title": "Did Women and Children Collaborate With Male Artisans to Create China’s Terra-Cotta Army? Fingerprints Left on the 2,000-Year-Old Clay Warriors May Hold the Answer",
+    "url": "https://www.smithsonianmag.com/smart-news/did-women-and-children-collaborate-with-male-artisans-to-create-chinas-terra-cotta-army-fingerprints-left-on-the-2000-year-old-clay-warriors-may-hold-the-answer-180989767/",
+    "publisher": "Smithsonian Magazine",
+    "date": "2026-10-28",
+    "hook": "Fingerprints on ancient clay soldiers suggest women and children may have helped build the famous terracotta army.",
+    "category": "weird_history",
+    "long": false
+  },
+  {
+    "batch_date": "2026-10-29",
+    "title": "Specialists Removed Three Thrilling, Century-Old Murals From the Walls of a French Monastery. Beneath, They Made ‘a Discovery for the History of Art’",
+    "url": "https://www.smithsonianmag.com/smart-news/specialists-removed-three-thrilling-century-old-murals-from-the-walls-of-a-french-monastery-beneath-they-made-a-discovery-for-the-history-of-art-180989760/",
+    "publisher": "Smithsonian Magazine",
+    "date": "2026-10-27",
+    "hook": "Restorers lifting Odilon Redon's murals found previously unseen drawings the artist had made directly on monastery walls.",
+    "category": "weird_history",
+    "long": false
+  },
+  {
+    "batch_date": "2026-10-29",
+    "title": "China Sentences Ex Anti-Graft Official to Suspended Death for Bribery",
+    "url": "https://www.occrp.org/en/news/china-sentences-ex-anti-graft-official-to-to-suspended-death-for-bribery",
+    "publisher": "OCCRP",
+    "date": "2026-10-28",
+    "hook": "An official tasked with overseeing markets allegedly took $65 million in bribes over decades, exposing a remarkable corruption case.",
+    "category": "fraud_investigation",
+    "long": false
+  },
+  {
+    "batch_date": "2026-10-29",
+    "title": "Russian Billionaire Takes Tiny Norwegian News Outlet to Court in London",
+    "url": "https://www.occrp.org/en/news/russian-billionaire-takes-tiny-norwegian-news-outlet-to-court-in-london",
+    "publisher": "OCCRP",
+    "date": "2026-10-28",
+    "hook": "A fishing tycoon's London lawsuit against a six-person Arctic newsroom raises questions about how wealth can chill investigative reporting.",
+    "category": "fraud_investigation",
+    "long": false
+  },
+  {
+    "batch_date": "2026-10-29",
+    "title": "Lawyers for ‘King of the South’ Try to Chip Away at U.S. Drug Trafficking Case",
+    "url": "https://www.occrp.org/en/news/lawyers-for-king-of-the-south-try-to-chip-away-at-us-drug-trafficking-case",
+    "publisher": "OCCRP",
+    "date": "2026-10-28",
+    "hook": "A disputed seized phone has become a crucial evidentiary battleground in a major transnational trafficking case.",
+    "category": "fraud_investigation",
+    "long": false
+  },
+  {
+    "batch_date": "2026-10-29",
+    "title": "How Spiders Spin ‘Silk Dope’ Into Nature’s Toughest Material",
+    "url": "https://www.quantamagazine.org/how-spiders-spin-silk-dope-into-natures-toughest-material-20261028/",
+    "publisher": "Quanta Magazine",
+    "date": "2026-10-28",
+    "hook": "Inside the spider's silk glands, shapeless proteins briefly form molecular droplets before becoming fibers stronger than steel.",
+    "category": "science_tech",
+    "long": false
+  },
+  {
+    "batch_date": "2026-10-29",
+    "title": "How rising seas transformed dry land into Venice lagoon",
+    "url": "https://www.theguardian.com/science/2026/oct/28/rising-seas-transformed-dry-land-venice-lagoon",
+    "publisher": "The Guardian",
+    "date": "2026-10-28",
+    "hook": "Seismic records reveal that Venice's lagoon was dry land before rising seas rewrote the Adriatic coastline.",
+    "category": "science_tech",
+    "long": false
+  },
+  {
+    "batch_date": "2026-10-29",
+    "title": "‘Lie Down and Look Up’ at England’s Most Ornate Ceilings, From Sparkling Gold-Leaf Stars to Intricate Plaster Designs at Queen Victoria’s Seaside Retreat",
+    "url": "https://www.smithsonianmag.com/smart-news/lie-down-and-look-up-at-englands-most-ornate-ceilings-from-sparkling-gold-leaf-stars-to-intricate-plaster-designs-at-queen-victorias-seaside-retreat-180989770/",
+    "publisher": "Smithsonian Magazine",
+    "date": "2026-10-28",
+    "hook": "Historic English houses are inviting visitors to lie on cushions and study spectacular ceilings they would otherwise overlook.",
+    "category": "culture_ideas",
+    "long": false
+  },
+  {
+    "batch_date": "2026-10-29",
+    "title": "Daniel Malikyar shows an Afghanistan you’ve never seen before",
+    "url": "https://hyphenonline.com/2026/10/22/daniel-malikyar-photographer-afghanistan-new-photobook/",
+    "publisher": "Hyphen",
+    "date": "2026-10-22",
+    "hook": "An Afghan-American photographer returns to document ordinary people, markets and landscapes that rarely appear in war-centered accounts.",
+    "category": "islamic",
+    "long": false
+  },
+  {
+    "batch_date": "2026-10-29",
+    "title": "The Surprising Roots of Italy’s Food Festivals",
+    "url": "https://newlinesmag.com/essays/the-surprising-roots-of-italys-food-festivals/",
+    "publisher": "New Lines Magazine",
+    "date": "2026-04-03",
+    "hook": "Italy's seemingly ancient village food festivals were reshaped by fascists and communists into tools of political identity and belonging.",
+    "category": "rotating",
+    "long": true,
+    "theme": "Food Mysteries & Culinary History"
+  },
+  {
+    "batch_date": "2026-10-29",
+    "title": "If You're In the UK or EU, Here's How to Object to Meta's AI Training",
+    "url": "https://www.404media.co/meta-ai-training-uk-eu/",
+    "publisher": "404 Media",
+    "date": "2026-10-28",
+    "hook": "An unexpectedly useful guide to objecting when Meta's updated business terms allow connected website content to be used for AI training.",
+    "category": "wildcard",
+    "long": false
   }
 ]
