@@ -1,17 +1,24 @@
-Run at 2026-10-30 04:54 (Mauritius)
-Mode: chatgpt
-ChatGPT batch 2026-10-30: checking 12 articles…
-   ✓ ChatGPT: Wonderful Weather: Floods and Foreboding in 17th-Century Britain — The Public Domain Review
-   ✓ ChatGPT: What the Night Before Halloween Is Called Across America, Mapped — Mental Floss
-   ✓ ChatGPT: ‘Gulliver’s Travels’ Turns 300 This Week. Jonathan Swift’s ‘Profound S — Smithsonian Magazine
-   ✓ ChatGPT: New evidence links Singapore palm oil giant to Indonesian deforesters, — ICIJ
-   ✓ ChatGPT: EU Satellite Imagery Delayed Over Gaza and Parts of West Bank by 24-ho — Bellingcat
-   ✓ ChatGPT: “Peak Greenwashing”: Two Bills in Congress Endorse Misleading Recyclin — ProPublica
-   ✓ ChatGPT: The World’s Newest Carnivorous Plant Is a Red Sundew That ‘Death Hugs’ — Smithsonian Magazine
-   ✓ ChatGPT: Seabirds get jet lag, too — and it can throw them a bit off course — Science News
-   ✓ ChatGPT: Sufism Endures in Lebanon’s Marginalized North — New Lines Magazine
-   ✓ ChatGPT: London’s Railway for the Dead — JSTOR Daily
-   ✓ ChatGPT: As Winnie-the-Pooh Turns 100, the Original Stuffed Toy Remains in New  — Smithsonian Magazine
-   ✓ ChatGPT: The Castle in Silves Is Built From a 230-Million-Year-Old World — Atlas Obscura
-ChatGPT batch 2026-10-30: 12 published, 0 rejected
-Published 12 articles: 0 Gemini/backup + 12 ChatGPT (2 long reads).
+Run at 2026-10-30 11:44 (Mauritius)
+Mode: full
+Reading 50 publications…
+  44 publications read, 220 fresh candidates
+  couldn't read: amusingplanet.com (HTTPError), bbc.com (HTTPError), restofworld.org (ParseError), theguardian.com (HTTPError), lostislamichistory.com (ParseError), arabnews.com (HTTPError)
+Gemini gemini-flash-latest, attempt 1…
+  Gemini picked 16 articles
+   ✓ How Jim Morrison Surmounted Tragedy and Skied Down Everest — longreads.com
+   ✓ The Life and Legacy of Maverick General Smedley Butler — thecollector.com
+   ✓ How Did Ernest Perron Rise from Swiss Gardener to One of Iran’s Most P — thecollector.com
+   ✓ The Land Expropriations of the Assad Era Still Hang Over Syria — newlinesmag.com
+   ✓ How Rome’s Urban Shepherds Adapt and Survive — newlinesmag.com
+   ✓ On Japan’s Shinkansen trains, pork buns split reality in two — psyche.co
+   ✓ Rare glob-eyed fish spotted in ocean’s twilight zone — popsci.com
+   ✓ Comets probably didn’t deliver life’s building blocks to Earth — sciencenews.org
+   ✓ How Do You Take a Picture of a Black Hole? — quantamagazine.org
+   ✓ Criminal Probe Launched in South Africa Over Contraband Baobabs Bound  — occrp.org
+   ✓ Hungarian Tycoon’s Firm Funded Pro-Orbán Advertising Agency, Records S — occrp.org
+   ✓ “A Recurring Pattern”: Civilians Paying the Price in Mali’s Drone Camp — bellingcat.com
+   ✓ When scammers target seniors — knowablemagazine.org
+   ✓ The Parisian women who lived and dressed as men — bbc.com
+   ✓ Albrecht Dürer’s Monument to the Vanquished Peasants (1525) — publicdomainreview.org
+   ✓ From a Black Limo With a Silken Armchair to a Bulletproof 'Sardine Can — smithsonianmag.com
+Published 12 articles: 12 Gemini/backup + 0 ChatGPT (2 long reads).
