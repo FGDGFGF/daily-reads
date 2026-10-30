@@ -724,5 +724,126 @@
     "hook": "An unexpectedly useful guide to objecting when Meta's updated business terms allow connected website content to be used for AI training.",
     "category": "wildcard",
     "long": false
+  },
+  {
+    "batch_date": "2026-10-30",
+    "title": "Wonderful Weather: Floods and Foreboding in 17th-Century Britain",
+    "url": "https://publicdomainreview.org/essay/wonderful-weather/",
+    "publisher": "The Public Domain Review",
+    "date": "2026-10-28",
+    "hook": "After the deadly 1607 Bristol Channel flood, pamphleteers sold tales of miraculous escapes, impossible weather and divine warnings—an early-modern ecosystem of disaster news and spin.",
+    "category": "weird_history",
+    "long": true
+  },
+  {
+    "batch_date": "2026-10-30",
+    "title": "What the Night Before Halloween Is Called Across America, Mapped",
+    "url": "https://www.mentalfloss.com/holidays/halloween/what-night-before-halloween-called-mapped",
+    "publisher": "Mental Floss",
+    "date": "2026-10-29",
+    "hook": "Why does Detroit have Devil's Night while New Jersey has Mischief Night? A mischievous little history of regional names, pranks and urban fires.",
+    "category": "weird_history",
+    "long": false
+  },
+  {
+    "batch_date": "2026-10-30",
+    "title": "‘Gulliver’s Travels’ Turns 300 This Week. Jonathan Swift’s ‘Profound Satire of Human Nature’ Is Still Just as Bitingly Relevant",
+    "url": "https://www.smithsonianmag.com/smart-news/gullivers-travels-turns-300-this-week-jonathan-swifts-profound-satrire-of-human-nature-is-still-just-as-bitingly-relevant-180989777/",
+    "publisher": "Smithsonian Magazine",
+    "date": "2026-10-29",
+    "hook": "The book first reached a London publisher via a mysterious cloaked messenger and a fake author; three centuries later, Swift's satire still has teeth.",
+    "category": "weird_history",
+    "long": false
+  },
+  {
+    "batch_date": "2026-10-30",
+    "title": "New evidence links Singapore palm oil giant to Indonesian deforesters, despite denials",
+    "url": "https://www.icij.org/investigations/deforestation-inc/new-evidence-links-singapore-palm-oil-giant-to-indonesian-deforesters-despite-denials/",
+    "publisher": "ICIJ",
+    "date": "2026-10-29",
+    "hook": "Financial records, shipping links and satellite images challenge a palm-oil giant's claims of separation from suppliers accused of clearing Borneo forests.",
+    "category": "fraud_investigation",
+    "long": false
+  },
+  {
+    "batch_date": "2026-10-30",
+    "title": "EU Satellite Imagery Delayed Over Gaza and Parts of West Bank by 24-hours",
+    "url": "https://www.bellingcat.com/news/2026/10/29/eu-satellite-imagery-delayed-over-gaza-and-parts-of-west-bank-by-24-hours/",
+    "publisher": "Bellingcat",
+    "date": "2026-10-29",
+    "hook": "An open-source investigation finds a previously unannounced 24-hour delay in public European satellite imagery, complicating independent verification of events on the ground.",
+    "category": "fraud_investigation",
+    "long": false
+  },
+  {
+    "batch_date": "2026-10-30",
+    "title": "“Peak Greenwashing”: Two Bills in Congress Endorse Misleading Recycling Claims",
+    "url": "https://www.propublica.org/article/plastics-industry-recycling-legislation-congress",
+    "publisher": "ProPublica",
+    "date": "2026-10-29",
+    "hook": "Proposed US recycling-label rules sound consumer-friendly but could preempt tougher state standards, giving the plastics industry's familiar arrows fresh legal cover.",
+    "category": "fraud_investigation",
+    "long": false
+  },
+  {
+    "batch_date": "2026-10-30",
+    "title": "The World’s Newest Carnivorous Plant Is a Red Sundew That ‘Death Hugs’ Its Insect Prey. Its Survival Depends on a Rare and Disappearing Florida Habitat",
+    "url": "https://www.smithsonianmag.com/science-nature/the-worlds-newest-carnivorous-plant-is-a-red-sundew-that-death-hugs-its-insect-prey-its-survival-depends-on-a-rare-and-disappearing-florida-habitat-180989758/",
+    "publisher": "Smithsonian Magazine",
+    "date": "2026-10-29",
+    "hook": "Meet a newly recognized scarlet sundew that curls around insects in Florida's overlooked sinkhole-lake habitats—and the botanists racing to protect it.",
+    "category": "science_tech",
+    "long": true
+  },
+  {
+    "batch_date": "2026-10-30",
+    "title": "Seabirds get jet lag, too — and it can throw them a bit off course",
+    "url": "https://www.sciencenews.org/article/seabird-jet-lag-navigation-off-course",
+    "publisher": "Science News",
+    "date": "2026-10-29",
+    "hook": "Twenty years of GPS tracks reveal that rapid east-west flights can scramble seabirds' internal sun compasses, nudging them off course even near familiar shores.",
+    "category": "science_tech",
+    "long": false
+  },
+  {
+    "batch_date": "2026-10-30",
+    "title": "Sufism Endures in Lebanon’s Marginalized North",
+    "url": "https://newlinesmag.com/spotlight/sufism-endures-in-lebanons-marginalized-north/",
+    "publisher": "New Lines Magazine",
+    "date": "2025-09-11",
+    "hook": "In Akkar's villages, centuries-old Sufi traditions endure through drumming, chanting and communal celebrations despite their retreat from Lebanon's cities.",
+    "category": "islamic",
+    "long": false
+  },
+  {
+    "batch_date": "2026-10-30",
+    "title": "London’s Railway for the Dead",
+    "url": "https://daily.jstor.org/londons-railway-for-the-dead/",
+    "publisher": "JSTOR Daily",
+    "date": "2026-10-29",
+    "hook": "Victorian London once ran a dedicated funeral train to a vast out-of-town cemetery—with different tickets and stations for the living and the dead.",
+    "category": "rotating",
+    "theme": "Hidden Worlds & Forgotten Places",
+    "long": false
+  },
+  {
+    "batch_date": "2026-10-30",
+    "title": "As Winnie-the-Pooh Turns 100, the Original Stuffed Toy Remains in New York. Will the Silly Old Bear Ever Return to Britain?",
+    "url": "https://www.smithsonianmag.com/smart-news/as-winnie-the-pooh-turns-100-the-original-stuffed-toy-remains-in-new-york-will-the-silly-old-bear-ever-return-to-britain-180989775/",
+    "publisher": "Smithsonian Magazine",
+    "date": "2026-10-29",
+    "hook": "A teddy bear's centenary sparks a surprisingly diplomatic tug-of-war over the real Pooh and his friends, now treasured residents of a New York library.",
+    "category": "culture_ideas",
+    "long": false
+  },
+  {
+    "batch_date": "2026-10-30",
+    "title": "The Castle in Silves Is Built From a 230-Million-Year-Old World",
+    "url": "https://www.atlasobscura.com/articles/posts/the-castle-in-silves-is-built-from-a-230-million-year-old-world",
+    "publisher": "Atlas Obscura",
+    "date": "2026-10-19",
+    "hook": "The red sandstone in a Portuguese castle is also the rock a field team is cracking open for Triassic fossils—a dispatch straight from the dig.",
+    "category": "wildcard",
+    "long": false
   }
 ]
