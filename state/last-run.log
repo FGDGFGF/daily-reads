@@ -1,17 +1,24 @@
-Run at 2026-10-31 04:50 (Mauritius)
-Mode: chatgpt
-ChatGPT batch 2026-10-31: checking 12 articles…
-   ✓ ChatGPT: Crafted From Bone, This 2,800-Year-Old Flute Unearthed in Troy May Hav — Smithsonian Magazine
-   ✓ ChatGPT: The Rise and Fall of Shanghai’s “Sing-Song Girls” — JSTOR Daily
-   ✓ ChatGPT: The Werewolf Trials That Predated the Salem Witch Trials By 200 Years — Mental Floss
-   ✓ ChatGPT: How a Secret Vote by U.N. Scientists Legitimized Carbon Capture and Sk — ProPublica
-   ✓ ChatGPT: Proton’s CEO Cancels AI ‘Re-Interviews’ — 404 Media
-   ✓ ChatGPT: Philippines halts U.S. e-waste imports but struggles to police customs — Mongabay
-   ✓ ChatGPT: A New Map of ‘Empty’ Space Challenges a Tranquil Picture of the Galaxy — Quanta Magazine
-   ✓ ChatGPT: A striking Mars cloud may be born from surprising physics — Science News
-   ✓ ChatGPT: Rollerena: New York’s Fairy Godmother — JSTOR Daily
-   ✓ ChatGPT: The Somali Village revisits Bradford’s forgotten colonial exhibition — Hyphen
-   ✓ ChatGPT: After Botswana, Nepal tries artificial scent marking to fend big cats  — Mongabay
-   ✓ ChatGPT: ‘Wake Up Call:’ Fanfiction Writers and Readers React to AO3 Outage — 404 Media
-ChatGPT batch 2026-10-31: 12 published, 0 rejected
-Published 12 articles: 0 Gemini/backup + 12 ChatGPT (2 long reads).
+Run at 2026-10-31 11:31 (Mauritius)
+Mode: full
+Reading 50 publications…
+  42 publications read, 207 fresh candidates
+  couldn't read: amusingplanet.com (HTTPError), bbc.com (HTTPError), texasmonthly.com (HTTPError), restofworld.org (ParseError), theguardian.com (HTTPError), lithub.com (ParseError), lostislamichistory.com (ParseError), arabnews.com (HTTPError)
+Gemini gemini-flash-latest, attempt 1…
+  Gemini picked 16 articles
+   ✓ Was this US president poisoned? The truth about Zachary Taylor’s ‘cher — historyextra.com
+   ✓ The Parisian women who lived and dressed as men — bbc.com
+   ✓ In 1841, flesh and blood rained down in Tennessee — popsci.com
+   ✓ Federal and State Officials Ramp Up Scrutiny of DraftKings, Other Spor — propublica.org
+   ✓ World’s largest health appointment platform dumps its web trackers aft — themarkup.org
+   ✓ Even for Desperate Restaurants, Fake Reviews Just Aren’t Worth It — eater.com
+   ✓ Defanging Laws and Bringing Home Billions: How Trump Has Rewritten the — occrp.org
+   ✓ This Rosy Stone Spotted in the Sahara Turned Out to Be a 4.1-Billion-Y — smithsonianmag.com
+   ✓ From impulse purchase to pocket studio: The M-Vave FM-1 — arstechnica.com
+   ✓ Book Review: The Bizarre Frontiers of Product Testing — undark.org
+   ✓ In praise of the dilettante — aeon.co
+   ✓ The selective solidarity at the heart of India’s voter protests — aljazeera.com
+   ✓ Yemen’s War Has Turned Facebook Into a Mourning Wall — newlinesmag.com
+   ✓ Road Trip at the Borderland — longreads.com
+   ✓ Where Is England's Oldest Pub? An Archaeologist Drilled Into 600-Year- — smithsonianmag.com
+   ✓ Why are Thai restaurants hidden in London pubs? — bbc.com
+Published 12 articles: 12 Gemini/backup + 0 ChatGPT (2 long reads).
