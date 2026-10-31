@@ -1,24 +1,17 @@
-Run at 2026-10-30 11:44 (Mauritius)
-Mode: full
-Reading 50 publications…
-  44 publications read, 220 fresh candidates
-  couldn't read: amusingplanet.com (HTTPError), bbc.com (HTTPError), restofworld.org (ParseError), theguardian.com (HTTPError), lostislamichistory.com (ParseError), arabnews.com (HTTPError)
-Gemini gemini-flash-latest, attempt 1…
-  Gemini picked 16 articles
-   ✓ How Jim Morrison Surmounted Tragedy and Skied Down Everest — longreads.com
-   ✓ The Life and Legacy of Maverick General Smedley Butler — thecollector.com
-   ✓ How Did Ernest Perron Rise from Swiss Gardener to One of Iran’s Most P — thecollector.com
-   ✓ The Land Expropriations of the Assad Era Still Hang Over Syria — newlinesmag.com
-   ✓ How Rome’s Urban Shepherds Adapt and Survive — newlinesmag.com
-   ✓ On Japan’s Shinkansen trains, pork buns split reality in two — psyche.co
-   ✓ Rare glob-eyed fish spotted in ocean’s twilight zone — popsci.com
-   ✓ Comets probably didn’t deliver life’s building blocks to Earth — sciencenews.org
-   ✓ How Do You Take a Picture of a Black Hole? — quantamagazine.org
-   ✓ Criminal Probe Launched in South Africa Over Contraband Baobabs Bound  — occrp.org
-   ✓ Hungarian Tycoon’s Firm Funded Pro-Orbán Advertising Agency, Records S — occrp.org
-   ✓ “A Recurring Pattern”: Civilians Paying the Price in Mali’s Drone Camp — bellingcat.com
-   ✓ When scammers target seniors — knowablemagazine.org
-   ✓ The Parisian women who lived and dressed as men — bbc.com
-   ✓ Albrecht Dürer’s Monument to the Vanquished Peasants (1525) — publicdomainreview.org
-   ✓ From a Black Limo With a Silken Armchair to a Bulletproof 'Sardine Can — smithsonianmag.com
-Published 12 articles: 12 Gemini/backup + 0 ChatGPT (2 long reads).
+Run at 2026-10-31 04:50 (Mauritius)
+Mode: chatgpt
+ChatGPT batch 2026-10-31: checking 12 articles…
+   ✓ ChatGPT: Crafted From Bone, This 2,800-Year-Old Flute Unearthed in Troy May Hav — Smithsonian Magazine
+   ✓ ChatGPT: The Rise and Fall of Shanghai’s “Sing-Song Girls” — JSTOR Daily
+   ✓ ChatGPT: The Werewolf Trials That Predated the Salem Witch Trials By 200 Years — Mental Floss
+   ✓ ChatGPT: How a Secret Vote by U.N. Scientists Legitimized Carbon Capture and Sk — ProPublica
+   ✓ ChatGPT: Proton’s CEO Cancels AI ‘Re-Interviews’ — 404 Media
+   ✓ ChatGPT: Philippines halts U.S. e-waste imports but struggles to police customs — Mongabay
+   ✓ ChatGPT: A New Map of ‘Empty’ Space Challenges a Tranquil Picture of the Galaxy — Quanta Magazine
+   ✓ ChatGPT: A striking Mars cloud may be born from surprising physics — Science News
+   ✓ ChatGPT: Rollerena: New York’s Fairy Godmother — JSTOR Daily
+   ✓ ChatGPT: The Somali Village revisits Bradford’s forgotten colonial exhibition — Hyphen
+   ✓ ChatGPT: After Botswana, Nepal tries artificial scent marking to fend big cats  — Mongabay
+   ✓ ChatGPT: ‘Wake Up Call:’ Fanfiction Writers and Readers React to AO3 Outage — 404 Media
+ChatGPT batch 2026-10-31: 12 published, 0 rejected
+Published 12 articles: 0 Gemini/backup + 12 ChatGPT (2 long reads).
