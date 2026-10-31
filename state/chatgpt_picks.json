@@ -845,5 +845,126 @@
     "hook": "The red sandstone in a Portuguese castle is also the rock a field team is cracking open for Triassic fossils—a dispatch straight from the dig.",
     "category": "wildcard",
     "long": false
+  },
+  {
+    "batch_date": "2026-10-31",
+    "title": "Crafted From Bone, This 2,800-Year-Old Flute Unearthed in Troy May Have Been Played Around the Time That Homer Composed ‘The Iliad’ and ‘The Odyssey’",
+    "url": "https://www.smithsonianmag.com/smart-news/crafted-from-bone-this-2800-year-old-flute-unearthed-in-troy-may-have-been-played-around-the-time-that-homer-composed-the-iliad-and-the-odyssey-180989792/",
+    "publisher": "Smithsonian Magazine",
+    "date": "2026-10-30",
+    "hook": "A bone flute recovered at Troy is the first instrument found there in more than 150 years of excavation—and it dates to roughly the era in which Homer composed his epics.",
+    "category": "weird_history",
+    "long": false
+  },
+  {
+    "batch_date": "2026-10-31",
+    "title": "The Rise and Fall of Shanghai’s “Sing-Song Girls”",
+    "url": "https://daily.jstor.org/the-rise-and-fall-of-shanghais-sing-song-girls/",
+    "publisher": "JSTOR Daily",
+    "date": "2026-10-30",
+    "hook": "Old Shanghai's celebrity entertainers occupied a complicated world of performance, prestige and paid intimacy. How did their status change as the city's economy transformed?",
+    "category": "weird_history",
+    "long": false
+  },
+  {
+    "batch_date": "2026-10-31",
+    "title": "The Werewolf Trials That Predated the Salem Witch Trials By 200 Years",
+    "url": "https://www.mentalfloss.com/history/werewolf-trials-europe",
+    "publisher": "Mental Floss",
+    "date": "2026-10-09",
+    "hook": "Centuries before Salem, European courts tried people for allegedly turning into wolves; the surviving cases reveal tortured confessions, superstition and one self-declared 'Hound of God.'",
+    "category": "weird_history",
+    "long": false
+  },
+  {
+    "batch_date": "2026-10-31",
+    "title": "How a Secret Vote by U.N. Scientists Legitimized Carbon Capture and Skewed Decades of Climate Policy",
+    "url": "https://www.propublica.org/article/carbon-capture-storage-fossil-fuel-sally-benson",
+    "publisher": "ProPublica",
+    "date": "2026-10-30",
+    "hook": "[Long read] An investigation traces how a disputed 2005 scientific judgment helped enshrine carbon storage in global climate planning—despite decades of underperforming projects.",
+    "category": "fraud_investigation",
+    "long": true
+  },
+  {
+    "batch_date": "2026-10-31",
+    "title": "Proton’s CEO Cancels AI ‘Re-Interviews’",
+    "url": "https://www.404media.co/protons-ceo-cancels-ai-re-interviews/",
+    "publisher": "404 Media",
+    "date": "2026-10-30",
+    "hook": "After employees described a culture of fear around AI-generated code and security, leaked meeting audio reveals Proton's CEO backing down on compulsory AI-use 're-interviews.'",
+    "category": "fraud_investigation",
+    "long": false
+  },
+  {
+    "batch_date": "2026-10-31",
+    "title": "Philippines halts U.S. e-waste imports but struggles to police customs-free zones",
+    "url": "https://news.mongabay.com/2026/10/philippines-halts-u-s-e-waste-imports-but-struggles-to-police-customs-free-zones/",
+    "publisher": "Mongabay",
+    "date": "2026-10-30",
+    "hook": "The Philippines has stopped U.S. electronic-waste shipments, but a court ruling may leave a free-trade port beyond normal customs checks—a revealing enforcement loophole.",
+    "category": "fraud_investigation",
+    "long": false
+  },
+  {
+    "batch_date": "2026-10-31",
+    "title": "A New Map of ‘Empty’ Space Challenges a Tranquil Picture of the Galaxy",
+    "url": "https://www.quantamagazine.org/a-new-map-of-empty-space-challenges-a-tranquil-picture-of-the-galaxy-20261030/",
+    "publisher": "Quanta Magazine",
+    "date": "2026-10-30",
+    "hook": "[Long read] New three-dimensional maps suggest that 41% of nearby interstellar gas sits in a supposedly unstable state, challenging a textbook picture of how stars form.",
+    "category": "science_tech",
+    "long": true
+  },
+  {
+    "batch_date": "2026-10-31",
+    "title": "A striking Mars cloud may be born from surprising physics",
+    "url": "https://www.sciencenews.org/article/mars-cloud-homogenous-nucleation",
+    "publisher": "Science News",
+    "date": "2026-10-29",
+    "hook": "A ribbon of ice cloud stretches across Mars every spring; a new model suggests it forms without the dust particles normally needed to seed clouds.",
+    "category": "science_tech",
+    "long": false
+  },
+  {
+    "batch_date": "2026-10-31",
+    "title": "Rollerena: New York’s Fairy Godmother",
+    "url": "https://daily.jstor.org/rollerena-new-yorks-fairy-godmother/",
+    "publisher": "JSTOR Daily",
+    "date": "2026-06-24",
+    "hook": "A newly digitized archive follows a roller-skating New York icon whose glittering public performances became an unexpected form of queer activism and community care.",
+    "category": "culture_ideas",
+    "long": false
+  },
+  {
+    "batch_date": "2026-10-31",
+    "title": "The Somali Village revisits Bradford’s forgotten colonial exhibition",
+    "url": "https://hyphenonline.com/2026/05/15/the-somali-village-bradford-great-exhibition-colonialism/",
+    "publisher": "Hyphen",
+    "date": "2026-05-15",
+    "hook": "In 1904, Somali families lived, worked and worshipped in a staged 'village' for paying British crowds. New research recovers their protests, Islamic practices and individual lives.",
+    "category": "islamic",
+    "long": false
+  },
+  {
+    "batch_date": "2026-10-31",
+    "title": "After Botswana, Nepal tries artificial scent marking to fend big cats off villages",
+    "url": "https://news.mongabay.com/2026/10/after-botswana-nepal-tries-artificial-scent-marking-to-fend-big-cats-off-villages/",
+    "publisher": "Mongabay",
+    "date": "2026-10-30",
+    "hook": "Can synthetic tiger and leopard scent act as an invisible fence around villages? Camera traps capture promising U-turns, but researchers caution that some scents attract predators instead.",
+    "category": "rotating",
+    "theme": "Nature's Strangest Stories",
+    "long": false
+  },
+  {
+    "batch_date": "2026-10-31",
+    "title": "‘Wake Up Call:’ Fanfiction Writers and Readers React to AO3 Outage",
+    "url": "https://www.404media.co/ao3-down-outage-reactions/",
+    "publisher": "404 Media",
+    "date": "2026-10-30",
+    "hook": "A weeks-long outage at the fanfiction archive AO3 reveals the strange, fiercely loyal culture of its writers—and why comments, kudos and tagging mean so much.",
+    "category": "wildcard",
+    "long": false
   }
 ]
