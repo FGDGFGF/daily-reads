@@ -1,24 +1,26 @@
-Run at 2026-11-01 12:07 (Mauritius)
+Run at 2026-11-01 23:34 (Mauritius)
 Mode: full
 Reading 50 publications…
-  43 publications read, 212 fresh candidates
+  43 publications read, 209 fresh candidates
   couldn't read: amusingplanet.com (HTTPError), bbc.com (HTTPError), texasmonthly.com (HTTPError), restofworld.org (HTTPError), theguardian.com (HTTPError), lostislamichistory.com (ParseError), arabnews.com (HTTPError)
 Gemini gemini-flash-latest, attempt 1…
+  failed: HTTPSConnectionPool(host='generativelanguage.googleapis.com', port=443): Read timed out. (read timeout=300)
+Gemini gemini-flash-latest, attempt 2…
   Gemini picked 16 articles
-   ✓ People Used to Drink Wine Made From Ground-Up Mummies. Now, Scientists — 404media.co
-   ✓ Why Xerxes Dug a Canal Across the Athos Peninsula — thecollector.com
-   ✓ This lesbian Lithuanian princess went to war with Rasputin – but that' — historyextra.com
-   ✓ Meta shocked by $25B fine after N.M. refused to join multistate settle — arstechnica.com
-   ✓ Iraqi MP Gets Six Years, $20M Fine for Oil Graft — occrp.org
-   ✓ Alleged Turkish Crime Boss Assassinated Inside Spanish Hospital Room — occrp.org
-   ✓ Top U.S. Health Official Backed a Medication Policy Shift That Benefit — propublica.org
-   ✓ The 3 great origin mysteries: The universe, life, and consciousness — bigthink.com
-   ✓ Book Review: The Bizarre Frontiers of Product Testing — undark.org
-   ✓ Crows Can Make Decisions Based on Visual Information at Lightning Spee — smithsonianmag.com
-   ✓ Thirteen Years of Harassment, and Three Minutes to Close Mada Masr — newlinesmag.com
-   ✓ Sudan As A Mirror For Today’s World — noemamag.com
-   ✓ Road Trip at the Borderland — longreads.com
-   ✓ The new trail leading to Ireland's 'Gate to Hell' — bbc.com
-   ✓ Archaeologists at This Ancient Maya Metropolis in the Forest of Belize — smithsonianmag.com
-   ✓ Why are Thai restaurants hidden in London pubs? — bbc.com
+   ✓ Why did Lenin turn into a mushroom? Inside the bizarre prank that fool — historyextra.com
+   ✓ Albrecht Dürer’s Monument to the Vanquished Peasants (1525) — publicdomainreview.org
+   ✓ How Viking Berserkers Used Rituals to Prepare for Battle — thecollector.com
+   ✓ How Cleta Mitchell Turned Trump’s “Big Lie” Into a Movement — propublica.org
+   ✓ MyChart and a major hospital said I could opt out of sharing my health — themarkup.org
+   ✓ The AI bubble could expose your deepest secrets — bbc.com
+   ✓ How IRL Story Lab is Reimagining What Journalism Can Do — occrp.org
+   ✓ Traveling Route 66 in the Age of Data Centers — longreads.com
+   ✓ On the Weather Radar: Cloudy With a Chance of Birds — undark.org
+   ✓ Was dark matter first discovered by Fritz Zwicky or Vera Rubin? — bigthink.com
+   ✓ Stop trying to find yourself — bigthink.com
+   ✓ Fear and Unity Fueled a Historic Turnout Among Israel’s Palestinian Vo — newlinesmag.com
+   ✓ Inside the Syrian Village Hit by Jordan’s Airstrikes — newlinesmag.com
+   ✓ We’re in the Era of the $200 Cup of Coffee — eater.com
+   ✓ Putrid blood shoots from these lizards’ eyes — popsci.com
+   ✓ How humans shared a world with child-eating birds — bbc.com
 Published 12 articles: 12 Gemini/backup + 0 ChatGPT (2 long reads).
