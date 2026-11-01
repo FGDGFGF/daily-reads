@@ -1,17 +1,24 @@
-Run at 2026-11-01 04:51 (Mauritius)
-Mode: chatgpt
-ChatGPT batch 2026-11-01: checking 12 articles…
-   ✓ ChatGPT: A Dog Left a Paw Print on This Mud Brick 4,000 Years Ago. Archaeologis — Smithsonian Magazine
-   ✓ ChatGPT: 8 Gargoyles and Grotesques Hiding in Plain Sight — Atlas Obscura
-   ✓ ChatGPT: Harry Houdini Died 100 Years Ago This Halloween: Was He Really Killed  — Open Culture
-   ✓ ChatGPT: Convicted Belgian Cocaine Boss Poured Millions Into Luxury Dubai Prope — OCCRP
-   ✓ ChatGPT: Sexual Assaults on Campus No Longer Scrutinized as Closely Under Trump — ProPublica
-   ✓ ChatGPT: Electrocutions, disease and no pay: how workers risk exploitation in E — The Guardian
-   ✓ ChatGPT: Some of the world’s biggest bats are getting smaller — Science News
-   ✓ ChatGPT: Turning a solar power system into its own backup — Ars Technica
-   ✓ ChatGPT: The Early Years of Electronic Pop: The Moog Craze, Psychedelic Experim — Open Culture
-   ✓ ChatGPT: How Muslim dance culture stretches across civilisations — Hyphen
-   ✓ ChatGPT: Researchers Claimed a Blurry Object on Apple Maps Was ‘Very Likely’ Am — Smithsonian Magazine
-   ✓ ChatGPT: Magic by Return of Post: How Mail Order Delivered the Occult — The Public Domain Review
-ChatGPT batch 2026-11-01: 12 published, 0 rejected
-Published 12 articles: 0 Gemini/backup + 12 ChatGPT (2 long reads).
+Run at 2026-11-01 12:07 (Mauritius)
+Mode: full
+Reading 50 publications…
+  43 publications read, 212 fresh candidates
+  couldn't read: amusingplanet.com (HTTPError), bbc.com (HTTPError), texasmonthly.com (HTTPError), restofworld.org (HTTPError), theguardian.com (HTTPError), lostislamichistory.com (ParseError), arabnews.com (HTTPError)
+Gemini gemini-flash-latest, attempt 1…
+  Gemini picked 16 articles
+   ✓ People Used to Drink Wine Made From Ground-Up Mummies. Now, Scientists — 404media.co
+   ✓ Why Xerxes Dug a Canal Across the Athos Peninsula — thecollector.com
+   ✓ This lesbian Lithuanian princess went to war with Rasputin – but that' — historyextra.com
+   ✓ Meta shocked by $25B fine after N.M. refused to join multistate settle — arstechnica.com
+   ✓ Iraqi MP Gets Six Years, $20M Fine for Oil Graft — occrp.org
+   ✓ Alleged Turkish Crime Boss Assassinated Inside Spanish Hospital Room — occrp.org
+   ✓ Top U.S. Health Official Backed a Medication Policy Shift That Benefit — propublica.org
+   ✓ The 3 great origin mysteries: The universe, life, and consciousness — bigthink.com
+   ✓ Book Review: The Bizarre Frontiers of Product Testing — undark.org
+   ✓ Crows Can Make Decisions Based on Visual Information at Lightning Spee — smithsonianmag.com
+   ✓ Thirteen Years of Harassment, and Three Minutes to Close Mada Masr — newlinesmag.com
+   ✓ Sudan As A Mirror For Today’s World — noemamag.com
+   ✓ Road Trip at the Borderland — longreads.com
+   ✓ The new trail leading to Ireland's 'Gate to Hell' — bbc.com
+   ✓ Archaeologists at This Ancient Maya Metropolis in the Forest of Belize — smithsonianmag.com
+   ✓ Why are Thai restaurants hidden in London pubs? — bbc.com
+Published 12 articles: 12 Gemini/backup + 0 ChatGPT (2 long reads).
