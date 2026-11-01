@@ -966,5 +966,126 @@
     "hook": "A weeks-long outage at the fanfiction archive AO3 reveals the strange, fiercely loyal culture of its writers—and why comments, kudos and tagging mean so much.",
     "category": "wildcard",
     "long": false
+  },
+  {
+    "batch_date": "2026-11-01",
+    "title": "A Dog Left a Paw Print on This Mud Brick 4,000 Years Ago. Archaeologists Discovered It in the Rubble of a Bronze Age House",
+    "url": "https://www.smithsonianmag.com/smart-news/a-dog-left-a-paw-print-on-this-mud-brick-4000-years-ago-archaeologists-discovered-it-in-the-rubble-of-a-bronze-age-house-180989785/",
+    "publisher": "Smithsonian Magazine",
+    "date": "2026-10-30",
+    "hook": "A Bronze Age house in western Turkey burned down, but a mud brick preserved an unexpectedly intimate trace: the paw of a dog that stepped on it while it dried.",
+    "category": "weird_history",
+    "long": false
+  },
+  {
+    "batch_date": "2026-11-01",
+    "title": "8 Gargoyles and Grotesques Hiding in Plain Sight",
+    "url": "https://www.atlasobscura.com/articles/strange-gargoyles-and-grotesques-around-the-world",
+    "publisher": "Atlas Obscura",
+    "date": "2026-10-30",
+    "hook": "From a Darth Vader carving on Washington's National Cathedral to a mysterious vampire rabbit in Newcastle, architecture hides some wonderfully peculiar faces.",
+    "category": "weird_history",
+    "long": false
+  },
+  {
+    "batch_date": "2026-11-01",
+    "title": "Harry Houdini Died 100 Years Ago This Halloween: Was He Really Killed by a Punch to the Stomach?",
+    "url": "https://www.openculture.com/2026/10/harry-houdini-died-100-years-ago-this-halloween.html",
+    "publisher": "Open Culture",
+    "date": "2026-10-26",
+    "hook": "A new investigation questions the famous story of Houdini's fatal punch, proposing a different cause of death and even a different date. The theory remains contested.",
+    "category": "weird_history",
+    "long": false
+  },
+  {
+    "batch_date": "2026-11-01",
+    "title": "Convicted Belgian Cocaine Boss Poured Millions Into Luxury Dubai Properties",
+    "url": "https://www.occrp.org/en/project/dubai-unlocked/convicted-belgian-cocaine-boss-poured-millions-into-luxury-dubai-properties",
+    "publisher": "OCCRP",
+    "date": "2026-10-14",
+    "hook": "Leaked property records show how a convicted Belgian drug trafficker bought six luxury Dubai homes worth $6.2 million while authorities struggled to locate his criminal proceeds.",
+    "category": "fraud_investigation",
+    "long": false
+  },
+  {
+    "batch_date": "2026-11-01",
+    "title": "Sexual Assaults on Campus No Longer Scrutinized as Closely Under Trump’s Education Department",
+    "url": "https://www.propublica.org/article/civil-rights-office-education-department-investigations",
+    "publisher": "ProPublica",
+    "date": "2026-10-22",
+    "hook": "After suing for records that were once public, reporters built a searchable database exposing a sharp decline in federal school civil-rights investigations, including sexual-violence cases.",
+    "category": "fraud_investigation",
+    "long": false
+  },
+  {
+    "batch_date": "2026-11-01",
+    "title": "Electrocutions, disease and no pay: how workers risk exploitation in Europe’s datacentres",
+    "url": "https://www.theguardian.com/global-development/2026/oct/30/electrocutions-disease-and-no-pay-how-workers-risk-exploitation-in-europes-datacentres",
+    "publisher": "The Guardian",
+    "date": "2026-10-30",
+    "hook": "[Long read] A five-month cross-border investigation uncovers electrical injuries, crowded housing, infectious disease and wage disputes among migrant workers building Europe's AI datacentres.",
+    "category": "fraud_investigation",
+    "long": true
+  },
+  {
+    "batch_date": "2026-11-01",
+    "title": "Some of the world’s biggest bats are getting smaller",
+    "url": "https://www.sciencenews.org/article/bats-get-smaller-madagascan-flying-fox",
+    "publisher": "Science News",
+    "date": "2026-10-29",
+    "hook": "Museum specimens reveal that Madagascar's giant fruit bats have smaller skulls than they did before the 1980s; researchers suspect commercial hunting may be selecting against larger animals.",
+    "category": "science_tech",
+    "long": false
+  },
+  {
+    "batch_date": "2026-11-01",
+    "title": "Turning a solar power system into its own backup",
+    "url": "https://arstechnica.com/science/2026/10/turning-a-solar-power-system-into-its-own-backup/",
+    "publisher": "Ars Technica",
+    "date": "2026-10-29",
+    "hook": "A small solar-thermal startup plans to share generating hardware between stored solar heat and fuel backup, potentially sidestepping an expensive problem with round-the-clock power.",
+    "category": "science_tech",
+    "long": false
+  },
+  {
+    "batch_date": "2026-11-01",
+    "title": "The Early Years of Electronic Pop: The Moog Craze, Psychedelic Experiments, and More",
+    "url": "https://www.openculture.com/2026/10/the-early-years-of-electronic-pop-the-moog-craze-psychedelic-experiments-and-more.html",
+    "publisher": "Open Culture",
+    "date": "2026-10-29",
+    "hook": "Before synthesizers became pop staples, Wendy Carlos's Switched-On Bach sparked an eccentric wave of electronic albums, space-age sounds and musical experiments.",
+    "category": "culture_ideas",
+    "long": false
+  },
+  {
+    "batch_date": "2026-11-01",
+    "title": "How Muslim dance culture stretches across civilisations",
+    "url": "https://hyphenonline.com/2026/01/06/nadia-khan-author-book-muslim-women-dance-histories-culture-silk-road/",
+    "publisher": "Hyphen",
+    "date": "2026-01-06",
+    "hook": "[Archive discovery] A cultural historian traces overlooked dance traditions across Muslim societies, from Tajik eagle dances and Philippine singkil to women's Sufi whirling.",
+    "category": "islamic",
+    "long": false
+  },
+  {
+    "batch_date": "2026-11-01",
+    "title": "Researchers Claimed a Blurry Object on Apple Maps Was ‘Very Likely’ Amelia Earhart’s Missing Plane. It Turned Out to Be a ‘Collection of Large Trees’",
+    "url": "https://www.smithsonianmag.com/smart-news/researchers-claimed-a-blurry-object-on-apple-maps-was-very-likely-amelia-earharts-missing-plane-it-turned-out-to-be-a-collection-of-large-trees-180989734/",
+    "publisher": "Smithsonian Magazine",
+    "date": "2026-10-22",
+    "hook": "A 17-person expedition set out to investigate a satellite-image 'wing' near a Pacific atoll. It found trees instead; Earhart's disappearance remains unsolved.",
+    "category": "rotating",
+    "theme": "Unsolved Mysteries & Historical Puzzles",
+    "long": false
+  },
+  {
+    "batch_date": "2026-11-01",
+    "title": "Magic by Return of Post: How Mail Order Delivered the Occult",
+    "url": "https://publicdomainreview.org/essay/magic-by-return-of-post/",
+    "publisher": "The Public Domain Review",
+    "date": "2026-04-22",
+    "hook": "[Long read; archive discovery] How cheap printing, the postal service and audacious entrepreneurs turned esoteric teachings into a booming mail-order industry, sometimes crossing into outright fraud.",
+    "category": "wildcard",
+    "long": true
   }
 ]
