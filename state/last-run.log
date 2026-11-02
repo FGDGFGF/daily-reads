@@ -1,17 +1,24 @@
-Run at 2026-11-02 04:53 (Mauritius)
-Mode: chatgpt
-ChatGPT batch 2026-11-02: checking 12 articles…
-   ✓ ChatGPT: The Bizarre Pay-Per-View Séance That Claimed to Contact Princess Diana — Mental Floss
-   ✓ ChatGPT: The Mysterious Case of Pancho Villa’s Missing Skull — Mental Floss
-   ✓ ChatGPT: Photographs of Atlantic City Sand Sculpture (ca. 1880–1920) — The Public Domain Review
-   ✓ ChatGPT: A Kidney Transplant, Ignored Advice, and a President’s Surprise Pick t — OCCRP
-   ✓ ChatGPT: Detroit Could Block Billionaire-Owned Concrete Plant From Further Neig — ProPublica
-   ✓ ChatGPT: He saw an abandoned trailer. Then, he uncovered a surveillance network — The Markup
-   ✓ ChatGPT: These tiny snakes cartwheel to escape danger — Science News
-   ✓ ChatGPT: Is ‘Attention’ the Essence of Intelligence? — Quanta Magazine
-   ✓ ChatGPT: The Hidden Grief of American Musicals — JSTOR Daily
-   ✓ ChatGPT: ‘We need to take back that pride’: the Muslim drag artist teaching Isl — Hyphen
-   ✓ ChatGPT: Road Trip at the Borderland — Longreads
-   ✓ ChatGPT: Hoosier Cabinets and the Dream of Efficiency — JSTOR Daily
-ChatGPT batch 2026-11-02: 12 published, 0 rejected
-Published 12 articles: 0 Gemini/backup + 12 ChatGPT (2 long reads).
+Run at 2026-11-02 12:17 (Mauritius)
+Mode: full
+Reading 50 publications…
+  43 publications read, 208 fresh candidates
+  couldn't read: amusingplanet.com (HTTPError), bbc.com (HTTPError), texasmonthly.com (HTTPError), restofworld.org (HTTPError), theguardian.com (HTTPError), lostislamichistory.com (ParseError), arabnews.com (HTTPError)
+Gemini gemini-flash-latest, attempt 1…
+  Gemini picked 16 articles
+   ✓ RFK Jr is wrong about the Arab world — aljazeera.com
+   ✓ Thirteen Years of Harassment, and Three Minutes to Close Mada Masr — newlinesmag.com
+   ✓ The bookshelf builder — psyche.co
+   ✓ How Did Katherine Johnson Break Barriers to Land the First Humans on t — thecollector.com
+   ✓ Love with nowhere to go — aeon.co
+   ✓ The Ledger and the Blade — longreads.com
+   ✓ Amazon mining boss wanted by Brazil for sheltering Jair Bolsonaro’s sp — icij.org
+   ✓ ‘Students Have Won’: Overwhelming Turnout Shatters Serbia’s Entrenched — occrp.org
+   ✓ Satellite Images Show Extent of Trump Admin’s Tree-Felling at DC Golf  — bellingcat.com
+   ✓ Widespread PHP Flaw May Cause Many Site Outages Today — krebsonsecurity.com
+   ✓ Halloween’s Lost Heroes: Michael Pollan on Radical Gardening and the I — themarginalian.org
+   ✓ From 18th-century false ballots to the second JFK and double Dan Sulli — theconversation.com
+   ✓ Perfume bottle and child’s necklace among treasures found in Pompeii w — theguardian.com
+   ✓ How the Sphinx is helping answer a riddle about extinct crocodiles — theconversation.com
+   ✓ How humans shared a world with child-eating birds — bbc.com
+   ✓ NASA’s Swift telescope will face a fiery demise after a failed rescue — sciencenews.org
+Published 12 articles: 12 Gemini/backup + 0 ChatGPT (2 long reads).
