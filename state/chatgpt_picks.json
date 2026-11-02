@@ -1087,5 +1087,126 @@
     "hook": "[Long read; archive discovery] How cheap printing, the postal service and audacious entrepreneurs turned esoteric teachings into a booming mail-order industry, sometimes crossing into outright fraud.",
     "category": "wildcard",
     "long": true
+  },
+  {
+    "batch_date": "2026-11-02",
+    "title": "The Bizarre Pay-Per-View Séance That Claimed to Contact Princess Diana",
+    "url": "https://www.mentalfloss.com/entertainment/tv/pay-per-view-seance-claimed-contact-princess-diana",
+    "publisher": "Mental Floss",
+    "date": "2026-10-19",
+    "hook": "In 2003, television psychics claimed to contact Princess Diana in a $14.95 pay-per-view special. The broadcast's strange aftermath raises questions about grief and exploitation.",
+    "category": "weird_history",
+    "long": false
+  },
+  {
+    "batch_date": "2026-11-02",
+    "title": "The Mysterious Case of Pancho Villa’s Missing Skull",
+    "url": "https://www.mentalfloss.com/history/mystery/mysterious-case-pancho-villa-missing-skull",
+    "publisher": "Mental Floss",
+    "date": "2026-10-06",
+    "hook": "Three years after Pancho Villa's assassination, someone dug up his grave and stole his skull. A century of suspects and extravagant theories has failed to settle the mystery.",
+    "category": "weird_history",
+    "long": false
+  },
+  {
+    "batch_date": "2026-11-02",
+    "title": "Photographs of Atlantic City Sand Sculpture (ca. 1880–1920)",
+    "url": "https://publicdomainreview.org/collection/atlantic-city-sand-sculpture/",
+    "publisher": "The Public Domain Review",
+    "date": "2026-07-29",
+    "hook": "Vintage postcards preserve the vanished livelihoods of Atlantic City's giant sand sculptors, including Black artists sometimes retouched to appear white.",
+    "category": "weird_history",
+    "long": false
+  },
+  {
+    "batch_date": "2026-11-02",
+    "title": "A Kidney Transplant, Ignored Advice, and a President’s Surprise Pick to Run a $160 Billion Pacific Island Mine",
+    "url": "https://www.occrp.org/en/investigation/a-kidney-transplant-ignored-advice-and-a-presidents-surprise-choice-to-run-a-160-billion-pacific-island-mine",
+    "publisher": "OCCRP",
+    "date": "2026-08-25",
+    "hook": "[Long read; archive discovery] Bougainville's president selected an unexpected partner for a vast copper-and-gold mine after its executive arranged his wife's kidney transplant. He denies that the favor influenced his decision.",
+    "category": "fraud_investigation",
+    "long": true
+  },
+  {
+    "batch_date": "2026-11-02",
+    "title": "Detroit Could Block Billionaire-Owned Concrete Plant From Further Neighborhood Expansion",
+    "url": "https://www.propublica.org/article/kronos-moroun-cadillac-heights-detroit-concrete-impact",
+    "publisher": "ProPublica",
+    "date": "2026-10-29",
+    "hook": "After reporters traced how a billionaire family's concrete plant encroached on a Detroit neighborhood, city planners proposed curbs on further expansion amid residents' pollution complaints.",
+    "category": "fraud_investigation",
+    "long": false
+  },
+  {
+    "batch_date": "2026-11-02",
+    "title": "He saw an abandoned trailer. Then, he uncovered a surveillance network on California's border",
+    "url": "https://themarkup.org/privacy/2026/03/06/he-saw-an-abandoned-trailer-then-he-uncovered-a-surveillance-network-on-californias-border",
+    "publisher": "The Markup",
+    "date": "2026-03-06",
+    "hook": "[Archive discovery] A volunteer found what looked like a derelict roadside trailer. Inside was a license-plate camera—one of dozens feeding a little-known federal border surveillance network.",
+    "category": "fraud_investigation",
+    "long": false
+  },
+  {
+    "batch_date": "2026-11-02",
+    "title": "These tiny snakes cartwheel to escape danger",
+    "url": "https://www.sciencenews.org/article/tiny-snakes-cartwheel-escape-video",
+    "publisher": "Science News",
+    "date": "2026-10-19",
+    "hook": "High-speed footage reveals how tiny Southeast Asian snakes fling themselves head-over-tail at surprising speeds, echoing old tales of mythical hoop snakes.",
+    "category": "science_tech",
+    "long": false
+  },
+  {
+    "batch_date": "2026-11-02",
+    "title": "Is ‘Attention’ the Essence of Intelligence?",
+    "url": "https://www.quantamagazine.org/is-attention-the-essence-of-intelligence-20261012/",
+    "publisher": "Quanta Magazine",
+    "date": "2026-10-12",
+    "hook": "How a young researcher's fix for machine translation became the attention mechanism behind modern AI—and why human thought may work very differently.",
+    "category": "science_tech",
+    "long": false
+  },
+  {
+    "batch_date": "2026-11-02",
+    "title": "The Hidden Grief of American Musicals",
+    "url": "https://daily.jstor.org/the-hidden-grief-of-american-musicals/",
+    "publisher": "JSTOR Daily",
+    "date": "2026-07-08",
+    "hook": "Beneath the exuberant songs of midcentury American musicals, a musicologist finds buried traces of war, loss and social upheaval.",
+    "category": "culture_ideas",
+    "long": false
+  },
+  {
+    "batch_date": "2026-11-02",
+    "title": "‘We need to take back that pride’: the Muslim drag artist teaching Islamic history",
+    "url": "https://hyphenonline.com/2026/06/23/lujane-oud-muslim-drag-queen-artist-arab-islamic-history/",
+    "publisher": "Hyphen",
+    "date": "2026-06-23",
+    "hook": "[Archive discovery] Kuwaiti-Moroccan performer Lujane Oud uses drag and short history videos to recover overlooked Arab and Muslim cultural traditions and pioneers.",
+    "category": "islamic",
+    "long": false
+  },
+  {
+    "batch_date": "2026-11-02",
+    "title": "Road Trip at the Borderland",
+    "url": "https://longreads.com/2026/10/29/family-road-trip-china-north-korea/",
+    "publisher": "Longreads",
+    "date": "2026-10-29",
+    "hook": "[Long read] A daughter, her estranged father and an 81-year-old grandmother take an improbably chaotic road trip along the China–North Korea border, navigating family silence and unexpected tenderness.",
+    "category": "wildcard",
+    "long": true
+  },
+  {
+    "batch_date": "2026-11-02",
+    "title": "Hoosier Cabinets and the Dream of Efficiency",
+    "url": "https://daily.jstor.org/hoosier-cabinets-and-the-dream-of-efficiency/",
+    "publisher": "JSTOR Daily",
+    "date": "2024-12-18",
+    "hook": "[Archive discovery] How a freestanding cupboard with flour sifters and ingenious compartments transformed American kitchens—and exposed the social politics of housework.",
+    "category": "rotating",
+    "theme": "How the World Really Works",
+    "long": false
   }
 ]
