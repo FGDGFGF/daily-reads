@@ -1,17 +1,26 @@
-Run at 2026-11-03 04:49 (Mauritius)
-Mode: chatgpt
-ChatGPT batch 2026-11-03: checking 12 articles…
-   ✓ ChatGPT: Leaked Warrant List Reveals How Turkmenistan Targets Critics Abroad — OCCRP
-   ✓ ChatGPT: Hungarian Media Tycoon’s Firm Formed Dubai Subsidiary While Under Inve — OCCRP
-   ✓ ChatGPT: A Chinese Auto Giant Sponsors Portugal's National Football Team. Its T — OCCRP
-   ✓ ChatGPT: A Soldier in Vietnam Recorded His Letter Home Because He Thought It Wa — Smithsonian Magazine
-   ✓ ChatGPT: Melting Ice in the Italian Dolomites Exposes Hundreds of World War I M — Smithsonian Magazine
-   ✓ ChatGPT: Typing for Love or Money: The Hidden Women’s Labor behind Modern Liter — The Public Domain Review
-   ✓ ChatGPT: Inside Muslim LitFest 2026 — Hyphen
-   ✓ ChatGPT: For the First Time, a Cell Built From Scratch Grows and Divides — Quanta Magazine
-   ✓ ChatGPT: Beware of the Meeting Minutes — JSTOR Daily
-   ✓ ChatGPT: AI models cost more when you don’t use English — Rest of World
-   ✓ ChatGPT: The Las Vegas Zombie Show Keeping the Variety Revue Alive — Atlas Obscura
-   ✓ ChatGPT: A Place Among the Fiddlers — Longreads
-ChatGPT batch 2026-11-03: 12 published, 0 rejected
-Published 12 articles: 0 Gemini/backup + 12 ChatGPT (2 long reads).
+Run at 2026-11-03 08:57 (Mauritius)
+Mode: full
+Reading 50 publications…
+  45 publications read, 221 fresh candidates
+  couldn't read: bbc.com (HTTPError), restofworld.org (ParseError), theguardian.com (HTTPError), lostislamichistory.com (ParseError), arabnews.com (HTTPError)
+Gemini gemini-flash-latest, attempt 1…
+  failed: HTTP 503: This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later. []
+Gemini gemini-flash-latest, attempt 2…
+  failed: HTTP 503: This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later. []
+Gemini gemini-flash-latest, attempt 3…
+  failed: HTTP 503: This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later. []
+Gemini gemini-flash-lite-latest, attempt 1…
+  Gemini picked 16 articles
+   ✓ The Terrifying Viking Ritual That Might Have Been a Total Myth — thecollector.com
+   ✓ After Sitting in a London Museum Since 1924, This Dinosaur Fossil Was  — smithsonianmag.com
+   ✓ Do Spiders Dream? These Arachnids Twitch, Curl Their Legs and Move The — smithsonianmag.com
+   ✓ Red Barrels Historical Memorial in Lam Sin, Thailand — atlasobscura.com
+   ✓ Sniffing out the link between odor and disease — knowablemagazine.org
+   ✓ Egyptian court orders closure of news site Mada Masr and fines editor  — icij.org
+   ✓ Pharma giants pay millions to Russian distributor entangled in corrupt — icij.org
+   ✓ Tech Firms Dismantle Botnet That Turned 1.3M TV Boxes Into Proxies — krebsonsecurity.com
+   ✓ Indonesia Asks Russia to Stop Recruiting Its Citizens for Ukraine War — occrp.org
+   ✓ The ‘Muslim Brotherhood’ Playbook — newlinesmag.com
+   ✓ Longing and Belonging in the Arab 21st Century — newlinesmag.com
+   ✓ Tomba Dei Gigante S’Ena e Thimes in Dorgali, Italy — atlasobscura.com
+Published 12 articles: 12 Gemini/backup + 0 ChatGPT (2 long reads).
