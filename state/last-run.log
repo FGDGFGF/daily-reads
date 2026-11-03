@@ -1,7 +1,7 @@
-Run at 2026-11-03 08:57 (Mauritius)
+Run at 2026-11-03 12:35 (Mauritius)
 Mode: full
 Reading 50 publications…
-  45 publications read, 221 fresh candidates
+  45 publications read, 217 fresh candidates
   couldn't read: bbc.com (HTTPError), restofworld.org (ParseError), theguardian.com (HTTPError), lostislamichistory.com (ParseError), arabnews.com (HTTPError)
 Gemini gemini-flash-latest, attempt 1…
   failed: HTTP 503: This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later. []
@@ -11,16 +11,37 @@ Gemini gemini-flash-latest, attempt 3…
   failed: HTTP 503: This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later. []
 Gemini gemini-flash-lite-latest, attempt 1…
   Gemini picked 16 articles
-   ✓ The Terrifying Viking Ritual That Might Have Been a Total Myth — thecollector.com
-   ✓ After Sitting in a London Museum Since 1924, This Dinosaur Fossil Was  — smithsonianmag.com
-   ✓ Do Spiders Dream? These Arachnids Twitch, Curl Their Legs and Move The — smithsonianmag.com
-   ✓ Red Barrels Historical Memorial in Lam Sin, Thailand — atlasobscura.com
-   ✓ Sniffing out the link between odor and disease — knowablemagazine.org
-   ✓ Egyptian court orders closure of news site Mada Masr and fines editor  — icij.org
-   ✓ Pharma giants pay millions to Russian distributor entangled in corrupt — icij.org
-   ✓ Tech Firms Dismantle Botnet That Turned 1.3M TV Boxes Into Proxies — krebsonsecurity.com
-   ✓ Indonesia Asks Russia to Stop Recruiting Its Citizens for Ukraine War — occrp.org
-   ✓ The ‘Muslim Brotherhood’ Playbook — newlinesmag.com
-   ✓ Longing and Belonging in the Arab 21st Century — newlinesmag.com
-   ✓ Tomba Dei Gigante S’Ena e Thimes in Dorgali, Italy — atlasobscura.com
+   ✓ As Most of England Relaxed Its Stance on Witchcraft, One Hardline City — smithsonianmag.com
+   ✓ Pasilalinic-Sympathetic Compass: The Snail Telegraph — amusingplanet.com
+   ✓ The Mummies of Guanajuato — amusingplanet.com
+   ✓ ‘Exhumed’ recounts the true story of America’s first vampire — sciencenews.org
+   ✓ Five Questions About What’s Behind Nigeria’s Romance Scam Industry — occrp.org
+   ✓ Trump Has Tried to Exert More Control Over Elections. Here Are the Key — propublica.org
+   ✓ Inside the Secretive, Contradictory World of Campaign Ads Funded by AI — bellingcat.com
+   ✓ Melting permafrost has birthed a new type of large landslide — sciencenews.org
+   ✓ Is There Anything Left in the Dream of Cold Fusion? — quantamagazine.org
+   ✓ Losing the fat in the chilly north Atlantic — knowablemagazine.org
+   ✓ Immortal Beloved: Krishna and Rādhā Exchanging Clothes (ca. 1700–1900) — publicdomainreview.org
+   ✓ The Philosophy of Justin Martyr and the Origin of Christian Apologetic — thecollector.com
+   ✓ Albert Camus on the Three Antidotes to the Absurdity of Life — themarginalian.org
+   ✓ What natural object is the roundest in the Universe? — bigthink.com
+   ✓ Two Years After World War II Ended, This Ship Brought the Bodies of 6, — smithsonianmag.com
+Gemini gave 10 usable articles — topping up from the backup list.
+Using the backup picker…
+   ✓ Morning update — middleeasteye.net
+   ✓ Amelia Island Welcome Center in Fernandina Beach, Florida — atlasobscura.com
+   ✓ Leadenhall Wunderkammer in London, England — atlasobscura.com
+   ✓ Vučić Rejects Russia Sanctions, Blames Foreign Powers for Protests — occrp.org
+   ✓ How a scientist went from hero to traitor in a US water crisis – podca — theguardian.com
+   ✓ “There is Nothing but Immortality!”: Walt Whitman and The Book of Heav — publicdomainreview.org
+   ✓ Viral Google Maps Images Shared Widely This Week Show Gaza Ruins. We O — bellingcat.com
+   ✓ Why smart people stay stuck in research mode — bigthink.com
+   ✓ Keeping Up Appearances — longreads.com
+   ✓ The Guardian view on 50 years of The Selfish Gene: flawed, outdated, y — theguardian.com
+   ✓ Many in Serbia’s Youth Movement Fear a Rigged Election on Sunday — occrp.org
+   ✓ The self-making world — aeon.co
+   ✓ Iran chief negotiator says ball in US court to 'prevent war' — middleeasteye.net
+   ✓ Engineers Delicately Removed the Masts From This Bomb-Laden World War  — smithsonianmag.com
+   ✓ Apple iPhone Duo review: Two screens, two experiences, two thousand do — arstechnica.com
+   ✓ 13 Things I Found on the Internet Today (Vol. 781) — messynessychic.com
 Published 12 articles: 12 Gemini/backup + 0 ChatGPT (2 long reads).
