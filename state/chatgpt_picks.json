@@ -1208,5 +1208,126 @@
     "category": "rotating",
     "theme": "How the World Really Works",
     "long": false
+  },
+  {
+    "batch_date": "2026-11-03",
+    "title": "Leaked Warrant List Reveals How Turkmenistan Targets Critics Abroad",
+    "url": "https://www.occrp.org/en/scoop/leaked-warrant-list-reveals-how-turkmenistan-targets-critics-abroad",
+    "publisher": "OCCRP",
+    "date": "2026-10-01",
+    "hook": "A leaked warrant list sheds light on how Turkmen authorities pursue exiled critics beyond their borders.",
+    "category": "fraud_investigation",
+    "long": false
+  },
+  {
+    "batch_date": "2026-11-03",
+    "title": "Hungarian Media Tycoon’s Firm Formed Dubai Subsidiary While Under Investigation at Home",
+    "url": "https://www.occrp.org/en/scoop/hungarian-media-tycoons-firm-formed-dubai-subsidiary-while-under-investigation-at-home",
+    "publisher": "OCCRP",
+    "date": "2026-09-07",
+    "hook": "Corporate and property records trace a Dubai subsidiary and apartment linked to a Hungarian advertising magnate whose firms face an investigation; he denies wrongdoing.",
+    "category": "fraud_investigation",
+    "long": false
+  },
+  {
+    "batch_date": "2026-11-03",
+    "title": "A Chinese Auto Giant Sponsors Portugal's National Football Team. Its Trucks Are Used by Russia to Attack Ukraine.",
+    "url": "https://www.occrp.org/en/scoop/a-chinese-auto-giant-sponsors-portugals-national-football-team-its-trucks-are-used-by-russia-to-attack-ukraine",
+    "publisher": "OCCRP",
+    "date": "2026-10-12",
+    "hook": "A football sponsorship collides with evidence that pickup trucks from the same manufacturer are used as Russian drone-launch platforms.",
+    "category": "fraud_investigation",
+    "long": false
+  },
+  {
+    "batch_date": "2026-11-03",
+    "title": "A Soldier in Vietnam Recorded His Letter Home Because He Thought It Was Easier Than Writing. It’s a 43-Minute Splice of History",
+    "url": "https://www.smithsonianmag.com/smithsonian-institution/soldier-vietnam-recorded-letter-home-thought-it-was-easier-writing-43-minute-splice-history-180989646/",
+    "publisher": "Smithsonian Magazine",
+    "date": "2026-11-01",
+    "hook": "A serviceman's recorded letter survives as an intimate audio time capsule of the Vietnam War.",
+    "category": "rotating",
+    "theme": "Extraordinary People & Unusual Lives",
+    "long": false
+  },
+  {
+    "batch_date": "2026-11-03",
+    "title": "Melting Ice in the Italian Dolomites Exposes Hundreds of World War I Munitions, Vestiges of the Vertiginous ‘White War’",
+    "url": "https://www.smithsonianmag.com/smart-news/melting-ice-in-the-italian-dolomites-exposes-hundreds-of-world-war-i-munitions-vestiges-of-the-vertiginous-winter-war-180989787/",
+    "publisher": "Smithsonian Magazine",
+    "date": "2026-11-02",
+    "hook": "As mountain ice retreats, Italian specialists race to defuse century-old explosives emerging from the snow.",
+    "category": "weird_history",
+    "long": false
+  },
+  {
+    "batch_date": "2026-11-03",
+    "title": "Typing for Love or Money: The Hidden Women’s Labor behind Modern Literary Masterpieces",
+    "url": "https://publicdomainreview.org/essay/typing-for-love-or-money/",
+    "publisher": "The Public Domain Review",
+    "date": "2026-02-04",
+    "hook": "[Long read; archive discovery] The overlooked typists, wives and editors whose invisible work shaped major literary masterpieces.",
+    "category": "weird_history",
+    "long": true
+  },
+  {
+    "batch_date": "2026-11-03",
+    "title": "Inside Muslim LitFest 2026",
+    "url": "https://hyphenonline.com/2026/10/14/muslim-litfest-2026-east-london-mosque-book-bazaar-talks-exhibitions/",
+    "publisher": "Hyphen",
+    "date": "2026-10-14",
+    "hook": "A Muslim literary festival brings together independent publishers, Ottoman bookbinding traditions and South Asian zine archives.",
+    "category": "islamic",
+    "long": false
+  },
+  {
+    "batch_date": "2026-11-03",
+    "title": "For the First Time, a Cell Built From Scratch Grows and Divides",
+    "url": "https://www.quantamagazine.org/for-the-first-time-a-cell-built-from-scratch-grows-and-divides-20260701/",
+    "publisher": "Quanta Magazine",
+    "date": "2026-07-01",
+    "hook": "[Archive discovery] Researchers assemble a cell-like system that copies DNA and divides, though it is not yet self-sustaining life.",
+    "category": "science_tech",
+    "long": false
+  },
+  {
+    "batch_date": "2026-11-03",
+    "title": "Beware of the Meeting Minutes",
+    "url": "https://daily.jstor.org/beware-of-the-meeting-minutes/",
+    "publisher": "JSTOR Daily",
+    "date": "2026-09-28",
+    "hook": "Four-minute read on why official meeting minutes can reshape what history thinks was actually said.",
+    "category": "culture_ideas",
+    "long": false
+  },
+  {
+    "batch_date": "2026-11-03",
+    "title": "AI models cost more when you don’t use English",
+    "url": "https://restofworld.org/2026/ai-tokenizer-tax-non-english-languages-cost-inequity/",
+    "publisher": "Rest of World",
+    "date": "2026-10-26",
+    "hook": "The hidden tokenizer tax: some languages consume far more AI tokens, raising costs and shrinking usable context.",
+    "category": "science_tech",
+    "long": false
+  },
+  {
+    "batch_date": "2026-11-03",
+    "title": "The Las Vegas Zombie Show Keeping the Variety Revue Alive",
+    "url": "https://www.atlasobscura.com/articles/posts/the-las-vegas-zombie-show-keeping-the-variety-revue-alive",
+    "publisher": "Atlas Obscura",
+    "date": "2026-10-16",
+    "hook": "A zombie burlesque production turns out to be a bizarre surviving descendant of the classic Vegas variety revue.",
+    "category": "wildcard",
+    "long": false
+  },
+  {
+    "batch_date": "2026-11-03",
+    "title": "A Place Among the Fiddlers",
+    "url": "https://longreads.com/2026/10/01/galax-old-fiddlers-convention-music/",
+    "publisher": "Longreads",
+    "date": "2026-10-01",
+    "hook": "[Long read] Inside a muddy Appalachian fiddlers' convention where musicians keep centuries-old traditions alive, one jam at a time.",
+    "category": "weird_history",
+    "long": true
   }
 ]
