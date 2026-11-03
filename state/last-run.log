@@ -1,47 +1,29 @@
-Run at 2026-11-03 12:35 (Mauritius)
+Run at 2026-11-03 15:29 (Mauritius)
 Mode: full
 Reading 50 publications…
-  45 publications read, 217 fresh candidates
+  45 publications read, 213 fresh candidates
   couldn't read: bbc.com (HTTPError), restofworld.org (ParseError), theguardian.com (HTTPError), lostislamichistory.com (ParseError), arabnews.com (HTTPError)
 Gemini gemini-flash-latest, attempt 1…
   failed: HTTP 503: This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later. []
 Gemini gemini-flash-latest, attempt 2…
   failed: HTTP 503: This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later. []
 Gemini gemini-flash-latest, attempt 3…
-  failed: HTTP 503: This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later. []
+  failed: HTTPSConnectionPool(host='generativelanguage.googleapis.com', port=443): Read timed out. (read timeout=300)
 Gemini gemini-flash-lite-latest, attempt 1…
   Gemini picked 16 articles
-   ✓ As Most of England Relaxed Its Stance on Witchcraft, One Hardline City — smithsonianmag.com
-   ✓ Pasilalinic-Sympathetic Compass: The Snail Telegraph — amusingplanet.com
-   ✓ The Mummies of Guanajuato — amusingplanet.com
-   ✓ ‘Exhumed’ recounts the true story of America’s first vampire — sciencenews.org
-   ✓ Five Questions About What’s Behind Nigeria’s Romance Scam Industry — occrp.org
-   ✓ Trump Has Tried to Exert More Control Over Elections. Here Are the Key — propublica.org
-   ✓ Inside the Secretive, Contradictory World of Campaign Ads Funded by AI — bellingcat.com
-   ✓ Melting permafrost has birthed a new type of large landslide — sciencenews.org
+   ✓ How humans shared a world with child-eating birds — bbc.com
+   ✓ Henry Box Brown: The Man Who Mailed Himself to Freedom — amusingplanet.com
+   ✓ Charles Vance Millar And The Great Stork Derby — amusingplanet.com
+   ✓ The Russian stray dog that beat humans into orbit — bbc.com
+   ✓ Vibe Coded AO3 Clone Site Down After Fanfic Authors Buried It With 2,0 — 404media.co
+   ✓ Scientists Analyzed Thousands of Psychedelic Trips. They Found Somethi — 404media.co
+   ✓ Is There Anything BPC-157 Can’t Cure? — longreads.com
+   ✓ Have I Befriended a Murderer? — longreads.com
    ✓ Is There Anything Left in the Dream of Cold Fusion? — quantamagazine.org
-   ✓ Losing the fat in the chilly north Atlantic — knowablemagazine.org
-   ✓ Immortal Beloved: Krishna and Rādhā Exchanging Clothes (ca. 1700–1900) — publicdomainreview.org
-   ✓ The Philosophy of Justin Martyr and the Origin of Christian Apologetic — thecollector.com
-   ✓ Albert Camus on the Three Antidotes to the Absurdity of Life — themarginalian.org
+   ✓ Fossilised red blood cells found in 115m-year-old dinosaur’s bone, say — theguardian.com
    ✓ What natural object is the roundest in the Universe? — bigthink.com
-   ✓ Two Years After World War II Ended, This Ship Brought the Bodies of 6, — smithsonianmag.com
-Gemini gave 10 usable articles — topping up from the backup list.
-Using the backup picker…
-   ✓ Morning update — middleeasteye.net
-   ✓ Amelia Island Welcome Center in Fernandina Beach, Florida — atlasobscura.com
-   ✓ Leadenhall Wunderkammer in London, England — atlasobscura.com
-   ✓ Vučić Rejects Russia Sanctions, Blames Foreign Powers for Protests — occrp.org
-   ✓ How a scientist went from hero to traitor in a US water crisis – podca — theguardian.com
-   ✓ “There is Nothing but Immortality!”: Walt Whitman and The Book of Heav — publicdomainreview.org
-   ✓ Viral Google Maps Images Shared Widely This Week Show Gaza Ruins. We O — bellingcat.com
-   ✓ Why smart people stay stuck in research mode — bigthink.com
-   ✓ Keeping Up Appearances — longreads.com
-   ✓ The Guardian view on 50 years of The Selfish Gene: flawed, outdated, y — theguardian.com
-   ✓ Many in Serbia’s Youth Movement Fear a Rigged Election on Sunday — occrp.org
-   ✓ The self-making world — aeon.co
-   ✓ Iran chief negotiator says ball in US court to 'prevent war' — middleeasteye.net
-   ✓ Engineers Delicately Removed the Masts From This Bomb-Laden World War  — smithsonianmag.com
-   ✓ Apple iPhone Duo review: Two screens, two experiences, two thousand do — arstechnica.com
-   ✓ 13 Things I Found on the Internet Today (Vol. 781) — messynessychic.com
+   ✓ Inside the Syrian Village Hit by Jordan’s Airstrikes — newlinesmag.com
+   ✓ Mbappé’s Mao Gaffe Costs Him in China — newlinesmag.com
+   ✓ Hills and mountains — aeon.co
+   ✓ The Amarna letters — aeon.co
 Published 12 articles: 12 Gemini/backup + 0 ChatGPT (2 long reads).
