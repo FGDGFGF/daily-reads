@@ -1,24 +1,17 @@
-Run at 2026-11-02 12:17 (Mauritius)
-Mode: full
-Reading 50 publications…
-  43 publications read, 208 fresh candidates
-  couldn't read: amusingplanet.com (HTTPError), bbc.com (HTTPError), texasmonthly.com (HTTPError), restofworld.org (HTTPError), theguardian.com (HTTPError), lostislamichistory.com (ParseError), arabnews.com (HTTPError)
-Gemini gemini-flash-latest, attempt 1…
-  Gemini picked 16 articles
-   ✓ RFK Jr is wrong about the Arab world — aljazeera.com
-   ✓ Thirteen Years of Harassment, and Three Minutes to Close Mada Masr — newlinesmag.com
-   ✓ The bookshelf builder — psyche.co
-   ✓ How Did Katherine Johnson Break Barriers to Land the First Humans on t — thecollector.com
-   ✓ Love with nowhere to go — aeon.co
-   ✓ The Ledger and the Blade — longreads.com
-   ✓ Amazon mining boss wanted by Brazil for sheltering Jair Bolsonaro’s sp — icij.org
-   ✓ ‘Students Have Won’: Overwhelming Turnout Shatters Serbia’s Entrenched — occrp.org
-   ✓ Satellite Images Show Extent of Trump Admin’s Tree-Felling at DC Golf  — bellingcat.com
-   ✓ Widespread PHP Flaw May Cause Many Site Outages Today — krebsonsecurity.com
-   ✓ Halloween’s Lost Heroes: Michael Pollan on Radical Gardening and the I — themarginalian.org
-   ✓ From 18th-century false ballots to the second JFK and double Dan Sulli — theconversation.com
-   ✓ Perfume bottle and child’s necklace among treasures found in Pompeii w — theguardian.com
-   ✓ How the Sphinx is helping answer a riddle about extinct crocodiles — theconversation.com
-   ✓ How humans shared a world with child-eating birds — bbc.com
-   ✓ NASA’s Swift telescope will face a fiery demise after a failed rescue — sciencenews.org
-Published 12 articles: 12 Gemini/backup + 0 ChatGPT (2 long reads).
+Run at 2026-11-03 04:49 (Mauritius)
+Mode: chatgpt
+ChatGPT batch 2026-11-03: checking 12 articles…
+   ✓ ChatGPT: Leaked Warrant List Reveals How Turkmenistan Targets Critics Abroad — OCCRP
+   ✓ ChatGPT: Hungarian Media Tycoon’s Firm Formed Dubai Subsidiary While Under Inve — OCCRP
+   ✓ ChatGPT: A Chinese Auto Giant Sponsors Portugal's National Football Team. Its T — OCCRP
+   ✓ ChatGPT: A Soldier in Vietnam Recorded His Letter Home Because He Thought It Wa — Smithsonian Magazine
+   ✓ ChatGPT: Melting Ice in the Italian Dolomites Exposes Hundreds of World War I M — Smithsonian Magazine
+   ✓ ChatGPT: Typing for Love or Money: The Hidden Women’s Labor behind Modern Liter — The Public Domain Review
+   ✓ ChatGPT: Inside Muslim LitFest 2026 — Hyphen
+   ✓ ChatGPT: For the First Time, a Cell Built From Scratch Grows and Divides — Quanta Magazine
+   ✓ ChatGPT: Beware of the Meeting Minutes — JSTOR Daily
+   ✓ ChatGPT: AI models cost more when you don’t use English — Rest of World
+   ✓ ChatGPT: The Las Vegas Zombie Show Keeping the Variety Revue Alive — Atlas Obscura
+   ✓ ChatGPT: A Place Among the Fiddlers — Longreads
+ChatGPT batch 2026-11-03: 12 published, 0 rejected
+Published 12 articles: 0 Gemini/backup + 12 ChatGPT (2 long reads).
