@@ -1329,5 +1329,126 @@
     "hook": "[Long read] Inside a muddy Appalachian fiddlers' convention where musicians keep centuries-old traditions alive, one jam at a time.",
     "category": "weird_history",
     "long": true
+  },
+  {
+    "batch_date": "2026-11-04",
+    "title": "Names of 400 firms including Palantir were missing from Nest halal pension tracker",
+    "url": "https://hyphenonline.com/2026/11/03/palantir-400-companies-missing-nest-sharia-halal-pension-hsbc-fund/",
+    "publisher": "Hyphen",
+    "date": "2026-11-03",
+    "hook": "An investigation finds hundreds of investments were absent from a UK sharia pension fund's public tracker for months.",
+    "category": "islamic",
+    "long": false
+  },
+  {
+    "batch_date": "2026-11-04",
+    "title": "A 23-Year-Old Kazakh Owns Two New State-Backed Universities. He’s the President’s Great-Nephew.",
+    "url": "https://www.occrp.org/en/scoop/a-23-year-old-kazakh-owns-two-new-state-backed-universities-hes-the-presidents-great-nephew",
+    "publisher": "OCCRP / Radio Azattyq",
+    "date": "2026-10-16",
+    "hook": "Company records connect the president's young relative to universities receiving state facilities and support.",
+    "category": "fraud_investigation",
+    "long": false
+  },
+  {
+    "batch_date": "2026-11-04",
+    "title": "Cops Search Thousands of Flock Cameras for Reasons of ‘LMAO,’ ‘IDK,’ ‘Hehe,’ and ‘asdfg’",
+    "url": "https://www.404media.co/cops-search-thousands-of-flock-cameras-for-reasons-of-lmao-idk-hehe-and-asdfg/",
+    "publisher": "404 Media",
+    "date": "2026-09-14",
+    "hook": "Surveillance search logs reveal officers entering jokes and nonsense as their reasons for querying vast camera networks.",
+    "category": "fraud_investigation",
+    "long": false
+  },
+  {
+    "batch_date": "2026-11-04",
+    "title": "Trump Appointees Asked a Federal Cybersecurity Agency to Secretly Acquire a Voting Machine — and Hack It",
+    "url": "https://www.propublica.org/article/cisa-election-security-donald-trump",
+    "publisher": "ProPublica",
+    "date": "2026-10-19",
+    "hook": "Inside an extraordinary request to the federal agency tasked with safeguarding election systems.",
+    "category": "fraud_investigation",
+    "long": true
+  },
+  {
+    "batch_date": "2026-11-04",
+    "title": "Life happened fast",
+    "url": "https://aeon.co/essays/life-on-earth-emerged-fast-far-quicker-than-we-thought",
+    "publisher": "Aeon",
+    "date": "2025-08-01",
+    "hook": "Evidence that life emerged much sooner than expected forces researchers to rethink the early Earth's supposed hellscape.",
+    "category": "science_tech",
+    "long": true
+  },
+  {
+    "batch_date": "2026-11-04",
+    "title": "Why We Cringe",
+    "url": "https://daily.jstor.org/why-we-cringe/",
+    "publisher": "JSTOR Daily",
+    "date": "2026-11-03",
+    "hook": "A three-minute explanation of why another person's embarrassment can feel almost physically contagious.",
+    "category": "culture_ideas",
+    "long": false
+  },
+  {
+    "batch_date": "2026-11-04",
+    "title": "Where Did All the Public Bathrooms Go?",
+    "url": "https://daily.jstor.org/where-did-all-the-public-bathrooms-go/",
+    "publisher": "JSTOR Daily",
+    "date": "2026-08-19",
+    "hook": "Ornate Parisian street urinals and American temperance reform reveal the surprisingly political history of public toilets.",
+    "category": "weird_history",
+    "long": false
+  },
+  {
+    "batch_date": "2026-11-04",
+    "title": "The Long History of Sexpionage",
+    "url": "https://daily.jstor.org/the-long-history-of-sexpionage/",
+    "publisher": "JSTOR Daily",
+    "date": "2026-08-10",
+    "hook": "From Cold War seduction to cyber honeypots, the strange evolution of espionage by entrapment.",
+    "category": "weird_history",
+    "long": false
+  },
+  {
+    "batch_date": "2026-11-04",
+    "title": "The Rise and Fall of Britain’s Muskrat Empire",
+    "url": "https://daily.jstor.org/the-rise-and-fall-of-britains-muskrat-empire/",
+    "publisher": "JSTOR Daily",
+    "date": "2026-06-22",
+    "hook": "A fur-farming gamble unleashed invasive muskrats in Britain—and an unusually successful eradication campaign.",
+    "category": "rotating",
+    "long": false,
+    "theme": "Nature's Strangest Stories"
+  },
+  {
+    "batch_date": "2026-11-04",
+    "title": "The Disappearing History of America’s Nuclear Weapons",
+    "url": "https://daily.jstor.org/the-disappearing-history-of-americas-nuclear-weapons/",
+    "publisher": "JSTOR Daily",
+    "date": "2026-11-02",
+    "hook": "Why a former plutonium-weapons factory became a wildlife refuge while much of its Cold War history faded from view.",
+    "category": "weird_history",
+    "long": false
+  },
+  {
+    "batch_date": "2026-11-04",
+    "title": "Senators Demand Meta Answer for 'Pervert Glasses' Following 404 Media Investigation",
+    "url": "https://www.404media.co/senators-wyden-markey-letter-to-meta-smart-glasses/",
+    "publisher": "404 Media",
+    "date": "2026-10-29",
+    "hook": "Lawmakers demand answers about privacy abuses involving smart glasses after investigative reporting.",
+    "category": "fraud_investigation",
+    "long": false
+  },
+  {
+    "batch_date": "2026-11-04",
+    "title": "The Algarve’s Oldest Secret May Be Smaller Than a Grain of Rice",
+    "url": "https://www.atlasobscura.com/articles/posts/the-algarve-s-oldest-secret-may-be-smaller-than-a-grain-of-rice",
+    "publisher": "Atlas Obscura",
+    "date": "2026-10-10",
+    "hook": "Researchers sift 230-million-year-old Portuguese rock for minute fossils of early mammal relatives.",
+    "category": "science_tech",
+    "long": false
   }
 ]
