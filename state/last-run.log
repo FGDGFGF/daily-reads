@@ -1,17 +1,27 @@
-Run at 2026-11-04 04:48 (Mauritius)
-Mode: chatgpt
-ChatGPT batch 2026-11-04: checking 12 articles…
-   ✓ ChatGPT: Names of 400 firms including Palantir were missing from Nest halal pen — Hyphen
-   ✓ ChatGPT: A 23-Year-Old Kazakh Owns Two New State-Backed Universities. He’s the  — OCCRP / Radio Azattyq
-   ✓ ChatGPT: Cops Search Thousands of Flock Cameras for Reasons of ‘LMAO,’ ‘IDK,’ ‘ — 404 Media
-   ✓ ChatGPT: Trump Appointees Asked a Federal Cybersecurity Agency to Secretly Acqu — ProPublica
-   ✓ ChatGPT: Life happened fast — Aeon
-   ✓ ChatGPT: Why We Cringe — JSTOR Daily
-   ✓ ChatGPT: Where Did All the Public Bathrooms Go? — JSTOR Daily
-   ✓ ChatGPT: The Long History of Sexpionage — JSTOR Daily
-   ✓ ChatGPT: The Rise and Fall of Britain’s Muskrat Empire — JSTOR Daily
-   ✓ ChatGPT: The Disappearing History of America’s Nuclear Weapons — JSTOR Daily
-   ✓ ChatGPT: Senators Demand Meta Answer for 'Pervert Glasses' Following 404 Media  — 404 Media
-   ✓ ChatGPT: The Algarve’s Oldest Secret May Be Smaller Than a Grain of Rice — Atlas Obscura
-ChatGPT batch 2026-11-04: 12 published, 0 rejected
-Published 12 articles: 0 Gemini/backup + 12 ChatGPT (2 long reads).
+Run at 2026-11-04 12:05 (Mauritius)
+Mode: full
+Reading 50 publications…
+  45 publications read, 217 fresh candidates
+  couldn't read: bbc.com (HTTPError), restofworld.org (ParseError), theguardian.com (HTTPError), lostislamichistory.com (ParseError), arabnews.com (HTTPError)
+Gemini gemini-flash-latest, attempt 1…
+  failed: HTTP 503: This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later. []
+Gemini gemini-flash-latest, attempt 2…
+  failed: HTTP 503: This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later. []
+Gemini gemini-flash-latest, attempt 3…
+  failed: HTTP 503: This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later. []
+Gemini gemini-flash-lite-latest, attempt 1…
+  Gemini picked 16 articles
+   ✓ Why Was Human Urine One of History’s Most Valuable Commodities — thecollector.com
+   ✓ Archaeologists in Scotland Discovered the Skeleton of a Roman-Era Man  — smithsonianmag.com
+   ✓ In 1845, Texas wanted to join the United States – so why was it reject — historyextra.com
+   ✓ Why Eleanor of Aquitaine Spent 16 Years Imprisoned by Her Husband — thecollector.com
+   ✓ Serbian Bank Tied to Outgoing Regime Collapses After Internal Vault Th — occrp.org
+   ✓ Nepal Anti-graft Body Charges ex-PM Madhav Nepal, 96 Others with Corru — occrp.org
+   ✓ Your voice can now say things you never said — sciencenews.org
+   ✓ How hawkmoths turned their genitals into bat-busting weapons — sciencenews.org
+   ✓ After Observing the Sky for 22 Years, a Beloved NASA Space Telescope I — smithsonianmag.com
+   ✓ Michigan Senate Race Tests the Power of Islamophobia — newlinesmag.com
+   ✓ Adam Hamawy makes history as New Jersey’s first Muslim congressman — middleeasteye.net
+   ✓ A New Dawn For Mathematical Progress — noemamag.com
+   ✓ Leadenhall Wunderkammer in London, England — atlasobscura.com
+Published 12 articles: 12 Gemini/backup + 0 ChatGPT (2 long reads).
