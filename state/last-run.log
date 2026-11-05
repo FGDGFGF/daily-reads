@@ -1,27 +1,18 @@
-Run at 2026-11-04 12:05 (Mauritius)
-Mode: full
-Reading 50 publications…
-  45 publications read, 217 fresh candidates
-  couldn't read: bbc.com (HTTPError), restofworld.org (ParseError), theguardian.com (HTTPError), lostislamichistory.com (ParseError), arabnews.com (HTTPError)
-Gemini gemini-flash-latest, attempt 1…
-  failed: HTTP 503: This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later. []
-Gemini gemini-flash-latest, attempt 2…
-  failed: HTTP 503: This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later. []
-Gemini gemini-flash-latest, attempt 3…
-  failed: HTTP 503: This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later. []
-Gemini gemini-flash-lite-latest, attempt 1…
-  Gemini picked 16 articles
-   ✓ Why Was Human Urine One of History’s Most Valuable Commodities — thecollector.com
-   ✓ Archaeologists in Scotland Discovered the Skeleton of a Roman-Era Man  — smithsonianmag.com
-   ✓ In 1845, Texas wanted to join the United States – so why was it reject — historyextra.com
-   ✓ Why Eleanor of Aquitaine Spent 16 Years Imprisoned by Her Husband — thecollector.com
-   ✓ Serbian Bank Tied to Outgoing Regime Collapses After Internal Vault Th — occrp.org
-   ✓ Nepal Anti-graft Body Charges ex-PM Madhav Nepal, 96 Others with Corru — occrp.org
-   ✓ Your voice can now say things you never said — sciencenews.org
-   ✓ How hawkmoths turned their genitals into bat-busting weapons — sciencenews.org
-   ✓ After Observing the Sky for 22 Years, a Beloved NASA Space Telescope I — smithsonianmag.com
-   ✓ Michigan Senate Race Tests the Power of Islamophobia — newlinesmag.com
-   ✓ Adam Hamawy makes history as New Jersey’s first Muslim congressman — middleeasteye.net
-   ✓ A New Dawn For Mathematical Progress — noemamag.com
-   ✓ Leadenhall Wunderkammer in London, England — atlasobscura.com
-Published 12 articles: 12 Gemini/backup + 0 ChatGPT (2 long reads).
+Run at 2026-11-05 04:51 (Mauritius)
+Mode: chatgpt
+ChatGPT batch 2026-11-05: checking 12 articles…
+   ✓ ChatGPT: Inside the Collapse of a Surrogacy Agency That Cost Surrogates and Hop — OCCRP
+   ✓ ChatGPT: Archaeologists at This Ancient Maya Metropolis in the Forest of Belize — Smithsonian Magazine
+   ✓ ChatGPT: Actually, You Can Go Back to Constantinople. A Landmark Exhibition Rec — Smithsonian Magazine
+   ✓ ChatGPT: Engineers Delicately Removed the Masts From This Bomb-Laden World War  — Smithsonian Magazine
+   ✓ ChatGPT: Forensic Analysis of Frozen Inca Mummies Reveals That Sacrificed Child — Smithsonian Magazine
+   ✓ ChatGPT: A ‘Poor Man’s Rembrandt’ for a Few Hundred Bucks? At Amsterdam’s Rembr — Smithsonian Magazine
+   ✓ ChatGPT: Scientists Say They’ve Found Preserved Dinosaur Blood in a 115-Million — Smithsonian Magazine
+   ✓ ChatGPT: Seven Arrested in International Operation Targeting Investment Fraud — OCCRP
+   ✓ ChatGPT: Faded Over Millennia, the Intricately Carved Sandstone Walls of This A — Smithsonian Magazine
+   ✓ ChatGPT: Inventing Pad Thai — JSTOR Daily
+   ✓ ChatGPT: As King Charles visits the Caribbean, is the reparations movement appr — The Guardian
+   ✓ ChatGPT: From Hunting Hounds to Modernist Muses, Dachshunds Have Done It All. S — Smithsonian Magazine
+ChatGPT batch 2026-11-05: 12 published, 0 rejected
+   image unavailable for occrp.org (ReadTimeout)
+Published 12 articles: 0 Gemini/backup + 12 ChatGPT (2 long reads).
