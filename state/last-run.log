@@ -1,27 +1,27 @@
-Run at 2026-11-05 12:29 (Mauritius)
+Run at 2026-11-06 08:25 (Mauritius)
 Mode: full
+ChatGPT: no batch for today (2026-11-06) in the inbox yet.
 Reading 50 publications…
-  44 publications read, 213 fresh candidates
+  44 publications read, 211 fresh candidates
   couldn't read: bbc.com (HTTPError), texasmonthly.com (HTTPError), restofworld.org (ParseError), theguardian.com (HTTPError), lostislamichistory.com (ParseError), arabnews.com (HTTPError)
 Gemini gemini-flash-latest, attempt 1…
   failed: HTTP 503: This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later. []
 Gemini gemini-flash-latest, attempt 2…
-  failed: HTTP 503: This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later. []
-Gemini gemini-flash-latest, attempt 3…
-  failed: HTTP 503: This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later. []
-Gemini gemini-flash-lite-latest, attempt 1…
   Gemini picked 16 articles
-   ✓ The Living Museum in Queens, New York — atlasobscura.com
-   ✓ Iraq Jails Ex-Oil Boss for Eight Years Over $119M Kickback Scheme — occrp.org
-   ✓ The 10 most famous witch trials from British history — historyextra.com
-   ✓ A reclusive billionaire, a ‘fearless’ dealer and a globe-spanning feud — icij.org
-   ✓ Who Were the Two Fathers of Communism? — thecollector.com
-   ✓ The Scandalous Crusading Adventures of Eleanor of Aquitaine — thecollector.com
-   ✓ Prinzhorn Collection: Artistry of The Mentally Ill — amusingplanet.com
-   ✓ Famed Iron Age king was actually a woman — popsci.com
-   ✓ 13 Things I Found on the Internet Today (Vol.782) — messynessychic.com
-   ✓ Mbappé’s Mao Gaffe Costs Him in China — newlinesmag.com
-   ✓ Archeologists crack a shipwreck’s 400-year-old combination lock — popsci.com
-   ✓ A Viral Yemeni Video Has Turned Houthi Leaders’ Own Words Against Them — newlinesmag.com
-   ✓ Donald Trump Jr. Discussed Deals With Russian Businessman Close to Put — occrp.org
+   ✓ How the 1184 Erfurt Latrine Disaster Drowned German Nobility — thecollector.com
+   ✓ A Nazi Submarine Torpedoed a Merchant Ship Just Off the Coast of Maine — smithsonianmag.com
+   ✓ How the Phone Book Taught America to Ask for Answers — daily.jstor.org
+   ✓ Want to Rent an Internet Address at the White House? — krebsonsecurity.com
+   ✓ An AI Fraud Kingpin’s Confessions — 404media.co
+   ✓ The first DNA crime test didn’t catch the killer. It freed an innocent — bigthink.com
+   ✓ Hackers Steal Estimated 118 Million Euros in Cyberattack on French Ban — occrp.org
+   ✓ Record-low temperature created on China’s space station — sciencenews.org
+   ✓ New Research Tests Whether AI Models Know Their Own Thoughts — quantamagazine.org
+   ✓ Lab-grown meat was supposed to save the world. What happened? — theguardian.com
+   ✓ How psychology’s classic studies misled us about the self — psyche.co
+   ✓ How MIT Trained the Shah’s Nuclear Engineers — newlinesmag.com
+   ✓ Turkiye’s parliament ratifies Mecca defence agreement — aljazeera.com
+   ✓ The Canadian province where swear words are sacred — bbc.com
+   ✓ Douglas Corrigan's "Wrong Way" Flight to Ireland — amusingplanet.com
+   ✓ The Brain Injury That Made Edward Freytag A Musical Genius — longreads.com
 Published 12 articles: 12 Gemini/backup + 0 ChatGPT (2 long reads).
