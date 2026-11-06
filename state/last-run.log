@@ -1,27 +1,49 @@
-Run at 2026-11-06 08:25 (Mauritius)
+Run at 2026-11-06 12:34 (Mauritius)
 Mode: full
 ChatGPT: no batch for today (2026-11-06) in the inbox yet.
 Reading 50 publications…
-  44 publications read, 211 fresh candidates
-  couldn't read: bbc.com (HTTPError), texasmonthly.com (HTTPError), restofworld.org (ParseError), theguardian.com (HTTPError), lostislamichistory.com (ParseError), arabnews.com (HTTPError)
+  45 publications read, 214 fresh candidates
+  couldn't read: bbc.com (HTTPError), restofworld.org (ParseError), theguardian.com (HTTPError), lostislamichistory.com (ParseError), arabnews.com (HTTPError)
 Gemini gemini-flash-latest, attempt 1…
   failed: HTTP 503: This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later. []
 Gemini gemini-flash-latest, attempt 2…
+  failed: HTTP 503: This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later. []
+Gemini gemini-flash-latest, attempt 3…
+  failed: HTTPSConnectionPool(host='generativelanguage.googleapis.com', port=443): Read timed out. (read timeout=300)
+Gemini gemini-flash-lite-latest, attempt 1…
   Gemini picked 16 articles
-   ✓ How the 1184 Erfurt Latrine Disaster Drowned German Nobility — thecollector.com
-   ✓ A Nazi Submarine Torpedoed a Merchant Ship Just Off the Coast of Maine — smithsonianmag.com
-   ✓ How the Phone Book Taught America to Ask for Answers — daily.jstor.org
-   ✓ Want to Rent an Internet Address at the White House? — krebsonsecurity.com
-   ✓ An AI Fraud Kingpin’s Confessions — 404media.co
-   ✓ The first DNA crime test didn’t catch the killer. It freed an innocent — bigthink.com
-   ✓ Hackers Steal Estimated 118 Million Euros in Cyberattack on French Ban — occrp.org
-   ✓ Record-low temperature created on China’s space station — sciencenews.org
-   ✓ New Research Tests Whether AI Models Know Their Own Thoughts — quantamagazine.org
-   ✓ Lab-grown meat was supposed to save the world. What happened? — theguardian.com
-   ✓ How psychology’s classic studies misled us about the self — psyche.co
-   ✓ How MIT Trained the Shah’s Nuclear Engineers — newlinesmag.com
-   ✓ Turkiye’s parliament ratifies Mecca defence agreement — aljazeera.com
-   ✓ The Canadian province where swear words are sacred — bbc.com
-   ✓ Douglas Corrigan's "Wrong Way" Flight to Ireland — amusingplanet.com
-   ✓ The Brain Injury That Made Edward Freytag A Musical Genius — longreads.com
+   ✓ The Zenith Balloon Tragedy of 1875 — amusingplanet.com
+   ✓ What can you do with a medieval ass? Here are 9 uses that are bound to — historyextra.com
+   ✓ The Letter From an 11-Year-Old Girl That Changed Abraham Lincoln’s App — mentalfloss.com
+   ✓ Why Is Guy Fawkes Associated With the Anonymous Mask? — mentalfloss.com
+   ✓ How banking giant ICBC helped Chinese firms gain a foothold in Europe’ — icij.org
+   ✓ The Confessions of an AI Fraud Kingpin — 404media.co
+   ✓ Ukraine Uncovers Crime Ring Allegedly Shielded by Officials — occrp.org
+   ✓ US Sentences Venezuelan National to 12 Years for Laundering Over $1 Bi — occrp.org
+   ✓ Inside the persistent myth that giant pandas are bad at sex — popsci.com
+   ✓ Earwax’s surprisingly slippery but sticky properties deters insects — sciencenews.org
+   ✓ How octopuses squeeze through tiny openings, step by step — sciencenews.org
+   ✓ How to take notes that actually help you learn — psyche.co
+   ✓ Abdul El-Sayed’s Victory Shows ‘How Big America Really Is’ — newlinesmag.com
+   ✓ Abdul El-Sayed did not have to become less Muslim to win — aljazeera.com
+   ✓ Tà Má Stream in Vietnam — atlasobscura.com
+   ✓ Kejimkujik Petroglyphs in Jakes Landing, Nova Scotia — atlasobscura.com
+Gemini gave 10 usable articles — topping up from the backup list.
+Using the backup picker…
+   ✓ Watch: Israel’s president to select candidate to form government on Su — middleeasteye.net
+   ✓ America's Newest UNESCO World Heritage Site Is a Swamp—and That's Exac — smithsonianmag.com
+   ✓ Is British history too woke? This historian certainly thinks so — historyextra.com
+   ✓ Cyber Incident Disrupts French Blood Storage Systems — occrp.org
+   ✓ Time to hang up the stethoscope? — knowablemagazine.org
+   ✓ Flocken Elektrowagen: The Electric Vehicle That Arrived Before Its Tim — amusingplanet.com
+   ✓ Donald Trump Jr. Discussed Deals With Russian Businessman Close to Put — occrp.org
+   ✓ Noema’s AI Reading List — noemamag.com
+   ✓ Black Michiganders helped push Abdul El-Sayed to victory – but the num — theconversation.com
+   ✓ The night-sky image so incredible the NZ man behind it has been accuse — theguardian.com
+   ✓ The Lead-up to WWII in Yugoslavia & Its Destructive Legacy — thecollector.com
+   ✓ When is premium economy worth the extra cost? — bbc.com
+   ✓ The Daily Crossword: November 5, 2026 — texasmonthly.com
+   ✓ A View From Ohio on Election Day — newlinesmag.com
+   ✓ China Announces a Plan to Put Astronauts on the Moon by 2030, Revealin — smithsonianmag.com
+   ✓ Little Ice Age cooling in Europe may have raised the risk of rickets — sciencenews.org
 Published 12 articles: 12 Gemini/backup + 0 ChatGPT (2 long reads).
