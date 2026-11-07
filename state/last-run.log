@@ -1,29 +1,25 @@
-Run at 2026-11-07 11:55 (Mauritius)
+Run at 2026-11-07 16:40 (Mauritius)
 Mode: full
 ChatGPT: no batch for today (2026-11-07) in the inbox yet.
 Reading 50 publications…
-  44 publications read, 209 fresh candidates
+  44 publications read, 208 fresh candidates
   couldn't read: bbc.com (HTTPError), texasmonthly.com (HTTPError), restofworld.org (ParseError), theguardian.com (HTTPError), lostislamichistory.com (ParseError), arabnews.com (HTTPError)
 Gemini gemini-flash-latest, attempt 1…
-  failed: HTTPSConnectionPool(host='generativelanguage.googleapis.com', port=443): Read timed out. (read timeout=300)
-Gemini gemini-flash-latest, attempt 2…
-  failed: HTTPSConnectionPool(host='generativelanguage.googleapis.com', port=443): Read timed out. (read timeout=300)
-Gemini gemini-flash-latest, attempt 3…
-  Gemini picked 17 articles
-   ✓ The 19th Century London Garrotting Panics — amusingplanet.com
-   ✓ How Nero made Sporus his ‘wife’: what does this tragic story reveal ab — historyextra.com
-   ✓ This Wooden Wardrobe in Pompeii Remained Sealed for Nearly 2,000 Years — smithsonianmag.com
-   ✓ Oldest Evidence of Getting High on Cannabis Discovered In 2,800-Year-O — 404media.co
-   ✓ Adele Spitzeder's Banking Swindle — amusingplanet.com
-   ✓ Donald Trump Jr. Discussed Deals With Russian Businessman Close to Put — occrp.org
-   ✓ Body Snatchers and the Murky Process of Whole-Body Donation — undark.org
-   ✓ Trump Official Who Wants Data Centers on Public Lands Has Tens of Mill — propublica.org
-   ✓ A Strange Quantum Theorem Has Killed Einstein’s Reality — quantamagazine.org
-   ✓ Strange Gas in Mars' Atmosphere Hints the Red Planet Is Still Volcanic — smithsonianmag.com
-   ✓ Food contains thousands of overlooked chemicals. This physicist is map — sciencenews.org
-   ✓ The orca brothers preying on great white sharks — bbc.com
+  Gemini picked 16 articles
+   ✓ Where Did Stonehenge's Mysterious, Six-Ton Altar Stone Really Come Fro — smithsonianmag.com
+   ✓ A medieval map mystery may finally be solved — bigthink.com
+   ✓ Why Egypt Is Moving Off the Sidelines in the Saudi-Houthi Conflict — newlinesmag.com
+   ✓ How Online Maps Lay Bare the US Military Bases Targeted by Iran — bellingcat.com
+   ✓ Paraguayan President Impeached and Arrested Amid Financial Meltdown an — occrp.org
+   ✓ Cyber Incident Disrupts French Blood Storage Systems — occrp.org
+   ✓ The Queens Public Library system is being held for ransom. — lithub.com
+   ✓ The Tragic End of Milo of Croton — amusingplanet.com
+   ✓ How Ancient American Economies Rejected Gold and Ran on Beans — thecollector.com
+   ✓ Flocken Elektrowagen: The Electric Vehicle That Arrived Before Its Tim — amusingplanet.com
+   ✓ The Strange Four-Way Election That Put Abraham Lincoln in the White Ho — mentalfloss.com
    ✓ How octopuses squeeze through tiny openings, step by step — sciencenews.org
-   ✓ Al Qasr Al Ghamedh (Al Qassimi Palace) in Ras Al-Khaimah, United Arab  — atlasobscura.com
-   ✓ ‘Every person has their luck’: Morocco’s beach metal detectorists — aljazeera.com
-   ✓ In Praise Of Japan’s Failure To Keep Up — noemamag.com
+   ✓ Food contains thousands of overlooked chemicals. This physicist is map — sciencenews.org
+   ✓ Goodbye, eggshell: How pregnancy emerged in the animal world — knowablemagazine.org
+   ✓ Burying the Evidence — longreads.com
+   ✓ Celestial nuisance — aeon.co
 Published 12 articles: 12 Gemini/backup + 0 ChatGPT (2 long reads).
