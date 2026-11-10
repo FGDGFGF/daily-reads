@@ -126,5 +126,16 @@
   "checked": "2026-11-05T04:51:43+04:00",
   "published": 12,
   "rejected": []
+ },
+ "2026-11-10": {
+  "checked": "2026-11-10T12:16:58+04:00",
+  "published": 11,
+  "rejected": [
+   {
+    "title": "Everything You Need to Know About 'Scam Empire'",
+    "url": "https://www.occrp.org/en/project/scam-empire/scam-empire-everything-you-need-to-know-about-these-massive-investment-scams",
+    "reason": "site unreachable (ReadTimeout)"
+   }
+  ]
  }
 }

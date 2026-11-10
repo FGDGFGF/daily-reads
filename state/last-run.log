@@ -1,31 +1,18 @@
-Run at 2026-11-10 12:08 (Mauritius)
-Mode: full
-ChatGPT: no batch for today (2026-11-10) in the inbox yet.
-Reading 50 publications…
-  44 publications read, 204 fresh candidates
-  couldn't read: bbc.com (HTTPError), texasmonthly.com (HTTPError), restofworld.org (ParseError), theguardian.com (HTTPError), lostislamichistory.com (ParseError), arabnews.com (HTTPError)
-Gemini gemini-flash-latest, attempt 1…
-  failed: HTTP 503: This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later. []
-Gemini gemini-flash-latest, attempt 2…
-  failed: HTTP 503: This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later. []
-Gemini gemini-flash-latest, attempt 3…
-  failed: HTTP 503: This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later. []
-Gemini gemini-flash-lite-latest, attempt 1…
-  failed: HTTP 503: This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later. []
-Gemini gemini-flash-lite-latest, attempt 2…
-  Gemini picked 16 articles
-   ✓ The Mystery of the Gold Fragments That Rewrote British History — thecollector.com
-   ✓ This African Prophet Was Burned at the Stake 320 Years Ago. Today, Kim — smithsonianmag.com
-   ✓ Neolithic Cannibalism Wasn't an Act of Desperation. Almost 1,000 Skele — smithsonianmag.com
-   ✓ High-Profile Smuggling Raids in Hungary Point to Former PM's Brother — occrp.org
-   ✓ Ex-Belgrade Police Chief Denies Charges in 'Body in a Barrel' Case — occrp.org
-   ✓ Firm Linked to Trump’s Sons Got Nearly $40 Million in Federal Contract — propublica.org
-   ✓ Did Life Begin in an RNA World? — quantamagazine.org
-   ✓ Baby chimpanzees blow ‘raspberries’ because adults do it first — popsci.com
-   ✓ A high-fiber diet may clear away plastic in the gut — sciencenews.org
-   ✓ Equality talk — aeon.co
-   ✓ Morning update — middleeasteye.net
-   ✓ Palestine Weekly: West Bank on fire – and Gaza’s tents under water — aljazeera.com
-   ✓ Fuente de los Niños Miones in Guadalajara, Mexico — atlasobscura.com
-   ✓ The Peruvian hotel with a terrifying check-in — bbc.com
-Published 12 articles: 12 Gemini/backup + 0 ChatGPT (2 long reads).
+Run at 2026-11-10 12:16 (Mauritius)
+Mode: chatgpt
+ChatGPT batch 2026-11-10: checking 12 articles…
+   ✓ ChatGPT: Artificial Intelligence: Ars Notoria and the Promise of Instant Knowle — The Public Domain Review
+   ✓ ChatGPT: The Alleged Mastermind of a $2 Billion U.S. Telemedicine Scam Is Enjoy — OCCRP
+   ✓ ChatGPT: How a Giant Squid Attack Became an Urban Legend — JSTOR Daily
+   ✓ ChatGPT: The Space Race’s Forgotten Theme Park — JSTOR Daily
+   ✓ ChatGPT: Souvenir Hunting on the Battlefield of Waterloo — JSTOR Daily
+   ✓ ChatGPT: The First E-Sports? Chess by Telegraph — JSTOR Daily
+   ✓ ChatGPT: The Habshi Dynasty of India — JSTOR Daily
+   ✓ ChatGPT: Empire on Display: The Rise of Taxidermy — JSTOR Daily
+   ✓ ChatGPT: The Golden Age of the American Soapbox — JSTOR Daily
+   ✓ ChatGPT: Islands of the Imagination — JSTOR Daily
+   ✗ unreachable https://www.occrp.org/en/project/scam-empire/scam-empire-everything-you-need-to-know-about-these-massive-investment-scams (ReadTimeout)
+   ✗ ChatGPT: "Everything You Need to Know About 'Scam Empire'" — site unreachable (ReadTimeout)
+   ✓ ChatGPT: The Surprising Imperial History of the Pekingese Dog — JSTOR Daily
+ChatGPT batch 2026-11-10: 11 published, 1 rejected
+Published 11 articles: 0 Gemini/backup + 11 ChatGPT (2 long reads).
