@@ -1,25 +1,31 @@
-Run at 2026-11-09 12:42 (Mauritius)
+Run at 2026-11-10 12:08 (Mauritius)
 Mode: full
-ChatGPT: no batch for today (2026-11-09) in the inbox yet.
+ChatGPT: no batch for today (2026-11-10) in the inbox yet.
 Reading 50 publications…
-  44 publications read, 203 fresh candidates
+  44 publications read, 204 fresh candidates
   couldn't read: bbc.com (HTTPError), texasmonthly.com (HTTPError), restofworld.org (ParseError), theguardian.com (HTTPError), lostislamichistory.com (ParseError), arabnews.com (HTTPError)
 Gemini gemini-flash-latest, attempt 1…
-  Gemini picked 17 articles
-   ✓ The Mysterious Rzepin Train Disaster — amusingplanet.com
-   ✓ Project Stargazer: Astronomy From Balloons — amusingplanet.com
-   ✓ Slavdom Unearthed: Marian Wawrzeniecki’s Neopagan Paintings (1891–1923 — publicdomainreview.org
-   ✓ What Readers Thought of 'Dracula' When It Was Published in 1897 — mentalfloss.com
-   ✓ Romanian Institutions Bought Banned Russian Cybersecurity Software — occrp.org
-   ✓ DRC Orders Probe into Illegal Mining Following Major Copper and Cobalt — occrp.org
-   ✓ 'A cybercrime goldrush' threatens new web users — bbc.com
-   ✓ Trump’s State Department Is Giving $1 Million to Controversial Group t — propublica.org
-   ✓ Strange Gas in Mars' Atmosphere Hints the Red Planet Is Still Volcanic — smithsonianmag.com
-   ✓ This armored amphibian once lived and hunted on the seafloor — sciencenews.org
-   ✓ Celestial nuisance — aeon.co
-   ✓ The Canadian province where swear words are sacred — bbc.com
-   ✓ Who are the seafarers caught in the US-Israeli war on Iran? — aljazeera.com
-   ✓ IRGC says 'oil smuggling' through Hormuz Strait has been completely ha — middleeasteye.net
-   ✓ The Pollycrisis — longreads.com
-   ✓ For Centuries, Cave Visitors Walked Right by 280 Ice Age Engravings. T — smithsonianmag.com
+  failed: HTTP 503: This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later. []
+Gemini gemini-flash-latest, attempt 2…
+  failed: HTTP 503: This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later. []
+Gemini gemini-flash-latest, attempt 3…
+  failed: HTTP 503: This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later. []
+Gemini gemini-flash-lite-latest, attempt 1…
+  failed: HTTP 503: This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later. []
+Gemini gemini-flash-lite-latest, attempt 2…
+  Gemini picked 16 articles
+   ✓ The Mystery of the Gold Fragments That Rewrote British History — thecollector.com
+   ✓ This African Prophet Was Burned at the Stake 320 Years Ago. Today, Kim — smithsonianmag.com
+   ✓ Neolithic Cannibalism Wasn't an Act of Desperation. Almost 1,000 Skele — smithsonianmag.com
+   ✓ High-Profile Smuggling Raids in Hungary Point to Former PM's Brother — occrp.org
+   ✓ Ex-Belgrade Police Chief Denies Charges in 'Body in a Barrel' Case — occrp.org
+   ✓ Firm Linked to Trump’s Sons Got Nearly $40 Million in Federal Contract — propublica.org
+   ✓ Did Life Begin in an RNA World? — quantamagazine.org
+   ✓ Baby chimpanzees blow ‘raspberries’ because adults do it first — popsci.com
+   ✓ A high-fiber diet may clear away plastic in the gut — sciencenews.org
+   ✓ Equality talk — aeon.co
+   ✓ Morning update — middleeasteye.net
+   ✓ Palestine Weekly: West Bank on fire – and Gaza’s tents under water — aljazeera.com
+   ✓ Fuente de los Niños Miones in Guadalajara, Mexico — atlasobscura.com
+   ✓ The Peruvian hotel with a terrifying check-in — bbc.com
 Published 12 articles: 12 Gemini/backup + 0 ChatGPT (2 long reads).
