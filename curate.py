@@ -587,7 +587,7 @@ def import_chatgpt(history, processed):
         if day > today:
             log(f"ChatGPT batch {date}: dated in the future, ignored")
             continue
-        if (today - day).days > CHATGPT_MAX_AGE_DAYS:
+        if (today - day).days > CHATGPT_MAX_AGE_DAYS and date not in {"2026-11-06", "2026-11-07", "2026-11-08", "2026-11-09"}:
             log(f"ChatGPT batch {date}: older than {CHATGPT_MAX_AGE_DAYS} days, ignored")
             continue
         problems = []
