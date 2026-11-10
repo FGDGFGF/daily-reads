@@ -2,14 +2,14 @@ name: Daily Reads
 
 on:
   schedule:
-    - cron: "40 1 * * *"      # 05:40 Mauritius (01:40 UTC) so the batch is ready by 06:00 — GitHub can start runs a few minutes late
+    - cron: "40 1 * * *"      # backup only: GitHub often starts this hours late. The Pi starts the real run at 05:40 (mode "daily").
   workflow_dispatch:           # "Run workflow" button / the 📰 button on the home server
     inputs:
       mode:
-        description: "full = new Gemini batch + any new ChatGPT batch; chatgpt = only import new ChatGPT batches"
+        description: "full = new Gemini batch + any new ChatGPT batch; daily = like full, but only if today's batch isn't out yet; chatgpt = only import new ChatGPT batches"
         default: full
         type: choice
-        options: [full, chatgpt]
+        options: [full, daily, chatgpt]
   push:                        # ChatGPT pushed a new batch → import it right away (ChatGPT only, no extra Gemini batch)
     branches: [main]
     paths: [state/chatgpt_picks.json]
@@ -38,7 +38,7 @@ jobs:
       - name: Curate and build the feed
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
-          RUN_MODE: ${{ github.event_name == 'push' && 'chatgpt' || inputs.mode || 'full' }}
+          RUN_MODE: ${{ github.event_name == 'push' && 'chatgpt' || github.event_name == 'schedule' && 'daily' || inputs.mode || 'full' }}
           FEED_TITLE: Daily Reads
           FEED_LINK: https://${{ github.repository_owner }}.github.io/${{ github.event.repository.name }}/
         run: python curate.py

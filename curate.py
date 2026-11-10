@@ -662,6 +662,13 @@ def main():
     mode = os.environ.get("RUN_MODE", "full")   # "full" = Gemini + ChatGPT, "chatgpt" = ChatGPT inbox only
     log(f"Mode: {mode}")
     history = load_history()
+    if mode == "daily":   # the automatic morning run (Pi at 05:40, GitHub's late schedule as backup)
+        today = dt.datetime.now(TZ).date().isoformat()
+        if any(h.get("source") != "chatgpt" and str(h.get("sent", "")).startswith(today) for h in history):
+            log("Today's Gemini batch is already out — only checking ChatGPT's inbox.")
+            mode = "chatgpt"
+        else:
+            mode = "full"
     processed = load_processed()
 
     # ChatGPT's preselected batch goes first, so Gemini can't crowd it out.
