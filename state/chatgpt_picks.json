@@ -1692,5 +1692,126 @@
     "hook": "The strange link between fashionable lapdogs, British aristocrats and the spoils of imperial conquest.",
     "category": "culture_ideas",
     "long": false
+  },
+  {
+    "batch_date": "2026-11-06",
+    "title": "They Needed Treatment for Drug Addiction. The Company They Turned to May Have Used Them to Commit Fraud.",
+    "url": "https://www.propublica.org/article/kentucky-addiction-recovery-care-medicaid-fraud",
+    "publisher": "ProPublica",
+    "date": "",
+    "category": "fraud_investigation",
+    "long": true,
+    "hook": "A deeply reported investigation of alleged billing abuses at a major addiction-treatment company."
+  },
+  {
+    "batch_date": "2026-11-06",
+    "title": "25 Years After 9/11, Questions About the FBI’s Pursuit of Saudi Suspects in the Case Have Only Grown",
+    "url": "https://www.propublica.org/article/fbi-911-saudi-bayoumi-investigation",
+    "publisher": "ProPublica",
+    "date": "",
+    "category": "fraud_investigation",
+    "long": true,
+    "hook": "An investigative reconstruction of evidence and unresolved questions surrounding an FBI investigation."
+  },
+  {
+    "batch_date": "2026-11-06",
+    "title": "Deloitte’s Cyprus Office Helped Abramovich Firms Relocate Billions in Assets in Apparent Bid to Sidestep Tax and Transparency",
+    "url": "https://www.occrp.org/en/project/cyprus-confidential/deloittes-office-in-cyprus-helped-abramovich-firms-relocate-billions-of-dollars-in-assets-in-apparent-bid-to-sidestep-tax-and-transparency",
+    "publisher": "OCCRP",
+    "date": "",
+    "category": "fraud_investigation",
+    "long": false,
+    "hook": "Leaked documents reveal a controversial backdating operation to shift billions offshore."
+  },
+  {
+    "batch_date": "2026-11-06",
+    "title": "How IOS Group Supersized the Shell Company Game",
+    "url": "https://www.occrp.org/en/project/the-troika-laundromat/how-ios-group-supersized-the-shell-company-game",
+    "publisher": "OCCRP",
+    "date": "",
+    "category": "fraud_investigation",
+    "long": false,
+    "hook": "A corporate formation agent helped build the paper infrastructure used in global laundering schemes."
+  },
+  {
+    "batch_date": "2026-11-06",
+    "title": "These Moths Use Their Genitals to Fend Off Bats—but Not in the Way You Think. They Emit Ultrasound to Scramble the Predators’ Sonar",
+    "url": "https://www.smithsonianmag.com/smart-news/these-moths-use-their-genitals-to-fend-off-bats-but-not-in-the-way-you-think-they-emit-ultrasound-to-scramble-the-predators-sonar-180989819/",
+    "publisher": "Smithsonian Magazine",
+    "date": "",
+    "category": "science_tech",
+    "long": false,
+    "hook": "Hawkmoths evolved bizarre ultrasonic defenses that interfere with hungry bats."
+  },
+  {
+    "batch_date": "2026-11-06",
+    "title": "A Researcher Studying in a Dutch Library Was Amazed to Discover a Scrap of Parchment From a 1,700-Year-Old Copy of ‘The Odyssey’",
+    "url": "https://www.smithsonianmag.com/smart-news/a-researcher-studying-in-a-dutch-library-was-amazed-to-discover-a-scrap-of-parchment-from-a-1700-year-old-copy-of-the-odyssey-180989524/",
+    "publisher": "Smithsonian Magazine",
+    "date": "",
+    "category": "weird_history",
+    "long": false,
+    "hook": "A tiny forgotten scrap of parchment turned out to contain verses of a 1,700-year-old Odyssey."
+  },
+  {
+    "batch_date": "2026-11-06",
+    "title": "The Ancient DNA of a Deadly Animal Virus Has Been Lurking in Medieval Manuscripts for Centuries, Researchers Find",
+    "url": "https://www.smithsonianmag.com/smart-news/medieval-manuscripts-preserved-traces-of-a-deadly-virus-for-centuries-180989522/",
+    "publisher": "Smithsonian Magazine",
+    "date": "",
+    "category": "science_tech",
+    "long": false,
+    "hook": "Medieval manuscripts unexpectedly preserve genetic evidence of ancient livestock epidemics."
+  },
+  {
+    "batch_date": "2026-11-06",
+    "title": "The Tully Monster, Monstrous No More",
+    "url": "https://daily.jstor.org/tully-monster-monstrous-no/",
+    "publisher": "JSTOR Daily",
+    "date": "",
+    "category": "weird_history",
+    "long": false,
+    "hook": "A bizarre fossil's decades-long identity crisis offers a lesson in how paleontological mysteries get solved."
+  },
+  {
+    "batch_date": "2026-11-06",
+    "title": "The Art and Science of Disney’s Fantasia",
+    "url": "https://daily.jstor.org/the-art-and-science-of-disneys-fantasia/",
+    "publisher": "JSTOR Daily",
+    "date": "",
+    "category": "culture_ideas",
+    "long": false,
+    "hook": "How Disney's ambitious animated experiment merged science, engineering, music and imagination."
+  },
+  {
+    "batch_date": "2026-11-06",
+    "title": "How Edinburgh Made Haggis Cool Again",
+    "url": "https://www.atlasobscura.com/articles/posts/how-edinburgh-made-haggis-cool-again",
+    "publisher": "Atlas Obscura",
+    "date": "",
+    "category": "wildcard",
+    "long": false,
+    "hook": "A journey through the wild reinvention of Scotland's famously misunderstood national dish."
+  },
+  {
+    "batch_date": "2026-11-06",
+    "title": "The Journey of Automatic Machines in Muslim Civilisation",
+    "url": "https://muslimheritage.com/journey-of-automatic-machines/",
+    "publisher": "Muslim Heritage",
+    "date": "",
+    "category": "islamic",
+    "long": false,
+    "hook": "Water clocks, automata and ingenious machines from medieval Muslim inventors."
+  },
+  {
+    "batch_date": "2026-11-06",
+    "title": "The Last Payphones Are Taking Goodbyes",
+    "url": "https://www.atlasobscura.com/articles/posts/the-last-payphones-are-taking-goodbyes",
+    "publisher": "Atlas Obscura",
+    "date": "",
+    "category": "rotating",
+    "long": false,
+    "hook": "A vanishing payphone network turns into an unexpected community ritual for unsaid goodbyes.",
+    "theme": "Hidden Worlds & Forgotten Places"
   }
 ]
