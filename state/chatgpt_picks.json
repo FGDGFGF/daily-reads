@@ -1813,5 +1813,126 @@
     "long": false,
     "hook": "A vanishing payphone network turns into an unexpected community ritual for unsaid goodbyes.",
     "theme": "Hidden Worlds & Forgotten Places"
+  },
+  {
+    "batch_date": "2026-11-07",
+    "title": "“Worthless Idiot, Donkey Head”: Parodies of Pedantry on the Renaissance Stage",
+    "url": "https://publicdomainreview.org/essay/parodies-of-pedantry",
+    "publisher": "The Public Domain Review",
+    "date": "",
+    "hook": "“Worthless Idiot, Donkey Head”: Parodies of Pedantry on the Renaissance Stage",
+    "category": "weird_history",
+    "long": true
+  },
+  {
+    "batch_date": "2026-11-07",
+    "title": "The Blinkered Flâneur: Walking with Franz Hessel in 1920s Berlin",
+    "url": "https://publicdomainreview.org/essay/the-blinkered-flaneur",
+    "publisher": "The Public Domain Review",
+    "date": "",
+    "hook": "The Blinkered Flâneur: Walking with Franz Hessel in 1920s Berlin",
+    "category": "culture_ideas",
+    "long": true
+  },
+  {
+    "batch_date": "2026-11-07",
+    "title": "Ancient Egyptians Believed That These Newly Discovered Gold Tongues Allowed the Dead to Communicate in the Afterlife",
+    "url": "https://www.smithsonianmag.com/smart-news/ancient-egyptians-believed-that-these-newly-discovered-gold-tongues-allowed-the-dead-to-communicate-in-the-afterlife-180989127/",
+    "publisher": "Smithsonian Magazine",
+    "date": "",
+    "hook": "Ancient Egyptians Believed That These Newly Discovered Gold Tongues Allowed the Dead to Communicate in the Afterlife",
+    "category": "weird_history",
+    "long": false
+  },
+  {
+    "batch_date": "2026-11-07",
+    "title": "Meet Sak Tahn Waax, a Maya Math Whiz Who Lived More Than 1,000 Years Ago and Left Behind a ‘Really Elegant, Complex’ Formula",
+    "url": "https://www.smithsonianmag.com/smart-news/meet-sak-tahn-waax-a-maya-math-whiz-who-lived-more-than-1000-years-ago-and-left-behind-a-really-elegant-complex-formula-180989125/",
+    "publisher": "Smithsonian Magazine",
+    "date": "",
+    "hook": "Meet Sak Tahn Waax, a Maya Math Whiz Who Lived More Than 1,000 Years Ago and Left Behind a ‘Really Elegant, Complex’ Formula",
+    "category": "science_tech",
+    "long": false
+  },
+  {
+    "batch_date": "2026-11-07",
+    "title": "An English King’s Bones Were Moved Over Centuries and Eventually Lost. One Researcher Claims He Discovered Their Location—Under a Parking Lot",
+    "url": "https://www.smithsonianmag.com/smart-news/an-english-kings-bones-were-moved-over-centuries-and-eventually-lost-one-researcher-claims-he-discovered-their-location-under-a-parking-lot-180989121/",
+    "publisher": "Smithsonian Magazine",
+    "date": "",
+    "hook": "An English King’s Bones Were Moved Over Centuries and Eventually Lost. One Researcher Claims He Discovered Their Location—Under a Parking Lot",
+    "category": "weird_history",
+    "long": false
+  },
+  {
+    "batch_date": "2026-11-07",
+    "title": "How Cambodian Pop Music Survived the Khmer Rouge",
+    "url": "https://daily.jstor.org/how-cambodian-pop-music-survived-the-khmer-rouge/",
+    "publisher": "JSTOR Daily",
+    "date": "",
+    "hook": "How Cambodian Pop Music Survived the Khmer Rouge",
+    "category": "culture_ideas",
+    "long": false
+  },
+  {
+    "batch_date": "2026-11-07",
+    "title": "On the Rocks",
+    "url": "https://daily.jstor.org/on-the-rocks/",
+    "publisher": "JSTOR Daily",
+    "date": "",
+    "hook": "On the Rocks",
+    "category": "science_tech",
+    "long": false
+  },
+  {
+    "batch_date": "2026-11-07",
+    "title": "The Chinese-Only Schools of the Jim Crow South",
+    "url": "https://daily.jstor.org/the-chinese-only-schools-of-the-jim-crow-south/",
+    "publisher": "JSTOR Daily",
+    "date": "",
+    "hook": "The Chinese-Only Schools of the Jim Crow South",
+    "category": "wildcard",
+    "long": false
+  },
+  {
+    "batch_date": "2026-11-07",
+    "title": "Mathematical Science - Contributions of Islamic Scholars to the Scientific Enterprise",
+    "url": "https://muslimheritage.com/mathematical-science/",
+    "publisher": "Muslim Heritage",
+    "date": "",
+    "hook": "Mathematical Science - Contributions of Islamic Scholars to the Scientific Enterprise",
+    "category": "islamic",
+    "long": false
+  },
+  {
+    "batch_date": "2026-11-07",
+    "title": "Atlas Obscura’s Guide to America’s Most Haunted Cemeteries",
+    "url": "https://www.atlasobscura.com/articles/america-haunted-cemeteries",
+    "publisher": "Atlas Obscura",
+    "date": "",
+    "hook": "Atlas Obscura’s Guide to America’s Most Haunted Cemeteries",
+    "category": "rotating",
+    "long": false,
+    "theme": "Hidden Worlds & Forgotten Places"
+  },
+  {
+    "batch_date": "2026-11-07",
+    "title": "Scammers Are Stealing Millions From Food Stamp Recipients. Congress Could Fix It — but Won’t.",
+    "url": "https://www.propublica.org/article/food-stamp-snap-benefits-theft-skimmers-fraud",
+    "publisher": "ProPublica",
+    "date": "",
+    "hook": "Scammers Are Stealing Millions From Food Stamp Recipients. Congress Could Fix It — but Won’t.",
+    "category": "fraud_investigation",
+    "long": false
+  },
+  {
+    "batch_date": "2026-11-07",
+    "title": "How ProPublica Reporters Became Private School Owners in 24 Hours",
+    "url": "https://www.propublica.org/article/propublica-reporters-private-school-owners",
+    "publisher": "ProPublica",
+    "date": "",
+    "hook": "How ProPublica Reporters Became Private School Owners in 24 Hours",
+    "category": "fraud_investigation",
+    "long": false
   }
 ]
