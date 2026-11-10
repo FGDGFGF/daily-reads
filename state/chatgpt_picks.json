@@ -1571,5 +1571,126 @@
     "hook": "An entire exhibition traces the dachshund's journey from hunting dog to modern-art muse.",
     "category": "wildcard",
     "long": false
+  },
+  {
+    "batch_date": "2026-11-10",
+    "title": "Artificial Intelligence: Ars Notoria and the Promise of Instant Knowledge",
+    "url": "https://publicdomainreview.org/essay/ars-notoria/",
+    "publisher": "The Public Domain Review",
+    "date": "2026-07-29",
+    "hook": "A medieval manuscript promised to download an entire university education into the mind using magical diagrams and prayers.",
+    "category": "weird_history",
+    "long": true
+  },
+  {
+    "batch_date": "2026-11-10",
+    "title": "The Alleged Mastermind of a $2 Billion U.S. Telemedicine Scam Is Enjoying the Luxury Life in Russia",
+    "url": "https://www.occrp.org/en/investigation/the-alleged-mastermind-of-a-2-billion-us-telemedicine-scam-is-enjoying-the-luxury-life-in-russia",
+    "publisher": "OCCRP",
+    "date": "2026-07-29",
+    "hook": "Reporters trace the luxurious Russian life of a fugitive accused of leading an enormous fraudulent-prescription operation.",
+    "category": "fraud_investigation",
+    "long": true
+  },
+  {
+    "batch_date": "2026-11-10",
+    "title": "How a Giant Squid Attack Became an Urban Legend",
+    "url": "https://daily.jstor.org/how-a-giant-squid-attack-became-an-urban-legend/",
+    "publisher": "JSTOR Daily",
+    "date": "2026-04-03",
+    "hook": "A survivor's sea-monster story grew tentacles over decades; archival accounts point to a very different creature.",
+    "category": "weird_history",
+    "long": false
+  },
+  {
+    "batch_date": "2026-11-10",
+    "title": "The Space Race’s Forgotten Theme Park",
+    "url": "https://daily.jstor.org/the-space-races-forgotten-theme-park/",
+    "publisher": "JSTOR Daily",
+    "date": "2026-01-27",
+    "hook": "A would-be 1960s space-age Disneyland collapsed before opening, leaving a ghost of an American moonshot.",
+    "category": "rotating",
+    "long": false,
+    "theme": "Hidden Worlds & Forgotten Places"
+  },
+  {
+    "batch_date": "2026-11-10",
+    "title": "Souvenir Hunting on the Battlefield of Waterloo",
+    "url": "https://daily.jstor.org/souvenir-hunting-on-the-battlefield-of-waterloo/",
+    "publisher": "JSTOR Daily",
+    "date": "2026-01-20",
+    "hook": "Tourists descended on a battlefield to buy grisly keepsakes, including purported human remains.",
+    "category": "weird_history",
+    "long": false
+  },
+  {
+    "batch_date": "2026-11-10",
+    "title": "The First E-Sports? Chess by Telegraph",
+    "url": "https://daily.jstor.org/the-first-e-sports-chess-by-telegraph/",
+    "publisher": "JSTOR Daily",
+    "date": "2026-03-23",
+    "hook": "Long before streaming, lawmakers and chess clubs played international matches over telegraph wires.",
+    "category": "science_tech",
+    "long": false
+  },
+  {
+    "batch_date": "2026-11-10",
+    "title": "The Habshi Dynasty of India",
+    "url": "https://daily.jstor.org/the-habshis-dynasty-of-india/",
+    "publisher": "JSTOR Daily",
+    "date": "",
+    "hook": "The remarkable history of an African-origin ruling dynasty in the Indian subcontinent.",
+    "category": "islamic",
+    "long": false
+  },
+  {
+    "batch_date": "2026-11-10",
+    "title": "Empire on Display: The Rise of Taxidermy",
+    "url": "https://daily.jstor.org/empire-on-display-the-rise-of-taxidermy/",
+    "publisher": "JSTOR Daily",
+    "date": "2026-05-18",
+    "hook": "How stuffed animals became tools of empire, theatrical spectacle, and scientific persuasion.",
+    "category": "culture_ideas",
+    "long": false
+  },
+  {
+    "batch_date": "2026-11-10",
+    "title": "The Golden Age of the American Soapbox",
+    "url": "https://daily.jstor.org/the-golden-age-of-the-american-soapbox/",
+    "publisher": "JSTOR Daily",
+    "date": "2026-04-15",
+    "hook": "The forgotten street-corner performers, cranks, radicals and showmen who turned public speech into theatre.",
+    "category": "wildcard",
+    "long": false
+  },
+  {
+    "batch_date": "2026-11-10",
+    "title": "Islands of the Imagination",
+    "url": "https://daily.jstor.org/islands-of-the-imagination/",
+    "publisher": "JSTOR Daily",
+    "date": "",
+    "hook": "Why imagined islands have served as laboratories for utopian politics and escape fantasies.",
+    "category": "culture_ideas",
+    "long": false
+  },
+  {
+    "batch_date": "2026-11-10",
+    "title": "Everything You Need to Know About 'Scam Empire'",
+    "url": "https://www.occrp.org/en/project/scam-empire/scam-empire-everything-you-need-to-know-about-these-massive-investment-scams",
+    "publisher": "OCCRP",
+    "date": "",
+    "hook": "A guide to leaked call-centre files revealing fake brokers, invented profits and a sprawling international investment scam.",
+    "category": "fraud_investigation",
+    "long": false
+  },
+  {
+    "batch_date": "2026-11-10",
+    "title": "The Surprising Imperial History of the Pekingese Dog",
+    "url": "https://daily.jstor.org/the-surprising-imperial-history-of-the-pekingese-dog/",
+    "publisher": "JSTOR Daily",
+    "date": "2025-09-28",
+    "hook": "The strange link between fashionable lapdogs, British aristocrats and the spoils of imperial conquest.",
+    "category": "culture_ideas",
+    "long": false
   }
 ]
