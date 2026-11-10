@@ -2055,5 +2055,126 @@
     "hook": "The Secret Terms of Trump’s Venezuelan Oil Deal",
     "category": "fraud_investigation",
     "long": false
+  },
+  {
+    "batch_date": "2026-11-09",
+    "title": "Fear and Fragility: The Glass Delusion and Its History",
+    "url": "https://publicdomainreview.org/essay/fear-and-fragility-the-glass-delusion-and-its-history",
+    "publisher": "The Public Domain Review",
+    "date": "",
+    "hook": "Fear and Fragility: The Glass Delusion and Its History",
+    "category": "weird_history",
+    "long": true
+  },
+  {
+    "batch_date": "2026-11-09",
+    "title": "Louis Pope Gratacap, A Curator in Lost Worlds",
+    "url": "https://publicdomainreview.org/essay/gratacap-curator-in-lost-worlds/",
+    "publisher": "The Public Domain Review",
+    "date": "",
+    "hook": "Louis Pope Gratacap, A Curator in Lost Worlds",
+    "category": "weird_history",
+    "long": true
+  },
+  {
+    "batch_date": "2026-11-09",
+    "title": "Take an Exclusive Look at Three Newly Discovered Medieval Shipwrecks in Menorca’s ‘Cove of Mysteries’",
+    "url": "https://www.smithsonianmag.com/history/take-an-exclusive-look-at-three-newly-discovered-medieval-shipwrecks-in-menorcas-cove-of-mysteries-180989092/",
+    "publisher": "Smithsonian Magazine",
+    "date": "",
+    "hook": "Take an Exclusive Look at Three Newly Discovered Medieval Shipwrecks in Menorca’s ‘Cove of Mysteries’",
+    "category": "weird_history",
+    "long": false
+  },
+  {
+    "batch_date": "2026-11-09",
+    "title": "A New Expedition Will Create 3D Digital Twins of Polar Shipwrecks Tied to Voyages of Rival Explorers Who Raced to the South Pole",
+    "url": "https://www.smithsonianmag.com/smart-news/a-new-expeditiion-will-create-3d-digital-twins-of-polar-shipwrecks-tied-to-voyages-of-rival-explorers-who-raced-to-the-south-pole-180989074/",
+    "publisher": "Smithsonian Magazine",
+    "date": "",
+    "hook": "A New Expedition Will Create 3D Digital Twins of Polar Shipwrecks Tied to Voyages of Rival Explorers Who Raced to the South Pole",
+    "category": "science_tech",
+    "long": false
+  },
+  {
+    "batch_date": "2026-11-09",
+    "title": "How a Hungry Komodo Dragon Led Scientists to Determine Our Small, Hobbit-Like Cousins Probably Weren’t That Smart After All",
+    "url": "https://www.smithsonianmag.com/smart-news/how-a-hungry-komodo-dragod-led-scientists-to-determine-our-small-hobbit-like-cousins-probably-werent-that-smart-after-all-180989078/",
+    "publisher": "Smithsonian Magazine",
+    "date": "",
+    "hook": "How a Hungry Komodo Dragon Led Scientists to Determine Our Small, Hobbit-Like Cousins Probably Weren’t That Smart After All",
+    "category": "science_tech",
+    "long": false
+  },
+  {
+    "batch_date": "2026-11-09",
+    "title": "Why Mud Matters",
+    "url": "https://daily.jstor.org/why-mud-matters/",
+    "publisher": "JSTOR Daily",
+    "date": "",
+    "hook": "Why Mud Matters",
+    "category": "wildcard",
+    "long": false
+  },
+  {
+    "batch_date": "2026-11-09",
+    "title": "Taking Alien Life Seriously: The Origins of Exobiology",
+    "url": "https://daily.jstor.org/taking-alien-life-seriously-the-origins-of-exobiology/",
+    "publisher": "JSTOR Daily",
+    "date": "",
+    "hook": "Taking Alien Life Seriously: The Origins of Exobiology",
+    "category": "science_tech",
+    "long": false
+  },
+  {
+    "batch_date": "2026-11-09",
+    "title": "The Macronutrients of the Three Sisters System",
+    "url": "https://daily.jstor.org/the-macronutrients-of-the-three-sisters-system/",
+    "publisher": "JSTOR Daily",
+    "date": "",
+    "hook": "The Macronutrients of the Three Sisters System",
+    "category": "culture_ideas",
+    "long": false
+  },
+  {
+    "batch_date": "2026-11-09",
+    "title": "Re-Evaluating the Development of the Islamic Sciences: The Case Against the Classical Narrative and the Myth of Decline",
+    "url": "https://muslimheritage.com/re-evaluating-development/",
+    "publisher": "Muslim Heritage",
+    "date": "",
+    "hook": "Re-Evaluating the Development of the Islamic Sciences: The Case Against the Classical Narrative and the Myth of Decline",
+    "category": "islamic",
+    "long": false
+  },
+  {
+    "batch_date": "2026-11-09",
+    "title": "The Best Haunted Hotels to Book for a Spooky Getaway",
+    "url": "https://www.atlasobscura.com/articles/best-haunted-hotels-for-a-spooky-getaway",
+    "publisher": "Atlas Obscura",
+    "date": "",
+    "hook": "The Best Haunted Hotels to Book for a Spooky Getaway",
+    "category": "rotating",
+    "long": false,
+    "theme": "Hidden Worlds & Forgotten Places"
+  },
+  {
+    "batch_date": "2026-11-09",
+    "title": "Her Agency Distributes Billions for Housing Projects. Her Husband’s Company Helped Develop Some of Them.",
+    "url": "https://www.propublica.org/article/oregon-housing-director-husband-conflict",
+    "publisher": "ProPublica",
+    "date": "",
+    "hook": "Her Agency Distributes Billions for Housing Projects. Her Husband’s Company Helped Develop Some of Them.",
+    "category": "fraud_investigation",
+    "long": false
+  },
+  {
+    "batch_date": "2026-11-09",
+    "title": "How Texas Helped a Private School Chain’s AI Tool Get Into Public School Classrooms",
+    "url": "https://www.propublica.org/article/alpha-school-ai-texas-public-schools-mike-morath",
+    "publisher": "ProPublica",
+    "date": "",
+    "hook": "How Texas Helped a Private School Chain’s AI Tool Get Into Public School Classrooms",
+    "category": "fraud_investigation",
+    "long": false
   }
 ]
