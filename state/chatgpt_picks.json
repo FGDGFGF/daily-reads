@@ -1934,5 +1934,126 @@
     "hook": "How ProPublica Reporters Became Private School Owners in 24 Hours",
     "category": "fraud_investigation",
     "long": false
+  },
+  {
+    "batch_date": "2026-11-08",
+    "title": "The Great Majority: Body Snatching and Burial Reform in 19th-Century Britain",
+    "url": "https://publicdomainreview.org/essay/the-great-majority/",
+    "publisher": "The Public Domain Review",
+    "date": "",
+    "hook": "The Great Majority: Body Snatching and Burial Reform in 19th-Century Britain",
+    "category": "weird_history",
+    "long": true
+  },
+  {
+    "batch_date": "2026-11-08",
+    "title": "Twilight of the Velocipede: Typesetting Races before the Age of Linotype",
+    "url": "https://publicdomainreview.org/essay/twilight-of-the-velocipede",
+    "publisher": "The Public Domain Review",
+    "date": "",
+    "hook": "Twilight of the Velocipede: Typesetting Races before the Age of Linotype",
+    "category": "culture_ideas",
+    "long": true
+  },
+  {
+    "batch_date": "2026-11-08",
+    "title": "Ancient Romans Put Their Faith in Guardian Spirits. Archaeologists Just Found a Rare 1,600-Year-Old Carving of One in Northern England",
+    "url": "https://www.smithsonianmag.com/smart-news/romans-put-their-faith-in-guardian-spirits-archaeologists-just-found-a-rare-1600-year-old-carving-of-one-in-northern-england-180989118/",
+    "publisher": "Smithsonian Magazine",
+    "date": "",
+    "hook": "Ancient Romans Put Their Faith in Guardian Spirits. Archaeologists Just Found a Rare 1,600-Year-Old Carving of One in Northern England",
+    "category": "weird_history",
+    "long": false
+  },
+  {
+    "batch_date": "2026-11-08",
+    "title": "How Did Two Wolves End Up on This Remote Island Thousands of Years Ago? Researchers Think Humans Brought Them There, Then Cared for Them",
+    "url": "https://www.smithsonianmag.com/smart-news/how-did-two-wolves-end-up-on-this-remote-island-thousands-of-years-ago-researchers-think-humans-brought-them-there-then-cared-for-them-180989110/",
+    "publisher": "Smithsonian Magazine",
+    "date": "",
+    "hook": "How Did Two Wolves End Up on This Remote Island Thousands of Years Ago? Researchers Think Humans Brought Them There, Then Cared for Them",
+    "category": "science_tech",
+    "long": false
+  },
+  {
+    "batch_date": "2026-11-08",
+    "title": "Roughly 100,000 Years Ago, This Man Got Stabbed in the Face—and Survived. He’s Likely One of the First Known Victims of an Attack With a Sharp Weapon",
+    "url": "https://www.smithsonianmag.com/smart-news/roughly-100000-years-ago-this-man-got-stabbed-in-the-face-and-survived-hes-likely-one-of-the-first-known-victims-of-an-attack-by-a-sharp-weapon-180989103/",
+    "publisher": "Smithsonian Magazine",
+    "date": "",
+    "hook": "Roughly 100,000 Years Ago, This Man Got Stabbed in the Face—and Survived. He’s Likely One of the First Known Victims of an Attack With a Sharp Weapon",
+    "category": "weird_history",
+    "long": false
+  },
+  {
+    "batch_date": "2026-11-08",
+    "title": "Contesting American Citizenship… in 1784",
+    "url": "https://daily.jstor.org/contesting-american-citizenship-in-1784/",
+    "publisher": "JSTOR Daily",
+    "date": "",
+    "hook": "Contesting American Citizenship… in 1784",
+    "category": "rotating",
+    "long": false,
+    "theme": "How the World Really Works"
+  },
+  {
+    "batch_date": "2026-11-08",
+    "title": "The Women Written Out of Mining History",
+    "url": "https://daily.jstor.org/the-women-written-out-of-mining-history/",
+    "publisher": "JSTOR Daily",
+    "date": "",
+    "hook": "The Women Written Out of Mining History",
+    "category": "culture_ideas",
+    "long": false
+  },
+  {
+    "batch_date": "2026-11-08",
+    "title": "The Folk Stories Behind the Philippines’ Superheroes",
+    "url": "https://daily.jstor.org/the-folk-stories-behind-the-philippines-superheroes/",
+    "publisher": "JSTOR Daily",
+    "date": "",
+    "hook": "The Folk Stories Behind the Philippines’ Superheroes",
+    "category": "wildcard",
+    "long": false
+  },
+  {
+    "batch_date": "2026-11-08",
+    "title": "The Contribution of Muslims to Science During the Middle Abbasid Period (750-945)",
+    "url": "https://muslimheritage.com/middle-abbasid-period/",
+    "publisher": "Muslim Heritage",
+    "date": "",
+    "hook": "The Contribution of Muslims to Science During the Middle Abbasid Period (750-945)",
+    "category": "islamic",
+    "long": false
+  },
+  {
+    "batch_date": "2026-11-08",
+    "title": "The Awkward 17th-Century Dating Practice That Saw Teens Get Bundled Into Bags",
+    "url": "https://www.atlasobscura.com/articles/the-awkward-17thcentury-dating-practice-that-saw-teens-get-bundled-into-bags",
+    "publisher": "Atlas Obscura",
+    "date": "",
+    "hook": "The Awkward 17th-Century Dating Practice That Saw Teens Get Bundled Into Bags",
+    "category": "weird_history",
+    "long": false
+  },
+  {
+    "batch_date": "2026-11-08",
+    "title": "Ken Paxton’s Security for Travel Cost Taxpayers Millions. Just 1 in 6 of His Trips Had a Stated Business Purpose.",
+    "url": "https://www.propublica.org/article/ken-paxton-travel-security-costs",
+    "publisher": "ProPublica",
+    "date": "",
+    "hook": "Ken Paxton’s Security for Travel Cost Taxpayers Millions. Just 1 in 6 of His Trips Had a Stated Business Purpose.",
+    "category": "fraud_investigation",
+    "long": false
+  },
+  {
+    "batch_date": "2026-11-08",
+    "title": "The Secret Terms of Trump’s Venezuelan Oil Deal",
+    "url": "https://www.propublica.org/article/trump-venezuela-oil-agreement-terms",
+    "publisher": "ProPublica",
+    "date": "",
+    "hook": "The Secret Terms of Trump’s Venezuelan Oil Deal",
+    "category": "fraud_investigation",
+    "long": false
   }
 ]
