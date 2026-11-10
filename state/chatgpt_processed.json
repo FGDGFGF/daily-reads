@@ -137,5 +137,10 @@
     "reason": "site unreachable (ReadTimeout)"
    }
   ]
+ },
+ "2026-11-06": {
+  "checked": "2026-11-10T12:23:57+04:00",
+  "published": 12,
+  "rejected": []
  }
 }
