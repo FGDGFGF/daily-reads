@@ -1,17 +1,45 @@
-Run at 2026-11-11 04:52 (Mauritius)
-Mode: chatgpt
-ChatGPT batch 2026-11-11: checking 12 articles…
-   ✓ ChatGPT: The Handwritten Final Draft of Martin Luther King Jr.’s ‘I Have a Drea — Smithsonian Magazine
-   ✓ ChatGPT: Octopuses Are the Ultimate Escape Artists. Now Scientists Know How the — Smithsonian Magazine
-   ✓ ChatGPT: Dismantled to Survive the Nazi Blitz, Coventry Cathedral’s Stained Gla — Smithsonian Magazine
-   ✓ ChatGPT: Why Ancient Doctors Prescribed Disgusting Remedies — JSTOR Daily
-   ✓ ChatGPT: In Defense of the Humanities — JSTOR Daily
-   ✓ ChatGPT: Letters Hidden in My Family’s Attic Reveal a 1910s Bank Con in Key Wes — Atlas Obscura
-   ✓ ChatGPT: The Ghost-Busting ‘Girl Detective’ Who Awed Houdini — Atlas Obscura
-   ✓ ChatGPT: The Quest to Save the World’s Rarest Pasta — Atlas Obscura
-   ✓ ChatGPT: Chinese AI firms want Silicon Valley’s top minds. Poaching them won’t  — Rest of World
-   ✓ ChatGPT: Alfraganus and the Elements of Astronomy — Muslim Heritage
-   ✓ ChatGPT: A Natural Gas Project Off Alaska’s Coast May Be a Russian Ploy for Int — ProPublica
-   ✓ ChatGPT: The Garbage Man: Bill Gates Has Earned Billions Investing in Climate-P — ProPublica
-ChatGPT batch 2026-11-11: 12 published, 0 rejected
-Published 12 articles: 0 Gemini/backup + 12 ChatGPT (2 long reads).
+Run at 2026-11-11 12:31 (Mauritius)
+Mode: daily
+Reading 50 publications…
+  45 publications read, 209 fresh candidates
+  couldn't read: bbc.com (HTTPError), restofworld.org (ParseError), theguardian.com (HTTPError), lostislamichistory.com (SSLError), arabnews.com (HTTPError)
+Gemini gemini-flash-latest, attempt 1…
+  failed: HTTPSConnectionPool(host='generativelanguage.googleapis.com', port=443): Read timed out. (read timeout=300)
+Gemini gemini-flash-latest, attempt 2…
+  failed: HTTPSConnectionPool(host='generativelanguage.googleapis.com', port=443): Read timed out. (read timeout=300)
+Gemini gemini-flash-latest, attempt 3…
+  failed: HTTP 503: This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later. []
+Gemini gemini-flash-lite-latest, attempt 1…
+  Gemini picked 16 articles
+   ✓ While Cleaning Out Her Aunt's Manhattan Apartment, a Woman Found a Lon — smithsonianmag.com
+   ✓ Pinot Noir: Inside the Criminal Gangs Making Fake Wine — longreads.com
+   ✓ The Downfall of a Top Cop — longreads.com
+   ✓ The Great Pacific Garbage Patch Has Accumulated So Many Microplastics  — smithsonianmag.com
+   ✓ What Makes You Yourself: Earth’s Largest Living Organism and the Parad — themarginalian.org
+   ✓ Syria’s UNESCO-Listed Crafts Are Dying Out — newlinesmag.com
+   ✓ Can India’s Oldest Political Dynasty Find a New Mandate? — newlinesmag.com
+   ✓ History’s Greatest Dishes: Dumplings — historyextra.com
+   ✓ The crisis facing the world's most expensive spice — bbc.com
+   ✓ This armored amphibian once lived and hunted on the seafloor — sciencenews.org
+   ✓ Why did medieval England and Scotland hate each other so much? — historyextra.com
+   ✓ Lawyers in This State Are Allowed to Ghost Clients for Years. Why Don’ — propublica.org
+   ✓ Chinese university buys Nvidia AI H200 chips despite US ban, records s — aljazeera.com
+Gemini gave 10 usable articles — topping up from the backup list.
+Using the backup picker…
+   ✓ How the Houthis’ Enemies Made Them a Regional Power — newlinesmag.com
+   ✓ The Maya Loved Using Mercury-Rich Red Paint to Decorate Pottery, Templ — smithsonianmag.com
+   ✓ Edward VI, Mary I and the fight for England’s soul — historyextra.com
+   ✓ Viral Google Maps Images Shared Widely This Week Show Gaza Ruins. We O — bellingcat.com
+   ✓ 2026 iPad mini review: Maximizing the mini — arstechnica.com
+   ✓ Secrets of history's greatest commanders — historyextra.com
+   ✓ Why James Talarico’s “Love Thy Neighbor” Politics Infuriates So Many — texasmonthly.com
+   ✓ Passersby — psyche.co
+   ✓ Maintenance Futures — longreads.com
+   ✓ Toxic secrets are hiding in Arctic ice — sciencenews.org
+   ✓ Jurassic Jungle Boat Ride in Pigeon Forge, Tennessee — atlasobscura.com
+   ✓ Watch: Where Do Our Generic Drugs Come From? We Dug to Find Out. — propublica.org
+   ✓ Carl Sagan on How to Live with the Unknown — themarginalian.org
+   ✓ Texas Country Reporter Welcomes Sammy Zaborowski as New Producer — texasmonthly.com
+   ✓ Can India’s Oldest Political Dynasty Find a New Mandate? — newlinesmag.com
+   ✓ The Best New Restaurants in America in 2026 — eater.com
+Published 12 articles: 12 Gemini/backup + 0 ChatGPT (2 long reads).
