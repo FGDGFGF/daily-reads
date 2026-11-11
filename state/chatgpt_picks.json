@@ -2176,6 +2176,126 @@
     "hook": "How Texas Helped a Private School Chain’s AI Tool Get Into Public School Classrooms",
     "category": "fraud_investigation",
     "long": false
+  },
+  {
+    "batch_date": "2026-11-11",
+    "title": "The Handwritten Final Draft of Martin Luther King Jr.’s ‘I Have a Dream’ Speech Was Considered Lost. It Turned Out to Be Sitting in a Desk Drawer for Decades",
+    "url": "https://www.smithsonianmag.com/smart-news/the-handwritten-final-draft-of-martin-luther-king-jrs-i-have-a-dream-speech-was-considered-lost-it-turned-out-to-be-sitting-in-a-desk-drawer-for-decades-180989856/",
+    "publisher": "Smithsonian Magazine",
+    "date": "2026-11-10",
+    "hook": "The long-lost handwritten draft reveals the revisions King made the night before the March on Washington.",
+    "category": "weird_history",
+    "long": false
+  },
+  {
+    "batch_date": "2026-11-11",
+    "title": "Octopuses Are the Ultimate Escape Artists. Now Scientists Know How the Creatures Contort Themselves to Squeeze Through Tiny Holes",
+    "url": "https://www.smithsonianmag.com/smart-news/octopuses-are-the-ultimate-escape-artists-now-scientists-know-how-the-creatures-contort-themselves-to-squeeze-through-tiny-holes-180989846/",
+    "publisher": "Smithsonian Magazine",
+    "date": "2026-11-10",
+    "hook": "Scientists filmed octopuses using distinct multi-step maneuvers to squeeze through tiny holes—ideas that could inspire rescue robots.",
+    "category": "science_tech",
+    "long": false
+  },
+  {
+    "batch_date": "2026-11-11",
+    "title": "Dismantled to Survive the Nazi Blitz, Coventry Cathedral’s Stained Glass Is ‘a Medieval Jigsaw Puzzle.’ Its 12,000 Fragments Are Now Digitized for Public View",
+    "url": "https://www.smithsonianmag.com/smart-news/dismantled-to-survive-the-nazi-blitz-coventry-cathedrals-stained-glass-is-a-medieval-jigsaw-puzzle-its-12000-fragments-have-been-digitized-for-the-public-180989853/",
+    "publisher": "Smithsonian Magazine",
+    "date": "2026-11-10",
+    "hook": "A medieval stained-glass treasure hidden from wartime bombers has finally been digitally cataloged, fragment by fragment.",
+    "category": "weird_history",
+    "long": false
+  },
+  {
+    "batch_date": "2026-11-11",
+    "title": "Why Ancient Doctors Prescribed Disgusting Remedies",
+    "url": "https://daily.jstor.org/why-ancient-doctors-prescribed-disgusting-remedies/",
+    "publisher": "JSTOR Daily",
+    "date": "2026-11-09",
+    "hook": "Roman physicians prescribed everything from dung to beetles; the revulsion may itself have been part of the perceived cure.",
+    "category": "weird_history",
+    "long": false
+  },
+  {
+    "batch_date": "2026-11-11",
+    "title": "In Defense of the Humanities",
+    "url": "https://daily.jstor.org/in-defense-of-the-humanities/",
+    "publisher": "JSTOR Daily",
+    "date": "2026-11-10",
+    "hook": "A personal account of grief becomes a case for why literature and philosophy still matter in a skills-first world.",
+    "category": "culture_ideas",
+    "long": false
+  },
+  {
+    "batch_date": "2026-11-11",
+    "title": "Letters Hidden in My Family’s Attic Reveal a 1910s Bank Con in Key West",
+    "url": "https://www.atlasobscura.com/articles/key-west-bank-con-letters",
+    "publisher": "Atlas Obscura",
+    "date": "2025-01-03",
+    "hook": "A box of old letters leads to a vanished banker, a financial collapse, a global manhunt and a bizarre claim of amnesia.",
+    "category": "fraud_investigation",
+    "long": false
+  },
+  {
+    "batch_date": "2026-11-11",
+    "title": "The Ghost-Busting ‘Girl Detective’ Who Awed Houdini",
+    "url": "https://www.atlasobscura.com/articles/rose-mackenberg-houdini-ghost-buster",
+    "publisher": "Atlas Obscura",
+    "date": "2024-03-14",
+    "hook": "Meet the undercover investigator who infiltrated seances and exposed fake mediums preying on grieving families.",
+    "category": "fraud_investigation",
+    "long": false
+  },
+  {
+    "batch_date": "2026-11-11",
+    "title": "The Quest to Save the World’s Rarest Pasta",
+    "url": "https://www.atlasobscura.com/articles/worlds-rarest-pasta-su-filindeu",
+    "publisher": "Atlas Obscura",
+    "date": "2025-02-03",
+    "hook": "A Sardinian pasta tradition creates 256 near-invisible strands by hand—and only a few people knew how to do it.",
+    "category": "rotating",
+    "long": false,
+    "theme": "Food Mysteries & Culinary History"
+  },
+  {
+    "batch_date": "2026-11-11",
+    "title": "Chinese AI firms want Silicon Valley’s top minds. Poaching them won’t be easy",
+    "url": "https://restofworld.org/2026/chinese-ai-labs-hire-silicon-valley-engineers-openai-anthropic/",
+    "publisher": "Rest of World",
+    "date": "2026-11-09",
+    "hook": "Chinese AI labs are recruiting in Silicon Valley, but compensation gaps and geopolitical tensions complicate their ambitions.",
+    "category": "science_tech",
+    "long": false
+  },
+  {
+    "batch_date": "2026-11-11",
+    "title": "Alfraganus and the Elements of Astronomy",
+    "url": "https://muslimheritage.com/alfraganus-and-the-elements-of-astronomy/",
+    "publisher": "Muslim Heritage",
+    "date": "2007-01-29",
+    "hook": "Meet the ninth-century astronomer whose influential textbook guided readers across the Islamic world and Europe for centuries.",
+    "category": "islamic",
+    "long": false
+  },
+  {
+    "batch_date": "2026-11-11",
+    "title": "A Natural Gas Project Off Alaska’s Coast May Be a Russian Ploy for Intel on the Arctic",
+    "url": "https://www.propublica.org/article/alaska-prudhoe-lng-polar-novatek",
+    "publisher": "ProPublica",
+    "date": "2026-11-10",
+    "hook": "A supposedly American Arctic gas project raises questions about hidden Russian influence and sensitive seabed surveys.",
+    "category": "fraud_investigation",
+    "long": true
+  },
+  {
+    "batch_date": "2026-11-11",
+    "title": "The Garbage Man: Bill Gates Has Earned Billions Investing in Climate-Polluting Landfills",
+    "url": "https://www.propublica.org/article/bill-gates-republic-landfill-methane-pollution",
+    "publisher": "ProPublica",
+    "date": "2026-11-10",
+    "hook": "An investigation follows a multibillion-dollar landfill investment and methane emissions that complicate a climate philanthropist's public image.",
+    "category": "fraud_investigation",
+    "long": true
   }
 ]
-
