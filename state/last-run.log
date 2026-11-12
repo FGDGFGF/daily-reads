@@ -1,29 +1,28 @@
-Run at 2026-11-12 21:28 (Mauritius)
+Run at 2026-11-12 21:46 (Mauritius)
 Mode: full
 ChatGPT: no batch for today (2026-11-12) in the inbox yet.
 Reading 50 publications…
-  44 publications read, 204 fresh candidates
+  44 publications read, 203 fresh candidates
   couldn't read: bbc.com (HTTPError), texasmonthly.com (HTTPError), restofworld.org (ParseError), theguardian.com (HTTPError), lostislamichistory.com (ParseError), arabnews.com (HTTPError)
 Gemini gemini-flash-latest, attempt 1…
   failed: HTTP 503: This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later. []
-Gemini gemini-flash-latest, attempt 2…
+Gemini gemini-flash-lite-latest, attempt 1…
   failed: HTTP 503: This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later. []
-Gemini gemini-flash-latest, attempt 3…
+Gemini gemini-3.1-flash-lite, attempt 1…
   Gemini picked 16 articles
-   ✓ The Wartime Family Feud That Created Adidas and Puma — mentalfloss.com
-   ✓ Why the Iron Age Was Actually a Step Backward for Humanity — thecollector.com
-   ✓ The Curious Phenomenon of TV Pickup — amusingplanet.com
-   ✓ Lawyers in This State Are Allowed to Ghost Clients for Years. Why Don’ — propublica.org
-   ✓ 'No One Is Like This:' Muse Sexts While Roleplaying as Real People — 404media.co
-   ✓ Why is Nvidia so powerful in the AI world, and what could Jensen Huang — theconversation.com
-   ✓ More Than Numbers: Portraits of U.S. Citizens Detained by Immigration  — projects.propublica.org
-   ✓ How Grand Theft Auto is helping make roads safer — bbc.com
-   ✓ Toxic secrets are hiding in Arctic ice — sciencenews.org
-   ✓ Voyager 1 Is the Farthest Human-Made Object in the Universe—and the Sp — smithsonianmag.com
-   ✓ Scholars still can’t define religion. Here’s why — bigthink.com
-   ✓ Syria’s UNESCO-Listed Crafts Are Dying Out — newlinesmag.com
-   ✓ Is Syria Becoming Salafist? — newlinesmag.com
-   ✓ ‘We can’t be at the bottom indefinitely’: Can Britain’s most maligned  — theguardian.com
+   ✓ Deciphering Kandinsky’s Circles & Their Symbolism — thecollector.com
+   ✓ Stone Age children left fingerprints on ancient art projects — sciencenews.org
+   ✓ The Real Mythology That Helped Inspire J.R.R. Tolkien's Elves — mentalfloss.com
+   ✓ Why Canada Refused to Join the American Revolution — thecollector.com
+   ✓ The Dodder Rhino in Dublin, Ireland — atlasobscura.com
+   ✓ ‘Bought-off, corrupt’: Argentine president attacks ICIJ member Hugo Al — icij.org
+   ✓ Bosnian Raids Smash Two Crime Rings, Net 15 Arrests — occrp.org
+   ✓ Interpol Crackdown on Migrant Smuggling Nets 262 Arrests — occrp.org
+   ✓ Fossil fuel emissions are down in 2026. Green energy isn’t the reason — sciencenews.org
+   ✓ The Case for a Bubble at Life’s Start — quantamagazine.org
    ✓ My 99-Year-Old Grandmother Built a Hidden Empire Around Flannel. Then  — longreads.com
-   ✓ The actor who played Hamlet while dying of Aids — bbc.com
+   ✓ Cossit House in Sydney, Nova Scotia — atlasobscura.com
+   ✓ Is Syria Becoming Salafist? — newlinesmag.com
+   ✓ After the Midterms, America Is Getting Politicians Who Live Like Me — newlinesmag.com
+   ✓ Ice Loss — longreads.com
 Published 12 articles: 12 Gemini/backup + 0 ChatGPT (2 long reads).
