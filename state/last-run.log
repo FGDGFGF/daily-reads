@@ -1,9 +1,9 @@
-Run at 2026-11-12 12:51 (Mauritius)
-Mode: daily
+Run at 2026-11-12 20:53 (Mauritius)
+Mode: full
 ChatGPT: no batch for today (2026-11-12) in the inbox yet.
 Reading 50 publications…
-  44 publications read, 207 fresh candidates
-  couldn't read: bbc.com (HTTPError), texasmonthly.com (HTTPError), restofworld.org (ParseError), theguardian.com (HTTPError), lostislamichistory.com (ParseError), arabnews.com (HTTPError)
+  44 publications read, 209 fresh candidates
+  couldn't read: bbc.com (HTTPError), texasmonthly.com (HTTPError), restofworld.org (ParseError), theguardian.com (HTTPError), lostislamichistory.com (SSLError), arabnews.com (HTTPError)
 Gemini gemini-flash-latest, attempt 1…
   failed: HTTP 503: This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later. []
 Gemini gemini-flash-latest, attempt 2…
@@ -17,23 +17,20 @@ Gemini gemini-flash-lite-latest, attempt 2…
 Gemini gemini-flash-lite-latest, attempt 3…
   failed: HTTP 503: This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later. []
 Gemini gemini-3.1-flash-lite, attempt 1…
-  failed: HTTP 503: This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later. []
-Gemini gemini-3.1-flash-lite, attempt 2…
   Gemini picked 16 articles
-   ✓ 3 Deception Operations That Changed the Course of WWII — thecollector.com
-   ✓ Did the Japanese Military Really Display an American Pilot at Ueno Zoo — thecollector.com
-   ✓ How the press created the myths of Jack the Ripper — bbc.com
-   ✓ Soldiers of Misfortune: The Drawings of Urs Graf the Elder — publicdomainreview.org
-   ✓ Who Runs the Ransomware Group Qilin? — krebsonsecurity.com
-   ✓ From Politicians to Academics, Hundreds Around the Globe Interviewed a — occrp.org
-   ✓ A Tool Built by Election Deniers Said These Voters Were Dead. We Found — propublica.org
-   ✓ A Newborn Died in a Faith-Healing Sect. The State — and One Ex-Believe — propublica.org
-   ✓ How a Metabolic Spark Could Have Jump-Started Life — quantamagazine.org
-   ✓ Scientists Discovered An ‘Invisible’ Object In Space. It’s Challenging — 404media.co
-   ✓ Our innate immune system protects us more than we knew — knowablemagazine.org
+   ✓ My grandfather been tell me a lot of story about Lasseter — aeon.co
+   ✓ King Arthur: a tale of demon sex and dog-headed monsters — historyextra.com
+   ✓ From teenage bride to child blinder: the brutal rise of Rome’s first f — historyextra.com
+   ✓ Why the 1525 German Peasants’ War Became Europe’s Bloodiest Revolt — thecollector.com
+   ✓ Eye on the mark — psyche.co
+   ✓ The Russian Defector Who Plundered the Amazon For American Drug Compan — lithub.com
+   ✓ Kyrgyz Government Sold Mountain Resort to NGO Tied to Sanctioned Russi — occrp.org
+   ✓ More Than 1,300 Diplomatic Passports Missing in Vanuatu, Report Finds — occrp.org
+   ✓ What Seeded Life on Earth? New Research Challenges the Longstanding Th — smithsonianmag.com
+   ✓ A New Era for the Dawn of Life — quantamagazine.org
+   ✓ Voyager 1 Is the Farthest Human-Made Object in the Universe—and the Sp — smithsonianmag.com
+   ✓ Lebanon’s Cannabis Farmers Are Still Outlaws — newlinesmag.com
    ✓ Is Syria Becoming Salafist? — newlinesmag.com
-   ✓ After the Midterms, America Is Getting Politicians Who Live Like Me — newlinesmag.com
-   ✓ The migration that remade Africa — knowablemagazine.org
-   ✓ Could an Amazonian Highway Open a Pandora’s Box of Pathogens? — undark.org
-   ✓ How Not to Waste Your Life — themarginalian.org
+   ✓ The Peruvian hotel with a terrifying check-in — bbc.com
+   ✓ Hope Is the Thing with Feathers, and with Fangs: The Alchemy of Unrequ — themarginalian.org
 Published 12 articles: 12 Gemini/backup + 0 ChatGPT (2 long reads).
