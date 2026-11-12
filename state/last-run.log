@@ -1,8 +1,8 @@
-Run at 2026-11-12 20:53 (Mauritius)
+Run at 2026-11-12 21:22 (Mauritius)
 Mode: full
 ChatGPT: no batch for today (2026-11-12) in the inbox yet.
 Reading 50 publications…
-  44 publications read, 209 fresh candidates
+  44 publications read, 207 fresh candidates
   couldn't read: bbc.com (HTTPError), texasmonthly.com (HTTPError), restofworld.org (ParseError), theguardian.com (HTTPError), lostislamichistory.com (SSLError), arabnews.com (HTTPError)
 Gemini gemini-flash-latest, attempt 1…
   failed: HTTP 503: This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later. []
@@ -18,19 +18,20 @@ Gemini gemini-flash-lite-latest, attempt 3…
   failed: HTTP 503: This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later. []
 Gemini gemini-3.1-flash-lite, attempt 1…
   Gemini picked 16 articles
-   ✓ My grandfather been tell me a lot of story about Lasseter — aeon.co
-   ✓ King Arthur: a tale of demon sex and dog-headed monsters — historyextra.com
-   ✓ From teenage bride to child blinder: the brutal rise of Rome’s first f — historyextra.com
-   ✓ Why the 1525 German Peasants’ War Became Europe’s Bloodiest Revolt — thecollector.com
-   ✓ Eye on the mark — psyche.co
-   ✓ The Russian Defector Who Plundered the Amazon For American Drug Compan — lithub.com
-   ✓ Kyrgyz Government Sold Mountain Resort to NGO Tied to Sanctioned Russi — occrp.org
-   ✓ More Than 1,300 Diplomatic Passports Missing in Vanuatu, Report Finds — occrp.org
-   ✓ What Seeded Life on Earth? New Research Challenges the Longstanding Th — smithsonianmag.com
-   ✓ A New Era for the Dawn of Life — quantamagazine.org
-   ✓ Voyager 1 Is the Farthest Human-Made Object in the Universe—and the Sp — smithsonianmag.com
-   ✓ Lebanon’s Cannabis Farmers Are Still Outlaws — newlinesmag.com
-   ✓ Is Syria Becoming Salafist? — newlinesmag.com
-   ✓ The Peruvian hotel with a terrifying check-in — bbc.com
-   ✓ Hope Is the Thing with Feathers, and with Fangs: The Alchemy of Unrequ — themarginalian.org
+   ✓ A trip to upside-down world — aeon.co
+   ✓ The Invisible Lamplighter in The Hague, Netherlands — atlasobscura.com
+   ✓ Secrets of history's greatest commanders — historyextra.com
+   ✓ Chaim Soutine: The Passion and Chaos Behind His Expressive Art — thecollector.com
+   ✓ How Phineas Gage Transformed Our Understanding of the Human Brain — thecollector.com
+   ✓ How did plastic save elephants? The surprising history of a game-chang — historyextra.com
+   ✓ Kazakh Wealth Fund, Railway Chiefs Detained in Corruption Probe — occrp.org
+   ✓ UK Arrests 349 in Nationwide Money Laundering Crackdown — occrp.org
+   ✓ “We Have No One”: How Trump’s Dismantling of the VA Left a Veterans Ho — propublica.org
+   ✓ Lawyers in This State Are Allowed to Ghost Clients for Years. Why Don’ — propublica.org
+   ✓ World’s first ‘dark magic mushroom’ discovered in Florida — popsci.com
+   ✓ Astronomers Found a Mysterious Object Orbiting Far Beyond Pluto. It Co — smithsonianmag.com
+   ✓ The brain’s fear center moonlights as the save button for memories — sciencenews.org
+   ✓ After the Midterms, America Is Getting Politicians Who Live Like Me — newlinesmag.com
+   ✓ Syria’s UNESCO-Listed Crafts Are Dying Out — newlinesmag.com
+   ✓ The Real Mythology That Helped Inspire J.R.R. Tolkien's Elves — mentalfloss.com
 Published 12 articles: 12 Gemini/backup + 0 ChatGPT (2 long reads).
