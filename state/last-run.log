@@ -1,37 +1,29 @@
-Run at 2026-11-12 21:22 (Mauritius)
+Run at 2026-11-12 21:28 (Mauritius)
 Mode: full
 ChatGPT: no batch for today (2026-11-12) in the inbox yet.
 Reading 50 publications…
-  44 publications read, 207 fresh candidates
-  couldn't read: bbc.com (HTTPError), texasmonthly.com (HTTPError), restofworld.org (ParseError), theguardian.com (HTTPError), lostislamichistory.com (SSLError), arabnews.com (HTTPError)
+  44 publications read, 204 fresh candidates
+  couldn't read: bbc.com (HTTPError), texasmonthly.com (HTTPError), restofworld.org (ParseError), theguardian.com (HTTPError), lostislamichistory.com (ParseError), arabnews.com (HTTPError)
 Gemini gemini-flash-latest, attempt 1…
   failed: HTTP 503: This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later. []
 Gemini gemini-flash-latest, attempt 2…
   failed: HTTP 503: This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later. []
 Gemini gemini-flash-latest, attempt 3…
-  failed: HTTP 503: This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later. []
-Gemini gemini-flash-lite-latest, attempt 1…
-  failed: HTTP 503: This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later. []
-Gemini gemini-flash-lite-latest, attempt 2…
-  failed: HTTP 503: This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later. []
-Gemini gemini-flash-lite-latest, attempt 3…
-  failed: HTTP 503: This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later. []
-Gemini gemini-3.1-flash-lite, attempt 1…
   Gemini picked 16 articles
-   ✓ A trip to upside-down world — aeon.co
-   ✓ The Invisible Lamplighter in The Hague, Netherlands — atlasobscura.com
-   ✓ Secrets of history's greatest commanders — historyextra.com
-   ✓ Chaim Soutine: The Passion and Chaos Behind His Expressive Art — thecollector.com
-   ✓ How Phineas Gage Transformed Our Understanding of the Human Brain — thecollector.com
-   ✓ How did plastic save elephants? The surprising history of a game-chang — historyextra.com
-   ✓ Kazakh Wealth Fund, Railway Chiefs Detained in Corruption Probe — occrp.org
-   ✓ UK Arrests 349 in Nationwide Money Laundering Crackdown — occrp.org
-   ✓ “We Have No One”: How Trump’s Dismantling of the VA Left a Veterans Ho — propublica.org
+   ✓ The Wartime Family Feud That Created Adidas and Puma — mentalfloss.com
+   ✓ Why the Iron Age Was Actually a Step Backward for Humanity — thecollector.com
+   ✓ The Curious Phenomenon of TV Pickup — amusingplanet.com
    ✓ Lawyers in This State Are Allowed to Ghost Clients for Years. Why Don’ — propublica.org
-   ✓ World’s first ‘dark magic mushroom’ discovered in Florida — popsci.com
-   ✓ Astronomers Found a Mysterious Object Orbiting Far Beyond Pluto. It Co — smithsonianmag.com
-   ✓ The brain’s fear center moonlights as the save button for memories — sciencenews.org
-   ✓ After the Midterms, America Is Getting Politicians Who Live Like Me — newlinesmag.com
+   ✓ 'No One Is Like This:' Muse Sexts While Roleplaying as Real People — 404media.co
+   ✓ Why is Nvidia so powerful in the AI world, and what could Jensen Huang — theconversation.com
+   ✓ More Than Numbers: Portraits of U.S. Citizens Detained by Immigration  — projects.propublica.org
+   ✓ How Grand Theft Auto is helping make roads safer — bbc.com
+   ✓ Toxic secrets are hiding in Arctic ice — sciencenews.org
+   ✓ Voyager 1 Is the Farthest Human-Made Object in the Universe—and the Sp — smithsonianmag.com
+   ✓ Scholars still can’t define religion. Here’s why — bigthink.com
    ✓ Syria’s UNESCO-Listed Crafts Are Dying Out — newlinesmag.com
-   ✓ The Real Mythology That Helped Inspire J.R.R. Tolkien's Elves — mentalfloss.com
+   ✓ Is Syria Becoming Salafist? — newlinesmag.com
+   ✓ ‘We can’t be at the bottom indefinitely’: Can Britain’s most maligned  — theguardian.com
+   ✓ My 99-Year-Old Grandmother Built a Hidden Empire Around Flannel. Then  — longreads.com
+   ✓ The actor who played Hamlet while dying of Aids — bbc.com
 Published 12 articles: 12 Gemini/backup + 0 ChatGPT (2 long reads).
