@@ -1,45 +1,39 @@
-Run at 2026-11-11 12:31 (Mauritius)
+Run at 2026-11-12 12:51 (Mauritius)
 Mode: daily
+ChatGPT: no batch for today (2026-11-12) in the inbox yet.
 Reading 50 publications…
-  45 publications read, 209 fresh candidates
-  couldn't read: bbc.com (HTTPError), restofworld.org (ParseError), theguardian.com (HTTPError), lostislamichistory.com (SSLError), arabnews.com (HTTPError)
+  44 publications read, 207 fresh candidates
+  couldn't read: bbc.com (HTTPError), texasmonthly.com (HTTPError), restofworld.org (ParseError), theguardian.com (HTTPError), lostislamichistory.com (ParseError), arabnews.com (HTTPError)
 Gemini gemini-flash-latest, attempt 1…
-  failed: HTTPSConnectionPool(host='generativelanguage.googleapis.com', port=443): Read timed out. (read timeout=300)
+  failed: HTTP 503: This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later. []
 Gemini gemini-flash-latest, attempt 2…
-  failed: HTTPSConnectionPool(host='generativelanguage.googleapis.com', port=443): Read timed out. (read timeout=300)
+  failed: HTTP 503: This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later. []
 Gemini gemini-flash-latest, attempt 3…
   failed: HTTP 503: This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later. []
 Gemini gemini-flash-lite-latest, attempt 1…
+  failed: HTTP 503: This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later. []
+Gemini gemini-flash-lite-latest, attempt 2…
+  failed: HTTP 503: This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later. []
+Gemini gemini-flash-lite-latest, attempt 3…
+  failed: HTTP 503: This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later. []
+Gemini gemini-3.1-flash-lite, attempt 1…
+  failed: HTTP 503: This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later. []
+Gemini gemini-3.1-flash-lite, attempt 2…
   Gemini picked 16 articles
-   ✓ While Cleaning Out Her Aunt's Manhattan Apartment, a Woman Found a Lon — smithsonianmag.com
-   ✓ Pinot Noir: Inside the Criminal Gangs Making Fake Wine — longreads.com
-   ✓ The Downfall of a Top Cop — longreads.com
-   ✓ The Great Pacific Garbage Patch Has Accumulated So Many Microplastics  — smithsonianmag.com
-   ✓ What Makes You Yourself: Earth’s Largest Living Organism and the Parad — themarginalian.org
-   ✓ Syria’s UNESCO-Listed Crafts Are Dying Out — newlinesmag.com
-   ✓ Can India’s Oldest Political Dynasty Find a New Mandate? — newlinesmag.com
-   ✓ History’s Greatest Dishes: Dumplings — historyextra.com
-   ✓ The crisis facing the world's most expensive spice — bbc.com
-   ✓ This armored amphibian once lived and hunted on the seafloor — sciencenews.org
-   ✓ Why did medieval England and Scotland hate each other so much? — historyextra.com
-   ✓ Lawyers in This State Are Allowed to Ghost Clients for Years. Why Don’ — propublica.org
-   ✓ Chinese university buys Nvidia AI H200 chips despite US ban, records s — aljazeera.com
-Gemini gave 10 usable articles — topping up from the backup list.
-Using the backup picker…
-   ✓ How the Houthis’ Enemies Made Them a Regional Power — newlinesmag.com
-   ✓ The Maya Loved Using Mercury-Rich Red Paint to Decorate Pottery, Templ — smithsonianmag.com
-   ✓ Edward VI, Mary I and the fight for England’s soul — historyextra.com
-   ✓ Viral Google Maps Images Shared Widely This Week Show Gaza Ruins. We O — bellingcat.com
-   ✓ 2026 iPad mini review: Maximizing the mini — arstechnica.com
-   ✓ Secrets of history's greatest commanders — historyextra.com
-   ✓ Why James Talarico’s “Love Thy Neighbor” Politics Infuriates So Many — texasmonthly.com
-   ✓ Passersby — psyche.co
-   ✓ Maintenance Futures — longreads.com
-   ✓ Toxic secrets are hiding in Arctic ice — sciencenews.org
-   ✓ Jurassic Jungle Boat Ride in Pigeon Forge, Tennessee — atlasobscura.com
-   ✓ Watch: Where Do Our Generic Drugs Come From? We Dug to Find Out. — propublica.org
-   ✓ Carl Sagan on How to Live with the Unknown — themarginalian.org
-   ✓ Texas Country Reporter Welcomes Sammy Zaborowski as New Producer — texasmonthly.com
-   ✓ Can India’s Oldest Political Dynasty Find a New Mandate? — newlinesmag.com
-   ✓ The Best New Restaurants in America in 2026 — eater.com
+   ✓ 3 Deception Operations That Changed the Course of WWII — thecollector.com
+   ✓ Did the Japanese Military Really Display an American Pilot at Ueno Zoo — thecollector.com
+   ✓ How the press created the myths of Jack the Ripper — bbc.com
+   ✓ Soldiers of Misfortune: The Drawings of Urs Graf the Elder — publicdomainreview.org
+   ✓ Who Runs the Ransomware Group Qilin? — krebsonsecurity.com
+   ✓ From Politicians to Academics, Hundreds Around the Globe Interviewed a — occrp.org
+   ✓ A Tool Built by Election Deniers Said These Voters Were Dead. We Found — propublica.org
+   ✓ A Newborn Died in a Faith-Healing Sect. The State — and One Ex-Believe — propublica.org
+   ✓ How a Metabolic Spark Could Have Jump-Started Life — quantamagazine.org
+   ✓ Scientists Discovered An ‘Invisible’ Object In Space. It’s Challenging — 404media.co
+   ✓ Our innate immune system protects us more than we knew — knowablemagazine.org
+   ✓ Is Syria Becoming Salafist? — newlinesmag.com
+   ✓ After the Midterms, America Is Getting Politicians Who Live Like Me — newlinesmag.com
+   ✓ The migration that remade Africa — knowablemagazine.org
+   ✓ Could an Amazonian Highway Open a Pandora’s Box of Pathogens? — undark.org
+   ✓ How Not to Waste Your Life — themarginalian.org
 Published 12 articles: 12 Gemini/backup + 0 ChatGPT (2 long reads).
