@@ -209,7 +209,7 @@ def gemini(model, prompt, key):
     url = f"https://generativelanguage.googleapis.com/v1beta/models/{model}:generateContent"
     body = {"contents": [{"role": "user", "parts": [{"text": prompt}]}],
             "generationConfig": {"temperature": 0.9, "responseMimeType": "application/json"}}
-    r = requests.post(url, params={"key": key}, json=body, timeout=300)
+    r = requests.post(url, params={"key": key}, json=body, timeout=120)
     if r.status_code != 200:
         try:
             err = r.json().get("error", {})
@@ -340,7 +340,7 @@ def from_gemini(pool, history):
     prompt = build_prompt(history).replace("{{CANDIDATES}}", lines)
     by_id = {p["id"]: p for p in pool}
     for model in MODELS:
-        for attempt in range(1, 4):
+        for attempt in range(1, 3):
             try:
                 log(f"Gemini {model}, attempt {attempt}…")
                 raw = gemini(model, prompt, key)
@@ -364,7 +364,9 @@ def from_gemini(pool, history):
                     return picks
             except Exception as e:
                 log(f"  failed: {e}")
-            time.sleep(10 * attempt)
+                if "503" in str(e) or "high demand" in str(e) or "429" in str(e):
+                    break                     # overloaded: don't wait, try the next model right away
+            time.sleep(3)
     return []
 
 
@@ -388,18 +390,28 @@ def from_backup(pool):
 # ── selection ─────────────────────────────────────────────────────────────────
 def select(cands, history):
     """Verify links and pick 10 short + 2 long, with ≥1 islamic and ≥1 rotating if possible."""
-    good, per_pub = [], {}
-    for c in cands:
-        if len(good) >= 16:
-            break
-        if is_repeat(c, history, good) or per_pub.get(c["publisher"], 0) >= 2:
-            continue
+    from concurrent.futures import ThreadPoolExecutor
+
+    def check(c):
         final = verify(c["url"], c["title"], c["trusted"])
         if not final:
             for alt in c["alts"][:3]:  # Google found a page on the same site — try it
                 final = verify(alt, c["title"], True)
                 if final:
                     break
+        return final
+
+    # check the likely candidates' links all at once (was one by one), then pick in order as before
+    likely = [c for c in cands if not is_repeat(c, history)][:40]
+    with ThreadPoolExecutor(max_workers=12) as ex:
+        checked = dict(zip(map(id, likely), ex.map(check, likely)))
+    good, per_pub = [], {}
+    for c in cands:
+        if len(good) >= 16:
+            break
+        if is_repeat(c, history, good) or per_pub.get(c["publisher"], 0) >= 2:
+            continue
+        final = checked[id(c)] if id(c) in checked else check(c)
         if not final:
             continue
         c["url"], c["norm"] = final, dedup_key(final)
@@ -699,9 +711,12 @@ def main():
         sys.exit(1)
 
     now = dt.datetime.now(TZ)
+    from concurrent.futures import ThreadPoolExecutor
+    with ThreadPoolExecutor(max_workers=12) as ex:
+        for p, img in zip(new, ex.map(lambda q: article_image(q["url"]), new)):
+            p["image"] = img
     for i, p in enumerate(new):
         sent = (now - dt.timedelta(seconds=i)).isoformat(timespec="seconds")
-        p["image"] = article_image(p["url"])
         history.append({k: p.get(k, "") for k in ("title", "url", "norm", "publisher", "date",
                                                   "category", "theme", "long", "hook", "source", "image")}
                        | {"id": f"{now:%Y%m%d}-{i:02d}-{abs(hash(p['norm'])) % 10**8}", "sent": sent})
