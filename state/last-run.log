@@ -1,26 +1,28 @@
-Run at 2026-11-13 14:50 (Mauritius)
+Run at 2026-11-13 15:00 (Mauritius)
 Mode: full
 ChatGPT: no batch for today (2026-11-13) in the inbox yet.
 Reading 50 publications…
-  44 publications read, 203 fresh candidates
+  44 publications read, 202 fresh candidates
   couldn't read: bbc.com (HTTPError), restofworld.org (ParseError), theguardian.com (HTTPError), lithub.com (ParseError), lostislamichistory.com (ParseError), arabnews.com (HTTPError)
 Gemini gemini-flash-latest, attempt 1…
   failed: HTTP 503: This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later. []
 Gemini gemini-flash-lite-latest, attempt 1…
-  Gemini picked 19 articles
-   ✓ Facade of the Old Mental Hospital in Hong Kong — atlasobscura.com
-   ✓ 7 Chilling Facts About the Burke and Hare Murders — mentalfloss.com
-   ✓ The Ruthless Pharaoh Who Built the Great Sphinx of Giza and How It Los — thecollector.com
-   ✓ Self-Harm or Resistance? Hunger Strikes in Ireland — thecollector.com
-   ✓ India clears Israeli firm Cellebrite to supply phone-hacking tools to  — middleeasteye.net
-   ✓ US Prosecutors Ask Judge to Allow Bribery Evidence in South American D — occrp.org
-   ✓ Exclusive: Toyota reviewing use of forklifts by Israeli military after — middleeasteye.net
-   ✓ Light is hard to block from every direction. This physicist found a wa — sciencenews.org
-   ✓ Europe’s Hera mission is ready to double down on asteroid science — sciencenews.org
+  failed: HTTP 503: This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later. []
+Gemini gemini-3.1-flash-lite, attempt 1…
+  Gemini picked 16 articles
+   ✓ 13 Ottoman Sultans Who Defined the Rise and Decline of the Empire — thecollector.com
+   ✓ How the Houthis’ Enemies Made Them a Regional Power — newlinesmag.com
+   ✓ The sinister power of Friday 13th: how this maligned date affects our  — theguardian.com
+   ✓ This may be the best evidence yet that dinosaur blood can fossilize — sciencenews.org
+   ✓ General Israel Putnam Tombstone in Brooklyn, Connecticut — atlasobscura.com
+   ✓ Scholars still can’t define religion. Here’s why — bigthink.com
+   ✓ Prophecy, Scorn and a Rejection of This World: The Forbidding Vision o — propublica.org
+   ✓ His Church or His Child? A Sixth-Generation Member of a Faith-Healing  — propublica.org
+   ✓ Why ‘patient influencers’ should come with a health warning — psyche.co
+   ✓ Patients: All my best tips on how to opt out of data sharing — themarkup.org
    ✓ European survey reveals 900m galaxies – and possibly secrets of ‘dark  — theguardian.com
-   ✓ Shunning people who ‘look homeless’ is an aesthetic injustice — psyche.co
-   ✓ ‘The Mother of the Sea’ (Sassuma Arnaa) in Nuuk, Greenland — atlasobscura.com
-   ✓ How Trump’s War on Offshore Wind Upended a “Limitless” Future for Thou — propublica.org
-   ✓ One Woman’s Fight to Free Herself From a Mental Hospital — longreads.com
-   ✓ Ice Loss — longreads.com
+   ✓ Decoding Ediacaran fossils — aeon.co
+   ✓ Robotic slugs with claws can fuse together to create one massive machi — popsci.com
+   ✓ Place, Personhood, and the Hippocampus: The Fascinating Science of Mag — themarginalian.org
+   ✓ Bundesbüdchen in Bonn, Germany — atlasobscura.com
 Published 12 articles: 12 Gemini/backup + 0 ChatGPT (2 long reads).
