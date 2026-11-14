@@ -1,40 +1,39 @@
-Run at 2026-11-14 15:47 (Mauritius)
-Mode: full, edition: weekday
+Run at 2026-11-14 15:55 (Mauritius)
+Mode: full, edition: auto
+Weekend edition: 10 long reads
 Reading 62 publications…
-  56 publications read, 326 fresh candidates
-  couldn't read: bbc.com (HTTPError), texasmonthly.com (HTTPError), restofworld.org (ParseError), theguardian.com (HTTPError), lostislamichistory.com (ParseError), arabnews.com (HTTPError)
+  57 publications read, 321 fresh candidates
+  couldn't read: bbc.com (HTTPError), restofworld.org (ParseError), theguardian.com (HTTPError), lostislamichistory.com (ParseError), arabnews.com (HTTPError)
 Gemini gemini-flash-latest, attempt 1…
-  failed: HTTP 503: This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later. []
+  failed: HTTPSConnectionPool(host='generativelanguage.googleapis.com', port=443): Read timed out. (read timeout=240)
 Gemini gemini-flash-lite-latest, attempt 1…
   Gemini picked 33 articles
-   ✗ unreachable https://www.occrp.org/en/news/many-in-serbias-youth-movement-fear-a-rigged-election-on-sunday (ReadTimeout)
-   ✓ Qatar and Turkiye sign a mutual defence pact: What do we know? — aljazeera.com
-   ✓ Javier Milei’s Falklands Gambit — newlinesmag.com
-   ✓ Now Yourself: The Elusive Science of What the Present Moment Is Made o — themarginalian.org
-   ✓ The Poppy’s Many Meanings — newlinesmag.com
-   ✓ How Booker T. Washington Built an Educational Empire at Tuskegee — thecollector.com
-   ✓ This Four-Person NASA Crew Spent Over a Year on 'Mars.' Here's What Th — smithsonianmag.com
-   ✓ Botswana’s Diamonds: The Gem That Transformed a Nation’s History — thecollector.com
-   ✓ Who is Gadi Eisenkot? Netanyahu’s rival, Gaza war commander, son of Mo — theafricareport.com
-   ✓ There Are No Apolitical Girls in War — theelephant.info
-   ✓ How to Handle Disruptive Change — commoncog.com
-   ✓ The SS United States has been deliberately sunk – this is how marine l — theconversation.com
-   ✓ GLP-1s Are Showing Promise Beyond Weight Loss. Could They Be 'Wonder D — smithsonianmag.com
-   ✓ Yes to Life, in Spite of Everything: Viktor Frankl’s Lost Lectures on  — themarginalian.org
-   ✓ Pregnancy in a Warming Africa — theelephant.info
-   ✓ The Tar Pits in Lawton, Oklahoma — atlasobscura.com
-   ✓ US, UK investors tighten grip on Kenya’s $23.1bn retail industry despi — theafricareport.com
-   ✓ Can Tactical Decision Games Accelerate ... Maths? — commoncog.com
-   ✓ Tudors on the brink: how the dynasty almost ended before it even began — historyextra.com
-   ✓ Alien menace or victim of xenophobia? The battle over Britain’s parake — theguardian.com
-   ✓ Save the parasites! — knowablemagazine.org
-   ✓ China's great emissions slow-down — bbc.com
-   ✓ NASA’s TEMPO satellite enables better monitoring of bad air days — knowablemagazine.org
-   ✓ The cloud forest being abandoned by its clouds — bbc.com
-   ✓ Paying to work: bribery and the earnings of Kenya’s informal workers — africanarguments.org
-   ✓ Smartwatch blood pressure monitoring was okay. AI is making it better. — popsci.com
-   ✓ The Bone-Setters’ Ward: How Ancient Healers Are Filling Ethiopia’s Mod — africanarguments.org
-   ✓ Why political fights devolve into wars about words — bigthink.com
-   ✓ Ice Loss — longreads.com
-   ✓ Runway: Learning From Watching the World — notboring.co
-Published 25 articles (5 long reads).
+   ✓ Why am I obsessed with China’s ancient golden age? I took my daughter  — theguardian.com
+   ✓ ‘The last bastion is gone’: the US right idolised Orbán’s Hungary. Can — theguardian.com
+   ✓ The physics of getting fired — aeon.co
+   ✓ Of Miracles and Moats — notboring.co
+   ✓ Egypt Reacts to Abdul El-Sayed’s Win — newlinesmag.com
+   ✓ Israelis Like Trump More Than Netanyahu, but Fear the Loss of US Suppo — newlinesmag.com
+   ✓ A Russian state firm will map more than half of Mali. Who will own the — africanarguments.org
+   ✓ US-Africa: Trump picks pastor and early backer as US ambassador to the — theafricareport.com
+   ✓ Nigeria 2027: Between Soludo and Obi, who has Anambra voters’ ears? — theafricareport.com
+   ✓ Bigger and more-frequent wildfires threaten water supplies across the  — news.mongabay.com
+   ✓ El Niño drove drought, but climate change intensified Indonesia’s fire — news.mongabay.com
+   ✓ Earwax’s surprisingly slippery but sticky properties deters insects — sciencenews.org
+   ✓ Big Walk used AI to fix a bug. Now the indie gaming world is having a  — arstechnica.com
+   ✓ How to Train Your Robot — construction-physics.com
+   ✓ Reading List 10/24/26 — construction-physics.com
+   ✓ Roger Williams on Organisational Transformation and the use of The Thi — commoncog.com
+   ✓ FAA grounds all flights in the U.S. until further notice: Reports cite — fastcompany.com
+   ✓ Microsoft has suffered a global outage. A tech expert explains what we — theconversation.com
+   ✓ Could you survive without Microsoft? Inside the costs of digital depen — theconversation.com
+   ✓ Nearly $20m found in Hungary’s forests, buildings amid corruption prob — aljazeera.com
+   ✓ Does Europe regret its bet on U.S. defense? — npr.org
+   ✓ Southern Authoritarian Populism — theelephant.info
+   ✓ The mega-hit romantasy that's dividing readers — bbc.com
+   ✓ Pensão Amor in Lisbon, Portugal — atlasobscura.com
+   ✓ How Roman Soldiers Marched, Built Camp, and Won Wars Across an Empire — thecollector.com
+   ✓ 7 Greatest Misconceptions About Greek and Roman Mythology — thecollector.com
+   ✓ Decoding Ediacaran fossils — aeon.co
+   ✓ How to Hear the Song of Life — themarginalian.org
+Published 25 articles (10 long reads).
