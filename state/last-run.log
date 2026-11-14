@@ -1,42 +1,26 @@
-Run at 2026-11-13 21:19 (Mauritius)
-Mode: full
-ChatGPT: no batch for today (2026-11-13) in the inbox yet.
+Run at 2026-11-14 11:58 (Mauritius)
+Mode: daily
+ChatGPT: no batch for today (2026-11-14) in the inbox yet.
 Reading 50 publications…
-  44 publications read, 205 fresh candidates
+  44 publications read, 206 fresh candidates
   couldn't read: bbc.com (HTTPError), texasmonthly.com (HTTPError), restofworld.org (ParseError), theguardian.com (HTTPError), lostislamichistory.com (ParseError), arabnews.com (HTTPError)
 Gemini gemini-flash-latest, attempt 1…
   failed: HTTP 503: This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later. []
 Gemini gemini-flash-lite-latest, attempt 1…
   Gemini picked 16 articles
-   ✓ German Renaissance Master Albrecht Altdorfer Pioneered Landscape Paint — smithsonianmag.com
-   ✓ More Than 3,000 Tarantulas Were Found Hidden in Socks During a Major W — smithsonianmag.com
-   ✓ The ‘hell chicken’ dinosaur was a real terror — to fruit — sciencenews.org
-   ✓ This magic mushroom can kill — sciencenews.org
-   ✓ Why is there so much kissing in Spain? — bbc.com
-   ✓ ‘Once Upon a Time in the Middle East’ Brings Chinese Values to the Osc — newlinesmag.com
-   ✓ Netherlands denies active talks with US over curbing ICC powers to lif — middleeasteye.net
-   ✓ Xuan Phong Church in Tuy Phuoc Dong, Vietnam — atlasobscura.com
-   ✓ Fugitive imagination — aeon.co
+   ✗ unreachable https://www.occrp.org/en/news/many-in-serbias-youth-movement-fear-a-rigged-election-on-sunday (ReadTimeout)
+   ✓ Two Centuries After This Bronze Leg Emerged From a Scottish Bog, Archa — smithsonianmag.com
+   ✓ What Is An Ocarina? The Ancient History Behind the 'Legend of Zelda’ I — mentalfloss.com
+   ✓ The Strange Story Behind the Destroyed First Draft of 'Dr. Jekyll and  — mentalfloss.com
+   ✓ The Areni-1 Cave Shoe in Yerevan, Armenia — atlasobscura.com
+   ✓ Members of Georgia’s Election Board Have Been Coordinating With Cleta  — propublica.org
+   ✓ Buro Media Launches Database of Lukashenko’s Inner Circle — occrp.org
+   ✓ AI and Virtual Reality Enter the Therapist’s Office — undark.org
+   ✓ Science to restore speech is moving fast. Here’s what’s next — sciencenews.org
+   ✓ Thawing Permafrost May Have Created a New Type of Landslide, Which Cou — smithsonianmag.com
+   ✓ Food contains thousands of overlooked chemicals. This physicist is map — sciencenews.org
    ✓ Why anything exists — aeon.co
-   ✓ Sweat Gets in Your Eyes — longreads.com
-   ✓ A Generation Revolts — noemamag.com
-   ✓ Rays of Wonder — longreads.com
-Gemini gave 9 usable articles — topping up from the backup list.
-Using the backup picker…
-   ✓ Jerusalem Daily: Baby dies from cold in Gaza — aljazeera.com
-   ✓ Archaeologists in England Discovered 8,000 Roman-Era Frog Bones in a S — smithsonianmag.com
-   ✓ St. Patrick’s Church in Sydney, Nova Scotia — atlasobscura.com
-   ✓ 'Way more terrifying than I expected' — 404media.co
-   ✓ 2026 iPad mini review: Maximizing the mini — arstechnica.com
-   ✓ Sue Metal T-Rex Statue in Faith, South Dakota — atlasobscura.com
-   ✓ Viral Google Maps Images Shared Widely This Week Show Gaza Ruins. We O — bellingcat.com
-   ✓ Place, Personhood, and the Hippocampus: The Fascinating Science of Mag — themarginalian.org
-   ✓ Alien menace or victim of xenophobia? The battle over Britain’s parake — theguardian.com
-   ✓ In a Long-Awaited Move, FDA Enforces Trial Result Transparency — undark.org
-   ✓ Can you solve our history crossword of the week? — historyextra.com
-   ✓ His Church or His Child? A Sixth-Generation Member of a Faith-Healing  — propublica.org
-   ✓ How Not to Waste Your Life — themarginalian.org
-   ✓ Microsoft Patches More Than 1,400 Security Flaws — krebsonsecurity.com
-   ✓ Truck and bus crash in India’s Assam state kills at least 24 people — aljazeera.com
-   ✓ The ‘Little House on the Prairie’ Episode That Helped Decide the Show’ — mentalfloss.com
+   ✓ The Armenian Genocide in 1915 Explained — thecollector.com
+   ✓ Can India’s Oldest Political Dynasty Find a New Mandate? — newlinesmag.com
+   ✓ John J. McGraw Monument in Truxton, New York — atlasobscura.com
 Published 12 articles: 12 Gemini/backup + 0 ChatGPT (2 long reads).
