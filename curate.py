@@ -35,7 +35,7 @@ SOURCES = ROOT / "sources.txt"
 FEED_TITLE = os.environ.get("FEED_TITLE", "Daily Reads")
 FEED_LINK = os.environ.get("FEED_LINK", "https://fgdgfgf.github.io/daily-reads/").lower()  # set by the workflow
 TZ = dt.timezone(dt.timedelta(hours=4))  # Mauritius
-KEEP_DAYS = int(os.environ.get("KEEP_DAYS", "60"))
+KEEP_DAYS = int(os.environ.get("KEEP_DAYS", "14"))
 SHORT_N, LONG_N = 20, 5          # 25 a day: up to 5 long reads, shorts fill any gap
 ISLAMIC_MIN = 2
 WEEKEND_SHORT_N, WEEKEND_LONG_N = 15, 10   # Saturday & Sunday: more long reads
