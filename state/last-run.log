@@ -1,5 +1,43 @@
-Run at 2026-11-14 15:30 (Mauritius)
-Mode: daily
-Today's Gemini batch is already out — only checking ChatGPT's inbox.
-ChatGPT: no batch for today (2026-11-14) in the inbox yet.
-Nothing new from ChatGPT — feed unchanged.
+Run at 2026-11-14 15:41 (Mauritius)
+Mode: full
+Reading 65 publications…
+  57 publications read, 342 fresh candidates
+  couldn't read: bbc.com (HTTPError), restofworld.org (ParseError), theguardian.com (HTTPError), lostislamichistory.com (ParseError), arabnews.com (HTTPError), knowledge.wharton.upenn.edu (HTTPError), knowledge.insead.edu (HTTPError), marketplace.org (HTTPError)
+Gemini gemini-flash-latest, attempt 1…
+  failed: HTTPSConnectionPool(host='generativelanguage.googleapis.com', port=443): Read timed out. (read timeout=120)
+Gemini gemini-flash-latest, attempt 2…
+  failed: HTTPSConnectionPool(host='generativelanguage.googleapis.com', port=443): Read timed out. (read timeout=120)
+Gemini gemini-flash-lite-latest, attempt 1…
+  Gemini picked 33 articles
+   ✓ Inside the Trial of Russell Brand — longreads.com
+   ✓ Why Genghis Khans Golden Horde Changed Eastern Europe Forever — thecollector.com
+   ✓ After the Revolution, Before the War: Tracing Khartoum’s Syrian Commun — africanarguments.org
+   ✓ Africa Can’t Build a Blue Economy Without the Women Who Bring Its Fish — africanarguments.org
+   ✓ Charly Kodjo: Ivorian producer taking African cinema from Paris to the — theafricareport.com
+   ✓ When Anesthesia Goes Wrong — longreads.com
+   ✓ The Evolving Story of How Chemistry Became Biology — quantamagazine.org
+   ✓ Why did thousands of Spaniards risk their lives to fight for Hitler? — historyextra.com
+   ✓ Can Network Science Transform Health and Nutrition? — quantamagazine.org
+   ✓ Russian Serfdom Explained From Kholops to the Emancipation Manifesto — thecollector.com
+   ✓ Methodical/mercurial — aeon.co
+   ✓ Alternative Leadership As A Decolonial Paradigm — theelephant.info
+   ✓ ‘Ahead of his time’: AI helps unlock discoveries hidden in notebooks o — theguardian.com
+   ✓ Spicy ping-pong balls and flaming dung keep elephants at bay in Zimbab — news.mongabay.com
+   ✓ Technology as a Search Problem — construction-physics.com
+   ✓ Believing and thinking — aeon.co
+   ✓ Serbia’s Experiment: Combining Democracy & Meritocracy — noemamag.com
+   ✓ When AIs Become Unruly Swarms — noemamag.com
+   ✓ How to help someone whose thinking seems delusional — psyche.co
+   ✓ Interview: The Nerve That Could Transform Medicine — undark.org
+   ✓ How to Be a Modern Woman in 1930s Shanghai — daily.jstor.org
+   ✓ Fruit bats emerge as unlikely allies in the Atlantic Forest restoratio — news.mongabay.com
+   ✓ An Ice Age cave bear graveyard in the Alps — bbc.com
+   ✓ Lithium, gold, uranium… The quiet US counter-offensive against China a — theafricareport.com
+   ✓ There Are No Apolitical Girls in War — theelephant.info
+   ✓ Weekly Dose of Optimism #214 — notboring.co
+   ✓ Can science save meetings? — knowablemagazine.org
+   ✓ Grad student finds New Mexico’s first Canada lynx in 25 years — popsci.com
+   ✓ Shunning people who ‘look homeless’ is an aesthetic injustice — psyche.co
+   ✓ Dealing with Recessions — commoncog.com
+   ✓ This Four-Person NASA Crew Spent Over a Year on 'Mars.' Here's What Th — smithsonianmag.com
+Published 25 articles: 25 Gemini/backup + 0 ChatGPT (5 long reads).
