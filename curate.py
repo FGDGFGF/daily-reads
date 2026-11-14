@@ -1,8 +1,8 @@
 #!/usr/bin/env python3
-"""Daily Reads — curates 12 articles a day and publishes them as an RSS feed.
+"""Daily Reads — curates 25 articles a day and publishes them as an RSS feed.
 
 Reads the latest articles from the publications in sources.txt, then Gemini (free tier,
-no web search) acts as editor and picks the best 12 using prompt.txt.
+no web search) acts as editor and picks the best 25 using prompt.txt.
 Curator chain: Gemini (main model) -> Gemini (lite model) -> balanced picker without AI.
 Every link is opened and checked before it is published. Repeats are blocked against
 everything ever sent. The feed keeps the last KEEP_DAYS days.
@@ -37,7 +37,8 @@ FEED_TITLE = os.environ.get("FEED_TITLE", "Daily Reads")
 FEED_LINK = os.environ.get("FEED_LINK", "https://fgdgfgf.github.io/daily-reads/").lower()  # set by the workflow
 TZ = dt.timezone(dt.timedelta(hours=4))  # Mauritius
 KEEP_DAYS = int(os.environ.get("KEEP_DAYS", "60"))
-SHORT_N, LONG_N = 10, 2
+SHORT_N, LONG_N = 20, 5          # 25 a day: up to 5 long reads, shorts fill any gap
+ISLAMIC_MIN = 2
 MODELS = [m.strip() for m in os.environ.get(
     "GEMINI_MODELS", "gemini-flash-latest,gemini-flash-lite-latest,gemini-3.1-flash-lite").split(",") if m.strip()]
 BLOCKED_DOMAINS = {"statnews.com"}
@@ -45,7 +46,7 @@ UA = ("Mozilla/5.0 (Macintosh; Intel Mac OS X 14_0) AppleWebKit/537.36 "
       "(KHTML, like Gecko) Chrome/124.0 Safari/537.36")
 TRACKING = re.compile(r"^(utm_|fbclid|gclid|mc_|ref$|ref_src|cmpid|smid|ito$|soc_|ocid|at_medium|at_campaign|cmp$)", re.I)
 CATEGORIES = {"weird_history", "fraud_investigation", "science_tech", "culture_ideas",
-              "islamic", "wildcard", "rotating"}
+              "islamic", "wildcard", "rotating", "business_strategy", "africa_indian_ocean"}
 
 session = requests.Session()
 session.headers.update({"User-Agent": UA, "Accept-Language": "en;q=0.9"})
@@ -189,7 +190,7 @@ def verify(url, claimed_title, trusted=False):
 # ── prompt ─────────────────────────────────────────────────────────
 def build_prompt(history):
     today = dt.datetime.now(TZ).strftime("%A %d %B %Y")
-    recent = [h for h in history][-90:]
+    recent = [h for h in history][-200:]
     articles = "\n".join(f"  - {h['title']} ({h['publisher']})" for h in recent) or "  (none yet)"
     themes = [h.get("theme") for h in reversed(history) if h.get("theme")]
     seen, recent_themes = set(), []
@@ -287,7 +288,7 @@ def fetch_one(row):
         return row, [], type(e).__name__
 
 
-def collect_pool(history, per_feed=6, max_age_days=60):
+def collect_pool(history, per_feed=8, max_age_days=60):
     from concurrent.futures import ThreadPoolExecutor
     rows = read_sources()
     log(f"Reading {len(rows)} publications…")
@@ -389,7 +390,7 @@ def from_backup(pool):
 
 # ── selection ─────────────────────────────────────────────────────────────────
 def select(cands, history):
-    """Verify links and pick 10 short + 2 long, with ≥1 islamic and ≥1 rotating if possible."""
+    """Verify links and pick 25 (up to 5 long), with ≥2 islamic if possible."""
     from concurrent.futures import ThreadPoolExecutor
 
     def check(c):
@@ -402,12 +403,12 @@ def select(cands, history):
         return final
 
     # check the likely candidates' links all at once (was one by one), then pick in order as before
-    likely = [c for c in cands if not is_repeat(c, history)][:40]
+    likely = [c for c in cands if not is_repeat(c, history)][:60]
     with ThreadPoolExecutor(max_workers=12) as ex:
         checked = dict(zip(map(id, likely), ex.map(check, likely)))
     good, per_pub = [], {}
     for c in cands:
-        if len(good) >= 16:
+        if len(good) >= SHORT_N + LONG_N + 8:
             break
         if is_repeat(c, history, good) or per_pub.get(c["publisher"], 0) >= 2:
             continue
@@ -421,20 +422,20 @@ def select(cands, history):
         good.append(c)
         per_pub[c["publisher"]] = per_pub.get(c["publisher"], 0) + 1
 
+    total = SHORT_N + LONG_N
     longs = [c for c in good if c["long"]][:LONG_N]
-    shorts = [c for c in good if not c["long"]]  # spare long reads are dropped, so it stays exactly 2
-    picked = []
-    for need in ("islamic", "rotating"):
-        if not any(c["category"] == need for c in longs + picked):
-            m = next((c for c in shorts if c["category"] == need and c not in picked), None)
-            if m:
-                picked.append(m)
-    for c in shorts:
-        if len(picked) >= SHORT_N:
+    picked = list(longs)
+    for c in good:                                   # make sure the Islamic picks survive the cut
+        if sum(x["category"] == "islamic" for x in picked) >= ISLAMIC_MIN:
             break
-        if c not in picked:
+        if c["category"] == "islamic" and c not in picked:
             picked.append(c)
-    return picked[:SHORT_N] + longs
+    for c in good:                                   # then Gemini's order, short reads first
+        if len(picked) >= total:
+            break
+        if c not in picked and not c["long"]:
+            picked.append(c)
+    return picked[:total]
 
 
 # ── article images ───────────────────────────────────────────────────────────
@@ -475,7 +476,8 @@ def article_image(url):
 # ── feed ──────────────────────────────────────────────────────────────────────
 CAT_LABEL = {"weird_history": "Weird history", "fraud_investigation": "Frauds & investigations",
              "science_tech": "Science & tech", "culture_ideas": "Culture & ideas",
-             "islamic": "Islamic history & culture", "wildcard": "Wildcard", "rotating": "Special interest"}
+             "islamic": "Islamic history & culture", "wildcard": "Wildcard", "rotating": "Special interest",
+             "business_strategy": "Business & strategy", "africa_indian_ocean": "Africa & Indian Ocean"}
 
 
 def write_feed(history):
@@ -492,7 +494,7 @@ def write_feed(history):
     # WebSub: lets Inoreader & co. get new batches pushed instantly instead of polling.
     ET.SubElement(ch, f"{{{ATOM}}}link", rel="self", type="application/rss+xml", href=FEED_LINK.rstrip("/") + "/feed.xml")
     ET.SubElement(ch, f"{{{ATOM}}}link", rel="hub", href="https://pubsubhubbub.appspot.com/")
-    ET.SubElement(ch, "description").text = "Daily Reads: Gemini Picks and ChatGPT Picks."
+    ET.SubElement(ch, "description").text = "Daily Reads: 25 hand-picked articles a day."
     ET.SubElement(ch, "language").text = "en"
     ET.SubElement(ch, "lastBuildDate").text = format_datetime(dt.datetime.now(TZ))
     ET.SubElement(ch, "ttl").text = "30"
@@ -501,7 +503,7 @@ def write_feed(history):
         src = h.get("source", "")
         curator = "ChatGPT" if src == "chatgpt" else ("Backup" if src == "backup" else "Gemini")
         label = "[Long read] " if h["long"] else ""
-        ET.SubElement(it, "title").text = f"[{curator}] {label}{h['title']}"
+        ET.SubElement(it, "title").text = f"{label}{h['title']}"
         ET.SubElement(it, "link").text = h["url"]
         ET.SubElement(it, "guid", isPermaLink="false").text = h["id"]
         ET.SubElement(it, "pubDate").text = format_datetime(dt.datetime.fromisoformat(h["sent"]))
@@ -677,16 +679,20 @@ def main():
     if mode == "daily":   # the automatic morning run (Pi at 05:40, GitHub's late schedule as backup)
         today = dt.datetime.now(TZ).date().isoformat()
         if any(h.get("source") != "chatgpt" and str(h.get("sent", "")).startswith(today) for h in history):
-            log("Today's Gemini batch is already out — only checking ChatGPT's inbox.")
-            mode = "chatgpt"
+            log("Today's batch is already out — nothing to do.")
+            save_log()
+            return
         else:
             mode = "full"
     processed = load_processed()
 
-    # ChatGPT's preselected batch goes first, so Gemini can't crowd it out.
-    chatgpt = import_chatgpt(history, processed)
+    chatgpt = []          # ChatGPT curation retired 2026-11-14; Gemini makes the whole batch
 
     picks = []
+    if mode != "full":
+        log("Nothing to do in this mode.")
+        save_log()
+        return
     if mode == "full":
         taken = history + chatgpt                 # Gemini must pick different articles
         pool = collect_pool(taken)
@@ -702,10 +708,6 @@ def main():
     CHATGPT_PROCESSED.write_text(json.dumps(processed, indent=1, ensure_ascii=False))
     new = picks + chatgpt
     if not new:
-        if mode == "chatgpt":
-            log("Nothing new from ChatGPT — feed unchanged.")
-            save_log()
-            return
         log("No articles could be published today — keeping the existing feed.")
         save_log()
         sys.exit(1)

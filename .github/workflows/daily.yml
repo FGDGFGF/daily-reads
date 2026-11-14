@@ -6,13 +6,10 @@ on:
   workflow_dispatch:           # "Run workflow" button / the 📰 button on the home server
     inputs:
       mode:
-        description: "full = new Gemini batch + any new ChatGPT batch; daily = like full, but only if today's batch isn't out yet; chatgpt = only import new ChatGPT batches"
+        description: "full = new batch of 25; daily = same, but only if today's batch isn't out yet"
         default: full
         type: choice
-        options: [full, daily, chatgpt]
-  push:                        # ChatGPT pushed a new batch → import it right away (ChatGPT only, no extra Gemini batch)
-    branches: [main]
-    paths: [state/chatgpt_picks.json]
+        options: [full, daily]
 
 permissions:
   contents: write
@@ -24,7 +21,7 @@ concurrency:
 jobs:
   curate:
     runs-on: ubuntu-latest
-    timeout-minutes: 20
+    timeout-minutes: 25
     steps:
       - uses: actions/checkout@v5
 
@@ -38,7 +35,7 @@ jobs:
       - name: Curate and build the feed
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
-          RUN_MODE: ${{ github.event_name == 'push' && 'chatgpt' || github.event_name == 'schedule' && 'daily' || inputs.mode || 'full' }}
+          RUN_MODE: ${{ github.event_name == 'schedule' && 'daily' || inputs.mode || 'full' }}
           FEED_TITLE: Daily Reads
           FEED_LINK: https://${{ github.repository_owner }}.github.io/${{ github.event.repository.name }}/
         run: python curate.py
