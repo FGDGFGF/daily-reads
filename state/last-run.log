@@ -1,26 +1,5 @@
-Run at 2026-11-14 11:58 (Mauritius)
+Run at 2026-11-14 15:30 (Mauritius)
 Mode: daily
+Today's Gemini batch is already out — only checking ChatGPT's inbox.
 ChatGPT: no batch for today (2026-11-14) in the inbox yet.
-Reading 50 publications…
-  44 publications read, 206 fresh candidates
-  couldn't read: bbc.com (HTTPError), texasmonthly.com (HTTPError), restofworld.org (ParseError), theguardian.com (HTTPError), lostislamichistory.com (ParseError), arabnews.com (HTTPError)
-Gemini gemini-flash-latest, attempt 1…
-  failed: HTTP 503: This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later. []
-Gemini gemini-flash-lite-latest, attempt 1…
-  Gemini picked 16 articles
-   ✗ unreachable https://www.occrp.org/en/news/many-in-serbias-youth-movement-fear-a-rigged-election-on-sunday (ReadTimeout)
-   ✓ Two Centuries After This Bronze Leg Emerged From a Scottish Bog, Archa — smithsonianmag.com
-   ✓ What Is An Ocarina? The Ancient History Behind the 'Legend of Zelda’ I — mentalfloss.com
-   ✓ The Strange Story Behind the Destroyed First Draft of 'Dr. Jekyll and  — mentalfloss.com
-   ✓ The Areni-1 Cave Shoe in Yerevan, Armenia — atlasobscura.com
-   ✓ Members of Georgia’s Election Board Have Been Coordinating With Cleta  — propublica.org
-   ✓ Buro Media Launches Database of Lukashenko’s Inner Circle — occrp.org
-   ✓ AI and Virtual Reality Enter the Therapist’s Office — undark.org
-   ✓ Science to restore speech is moving fast. Here’s what’s next — sciencenews.org
-   ✓ Thawing Permafrost May Have Created a New Type of Landslide, Which Cou — smithsonianmag.com
-   ✓ Food contains thousands of overlooked chemicals. This physicist is map — sciencenews.org
-   ✓ Why anything exists — aeon.co
-   ✓ The Armenian Genocide in 1915 Explained — thecollector.com
-   ✓ Can India’s Oldest Political Dynasty Find a New Mandate? — newlinesmag.com
-   ✓ John J. McGraw Monument in Truxton, New York — atlasobscura.com
-Published 12 articles: 12 Gemini/backup + 0 ChatGPT (2 long reads).
+Nothing new from ChatGPT — feed unchanged.
