@@ -67,13 +67,10 @@ rotating            | no  | https://www.popsci.com/feed/
 rotating            | no  | https://www.mentalfloss.com/rss.xml
 
 # ── Business & strategy (added 2026-11-14)
-business_strategy   | no  | https://knowledge.wharton.upenn.edu/feed/
-business_strategy   | no  | https://knowledge.insead.edu/rss.xml
 business_strategy   | yes | https://www.construction-physics.com/feed
 business_strategy   | yes | https://www.notboring.co/feed
 business_strategy   | no  | https://commoncog.com/rss/
 business_strategy   | no  | https://www.fastcompany.com/latest/rss
-business_strategy   | no  | https://www.marketplace.org/feed/
 business_strategy   | no  | https://feeds.npr.org/1006/rss.xml
 
 # ── Africa, Mauritius & the Indian Ocean (added 2026-11-14)

@@ -39,6 +39,18 @@ TZ = dt.timezone(dt.timedelta(hours=4))  # Mauritius
 KEEP_DAYS = int(os.environ.get("KEEP_DAYS", "60"))
 SHORT_N, LONG_N = 20, 5          # 25 a day: up to 5 long reads, shorts fill any gap
 ISLAMIC_MIN = 2
+WEEKEND_SHORT_N, WEEKEND_LONG_N = 15, 10   # Saturday & Sunday: more long reads
+VIBES = {"rabbit_hole": "🐇", "useful_at_work": "💼", "big_idea": "🧠", "gripping_story": "📖", "pure_fun": "😄"}
+PREFS_FILE = Path(__file__).resolve().parent / "state" / "reader_prefs.txt"
+
+
+def reader_prefs():
+    """What the reader actually reads (sent weekly from the Mac via the Pi). Kept between runs."""
+    new = (os.environ.get("READER_PREFS") or "").strip()
+    if new:
+        PREFS_FILE.parent.mkdir(parents=True, exist_ok=True)
+        PREFS_FILE.write_text(new[:4000] + "\n")
+    return PREFS_FILE.read_text().strip() if PREFS_FILE.exists() else ""
 MODELS = [m.strip() for m in os.environ.get(
     "GEMINI_MODELS", "gemini-flash-latest,gemini-flash-lite-latest,gemini-3.1-flash-lite").split(",") if m.strip()]
 BLOCKED_DOMAINS = {"statnews.com"}
@@ -202,7 +214,11 @@ def build_prompt(history):
     return (PROMPT.read_text()
             .replace("{{TODAY}}", today)
             .replace("{{RECENT_ARTICLES}}", articles)
-            .replace("{{RECENT_THEMES}}", ", ".join(recent_themes) or "none"))
+            .replace("{{RECENT_THEMES}}", ", ".join(recent_themes) or "none")
+            .replace("{{TOTAL}}", str(SHORT_N + LONG_N))
+            .replace("{{ASK}}", str(SHORT_N + LONG_N + 8))
+            .replace("{{LONG_TARGET}}", str(LONG_N))
+            .replace("{{READER_PREFS}}", reader_prefs() or "(no reading data yet)"))
 
 
 def gemini(model, prompt, key):
@@ -210,7 +226,7 @@ def gemini(model, prompt, key):
     url = f"https://generativelanguage.googleapis.com/v1beta/models/{model}:generateContent"
     body = {"contents": [{"role": "user", "parts": [{"text": prompt}]}],
             "generationConfig": {"temperature": 0.9, "responseMimeType": "application/json"}}
-    r = requests.post(url, params={"key": key}, json=body, timeout=120)
+    r = requests.post(url, params={"key": key}, json=body, timeout=240)
     if r.status_code != 200:
         try:
             err = r.json().get("error", {})
@@ -358,6 +374,8 @@ def from_gemini(pool, history):
                     p["theme"] = clean_text(x.get("rotating_theme"), 80) if p["category"] == "rotating" else ""
                     p["long"] = bool(x.get("long_read", p["long"]))
                     p["hook"] = clean_text(x.get("hook"), 500) or p["hook"]
+                    v = str(x.get("vibe", "")).strip()
+                    p["vibe"] = v if v in VIBES else ""
                     p["source"] = f"gemini:{model}"
                     picks.append(p)
                 log(f"  Gemini picked {len(picks)} articles")
@@ -365,7 +383,7 @@ def from_gemini(pool, history):
                     return picks
             except Exception as e:
                 log(f"  failed: {e}")
-                if "503" in str(e) or "high demand" in str(e) or "429" in str(e):
+                if "503" in str(e) or "high demand" in str(e) or "429" in str(e) or "timed out" in str(e):
                     break                     # overloaded: don't wait, try the next model right away
             time.sleep(3)
     return []
@@ -502,7 +520,7 @@ def write_feed(history):
         it = ET.SubElement(ch, "item")
         src = h.get("source", "")
         curator = "ChatGPT" if src == "chatgpt" else ("Backup" if src == "backup" else "Gemini")
-        label = "[Long read] " if h["long"] else ""
+        label = (VIBES.get(h.get("vibe", ""), "") + " " if h.get("vibe") in VIBES else "") + ("[Long read] " if h["long"] else "")
         ET.SubElement(it, "title").text = f"{label}{h['title']}"
         ET.SubElement(it, "link").text = h["url"]
         ET.SubElement(it, "guid", isPermaLink="false").text = h["id"]
@@ -675,6 +693,10 @@ def import_chatgpt(history, processed):
 def main():
     mode = os.environ.get("RUN_MODE", "full")   # "full" = Gemini + ChatGPT, "chatgpt" = ChatGPT inbox only
     log(f"Mode: {mode}")
+    global SHORT_N, LONG_N
+    if dt.datetime.now(TZ).weekday() >= 5:
+        SHORT_N, LONG_N = WEEKEND_SHORT_N, WEEKEND_LONG_N
+        log(f"Weekend edition: {LONG_N} long reads")
     history = load_history()
     if mode == "daily":   # the automatic morning run (Pi at 05:40, GitHub's late schedule as backup)
         today = dt.datetime.now(TZ).date().isoformat()
@@ -720,7 +742,7 @@ def main():
     for i, p in enumerate(new):
         sent = (now - dt.timedelta(seconds=i)).isoformat(timespec="seconds")
         history.append({k: p.get(k, "") for k in ("title", "url", "norm", "publisher", "date",
-                                                  "category", "theme", "long", "hook", "source", "image")}
+                                                  "category", "theme", "long", "hook", "source", "image", "vibe")}
                        | {"id": f"{now:%Y%m%d}-{i:02d}-{abs(hash(p['norm'])) % 10**8}", "sent": sent})
     HISTORY.parent.mkdir(parents=True, exist_ok=True)
     HISTORY.write_text(json.dumps(history[-3000:], indent=1, ensure_ascii=False))

@@ -4,16 +4,20 @@ Below is a pool of real, recently published articles from quality publications.
 Choose ONLY from this pool — refer to articles by their id. Never invent articles.
 
 GOAL
-Pick the 33 most fascinating articles in the pool (the system will verify links and keep the best 25).
+Pick the {{ASK}} most fascinating articles in the pool (the system will verify links and keep the best {{TOTAL}}).
 List them best first. There are no category quotas: choose purely on how rewarding each article
 is to read — surprise, great storytelling, real insight, "I never knew that" moments, rabbit holes.
 Make the whole batch feel varied: spread it across many subjects, places and publications.
-Aim for about 5 substantial long-form reads (long_read: true), the rest 3–15 minute reads.
+Aim for about {{LONG_TARGET}} substantial long-form reads (long_read: true), the rest 3–15 minute reads.
 
 The pool covers, among other things: weird history and mysteries, frauds and investigations,
 science and technology, psychology and big ideas, Islamic history and culture, business and
 strategy (how companies won, failed or were fooled; leadership and management), and stories
 from Africa, Mauritius and the Indian Ocean region. Use these only as labels, not as targets.
+
+WHAT THIS READER ACTUALLY READS (from his read-later app; lean towards what he finishes,
+pick less from what he leaves unread — but keep some surprises, never only the favourites)
+{{READER_PREFS}}
 
 RULES
 - REQUIRED: at least 2 picks on Islamic history, Islamic civilization/culture, or significant
@@ -31,11 +35,12 @@ RULES
 {{RECENT_ARTICLES}}
 
 OUTPUT
-Return ONLY a JSON array of 33 objects, best first:
+Return ONLY a JSON array of {{ASK}} objects, best first:
 [{"id": 123,
   "category": "weird_history | fraud_investigation | science_tech | culture_ideas | islamic | business_strategy | africa_indian_ocean | wildcard",
   "rotating_theme": "",
   "long_read": true or false,
+  "vibe": "rabbit_hole | useful_at_work | big_idea | gripping_story | pure_fun",
   "hook": "1–2 sentence substantive hook explaining why it's worth reading"}]
 
 POOL (id | publication | date | outlet type | title | summary)
