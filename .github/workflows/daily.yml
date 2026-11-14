@@ -10,6 +10,11 @@ on:
         default: full
         type: choice
         options: [full, daily]
+      edition:
+        description: "auto = weekend edition on Sat/Sun; or force weekday / weekend"
+        default: auto
+        type: choice
+        options: [auto, weekday, weekend]
       prefs:
         description: "What the reader actually reads (sent by the Pi from GoodLinks stats; optional)"
         default: ""
@@ -41,6 +46,7 @@ jobs:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
           RUN_MODE: ${{ github.event_name == 'schedule' && 'daily' || inputs.mode || 'full' }}
           READER_PREFS: ${{ inputs.prefs }}
+          EDITION: ${{ inputs.edition || 'auto' }}
           FEED_TITLE: Daily Reads
           FEED_LINK: https://${{ github.repository_owner }}.github.io/${{ github.event.repository.name }}/
         run: python curate.py

@@ -28,7 +28,6 @@ import requests
 
 ROOT = Path(__file__).resolve().parent
 HISTORY = ROOT / "state" / "history.json"
-CHATGPT_INBOX = ROOT / "state" / "chatgpt_picks.json"
 FEED = ROOT / "docs" / "feed.xml"
 PROMPT = ROOT / "prompt.txt"
 SOURCES = ROOT / "sources.txt"
@@ -519,7 +518,7 @@ def write_feed(history):
     for h in sorted(items, key=lambda h: h["sent"], reverse=True):
         it = ET.SubElement(ch, "item")
         src = h.get("source", "")
-        curator = "ChatGPT" if src == "chatgpt" else ("Backup" if src == "backup" else "Gemini")
+        curator = "Backup" if src == "backup" else "Gemini"
         label = (VIBES.get(h.get("vibe", ""), "") + " " if h.get("vibe") in VIBES else "") + ("[Long read] " if h["long"] else "")
         ET.SubElement(it, "title").text = f"{label}{h['title']}"
         ET.SubElement(it, "link").text = h["url"]
@@ -547,176 +546,31 @@ def write_feed(history):
 
 
 
-CHATGPT_PROCESSED = ROOT / "state" / "chatgpt_processed.json"
-CHATGPT_MAX_AGE_DAYS = 2   # batches older than this are left alone (prevents surprise backfills)
-ROTATING_THEMES = ("Hidden Worlds & Forgotten Places", "How the World Really Works",
-                   "Unsolved Mysteries & Historical Puzzles", "Extraordinary People & Unusual Lives",
-                   "Nature's Strangest Stories", "Food Mysteries & Culinary History")
-
-
-def load_processed():
-    try:
-        return json.loads(CHATGPT_PROCESSED.read_text())
-    except (OSError, ValueError):
-        return {}
-
-
-def known_publisher_domains():
-    """Publications we already trust (sources.txt) — used only when a site blocks automated checks."""
-    out = set()
-    for _, _, url in read_sources():
-        out.add(domain(url))
-    return out
-
-
-def slug_matches(url, title):
-    """The article address itself names the story (e.g. /the-jumping-frenchmen-of-maine)."""
-    slug = re.sub(r"[^a-z0-9]+", " ", urlsplit(url).path.lower())
-    return len({w for w in slug.split() if len(w) > 3} & words(title)) >= 2
-
-
-def import_chatgpt(history, processed):
-    """Import dated ChatGPT batches from state/chatgpt_picks.json.
-
-    - Each batch date is handled once (recorded in state/chatgpt_processed.json), so repeated runs,
-      button presses or pushes never republish it.
-    - Structure is checked per batch (12 articles, 2 long, 1 Islamic, 1 rotating with a valid theme);
-      a malformed batch is reported and left unprocessed so a corrected version can be pushed.
-    - Articles are checked one by one: a single bad link or repeat no longer sinks the other eleven.
-      Every rejection is logged with its reason.
-    """
-    if not CHATGPT_INBOX.exists():
-        log("ChatGPT: no inbox file (state/chatgpt_picks.json).")
-        return []
-    try:
-        raw = json.loads(CHATGPT_INBOX.read_text())
-        if not isinstance(raw, list):
-            raise ValueError("expected a JSON array")
-    except (ValueError, OSError) as e:
-        log(f"ChatGPT: inbox unreadable — {e}")
-        return []
-
-    today = dt.datetime.now(TZ).date()
-    groups = {}
-    for x in raw:
-        if isinstance(x, dict) and isinstance(x.get("batch_date"), str):
-            groups.setdefault(x["batch_date"], []).append(x)
-        else:
-            log("ChatGPT: entry without a batch_date ignored")
-    if str(today) not in groups:
-        log(f"ChatGPT: no batch for today ({today}) in the inbox yet.")
-
-    trusted_domains = None
-    accepted = []
-    for date, entries in sorted(groups.items()):
-        if date in processed:
-            continue                                    # already handled on an earlier run
-        try:
-            day = dt.date.fromisoformat(date)
-        except ValueError:
-            log(f"ChatGPT batch {date}: invalid date, ignored")
-            continue
-        if day > today:
-            log(f"ChatGPT batch {date}: dated in the future, ignored")
-            continue
-        if (today - day).days > CHATGPT_MAX_AGE_DAYS and date not in {"2026-11-06", "2026-11-07", "2026-11-08", "2026-11-09"}:
-            log(f"ChatGPT batch {date}: older than {CHATGPT_MAX_AGE_DAYS} days, ignored")
-            continue
-        problems = []
-        if len(entries) != 12:
-            problems.append(f"{len(entries)} articles instead of 12")
-        if sum(x.get("long") is True for x in entries) != 2:
-            problems.append("needs exactly 2 long reads")
-        if sum(x.get("category") == "islamic" for x in entries) != 1:
-            problems.append("needs exactly 1 Islamic article")
-        rot = [x for x in entries if x.get("category") == "rotating"]
-        if len(rot) != 1:
-            problems.append("needs exactly 1 rotating-theme article")
-        elif rot[0].get("theme") not in ROTATING_THEMES:
-            problems.append(f"unknown rotating theme {rot[0].get('theme')!r}")
-        if problems:
-            log(f"ChatGPT batch {date}: not imported — " + "; ".join(problems) + ". Fix and push again.")
-            continue
-
-        log(f"ChatGPT batch {date}: checking 12 articles…")
-        batch, rejected = [], []
-        for x in entries:
-            title = clean_text(x.get("title"), 300)
-            url = normalize_url(str(x.get("url", "")))
-
-            def reject(reason):
-                rejected.append({"title": title or "(no title)", "url": x.get("url", ""), "reason": reason})
-                log(f"   ✗ ChatGPT: {title[:70]!r} — {reason}")
-
-            if not url or not title or not x.get("hook") or x.get("category") not in CATEGORIES:
-                reject("missing title, link, hook or valid category")
-                continue
-            if domain(url) in BLOCKED_DOMAINS:
-                reject("blocked publisher")
-                continue
-            p = {"title": title, "url": url, "norm": dedup_key(url),
-                 "publisher": clean_text(x.get("publisher") or domain(url), 100),
-                 "date": clean_text(x.get("date"), 20), "category": x["category"],
-                 "theme": clean_text(x.get("theme"), 100) if x["category"] == "rotating" else "",
-                 "long": x.get("long") is True, "hook": clean_text(x["hook"], 500), "source": "chatgpt"}
-            if is_repeat(p, history + accepted, batch):
-                dup = next((h for h in history + accepted + batch if h.get("norm") == p["norm"]), None)
-                reject(f"already in the feed ({'same link' if dup else 'near-identical headline'})")
-                continue
-            final = verify(url, title, trusted=False)
-            if not final and VERIFY["blocked"]:
-                # Site blocks robots. Accept only a known publication whose address names this story.
-                trusted_domains = trusted_domains or known_publisher_domains()
-                f = VERIFY.get("final") or url
-                if domain(f) in trusted_domains and slug_matches(f, title):
-                    final = f
-                    log(f"   ~ ChatGPT: {title[:70]!r} — site blocks checks; accepted (known publisher, link names the story)")
-            if not final:
-                reject(VERIFY["reason"] or "link check failed")
-                continue
-            p["url"], p["norm"] = final, dedup_key(final)
-            if is_repeat(p, history + accepted, batch):
-                reject("already in the feed (same article after redirect)")
-                continue
-            batch.append(p)
-            log(f"   ✓ ChatGPT: {title[:70]} — {p['publisher']}")
-        processed[date] = {"checked": dt.datetime.now(TZ).isoformat(timespec="seconds"),
-                           "published": len(batch), "rejected": rejected}
-        log(f"ChatGPT batch {date}: {len(batch)} published, {len(rejected)} rejected")
-        if batch and sum(p["long"] for p in batch) < 2:
-            log(f"   note: only {sum(p['long'] for p in batch)} long read(s) survived the checks")
-        accepted.extend(batch)
-    return accepted
-
-
 # ── main ──────────────────────────────────────────────────────────────────────
 def main():
-    mode = os.environ.get("RUN_MODE", "full")   # "full" = Gemini + ChatGPT, "chatgpt" = ChatGPT inbox only
-    log(f"Mode: {mode}")
+    mode = os.environ.get("RUN_MODE", "full")   # "full" = new batch now, "daily" = only if today's isn't out yet
+    edition = os.environ.get("EDITION", "auto") or "auto"   # auto | weekday | weekend
+    log(f"Mode: {mode}, edition: {edition}")
     global SHORT_N, LONG_N
-    if dt.datetime.now(TZ).weekday() >= 5:
+    if edition == "weekend" or (edition == "auto" and dt.datetime.now(TZ).weekday() >= 5):
         SHORT_N, LONG_N = WEEKEND_SHORT_N, WEEKEND_LONG_N
         log(f"Weekend edition: {LONG_N} long reads")
     history = load_history()
     if mode == "daily":   # the automatic morning run (Pi at 05:40, GitHub's late schedule as backup)
         today = dt.datetime.now(TZ).date().isoformat()
-        if any(h.get("source") != "chatgpt" and str(h.get("sent", "")).startswith(today) for h in history):
+        if any(str(h.get("sent", "")).startswith(today) for h in history):
             log("Today's batch is already out — nothing to do.")
             save_log()
             return
         else:
             mode = "full"
-    processed = load_processed()
-
-    chatgpt = []          # ChatGPT curation retired 2026-11-14; Gemini makes the whole batch
-
     picks = []
     if mode != "full":
         log("Nothing to do in this mode.")
         save_log()
         return
     if mode == "full":
-        taken = history + chatgpt                 # Gemini must pick different articles
+        taken = history
         pool = collect_pool(taken)
         picks = select(from_gemini(pool, taken), taken)
         if len(picks) < SHORT_N + LONG_N:
@@ -727,8 +581,7 @@ def main():
             rest = [b for b in backup if b not in longs]
             picks += longs + rest[:SHORT_N + LONG_N - len(picks) - len(longs)]
 
-    CHATGPT_PROCESSED.write_text(json.dumps(processed, indent=1, ensure_ascii=False))
-    new = picks + chatgpt
+    new = picks
     if not new:
         log("No articles could be published today — keeping the existing feed.")
         save_log()
@@ -747,8 +600,7 @@ def main():
     HISTORY.parent.mkdir(parents=True, exist_ok=True)
     HISTORY.write_text(json.dumps(history[-3000:], indent=1, ensure_ascii=False))
     write_feed(history)
-    log(f"Published {len(new)} articles: {len(picks)} Gemini/backup + {len(chatgpt)} ChatGPT "
-        f"({sum(p['long'] for p in new)} long reads).")
+    log(f"Published {len(new)} articles ({sum(p['long'] for p in new)} long reads).")
     save_log()
 
 
