@@ -1,43 +1,40 @@
-Run at 2026-11-14 15:41 (Mauritius)
-Mode: full
-Reading 65 publications…
-  57 publications read, 342 fresh candidates
-  couldn't read: bbc.com (HTTPError), restofworld.org (ParseError), theguardian.com (HTTPError), lostislamichistory.com (ParseError), arabnews.com (HTTPError), knowledge.wharton.upenn.edu (HTTPError), knowledge.insead.edu (HTTPError), marketplace.org (HTTPError)
+Run at 2026-11-14 15:47 (Mauritius)
+Mode: full, edition: weekday
+Reading 62 publications…
+  56 publications read, 326 fresh candidates
+  couldn't read: bbc.com (HTTPError), texasmonthly.com (HTTPError), restofworld.org (ParseError), theguardian.com (HTTPError), lostislamichistory.com (ParseError), arabnews.com (HTTPError)
 Gemini gemini-flash-latest, attempt 1…
-  failed: HTTPSConnectionPool(host='generativelanguage.googleapis.com', port=443): Read timed out. (read timeout=120)
-Gemini gemini-flash-latest, attempt 2…
-  failed: HTTPSConnectionPool(host='generativelanguage.googleapis.com', port=443): Read timed out. (read timeout=120)
+  failed: HTTP 503: This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later. []
 Gemini gemini-flash-lite-latest, attempt 1…
   Gemini picked 33 articles
-   ✓ Inside the Trial of Russell Brand — longreads.com
-   ✓ Why Genghis Khans Golden Horde Changed Eastern Europe Forever — thecollector.com
-   ✓ After the Revolution, Before the War: Tracing Khartoum’s Syrian Commun — africanarguments.org
-   ✓ Africa Can’t Build a Blue Economy Without the Women Who Bring Its Fish — africanarguments.org
-   ✓ Charly Kodjo: Ivorian producer taking African cinema from Paris to the — theafricareport.com
-   ✓ When Anesthesia Goes Wrong — longreads.com
-   ✓ The Evolving Story of How Chemistry Became Biology — quantamagazine.org
-   ✓ Why did thousands of Spaniards risk their lives to fight for Hitler? — historyextra.com
-   ✓ Can Network Science Transform Health and Nutrition? — quantamagazine.org
-   ✓ Russian Serfdom Explained From Kholops to the Emancipation Manifesto — thecollector.com
-   ✓ Methodical/mercurial — aeon.co
-   ✓ Alternative Leadership As A Decolonial Paradigm — theelephant.info
-   ✓ ‘Ahead of his time’: AI helps unlock discoveries hidden in notebooks o — theguardian.com
-   ✓ Spicy ping-pong balls and flaming dung keep elephants at bay in Zimbab — news.mongabay.com
-   ✓ Technology as a Search Problem — construction-physics.com
-   ✓ Believing and thinking — aeon.co
-   ✓ Serbia’s Experiment: Combining Democracy & Meritocracy — noemamag.com
-   ✓ When AIs Become Unruly Swarms — noemamag.com
-   ✓ How to help someone whose thinking seems delusional — psyche.co
-   ✓ Interview: The Nerve That Could Transform Medicine — undark.org
-   ✓ How to Be a Modern Woman in 1930s Shanghai — daily.jstor.org
-   ✓ Fruit bats emerge as unlikely allies in the Atlantic Forest restoratio — news.mongabay.com
-   ✓ An Ice Age cave bear graveyard in the Alps — bbc.com
-   ✓ Lithium, gold, uranium… The quiet US counter-offensive against China a — theafricareport.com
-   ✓ There Are No Apolitical Girls in War — theelephant.info
-   ✓ Weekly Dose of Optimism #214 — notboring.co
-   ✓ Can science save meetings? — knowablemagazine.org
-   ✓ Grad student finds New Mexico’s first Canada lynx in 25 years — popsci.com
-   ✓ Shunning people who ‘look homeless’ is an aesthetic injustice — psyche.co
-   ✓ Dealing with Recessions — commoncog.com
+   ✗ unreachable https://www.occrp.org/en/news/many-in-serbias-youth-movement-fear-a-rigged-election-on-sunday (ReadTimeout)
+   ✓ Qatar and Turkiye sign a mutual defence pact: What do we know? — aljazeera.com
+   ✓ Javier Milei’s Falklands Gambit — newlinesmag.com
+   ✓ Now Yourself: The Elusive Science of What the Present Moment Is Made o — themarginalian.org
+   ✓ The Poppy’s Many Meanings — newlinesmag.com
+   ✓ How Booker T. Washington Built an Educational Empire at Tuskegee — thecollector.com
    ✓ This Four-Person NASA Crew Spent Over a Year on 'Mars.' Here's What Th — smithsonianmag.com
-Published 25 articles: 25 Gemini/backup + 0 ChatGPT (5 long reads).
+   ✓ Botswana’s Diamonds: The Gem That Transformed a Nation’s History — thecollector.com
+   ✓ Who is Gadi Eisenkot? Netanyahu’s rival, Gaza war commander, son of Mo — theafricareport.com
+   ✓ There Are No Apolitical Girls in War — theelephant.info
+   ✓ How to Handle Disruptive Change — commoncog.com
+   ✓ The SS United States has been deliberately sunk – this is how marine l — theconversation.com
+   ✓ GLP-1s Are Showing Promise Beyond Weight Loss. Could They Be 'Wonder D — smithsonianmag.com
+   ✓ Yes to Life, in Spite of Everything: Viktor Frankl’s Lost Lectures on  — themarginalian.org
+   ✓ Pregnancy in a Warming Africa — theelephant.info
+   ✓ The Tar Pits in Lawton, Oklahoma — atlasobscura.com
+   ✓ US, UK investors tighten grip on Kenya’s $23.1bn retail industry despi — theafricareport.com
+   ✓ Can Tactical Decision Games Accelerate ... Maths? — commoncog.com
+   ✓ Tudors on the brink: how the dynasty almost ended before it even began — historyextra.com
+   ✓ Alien menace or victim of xenophobia? The battle over Britain’s parake — theguardian.com
+   ✓ Save the parasites! — knowablemagazine.org
+   ✓ China's great emissions slow-down — bbc.com
+   ✓ NASA’s TEMPO satellite enables better monitoring of bad air days — knowablemagazine.org
+   ✓ The cloud forest being abandoned by its clouds — bbc.com
+   ✓ Paying to work: bribery and the earnings of Kenya’s informal workers — africanarguments.org
+   ✓ Smartwatch blood pressure monitoring was okay. AI is making it better. — popsci.com
+   ✓ The Bone-Setters’ Ward: How Ancient Healers Are Filling Ethiopia’s Mod — africanarguments.org
+   ✓ Why political fights devolve into wars about words — bigthink.com
+   ✓ Ice Loss — longreads.com
+   ✓ Runway: Learning From Watching the World — notboring.co
+Published 25 articles (5 long reads).
