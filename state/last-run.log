@@ -1,72 +1,40 @@
-Run at 2026-11-14 16:31 (Mauritius)
-Mode: full, edition: auto
+Run at 2026-11-15 05:44 (Mauritius)
+Mode: daily, edition: auto
 Weekend edition: 10 long reads
 Reading 62 publications…
-  57 publications read, 312 fresh candidates
-  couldn't read: bbc.com (HTTPError), restofworld.org (ParseError), theguardian.com (HTTPError), lostislamichistory.com (ParseError), arabnews.com (HTTPError)
+  56 publications read, 290 fresh candidates
+  couldn't read: bbc.com (HTTPError), texasmonthly.com (HTTPError), restofworld.org (ParseError), theguardian.com (HTTPError), lostislamichistory.com (ParseError), arabnews.com (HTTPError)
 Gemini gemini-flash-latest, attempt 1…
   failed: HTTPSConnectionPool(host='generativelanguage.googleapis.com', port=443): Read timed out. (read timeout=240)
 Gemini gemini-flash-lite-latest, attempt 1…
   Gemini picked 33 articles
-   ✓ As incidents spike, Sri Lanka identifies 17 tuskers considered at high — news.mongabay.com
-   ✓ The Stories Shaping Africa’s AI Future — theelephant.info
-   ✓ The Rise and Fall of the Plasma Screen — construction-physics.com
-   ✓ Bright Star — longreads.com
-   ✓ Hemley Boum: ‘Paul Biya’s Cameroon is a decaying body ruled by an empt — theafricareport.com
-   ✓ Maintenance Futures — longreads.com
-   ✓ Understanding the AI That Drives Robots — construction-physics.com
-   ✓ Serbia’s Experiment: Combining Democracy & Meritocracy — noemamag.com
-   ✓ Kenya 2027 Elections: Chief Justice David Maraga Speaks — theelephant.info
-   ✓ Can India’s Oldest Political Dynasty Find a New Mandate? — newlinesmag.com
-   ✓ The Bone-Setters’ Ward: How Ancient Healers Are Filling Ethiopia’s Mod — africanarguments.org
-   ✓ Netanyahu may fall, but his far-right legacy in Israel is going nowher — aljazeera.com
-   ✓ ‘I perfected deception’: My secret life as a relapsed alcoholic | Megh — theguardian.com
-   ✓ Can an ancient European forest be saved while securing Poland’s border — news.mongabay.com
-   ✓ Formalising the RSF: EU Policies and Sudan’s Search for Funds — africanarguments.org
-   ✓ Kenya 2027: Can Ruto’s sporting charm offensive win back disillusioned — theafricareport.com
-   ✓ Turbulent Times Call For Experimental Law — noemamag.com
-   ✓ Texas’ School Voucher Program Could Be “Unrecognizable, If Not Extinct — propublica.org
-   ✓ East Africa’s migration story is not just about Europe – what policyma — theconversation.com
    ✓ Hills and mountains — aeon.co
-   ✓ Place, Personhood, and the Hippocampus: The Fascinating Science of Mag — themarginalian.org
-   ✓ Does your culture shape how you look at art? What an eye-tracking stud — theconversation.com
-   ✓ Netanyahu’s ‘Poison Machine’ Could Turn His Loss Into a Win — newlinesmag.com
    ✓ The Amarna letters — aeon.co
-   ✓ PARTY RESET OP-ED: The ANC’s liberation history cannot substitute for  — dailymaverick.co.za
-   ✓ Could an Amazonian Highway Open a Pandora’s Box of Pathogens? — undark.org
-Gemini gave 22 usable articles — topping up from the backup list.
-Using the backup picker…
-   ✓ Three killed in Russia as Ukraine claims US floated NATO membership op — aljazeera.com
-   ✓ Andrew Phung’s Favorite Calgary Spots — atlasobscura.com
-   ✓ Tin Lizzy Ice Cream Man in Montpelier, Indiana — atlasobscura.com
-   ✓ His Church or His Child? A Sixth-Generation Member of a Faith-Healing  — propublica.org
-   ✓ Pharma firms’ focus on weight-loss drugs could put insulin supply at r — theguardian.com
-   ✓ Beyond the Plantation House — daily.jstor.org
-   ✓ Podcast: Election Fallout — 404media.co
-   ✓ A beginner’s guide to falling in love with Russian literature — bigthink.com
+   ✓ CEO Jensen Huang resigns from chip giant Nvidia — npr.org
    ✓ From ancient Asia to the AI age: Has China’s ‘beauty stratagem’ found  — theconversation.com
-   ✓ Review: Apple's M6 iMac is pricey, but it's still a good choice for a  — arstechnica.com
-   ✓ These 6 Countries Also Fought in World War I — thecollector.com
-   ✓ Word Wrangler: November 12, 2026 — texasmonthly.com
-   ✓ South Africa’s diabetes crisis calls for people at risk to be identifi — theconversation.com
-   ✓ Here’s how to fix the looming Social Security shortfall — fastcompany.com
-   ✓ Seven travel trends that will define 2027 — bbc.com
-   ✓ 'Way more terrifying than I expected' — 404media.co
-   ✓ South Sudan postpones first-ever national elections until February — aljazeera.com
-   ✓ How imaginary friends help us in real life — bbc.com
-   ✓ Six Short Stories That Play with Time — daily.jstor.org
-   ✓ ‘It could knock a whole street down’: the art of defusing a second wor — theguardian.com
-   ✓ The Blue Wave and the Blame Game — newlinesmag.com
-   ✓ 2026 kitchen gift guide: Essential cooking gear for chefs of every lev — popsci.com
-   ✓ Many in Serbia’s Youth Movement Fear a Rigged Election on Sunday — occrp.org
-   ✓ Drugs like Ozempic may help reverse chronic kidney disease — sciencenews.org
-   ✓ The Triumph of Labour: Walter Crane’s Cartoons for the Cause (1896) — publicdomainreview.org
-   ✓ How Aristotle Anticipated The AI Era — noemamag.com
-   ✓ Sweat Gets in Your Eyes — longreads.com
+   ✓ When AIs Become Unruly Swarms — noemamag.com
+   ✓ How SpaceX Streamlined the Raptor Engine — construction-physics.com
+   ✓ The Real Story Behind the 504 Sit-In for Disability Rights, the Longes — smithsonianmag.com
+   ✓ Did Pharaoh Necho II Send Phoenicians Around Africa? — thecollector.com
+   ✓ How Xerxes Bridged the Hellespont to Invade Greece — thecollector.com
+   ✓ Five Questions About the Future of Global Anticorruption Efforts in th — occrp.org
+   ✓ 19 Old-Fashioned Ways to Describe Being Drunk — mentalfloss.com
+   ✓ Pablo Neruda on How to Hold Time — themarginalian.org
+   ✓ How Not to Waste Your Life — themarginalian.org
+   ✓ When Idaho Banned Abortion, OB-GYNs Fled. The Doctors Who Stayed Are C — longreads.com
+   ✓ I Investigated the Online Sports Betting Industry. DraftKings Shut Dow — propublica.org
+   ✓ In Brazil’s prey-rich Pantanal, jaguars reveal a surprisingly social s — news.mongabay.com
+   ✓ Sue Metal T-Rex Statue in Faith, South Dakota — atlasobscura.com
+   ✓ US-South Africa: Ramaphosa tests Trump’s visa sanctions with AI-focuse — theafricareport.com
+   ✓ The Children We Do Not See: Infants and Toddlers Behind Bars — theelephant.info
+   ✓ Nigeria: Folawiyo’s T1 Marine battles revenue authority over $1.2m tax — theafricareport.com
+   ✓ Ask Ethan: Can you write a beginner’s guide to the Standard Model? — bigthink.com
+   ✓ A “theory” has a special meaning in science — bigthink.com
    ✓ Losing the fat in the chilly north Atlantic — knowablemagazine.org
-   ✓ How Roman Soldiers Marched, Built Camp, and Won Wars Across an Empire — thecollector.com
-   ✓ Microsoft Fixes Nearly 1,100 Security Vulnerabilities — krebsonsecurity.com
-   ✓ BOK BLEUS : France resist Springboks’ second-half rearguard to win Par — dailymaverick.co.za
-   ✓ Is there an opening for Nvidia's competitors, now that Jensen Huang is — npr.org
-   ✓ The Intimate in the Infinite and the Responsibility of Rapture — themarginalian.org
-Published 25 articles (13 long reads).
+   ✓ Robo-frog swims with liquid crystal muscles powered by light — popsci.com
+   ✓ Tin Lizzy Ice Cream Man in Montpelier, Indiana — atlasobscura.com
+   ✓ How imaginary friends help us in real life — bbc.com
+   ✓ The Canadian province where swear words are sacred — bbc.com
+   ✓ Baby heaven — psyche.co
+   ✓ How to take notes that actually help you learn — psyche.co
+Published 25 articles (7 long reads).
