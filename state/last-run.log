@@ -1,40 +1,4 @@
-Run at 2026-11-15 05:44 (Mauritius)
+Run at 2026-11-15 12:24 (Mauritius)
 Mode: daily, edition: auto
 Weekend edition: 10 long reads
-Reading 62 publications…
-  56 publications read, 290 fresh candidates
-  couldn't read: bbc.com (HTTPError), texasmonthly.com (HTTPError), restofworld.org (ParseError), theguardian.com (HTTPError), lostislamichistory.com (ParseError), arabnews.com (HTTPError)
-Gemini gemini-flash-latest, attempt 1…
-  failed: HTTPSConnectionPool(host='generativelanguage.googleapis.com', port=443): Read timed out. (read timeout=240)
-Gemini gemini-flash-lite-latest, attempt 1…
-  Gemini picked 33 articles
-   ✓ Hills and mountains — aeon.co
-   ✓ The Amarna letters — aeon.co
-   ✓ CEO Jensen Huang resigns from chip giant Nvidia — npr.org
-   ✓ From ancient Asia to the AI age: Has China’s ‘beauty stratagem’ found  — theconversation.com
-   ✓ When AIs Become Unruly Swarms — noemamag.com
-   ✓ How SpaceX Streamlined the Raptor Engine — construction-physics.com
-   ✓ The Real Story Behind the 504 Sit-In for Disability Rights, the Longes — smithsonianmag.com
-   ✓ Did Pharaoh Necho II Send Phoenicians Around Africa? — thecollector.com
-   ✓ How Xerxes Bridged the Hellespont to Invade Greece — thecollector.com
-   ✓ Five Questions About the Future of Global Anticorruption Efforts in th — occrp.org
-   ✓ 19 Old-Fashioned Ways to Describe Being Drunk — mentalfloss.com
-   ✓ Pablo Neruda on How to Hold Time — themarginalian.org
-   ✓ How Not to Waste Your Life — themarginalian.org
-   ✓ When Idaho Banned Abortion, OB-GYNs Fled. The Doctors Who Stayed Are C — longreads.com
-   ✓ I Investigated the Online Sports Betting Industry. DraftKings Shut Dow — propublica.org
-   ✓ In Brazil’s prey-rich Pantanal, jaguars reveal a surprisingly social s — news.mongabay.com
-   ✓ Sue Metal T-Rex Statue in Faith, South Dakota — atlasobscura.com
-   ✓ US-South Africa: Ramaphosa tests Trump’s visa sanctions with AI-focuse — theafricareport.com
-   ✓ The Children We Do Not See: Infants and Toddlers Behind Bars — theelephant.info
-   ✓ Nigeria: Folawiyo’s T1 Marine battles revenue authority over $1.2m tax — theafricareport.com
-   ✓ Ask Ethan: Can you write a beginner’s guide to the Standard Model? — bigthink.com
-   ✓ A “theory” has a special meaning in science — bigthink.com
-   ✓ Losing the fat in the chilly north Atlantic — knowablemagazine.org
-   ✓ Robo-frog swims with liquid crystal muscles powered by light — popsci.com
-   ✓ Tin Lizzy Ice Cream Man in Montpelier, Indiana — atlasobscura.com
-   ✓ How imaginary friends help us in real life — bbc.com
-   ✓ The Canadian province where swear words are sacred — bbc.com
-   ✓ Baby heaven — psyche.co
-   ✓ How to take notes that actually help you learn — psyche.co
-Published 25 articles (7 long reads).
+Today's batch is already out — nothing to do.
