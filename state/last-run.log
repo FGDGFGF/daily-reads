@@ -1,4 +1,40 @@
-Run at 2026-11-15 12:24 (Mauritius)
-Mode: daily, edition: auto
+Run at 2026-11-15 22:15 (Mauritius)
+Mode: full, edition: auto
 Weekend edition: 10 long reads
-Today's batch is already out — nothing to do.
+Reading 62 publications…
+  56 publications read, 281 fresh candidates
+  couldn't read: bbc.com (HTTPError), texasmonthly.com (HTTPError), restofworld.org (ParseError), theguardian.com (HTTPError), lostislamichistory.com (ParseError), arabnews.com (HTTPError)
+Gemini gemini-flash-latest, attempt 1…
+  failed: HTTPSConnectionPool(host='generativelanguage.googleapis.com', port=443): Read timed out. (read timeout=240)
+Gemini gemini-flash-lite-latest, attempt 1…
+  Gemini picked 33 articles
+   ✓ Jo Marchant: In search of now — aeon.co
+   ✓ The hidden meanings in Hokusai's iconic Great Wave — bbc.com
+   ✓ Moe Berg: The Baseball Catcher Turned WWII Spy — thecollector.com
+   ✓ A New Kind of Chemistry — construction-physics.com
+   ✓ How Josip Broz Tito Successfully Defied Joseph Stalin — thecollector.com
+   ✓ Fire in the brain: How psychosis may arise when the body attacks itsel — knowablemagazine.org
+   ✓ A cyberattack forces you to pull the plug. Can your business keep runn — fastcompany.com
+   ✓ Embrace Your Obsessions: Susan Orlean on the Antidote to the Meaningle — themarginalian.org
+   ✓ How Aristotle Anticipated The AI Era — noemamag.com
+   ✓ D. W. Griffith’s A Corner in Wheat (1909) — publicdomainreview.org
+   ✓ How Do Building Codes Affect the Price of Housing? — construction-physics.com
+   ✓ How imaginary friends help us in real life — bbc.com
+   ✓ These economists say in-person work boosts creativity, but office mand — npr.org
+   ✓ In India, volunteers map riverside trees to make a case for urban cons — news.mongabay.com
+   ✓ Super El Niño could leave South Africa short of grazing. Timing of liv — theconversation.com
+   ✓ Targeted by al-Shabaab for defending Kenya’s ecosystems: Foundation fo — news.mongabay.com
+   ✓ African Labour and Liberation — theelephant.info
+   ✓ Morocco becomes first Arab nation in FIFA’s top five men’s rankings — aljazeera.com
+   ✓ Albanian PM Offers Dialogue Amid Crackdown on Violent Protests — occrp.org
+   ✓ OCEAN PLUNDER: Relentless fishing and dodgy science — Spain and Taiwan — dailymaverick.co.za
+   ✓ A modest proposal: Europe should go full bananas — bigthink.com
+   ✓ Carl Sagan on How to Live with the Unknown — themarginalian.org
+   ✓ Listen: The imperfect world of pulsars — bigthink.com
+   ✓ Can squirrels really survive any fall? — popsci.com
+   ✓ This $48 e-paper display can be whatever you want it to be — arstechnica.com
+   ✓ Scientists Made Monkeys Watch Minions to Study Their Brains — 404media.co
+   ✓ 16 fascinating images from the Close-up Photographer of the Year award — popsci.com
+   ✓ FAA expands AI advice to manage air traffic congestion across entire U — arstechnica.com
+   ✓ 6 Things Women Couldn't Legally Do in America in the 1960s — mentalfloss.com
+Published 25 articles (5 long reads).
