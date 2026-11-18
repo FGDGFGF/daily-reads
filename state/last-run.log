@@ -1,3 +1,42 @@
-Run at 2026-11-18 13:03 (Mauritius)
-Mode: daily, edition: auto
-Today's batch is already out — nothing to do.
+Run at 2026-11-18 18:07 (Mauritius)
+Mode: full, edition: auto
+Reading 62 publications…
+  57 publications read, 310 fresh candidates
+  couldn't read: bbc.com (HTTPError), texasmonthly.com (HTTPError), theguardian.com (HTTPError), lostislamichistory.com (ParseError), arabnews.com (HTTPError)
+Gemini gemini-flash-latest, attempt 1…
+  failed: HTTP 503: This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later. []
+Gemini gemini-flash-lite-latest, attempt 1…
+  failed: HTTP 503: This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later. []
+Gemini gemini-3.1-flash-lite, attempt 1…
+  Gemini picked 33 articles
+   ✓ Catwalks and crackdowns — aeon.co
+   ✓ Volunteer Dentists, the Revolutionary Guards and Rural Development on  — newlinesmag.com
+   ✓ How Jensen Huang’s exit from Nvidia impacts China’s AI supply chain — restofworld.org
+   ✓ Why Africa needs its own AI off switch — restofworld.org
+   ✓ Who Decides What Africa Reads First? — africanarguments.org
+   ✓ Kola Karim’s $10bn ambition: Building Nigeria’s answer to Tata — theafricareport.com
+   ✓ How Global Trade Routes Shaped the Rise and Fall of Ancient Empires — thecollector.com
+   ✓ How Did Ancient Egypt's Sacred Cats Live? More Than 100 Unwrapped Mumm — smithsonianmag.com
+   ✓ From the archive: Weizenbaum’s nightmares: how the inventor of the fir — theguardian.com
+   ✓ SpaceX Catches the Upper Stage of Its Starship for the First Time, Mak — smithsonianmag.com
+   ✓ Zipline appoints veteran of retreating Uber to spearhead massive Afric — theafricareport.com
+   ✓ The price of success nobody warns founders about: Who are you after yo — fastcompany.com
+   ✓ ‘Nothing they said made sense’: down the rabbit hole with Britain’s so — theguardian.com
+   ✓ AI-Powered Copyright Hell — 404media.co
+   ✓ Kyrgyz Man Sentenced to Three Years For Re-Posting Video on Facebook — occrp.org
+   ✓ This new scorecard shows whether your favorite retailer is using Flock — fastcompany.com
+   ✓ A Technological History of Ancient Porn — lithub.com
+   ✓ Why Is the Aral Sea Now a Toxic Desert? — thecollector.com
+   ✓ The Brits Paying To Be Frozen After Death — longreads.com
+   ✓ The surprising science of awe — and what it reveals about consciousnes — bigthink.com
+   ✓ Wendell Berry on Where Our Gone Loved Ones Go — themarginalian.org
+   ✓ Book Review: An Optimistic Defense of Uncertainty in Science — undark.org
+   ✓ Dreams of birds — aeon.co
+   ✓ Smarter healthcare, unequal outcomes? The risks of AI in southern Afri — theconversation.com
+   ✓ GROUNDUP : Families on Joburg’s ‘Yellow Mountain’ mine dump face uncer — dailymaverick.co.za
+   ✓ Exclusive: Labour MPs quit Somaliland group over Israel and chair’s ti — middleeasteye.net
+   ✓ The power of group thought — psyche.co
+   ✓ Delivery drones are coming. For some with PTSD, that's a terrifying pr — arstechnica.com
+   ✓ Juan Carlos: from people's king to Spain's pariah — historyextra.com
+   ✓ Burundi’s refugees are under pressure to return: why some choose silen — theconversation.com
+Published 25 articles (5 long reads).
