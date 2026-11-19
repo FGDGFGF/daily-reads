@@ -1,42 +1,37 @@
-Run at 2026-11-18 18:07 (Mauritius)
-Mode: full, edition: auto
+Run at 2026-11-19 05:41 (Mauritius)
+Mode: daily, edition: auto
 Reading 62 publications…
   57 publications read, 310 fresh candidates
   couldn't read: bbc.com (HTTPError), texasmonthly.com (HTTPError), theguardian.com (HTTPError), lostislamichistory.com (ParseError), arabnews.com (HTTPError)
 Gemini gemini-flash-latest, attempt 1…
   failed: HTTP 503: This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later. []
 Gemini gemini-flash-lite-latest, attempt 1…
-  failed: HTTP 503: This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later. []
-Gemini gemini-3.1-flash-lite, attempt 1…
   Gemini picked 33 articles
-   ✓ Catwalks and crackdowns — aeon.co
-   ✓ Volunteer Dentists, the Revolutionary Guards and Rural Development on  — newlinesmag.com
-   ✓ How Jensen Huang’s exit from Nvidia impacts China’s AI supply chain — restofworld.org
-   ✓ Why Africa needs its own AI off switch — restofworld.org
-   ✓ Who Decides What Africa Reads First? — africanarguments.org
-   ✓ Kola Karim’s $10bn ambition: Building Nigeria’s answer to Tata — theafricareport.com
-   ✓ How Global Trade Routes Shaped the Rise and Fall of Ancient Empires — thecollector.com
-   ✓ How Did Ancient Egypt's Sacred Cats Live? More Than 100 Unwrapped Mumm — smithsonianmag.com
-   ✓ From the archive: Weizenbaum’s nightmares: how the inventor of the fir — theguardian.com
-   ✓ SpaceX Catches the Upper Stage of Its Starship for the First Time, Mak — smithsonianmag.com
-   ✓ Zipline appoints veteran of retreating Uber to spearhead massive Afric — theafricareport.com
-   ✓ The price of success nobody warns founders about: Who are you after yo — fastcompany.com
-   ✓ ‘Nothing they said made sense’: down the rabbit hole with Britain’s so — theguardian.com
-   ✓ AI-Powered Copyright Hell — 404media.co
-   ✓ Kyrgyz Man Sentenced to Three Years For Re-Posting Video on Facebook — occrp.org
-   ✓ This new scorecard shows whether your favorite retailer is using Flock — fastcompany.com
-   ✓ A Technological History of Ancient Porn — lithub.com
-   ✓ Why Is the Aral Sea Now a Toxic Desert? — thecollector.com
-   ✓ The Brits Paying To Be Frozen After Death — longreads.com
-   ✓ The surprising science of awe — and what it reveals about consciousnes — bigthink.com
-   ✓ Wendell Berry on Where Our Gone Loved Ones Go — themarginalian.org
-   ✓ Book Review: An Optimistic Defense of Uncertainty in Science — undark.org
-   ✓ Dreams of birds — aeon.co
-   ✓ Smarter healthcare, unequal outcomes? The risks of AI in southern Afri — theconversation.com
-   ✓ GROUNDUP : Families on Joburg’s ‘Yellow Mountain’ mine dump face uncer — dailymaverick.co.za
-   ✓ Exclusive: Labour MPs quit Somaliland group over Israel and chair’s ti — middleeasteye.net
-   ✓ The power of group thought — psyche.co
-   ✓ Delivery drones are coming. For some with PTSD, that's a terrifying pr — arstechnica.com
-   ✓ Juan Carlos: from people's king to Spain's pariah — historyextra.com
-   ✓ Burundi’s refugees are under pressure to return: why some choose silen — theconversation.com
+   ✓ Medieval Readers Saw Floods, Plagues and Comets as Omens of Doom—So Th — smithsonianmag.com
+   ✓ After 49 years, Nasa’s Voyager 1 is one light-day away from us. Can we — theguardian.com
+   ✓ Somali Women and Children From Roj Camp Held in Damascus — newlinesmag.com
+   ✓ How M.C. Escher’s Art Creates Bizarre Mathematical Worlds — quantamagazine.org
+   ✓ Somalia’s constitutional overhaul tests its fragile federal bargain — aljazeera.com
+   ✓ Netanyahu’s ‘Poison Machine’ Could Turn His Loss Into a Win — newlinesmag.com
+   ✓ The quest to understand a tick-borne allergy to red meat — knowablemagazine.org
+   ✓ Hungary's freedom fight: how one nation's resistance to Soviet tyranny — historyextra.com
+   ✓ Massive New Study Shows How Young People Feel About AI Companions — 404media.co
+   ✓ Botswana: Africa’s model democracy where people fear the dark — theafricareport.com
+   ✓ A rare strike in Taiwan exposes labor unrest beneath the global AI rus — restofworld.org
+   ✓ See Stunning Images of the Universe Captured by Europe's Euclid Space  — smithsonianmag.com
+   ✓ Lucio Usobiaga wins 2026 ‘Nobel Prize of Gastronomy’ for protecting Me — news.mongabay.com
+   ✓ Big Tech’s thirst for water is sparking a global resistance — restofworld.org
+   ✓ The Lost World of Aquaterra — longreads.com
+   ✓ Switzerland is Prosecuting the First Journalist Under its Banking Secr — occrp.org
+   ✓ Traces of home — psyche.co
+   ✓ Tanzania’s Peace Was Never Peaceful — theelephant.info
+   ✓ Between Psyche and Cyborg: Carl Jung’s Legacy and the Countercultural  — themarginalian.org
+   ✓ 9 Famous Outsider Artists You Should Know — thecollector.com
+   ✓ What China’s Gene-Editing Deaths Reveal About Its Biotech Industry — noemamag.com
+   ✓ Western Sahara: Polisario mobilises for battle, but can its ageing arm — theafricareport.com
+   ✓ The Students Beat the Strongman. Now What? Five Questions on What Come — occrp.org
+   ✓ Kenya’s milk shortage deepens as drought hits farmers and pushes up pr — aljazeera.com
+   ✓ THE FINANCIAL WELLNESS COACH: Family trust investments — a sinking fun — dailymaverick.co.za
+   ✓ Australia’s Social Media Ban Has Not Worked — For Now — undark.org
+   ✓ National Underground Railroad Freedom Center in Cincinnati, Ohio — atlasobscura.com
 Published 25 articles (5 long reads).
